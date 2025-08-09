@@ -2878,5 +2878,101 @@
         "Interests": "25.9K"
       }
     ]
+  },
+  {
+    "timestamp": "2025-08-09T09:41:23.681Z",
+    "date": "2025-08-09",
+    "totalMovies": 22,
+    "successCount": 22,
+    "data": [
+      {
+        "Movie": "War 2",
+        "Interests": "748.5K"
+      },
+      {
+        "Movie": "Coolie",
+        "Interests": "707.1K"
+      },
+      {
+        "Movie": "Avatar Fire And Ash",
+        "Interests": "165.2K"
+      },
+      {
+        "Movie": "Kantara A Legend Chapter1",
+        "Interests": "231.4K"
+      },
+      {
+        "Movie": "The Raja Saab",
+        "Interests": "163.3K"
+      },
+      {
+        "Movie": "They Call Him Og",
+        "Interests": "162.9K"
+      },
+      {
+        "Movie": "Baahubali The Epic",
+        "Interests": "123.5K"
+      },
+      {
+        "Movie": "Toxic A Fairy Tale For Grownups",
+        "Interests": "127.6K"
+      },
+      {
+        "Movie": "Coolie The Powerhouse",
+        "Interests": "70.9K"
+      },
+      {
+        "Movie": "Param Sundari",
+        "Interests": "57.4K"
+      },
+      {
+        "Movie": "Mirai",
+        "Interests": "39.6K"
+      },
+      {
+        "Movie": "Baaghi 4",
+        "Interests": "24.7K"
+      },
+      {
+        "Movie": "Peddi",
+        "Interests": "67.6K"
+      },
+      {
+        "Movie": "Bhooth Bangla",
+        "Interests": "34.3K"
+      },
+      {
+        "Movie": "Akhanda 2",
+        "Interests": "22.6K"
+      },
+      {
+        "Movie": "The Paradise",
+        "Interests": "26.9K"
+      },
+      {
+        "Movie": "Border 2",
+        "Interests": "17.7K"
+      },
+      {
+        "Movie": "Jolly Llb 3",
+        "Interests": "9.9K"
+      },
+      {
+        "Movie": "Spirit",
+        "Interests": "37.2K"
+      },
+      {
+        "Movie": "Ramayana",
+        "Interests": "47.6K"
+      },
+      {
+        "Movie": "Rajini The Jailer 2",
+        "Interests": "13.7K"
+      },
+      {
+        "Movie": "King",
+        "Interests": "25.9K"
+      }
+    ]
   }
 ]
