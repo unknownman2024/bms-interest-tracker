@@ -7,22 +7,25 @@ const urls = [
   "https://in.bookmyshow.com/movies/hyderabad/war-2/ET00356501",
   "https://in.bookmyshow.com/movies/hyderabad/coolie/ET00395817",
   "https://in.bookmyshow.com/movies/hyderabad/avatar-fire-and-ash/ET00407893",
-  "https://in.bookmyshow.com/movies/hyderabad/demon-slayer-kimetsu-no-yaiba-the-movie-infinity-castle/ET00436673",
   "https://in.bookmyshow.com/movies/hyderabad/kantara-a-legend-chapter1/ET00377351",
   "https://in.bookmyshow.com/movies/hyderabad/the-raja-saab/ET00383697",
   "https://in.bookmyshow.com/movies/hyderabad/they-call-him-og/ET00369074",
-  "https://in.bookmyshow.com/movies/hyderabad/the-conjuring-last-rites/ET00445371",
-  "https://in.bookmyshow.com/movies/hyderabad/ilanti-cinema-meereppudu-chusundaru/ET00446345",
   "https://in.bookmyshow.com/movies/hyderabad/baahubali-the-epic/ET00453094",
   "https://in.bookmyshow.com/movies/hyderabad/toxic-a-fairy-tale-for-grownups/ET00378770",
   "https://in.bookmyshow.com/movies/hyderabad/coolie-the-powerhouse/ET00452035",
   "https://in.bookmyshow.com/movies/hyderabad/param-sundari/ET00426409",
-  "https://in.bookmyshow.com/movies/hyderabad/ghich-pich/ET00453893",
-  "https://in.bookmyshow.com/movies/hyderabad/dhumketu/ET00447603",
   "https://in.bookmyshow.com/movies/hyderabad/mirai/ET00395402",
-  "https://in.bookmyshow.com/movies/mahavatar-narsimha-3dtelugu/ET00454563",
-  "https://in.bookmyshow.com/movies/saiyaara/ET00447951",
-  "https://in.bookmyshow.com/movies/f1-the-movie/ET00403839"
+  "https://in.bookmyshow.com/movies/hyderabad/baaghi-4/ET00420244",
+  "https://in.bookmyshow.com/movies/hyderabad/peddi/ET00439772",
+  "https://in.bookmyshow.com/movies/hyderabad/bhooth-bangla/ET00411383",
+  "https://in.bookmyshow.com/movies/hyderabad/akhanda-2/ET00416621",
+  "https://in.bookmyshow.com/movies/hyderabad/the-paradise/ET00436621",
+  "https://in.bookmyshow.com/movies/hyderabad/border-2/ET00401449",
+  "https://in.bookmyshow.com/movies/hyderabad/jolly-llb-3/ET00450799",
+  "https://in.bookmyshow.com/movies/hyderabad/spirit/ET00452121",
+  "https://in.bookmyshow.com/movies/hyderabad/ramayana/ET00451914",
+  "https://in.bookmyshow.com/movies/hyderabad/rajini-the-jailer-2/ET00429211",
+  "https://in.bookmyshow.com/movies/hyderabad/king/ET00455480"
 ];
 
 // 2) The extractor adapted for Node.js
