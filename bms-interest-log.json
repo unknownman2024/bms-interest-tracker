@@ -4990,5 +4990,101 @@
         "Interests": "26.2K"
       }
     ]
+  },
+  {
+    "timestamp": "2025-08-10T09:40:51.939Z",
+    "date": "2025-08-10",
+    "totalMovies": 22,
+    "successCount": 22,
+    "data": [
+      {
+        "Movie": "War 2",
+        "Interests": "898.9K"
+      },
+      {
+        "Movie": "Coolie",
+        "Interests": "770.5K"
+      },
+      {
+        "Movie": "Avatar Fire And Ash",
+        "Interests": "180.2K"
+      },
+      {
+        "Movie": "Kantara A Legend Chapter1",
+        "Interests": "247.4K"
+      },
+      {
+        "Movie": "The Raja Saab",
+        "Interests": "164.1K"
+      },
+      {
+        "Movie": "They Call Him Og",
+        "Interests": "164.6K"
+      },
+      {
+        "Movie": "Baahubali The Epic",
+        "Interests": "124.9K"
+      },
+      {
+        "Movie": "Toxic A Fairy Tale For Grownups",
+        "Interests": "128.1K"
+      },
+      {
+        "Movie": "Coolie The Powerhouse",
+        "Interests": "88.4K"
+      },
+      {
+        "Movie": "Param Sundari",
+        "Interests": "58K"
+      },
+      {
+        "Movie": "Mirai",
+        "Interests": "40.1K"
+      },
+      {
+        "Movie": "Baaghi 4",
+        "Interests": "25.2K"
+      },
+      {
+        "Movie": "Peddi",
+        "Interests": "68.1K"
+      },
+      {
+        "Movie": "Bhooth Bangla",
+        "Interests": "34.4K"
+      },
+      {
+        "Movie": "Akhanda 2",
+        "Interests": "23K"
+      },
+      {
+        "Movie": "The Paradise",
+        "Interests": "27.4K"
+      },
+      {
+        "Movie": "Border 2",
+        "Interests": "17.8K"
+      },
+      {
+        "Movie": "Jolly Llb 3",
+        "Interests": "10.3K"
+      },
+      {
+        "Movie": "Spirit",
+        "Interests": "37.4K"
+      },
+      {
+        "Movie": "Ramayana",
+        "Interests": "47.8K"
+      },
+      {
+        "Movie": "Rajini The Jailer 2",
+        "Interests": "13.9K"
+      },
+      {
+        "Movie": "King",
+        "Interests": "26.3K"
+      }
+    ]
   }
 ]
