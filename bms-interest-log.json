@@ -7870,5 +7870,101 @@
         "Interests": "26.6K"
       }
     ]
+  },
+  {
+    "timestamp": "2025-08-11T17:44:52.388Z",
+    "date": "2025-08-11",
+    "totalMovies": 22,
+    "successCount": 22,
+    "data": [
+      {
+        "Movie": "War 2",
+        "Interests": "199.6K"
+      },
+      {
+        "Movie": "Coolie",
+        "Interests": "925.7K"
+      },
+      {
+        "Movie": "Avatar Fire And Ash",
+        "Interests": "199.6K"
+      },
+      {
+        "Movie": "Kantara A Legend Chapter1",
+        "Interests": "252.2K"
+      },
+      {
+        "Movie": "The Raja Saab",
+        "Interests": "165.7K"
+      },
+      {
+        "Movie": "They Call Him Og",
+        "Interests": "169.2K"
+      },
+      {
+        "Movie": "Baahubali The Epic",
+        "Interests": "127.5K"
+      },
+      {
+        "Movie": "Toxic A Fairy Tale For Grownups",
+        "Interests": "128.8K"
+      },
+      {
+        "Movie": "Coolie The Powerhouse",
+        "Interests": "112.8K"
+      },
+      {
+        "Movie": "Param Sundari",
+        "Interests": "58.9K"
+      },
+      {
+        "Movie": "Mirai",
+        "Interests": "41K"
+      },
+      {
+        "Movie": "Baaghi 4",
+        "Interests": "35.2K"
+      },
+      {
+        "Movie": "Peddi",
+        "Interests": "69.1K"
+      },
+      {
+        "Movie": "Bhooth Bangla",
+        "Interests": "34.5K"
+      },
+      {
+        "Movie": "Akhanda 2",
+        "Interests": "23.7K"
+      },
+      {
+        "Movie": "The Paradise",
+        "Interests": "28.4K"
+      },
+      {
+        "Movie": "Border 2",
+        "Interests": "17.9K"
+      },
+      {
+        "Movie": "Jolly Llb 3",
+        "Interests": "10.7K"
+      },
+      {
+        "Movie": "Spirit",
+        "Interests": "37.7K"
+      },
+      {
+        "Movie": "Ramayana",
+        "Interests": "48.1K"
+      },
+      {
+        "Movie": "Rajini The Jailer 2",
+        "Interests": "14.2K"
+      },
+      {
+        "Movie": "King",
+        "Interests": "26.6K"
+      }
+    ]
   }
 ]
