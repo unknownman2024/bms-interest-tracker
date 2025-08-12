@@ -8830,5 +8830,101 @@
         "Interests": "26.7K"
       }
     ]
+  },
+  {
+    "timestamp": "2025-08-12T05:43:15.900Z",
+    "date": "2025-08-12",
+    "totalMovies": 22,
+    "successCount": 22,
+    "data": [
+      {
+        "Movie": "War 2",
+        "Interests": "223.8K"
+      },
+      {
+        "Movie": "Coolie",
+        "Interests": "958.9K"
+      },
+      {
+        "Movie": "Avatar Fire And Ash",
+        "Interests": "202.4K"
+      },
+      {
+        "Movie": "Kantara A Legend Chapter1",
+        "Interests": "256.3K"
+      },
+      {
+        "Movie": "The Raja Saab",
+        "Interests": "166.2K"
+      },
+      {
+        "Movie": "They Call Him Og",
+        "Interests": "170.2K"
+      },
+      {
+        "Movie": "Baahubali The Epic",
+        "Interests": "128.2K"
+      },
+      {
+        "Movie": "Toxic A Fairy Tale For Grownups",
+        "Interests": "128.9K"
+      },
+      {
+        "Movie": "Coolie The Powerhouse",
+        "Interests": "119.4K"
+      },
+      {
+        "Movie": "Param Sundari",
+        "Interests": "59.1K"
+      },
+      {
+        "Movie": "Mirai",
+        "Interests": "41.3K"
+      },
+      {
+        "Movie": "Baaghi 4",
+        "Interests": "45K"
+      },
+      {
+        "Movie": "Peddi",
+        "Interests": "69.5K"
+      },
+      {
+        "Movie": "Bhooth Bangla",
+        "Interests": "34.6K"
+      },
+      {
+        "Movie": "Akhanda 2",
+        "Interests": "23.9K"
+      },
+      {
+        "Movie": "The Paradise",
+        "Interests": "28.7K"
+      },
+      {
+        "Movie": "Border 2",
+        "Interests": "17.9K"
+      },
+      {
+        "Movie": "Jolly Llb 3",
+        "Interests": "10.8K"
+      },
+      {
+        "Movie": "Spirit",
+        "Interests": "37.8K"
+      },
+      {
+        "Movie": "Ramayana",
+        "Interests": "48.1K"
+      },
+      {
+        "Movie": "Rajini The Jailer 2",
+        "Interests": "14.2K"
+      },
+      {
+        "Movie": "King",
+        "Interests": "26.7K"
+      }
+    ]
   }
 ]
