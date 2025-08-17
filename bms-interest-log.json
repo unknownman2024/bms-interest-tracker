@@ -21022,5 +21022,101 @@
         "Interests": "28K"
       }
     ]
+  },
+  {
+    "timestamp": "2025-08-17T22:43:14.396Z",
+    "date": "2025-08-17",
+    "totalMovies": 22,
+    "successCount": 19,
+    "data": [
+      {
+        "Movie": "War 2",
+        "Interests": "—"
+      },
+      {
+        "Movie": "Coolie",
+        "Interests": "—"
+      },
+      {
+        "Movie": "Avatar Fire And Ash",
+        "Interests": "109.8K"
+      },
+      {
+        "Movie": "Kantara A Legend Chapter1",
+        "Interests": "266.1K"
+      },
+      {
+        "Movie": "The Raja Saab",
+        "Interests": "169.3K"
+      },
+      {
+        "Movie": "They Call Him Og",
+        "Interests": "176.9K"
+      },
+      {
+        "Movie": "Baahubali The Epic",
+        "Interests": "136K"
+      },
+      {
+        "Movie": "Toxic A Fairy Tale For Grownups",
+        "Interests": "130.9K"
+      },
+      {
+        "Movie": "Coolie The Powerhouse",
+        "Interests": "—"
+      },
+      {
+        "Movie": "Param Sundari",
+        "Interests": "70.1K"
+      },
+      {
+        "Movie": "Mirai",
+        "Interests": "44K"
+      },
+      {
+        "Movie": "Baaghi 4",
+        "Interests": "126K"
+      },
+      {
+        "Movie": "Peddi",
+        "Interests": "71.7K"
+      },
+      {
+        "Movie": "Bhooth Bangla",
+        "Interests": "35.3K"
+      },
+      {
+        "Movie": "Akhanda 2",
+        "Interests": "25.6K"
+      },
+      {
+        "Movie": "The Paradise",
+        "Interests": "31.2K"
+      },
+      {
+        "Movie": "Border 2",
+        "Interests": "18.6K"
+      },
+      {
+        "Movie": "Jolly Llb 3",
+        "Interests": "15.8K"
+      },
+      {
+        "Movie": "Spirit",
+        "Interests": "38.6K"
+      },
+      {
+        "Movie": "Ramayana",
+        "Interests": "49.2K"
+      },
+      {
+        "Movie": "Rajini The Jailer 2",
+        "Interests": "16K"
+      },
+      {
+        "Movie": "King",
+        "Interests": "28K"
+      }
+    ]
   }
 ]
