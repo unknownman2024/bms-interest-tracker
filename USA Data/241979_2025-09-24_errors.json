@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-29 10:06:50 PM",
+  "last_updated": "2025-08-29 10:23:53 PM",
   "errors": [
     {
       "state": "IL",
@@ -23,83 +23,8 @@
       "theater_name": "Regal Crossgates & IMAX",
       "chainName": "Regal",
       "chainCode": "REGL",
-      "showtime_id": 514151670,
-      "date": "2025-09-24+14:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "NY",
-      "city": "Albany",
-      "zip": "12203",
-      "theater_name": "Regal Crossgates & IMAX",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514151671,
-      "date": "2025-09-24+18:00",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "NY",
-      "city": "Albany",
-      "zip": "12203",
-      "theater_name": "Regal Crossgates & IMAX",
-      "chainName": "Regal",
-      "chainCode": "REGL",
       "showtime_id": 514151672,
       "date": "2025-09-24+21:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "VA",
-      "city": "Virginia Beach",
-      "zip": "23462",
-      "theater_name": "Regal Columbus",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514152606,
-      "date": "2025-09-24+14:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "VA",
-      "city": "Virginia Beach",
-      "zip": "23462",
-      "theater_name": "Regal Columbus",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514152607,
-      "date": "2025-09-24+18:10",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "GA",
-      "city": "Augusta",
-      "zip": "30909",
-      "theater_name": "Regal Augusta Exchange & IMAX",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514151511,
-      "date": "2025-09-24+15:00",
       "format": "Standard",
       "language": "Telugu",
       "error": {
@@ -119,66 +44,6 @@
       "language": "Telugu",
       "error": {
         "status": 403
-      }
-    },
-    {
-      "state": "FL",
-      "city": "Kissimmee",
-      "zip": "34741",
-      "theater_name": "Regal The Loop & RPX",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514151298,
-      "date": "2025-09-24+21:45",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "TX",
-      "city": "Lewisville",
-      "zip": "75067",
-      "theater_name": "Cinemark Lewisville and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514150740,
-      "date": "2025-09-24+13:30",
-      "format": "Cinemark XD",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "TX",
-      "city": "Lewisville",
-      "zip": "75067",
-      "theater_name": "Cinemark Lewisville and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514150745,
-      "date": "2025-09-24+20:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "TX",
-      "city": "Frisco",
-      "zip": "75034",
-      "theater_name": "Cinemark Frisco Square and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514150578,
-      "date": "2025-09-24+14:20",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
       }
     },
     {
