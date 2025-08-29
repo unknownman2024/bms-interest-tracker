@@ -1,50 +1,5 @@
 [
   {
-    "state": "MD",
-    "city": "Hanover",
-    "zip": "21076",
-    "theater_name": "Cinemark Egyptian 24 and XD",
-    "chainName": "Cinemark Theatres",
-    "chainCode": "CNMK",
-    "showtime_id": 514131416,
-    "date": "2025-09-24+18:15",
-    "format": "Standard",
-    "language": "Telugu",
-    "error": {
-      "status": 403
-    }
-  },
-  {
-    "state": "PA",
-    "city": "Downingtown",
-    "zip": "19335",
-    "theater_name": "Regal Downingtown & IMAX",
-    "chainName": "Regal",
-    "chainCode": "REGL",
-    "showtime_id": 513949626,
-    "date": "2025-09-24+16:05",
-    "format": "Standard",
-    "language": "Telugu",
-    "error": {
-      "status": 403
-    }
-  },
-  {
-    "state": "OH",
-    "city": "Cincinnati",
-    "zip": "45209",
-    "theater_name": "Cinemark Oakley Station and XD",
-    "chainName": "Cinemark Theatres",
-    "chainCode": "CNMK",
-    "showtime_id": 514135068,
-    "date": "2025-09-24+14:30",
-    "format": "Standard",
-    "language": "Telugu",
-    "error": {
-      "status": 403
-    }
-  },
-  {
     "state": "OH",
     "city": "Beavercreek",
     "zip": "45431",
@@ -75,6 +30,96 @@
     }
   },
   {
+    "state": "TX",
+    "city": "Dallas",
+    "zip": "75234",
+    "theater_name": "Cinemark Dallas XD and IMAX",
+    "chainName": "Cinemark Theatres",
+    "chainCode": "CNMK",
+    "showtime_id": 513988245,
+    "date": "2025-09-24+14:45",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 403
+    }
+  },
+  {
+    "state": "TX",
+    "city": "Dallas",
+    "zip": "75234",
+    "theater_name": "Cinemark Dallas XD and IMAX",
+    "chainName": "Cinemark Theatres",
+    "chainCode": "CNMK",
+    "showtime_id": 513988214,
+    "date": "2025-09-24+14:00",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 500
+    }
+  },
+  {
+    "state": "TX",
+    "city": "Dallas",
+    "zip": "75234",
+    "theater_name": "Cinemark Dallas XD and IMAX",
+    "chainName": "Cinemark Theatres",
+    "chainCode": "CNMK",
+    "showtime_id": 514028167,
+    "date": "2025-09-24+17:30",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 500
+    }
+  },
+  {
+    "state": "TX",
+    "city": "Pflugerville",
+    "zip": "78660",
+    "theater_name": "Cinemark Pflugerville 20 and XD",
+    "chainName": "Cinemark Theatres",
+    "chainCode": "CNMK",
+    "showtime_id": 513982098,
+    "date": "2025-09-24+14:30",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 500
+    }
+  },
+  {
+    "state": "TX",
+    "city": "Pflugerville",
+    "zip": "78660",
+    "theater_name": "Cinemark Pflugerville 20 and XD",
+    "chainName": "Cinemark Theatres",
+    "chainCode": "CNMK",
+    "showtime_id": 514078391,
+    "date": "2025-09-24+18:00",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 500
+    }
+  },
+  {
+    "state": "TX",
+    "city": "Pflugerville",
+    "zip": "78660",
+    "theater_name": "Cinemark Pflugerville 20 and XD",
+    "chainName": "Cinemark Theatres",
+    "chainCode": "CNMK",
+    "showtime_id": 513982099,
+    "date": "2025-09-24+21:30",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 500
+    }
+  },
+  {
     "state": "IL",
     "city": "Niles",
     "zip": "60714",
@@ -87,21 +132,6 @@
     "language": "Telugu",
     "error": {
       "status": 404
-    }
-  },
-  {
-    "state": "TX",
-    "city": "Webster",
-    "zip": "77598",
-    "theater_name": "Cinemark NASA and XD",
-    "chainName": "Cinemark Theatres",
-    "chainCode": "CNMK",
-    "showtime_id": 514105185,
-    "date": "2025-09-24+21:00",
-    "format": "Standard",
-    "language": "Telugu",
-    "error": {
-      "status": 403
     }
   }
 ]
