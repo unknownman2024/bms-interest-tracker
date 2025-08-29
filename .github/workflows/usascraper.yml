@@ -28,7 +28,7 @@ jobs:
           AUTHORIZATION_TOKEN: ${{ secrets.AUTHORIZATION_TOKEN }}
           SESSION_ID: ${{ secrets.SESSION_ID }}
         run: |
-          python usascrpaer.py
+          python usascraper.py
 
       - name: Commit & Push results
         run: |
