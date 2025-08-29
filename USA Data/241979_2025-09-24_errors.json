@@ -16,17 +16,62 @@
   },
   {
     "state": "TX",
-    "city": "Webster",
-    "zip": "77598",
-    "theater_name": "Cinemark NASA and XD",
+    "city": "Roanoke",
+    "zip": "76262",
+    "theater_name": "Cinemark Roanoke and XD",
     "chainName": "Cinemark Theatres",
     "chainCode": "CNMK",
-    "showtime_id": 514105185,
+    "showtime_id": 514147955,
     "date": "2025-09-24+21:00",
     "format": "Standard",
     "language": "Telugu",
     "error": {
-      "status": 403
+      "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+    }
+  },
+  {
+    "state": "TX",
+    "city": "Roanoke",
+    "zip": "76262",
+    "theater_name": "Cinemark Roanoke and XD",
+    "chainName": "Cinemark Theatres",
+    "chainCode": "CNMK",
+    "showtime_id": 514147956,
+    "date": "2025-09-24+14:00",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+    }
+  },
+  {
+    "state": "TX",
+    "city": "Roanoke",
+    "zip": "76262",
+    "theater_name": "Cinemark Roanoke and XD",
+    "chainName": "Cinemark Theatres",
+    "chainCode": "CNMK",
+    "showtime_id": 514147957,
+    "date": "2025-09-24+17:45",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+    }
+  },
+  {
+    "state": "TX",
+    "city": "Roanoke",
+    "zip": "76262",
+    "theater_name": "Cinemark Roanoke and XD",
+    "chainName": "Cinemark Theatres",
+    "chainCode": "CNMK",
+    "showtime_id": 514147958,
+    "date": "2025-09-24+21:30",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
     }
   }
 ]
