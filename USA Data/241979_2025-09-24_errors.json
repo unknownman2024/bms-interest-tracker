@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-30 03:17:55 AM",
+  "last_updated": "2025-08-30 04:20:50 AM",
   "errors": [
     {
       "state": "IL",
@@ -14,36 +14,6 @@
       "language": "Telugu",
       "error": {
         "status": 404
-      }
-    },
-    {
-      "state": "NJ",
-      "city": "South Plainfield",
-      "zip": "07080",
-      "theater_name": "Regal Hadley Theatre",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514161456,
-      "date": "2025-09-24+22:10",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "MA",
-      "city": "Cambridge",
-      "zip": "02138",
-      "theater_name": "Apple Cinemas Cambridge",
-      "chainName": "Apple Cinemas",
-      "chainCode": "APPL",
-      "showtime_id": 514164614,
-      "date": "2025-09-24+18:00",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
       }
     },
     {
@@ -92,21 +62,6 @@
       }
     },
     {
-      "state": "VA",
-      "city": "Midlothian",
-      "zip": "23112",
-      "theater_name": "Regal Commonwealth & IMAX",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514165343,
-      "date": "2025-09-24+16:00",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
       "state": "CA",
       "city": "San Francisco",
       "zip": "94109",
@@ -116,51 +71,6 @@
       "showtime_id": 514164627,
       "date": "2025-09-24+18:00",
       "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "IA",
-      "city": "Davenport",
-      "zip": "52807",
-      "theater_name": "Cinemark Davenport 18 XD and IMAX",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514183995,
-      "date": "2025-09-24+17:40",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "CO",
-      "city": "Centennial",
-      "zip": "80122",
-      "theater_name": "Regal SouthGlenn",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514176046,
-      "date": "2025-09-24+18:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "WA",
-      "city": "Federal Way",
-      "zip": "98003",
-      "theater_name": "Cinemark Century Federal Way and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514174277,
-      "date": "2025-09-24+15:00",
-      "format": "Cinemark XD",
       "language": "Telugu",
       "error": {
         "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
