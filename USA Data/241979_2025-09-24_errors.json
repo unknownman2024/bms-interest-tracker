@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-29 10:23:53 PM",
+  "last_updated": "2025-08-29 11:19:30 PM",
   "errors": [
     {
       "state": "IL",
@@ -17,14 +17,29 @@
       }
     },
     {
-      "state": "NY",
-      "city": "Albany",
-      "zip": "12203",
-      "theater_name": "Regal Crossgates & IMAX",
+      "state": "VA",
+      "city": "Alexandria",
+      "zip": "22315",
+      "theater_name": "Regal Kingstowne ScreenX & RPX",
       "chainName": "Regal",
       "chainCode": "REGL",
-      "showtime_id": 514151672,
-      "date": "2025-09-24+21:30",
+      "showtime_id": 514153134,
+      "date": "2025-09-24+14:30",
+      "format": "RPX",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "VA",
+      "city": "Alexandria",
+      "zip": "22315",
+      "theater_name": "Regal Kingstowne ScreenX & RPX",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514153135,
+      "date": "2025-09-24+15:30",
       "format": "Standard",
       "language": "Telugu",
       "error": {
@@ -32,33 +47,93 @@
       }
     },
     {
-      "state": "GA",
-      "city": "Augusta",
-      "zip": "30909",
-      "theater_name": "Regal Augusta Exchange & IMAX",
+      "state": "VA",
+      "city": "Richmond",
+      "zip": "23233",
+      "theater_name": "Regal Short Pump",
       "chainName": "Regal",
       "chainCode": "REGL",
-      "showtime_id": 514151512,
-      "date": "2025-09-24+18:45",
+      "showtime_id": 514153089,
+      "date": "2025-09-24+15:00",
       "format": "Standard",
       "language": "Telugu",
       "error": {
-        "status": 403
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
       }
     },
     {
-      "state": "CA",
-      "city": "Merced",
-      "zip": "95340",
-      "theater_name": "Regal Hollywood Merced",
+      "state": "VA",
+      "city": "Richmond",
+      "zip": "23233",
+      "theater_name": "Regal Short Pump",
       "chainName": "Regal",
       "chainCode": "REGL",
-      "showtime_id": 514151618,
-      "date": "2025-09-24+15:10",
+      "showtime_id": 514153090,
+      "date": "2025-09-24+18:40",
       "format": "Standard",
       "language": "Telugu",
       "error": {
-        "status": 403
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "VA",
+      "city": "Richmond",
+      "zip": "23233",
+      "theater_name": "Regal Short Pump",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514153120,
+      "date": "2025-09-24+19:40",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "NC",
+      "city": "Charlotte",
+      "zip": "28262",
+      "theater_name": "Regal Starlight - Charlotte",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514157269,
+      "date": "2025-09-24+14:30",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "NC",
+      "city": "Charlotte",
+      "zip": "28262",
+      "theater_name": "Regal Starlight - Charlotte",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514157271,
+      "date": "2025-09-24+22:00",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "AR",
+      "city": "Little Rock",
+      "zip": "72210",
+      "theater_name": "Cinemark Colonel Glenn and XD",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 514155851,
+      "date": "2025-09-24+13:30",
+      "format": "Cinemark XD",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
       }
     }
   ]
