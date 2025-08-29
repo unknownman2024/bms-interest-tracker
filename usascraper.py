@@ -9,6 +9,8 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 from tqdm import tqdm
 import ssl
 import random
+import datetime
+import pytz
 
 # CONFIG
 DATE = "2025-09-24"
@@ -388,8 +390,17 @@ if __name__ == "__main__":
 
     # Save only errors separately
     errors = [s for s in final_all if "error" in s]
+    # Convert to IST
+    ist = pytz.timezone("Asia/Kolkata")
+    now_ist = datetime.datetime.now(ist).strftime("%Y-%m-%d %I:%M:%S %p")
+    
+    error_payload = {
+        "last_updated": now_ist,
+        "errors": errors
+    }
+    
     with open(error_file, "w") as f:
-        json.dump(errors, f, indent=2)
+        json.dump(error_payload, f, indent=2, ensure_ascii=False)
 
     print("\n✅ Done.")
     print(
