@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-30 01:16:28 AM",
+  "last_updated": "2025-08-30 02:18:04 AM",
   "errors": [
     {
       "state": "IL",
@@ -53,68 +53,8 @@
       "theater_name": "Cinemark Tinseltown Louisville and XD",
       "chainName": "Cinemark Theatres",
       "chainCode": "CNMK",
-      "showtime_id": 514161246,
-      "date": "2025-09-24+21:50",
-      "format": "Cinemark XD",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "KY",
-      "city": "Louisville",
-      "zip": "40241",
-      "theater_name": "Cinemark Tinseltown Louisville and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
       "showtime_id": 514161247,
       "date": "2025-09-24+19:45",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "CT",
-      "city": "Waterbury",
-      "zip": "06706",
-      "theater_name": "Apple Cinemas Brass Mill",
-      "chainName": "Apple Cinemas",
-      "chainCode": "APPL",
-      "showtime_id": 514164622,
-      "date": "2025-09-24+18:00",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "CT",
-      "city": "Waterbury",
-      "zip": "06706",
-      "theater_name": "Apple Cinemas Brass Mill",
-      "chainName": "Apple Cinemas",
-      "chainCode": "APPL",
-      "showtime_id": 514164623,
-      "date": "2025-09-24+21:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "CT",
-      "city": "Waterbury",
-      "zip": "06706",
-      "theater_name": "Apple Cinemas Brass Mill",
-      "chainName": "Apple Cinemas",
-      "chainCode": "APPL",
-      "showtime_id": 514164624,
-      "date": "2025-09-24+19:00",
       "format": "Standard",
       "language": "Telugu",
       "error": {
@@ -130,51 +70,6 @@
       "chainCode": "APPL",
       "showtime_id": 514164614,
       "date": "2025-09-24+18:00",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "NY",
-      "city": "White Plains",
-      "zip": "10601",
-      "theater_name": "Apple Cinemas White Plains",
-      "chainName": "Apple Cinemas",
-      "chainCode": "APPL",
-      "showtime_id": 514164808,
-      "date": "2025-09-24+18:00",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "NY",
-      "city": "White Plains",
-      "zip": "10601",
-      "theater_name": "Apple Cinemas White Plains",
-      "chainName": "Apple Cinemas",
-      "chainCode": "APPL",
-      "showtime_id": 514164810,
-      "date": "2025-09-24+19:00",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "NY",
-      "city": "Syracuse",
-      "zip": "13204",
-      "theater_name": "Regal Destiny USA",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514170051,
-      "date": "2025-09-24+18:15",
       "format": "Standard",
       "language": "Telugu",
       "error": {
@@ -233,68 +128,8 @@
       "theater_name": "Cinemark Towson and XD",
       "chainName": "Cinemark Theatres",
       "chainCode": "CNMK",
-      "showtime_id": 514166992,
-      "date": "2025-09-24+14:50",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "status": 403
-      }
-    },
-    {
-      "state": "MD",
-      "city": "Towson",
-      "zip": "21286",
-      "theater_name": "Cinemark Towson and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514166995,
-      "date": "2025-09-24+14:30",
-      "format": "Cinemark XD",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "MD",
-      "city": "Towson",
-      "zip": "21286",
-      "theater_name": "Cinemark Towson and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
       "showtime_id": 514166998,
       "date": "2025-09-24+14:30",
-      "format": "Cinemark XD",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "MD",
-      "city": "Salisbury",
-      "zip": "21801",
-      "theater_name": "Regal Salisbury & RPX",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514164865,
-      "date": "2025-09-24+14:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "VA",
-      "city": "Fairfax",
-      "zip": "22030",
-      "theater_name": "Cinemark Fairfax Corner and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514166987,
-      "date": "2025-09-24+18:35",
       "format": "Cinemark XD",
       "language": "Telugu",
       "error": {
@@ -317,111 +152,6 @@
       }
     },
     {
-      "state": "OH",
-      "city": "Cincinnati",
-      "zip": "45248",
-      "theater_name": "Cinemark Western Hills 14",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514166679,
-      "date": "2025-09-24+14:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "TX",
-      "city": "Plano",
-      "zip": "75093",
-      "theater_name": "Cinemark West Plano and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514171307,
-      "date": "2025-09-24+14:45",
-      "format": "Cinemark XD",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "TX",
-      "city": "Plano",
-      "zip": "75093",
-      "theater_name": "Cinemark West Plano and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514171308,
-      "date": "2025-09-24+18:35",
-      "format": "Cinemark XD",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "TX",
-      "city": "Bee Cave",
-      "zip": "78738",
-      "theater_name": "Cinemark Hill Country Galleria",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514164610,
-      "date": "2025-09-24+13:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "TX",
-      "city": "Bee Cave",
-      "zip": "78738",
-      "theater_name": "Cinemark Hill Country Galleria",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514164611,
-      "date": "2025-09-24+17:10",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "CO",
-      "city": "Denver",
-      "zip": "80202",
-      "theater_name": "Regal UA Denver Pavilions 4DX & RPX",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514166989,
-      "date": "2025-09-24+12:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "CO",
-      "city": "Denver",
-      "zip": "80202",
-      "theater_name": "Regal UA Denver Pavilions 4DX & RPX",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514166990,
-      "date": "2025-09-24+16:20",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
       "state": "CA",
       "city": "San Francisco",
       "zip": "94109",
@@ -430,6 +160,261 @@
       "chainCode": "APPL",
       "showtime_id": 514164627,
       "date": "2025-09-24+18:00",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "NJ",
+      "city": "Hazlet",
+      "zip": "07730",
+      "theater_name": "Cinemark Hazlet 12",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 514183021,
+      "date": "2025-09-24+18:10",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "status": 403
+      }
+    },
+    {
+      "state": "NJ",
+      "city": "Hazlet",
+      "zip": "07730",
+      "theater_name": "Cinemark Hazlet 12",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 514183022,
+      "date": "2025-09-24+21:00",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "status": 403
+      }
+    },
+    {
+      "state": "PA",
+      "city": "Harrisburg",
+      "zip": "17112",
+      "theater_name": "Regal Harrisburg",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514180172,
+      "date": "2025-09-24+16:35",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "VA",
+      "city": "Charlottesville",
+      "zip": "22901",
+      "theater_name": "Regal Stonefield & IMAX",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514176376,
+      "date": "2025-09-24+14:45",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "SC",
+      "city": "Myrtle Beach",
+      "zip": "29577",
+      "theater_name": "Cinemark Myrtle Beach",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 514174507,
+      "date": "2025-09-24+11:30",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "IA",
+      "city": "Davenport",
+      "zip": "52807",
+      "theater_name": "Cinemark Davenport 18 XD and IMAX",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 514183991,
+      "date": "2025-09-24+13:30",
+      "format": "Cinemark XD",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "IA",
+      "city": "Davenport",
+      "zip": "52807",
+      "theater_name": "Cinemark Davenport 18 XD and IMAX",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 514183992,
+      "date": "2025-09-24+17:15",
+      "format": "Cinemark XD",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "IA",
+      "city": "Davenport",
+      "zip": "52807",
+      "theater_name": "Cinemark Davenport 18 XD and IMAX",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 514183994,
+      "date": "2025-09-24+14:00",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "IA",
+      "city": "Davenport",
+      "zip": "52807",
+      "theater_name": "Cinemark Davenport 18 XD and IMAX",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 514183995,
+      "date": "2025-09-24+17:40",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "TX",
+      "city": "The Woodlands",
+      "zip": "77380",
+      "theater_name": "Cinemark The Woodlands and XD",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 514177996,
+      "date": "2025-09-24+18:10",
+      "format": "Cinemark XD",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "TX",
+      "city": "San Antonio",
+      "zip": "78230",
+      "theater_name": "Regal Huebner Oaks & RPX",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514180067,
+      "date": "2025-09-24+19:25",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "CO",
+      "city": "Centennial",
+      "zip": "80122",
+      "theater_name": "Regal SouthGlenn",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514176046,
+      "date": "2025-09-24+18:30",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "UT",
+      "city": "West Jordan",
+      "zip": "84084",
+      "theater_name": "Cinemark Jordan Landing 24 and XD",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 514184711,
+      "date": "2025-09-24+13:30",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "CA",
+      "city": "Oceanside",
+      "zip": "92054",
+      "theater_name": "Regal Oceanside",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514172918,
+      "date": "2025-09-24+18:20",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "WA",
+      "city": "Federal Way",
+      "zip": "98003",
+      "theater_name": "Cinemark Century Federal Way and XD",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 514174277,
+      "date": "2025-09-24+15:00",
+      "format": "Cinemark XD",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "WA",
+      "city": "Federal Way",
+      "zip": "98003",
+      "theater_name": "Cinemark Century Federal Way and XD",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 514174279,
+      "date": "2025-09-24+22:00",
+      "format": "Cinemark XD",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "WA",
+      "city": "Seattle",
+      "zip": "98101",
+      "theater_name": "Regal Meridian & 4DX",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514181124,
+      "date": "2025-09-24+20:00",
       "format": "Standard",
       "language": "Telugu",
       "error": {
