@@ -1,13 +1,103 @@
 [
   {
-    "state": "NY",
-    "city": "New York",
-    "zip": "10002",
-    "theater_name": "Regal Essex Crossing & RPX",
+    "state": "MD",
+    "city": "Hanover",
+    "zip": "21076",
+    "theater_name": "Cinemark Egyptian 24 and XD",
+    "chainName": "Cinemark Theatres",
+    "chainCode": "CNMK",
+    "showtime_id": 514131416,
+    "date": "2025-09-24+18:15",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 403
+    }
+  },
+  {
+    "state": "PA",
+    "city": "Downingtown",
+    "zip": "19335",
+    "theater_name": "Regal Downingtown & IMAX",
     "chainName": "Regal",
     "chainCode": "REGL",
-    "showtime_id": 514042879,
-    "date": "2025-09-24+22:20",
+    "showtime_id": 513949626,
+    "date": "2025-09-24+16:05",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 403
+    }
+  },
+  {
+    "state": "OH",
+    "city": "Cincinnati",
+    "zip": "45209",
+    "theater_name": "Cinemark Oakley Station and XD",
+    "chainName": "Cinemark Theatres",
+    "chainCode": "CNMK",
+    "showtime_id": 514135068,
+    "date": "2025-09-24+14:30",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 403
+    }
+  },
+  {
+    "state": "OH",
+    "city": "Beavercreek",
+    "zip": "45431",
+    "theater_name": "Regal Fairfield Commons & RPX",
+    "chainName": "Regal",
+    "chainCode": "REGL",
+    "showtime_id": 514038296,
+    "date": "2025-09-24+16:05",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 500
+    }
+  },
+  {
+    "state": "OH",
+    "city": "Beavercreek",
+    "zip": "45431",
+    "theater_name": "Regal Fairfield Commons & RPX",
+    "chainName": "Regal",
+    "chainCode": "REGL",
+    "showtime_id": 514038297,
+    "date": "2025-09-24+19:40",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 500
+    }
+  },
+  {
+    "state": "IL",
+    "city": "Niles",
+    "zip": "60714",
+    "theater_name": "Cin\u00e9 Lounge at Niles",
+    "chainName": "RTSIND",
+    "chainCode": "RTSIND",
+    "showtime_id": 514080745,
+    "date": "2025-09-24+16:30",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 404
+    }
+  },
+  {
+    "state": "TX",
+    "city": "Webster",
+    "zip": "77598",
+    "theater_name": "Cinemark NASA and XD",
+    "chainName": "Cinemark Theatres",
+    "chainCode": "CNMK",
+    "showtime_id": 514105185,
+    "date": "2025-09-24+21:00",
     "format": "Standard",
     "language": "Telugu",
     "error": {
