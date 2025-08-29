@@ -49,9 +49,9 @@ FORMAT_KEYWORDS = [
     "Sony Digital Cinema",
     "4DX",
     "ScreenX",
+    "Cinemark XD",
     "Dolby Cinema",
 ]
-
 
 
 # Example User-Agent pool
