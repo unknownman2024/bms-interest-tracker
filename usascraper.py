@@ -21,7 +21,6 @@ TARGET_MOVIE_ID = 241979
 MAX_WORKERS = 4  # For showtime fetching multiprocessing
 CONCURRENCY = 10  # For async seat fetching concurrency
 ZIP_FILE = "zipcodes.txt"
-OUTPUT_FILE = "newSeatData.json"
 ERROR_FILE = "errored_seats.json"
 AUTHORIZATION_TOKEN = "<your-auth-token>"  # Replace here
 SESSION_ID = "<your-session-id>"  # Replace here
@@ -280,80 +279,67 @@ if __name__ == "__main__":
             )
 
     print(f"🎟️ Total unique showtimes: {len(flat_showtimes)}")
-
     print("💺 Fetching seat maps...")
     asyncio.run(run_all(flat_showtimes, CONCURRENCY))
 
-    # Load previous data if exists
-    existing = {}
-    if os.path.exists(OUTPUT_FILE):
-        try:
-            old = json.load(open(OUTPUT_FILE))
-            existing = {str(d["showtime_id"]): d for d in old}
-        except:
-            pass
-
-    updated, added, skipped = 0, 0, 0
-    for show in flat_showtimes:
-        sid = str(show["showtime_id"])
-        if "error" in show:
-            if sid not in existing:
-                existing[sid] = show
-            else:
-                # ✅ Check for 500 + not full occupancy in old data
-                if show["error"].get("status") == 500:
-                    old_occ = existing[sid].get("occupancy", 0)
-                    if old_occ < 100:
-                        print(
-                            f"⚠️ Please check: {existing[sid]['theater_name']} "
-                            f"| {existing[sid]['city']} | {existing[sid]['language']} "
-                            f"| Showtime {sid} might be housefull "
-                            f"(previous occupancy {old_occ}%)"
-                        )
-            skipped += 1
-        else:
-            if sid in existing:
-                updated += 1
-            else:
-                added += 1
-            existing[sid] = show
-
-    # Save all entries including errors in one file
-    final_all = []
-    for s in existing.values():
-        final_all.append(s)
-
+    # === Merge with old data (preserve previous shows) ===
     out_dir = "USA Data"
     os.makedirs(out_dir, exist_ok=True)
 
     main_file = os.path.join(out_dir, f"{TARGET_MOVIE_ID}_{DATE}.json")
     error_file = os.path.join(out_dir, f"{TARGET_MOVIE_ID}_{DATE}_errors.json")
 
-# ✅ Merge old + new without rewriting everything
-if os.path.exists(main_file):
-    try:
-        old = json.load(open(main_file))
-        for entry in old:
-            sid = str(entry["showtime_id"])
-            if sid not in existing:  # keep old untouched data
-                existing[sid] = entry
-    except Exception as e:
-        print(f"⚠️ Could not load previous {main_file}: {e}")
+    # Load previous saved data if exists
+    existing = {}
+    if os.path.exists(main_file):
+        try:
+            old = json.load(open(main_file))
+            existing = {str(d["showtime_id"]): d for d in old}
+        except Exception as e:
+            print(f"⚠️ Could not load previous {main_file}: {e}")
 
-# Build final list after merging
-final_all = list(existing.values())
+    updated, added, skipped = 0, 0, 0
+    for show in flat_showtimes:
+        sid = str(show["showtime_id"])
 
-# Save back merged
-with open(main_file, "w") as f:
-    json.dump(final_all, f, indent=2)
+        if "error" in show:
+            if sid not in existing:
+                existing[sid] = show
+                added += 1
+            else:
+                if show["error"].get("status") == 500:
+                    old_occ = existing[sid].get("occupancy", 0)
+                    if old_occ < 100:
+                        print(
+                            f"⚠️ Please check: {existing[sid].get('theater_name','?')} | "
+                            f"{existing[sid].get('city','?')} | "
+                            f"{existing[sid].get('language','?')} | "
+                            f"Showtime {sid} might be housefull "
+                            f"(previous occupancy {old_occ}%)"
+                        )
+                skipped += 1
+        else:
+            if sid in existing:
+                updated += 1
+            else:
+                added += 1
+            existing[sid] = show  # overwrite only when valid
 
-errors = [s for s in existing.values() if "error" in s]
-with open(error_file, "w") as f:
-    json.dump(errors, f, indent=2)
+    # Build final merged list
+    final_all = list(existing.values())
 
-print("\n✅ Done.")
-print(
-    f"🔁 Updated: {updated} | ➕ Added: {added} | ⏭️ Skipped (errors or unchanged): {skipped}"
-)
-print(f"💾 Saved: {len(final_all)} to {main_file}")
-print(f"⚠️ Error entries saved to {error_file}")
+    # Save merged data
+    with open(main_file, "w") as f:
+        json.dump(final_all, f, indent=2)
+
+    # Save only errors separately
+    errors = [s for s in final_all if "error" in s]
+    with open(error_file, "w") as f:
+        json.dump(errors, f, indent=2)
+
+    print("\n✅ Done.")
+    print(
+        f"🔁 Updated: {updated} | ➕ Added: {added} | ⏭️ Skipped (errors kept old): {skipped}"
+    )
+    print(f"💾 Saved: {len(final_all)} to {main_file}")
+    print(f"⚠️ Error entries saved to {error_file}")
