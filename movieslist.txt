@@ -9,10 +9,7 @@ https://www.fandango.com/napi/moviesInTheaters?raw=true&page=2&pageSize=9
 Request URL
 Request Method
 GET
-Status Code
-200 OK
-Remote Address
-2.22.185.152:443
+
 Referrer Policy
 strict-origin-when-cross-origin
 :authority
