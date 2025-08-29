@@ -8,6 +8,7 @@ from aiohttp_retry import RetryClient, ExponentialRetry
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from tqdm import tqdm
 import ssl
+import random
 
 # CONFIG
 DATE = "2025-09-24"
@@ -21,7 +22,7 @@ TARGET_MOVIE_ID = 241979
 MAX_WORKERS = 4  # For showtime fetching multiprocessing
 CONCURRENCY = 10  # For async seat fetching concurrency
 ZIP_FILE = "zipcodes.txt"
-ERROR_FILE = "errored_seats.json"
+ERROR_FILE_DEAD = "errored_seats.json"
 AUTHORIZATION_TOKEN = "<your-auth-token>"  # Replace here
 SESSION_ID = "<your-session-id>"  # Replace here
 
@@ -48,6 +49,49 @@ FORMAT_KEYWORDS = [
     "ScreenX",
     "Dolby Cinema",
 ]
+
+
+
+# Example User-Agent pool
+USER_AGENTS = [
+    # Chrome on Windows
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{version} Safari/537.36",
+    # Firefox on Windows
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:{version}) Gecko/20100101 Firefox/{version}",
+    # Chrome on Mac
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_{minor}_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{version} Safari/537.36",
+    # Safari on Mac
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_{minor}_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/{safari_ver} Safari/605.1.15",
+]
+
+def get_random_user_agent():
+    template = random.choice(USER_AGENTS)
+    return template.format(
+        version=f"{random.randint(70,120)}.0.{random.randint(1000,5000)}.{random.randint(0,150)}",
+        minor=random.randint(12, 15),
+        safari_ver=f"{random.randint(13,17)}.0.{random.randint(1,3)}",
+    )
+
+def get_random_ip():
+    return ".".join(str(random.randint(1, 255)) for _ in range(4))
+
+
+def get_seatmap_headers():
+    random_ip = get_random_ip()
+    return {
+        "User-Agent": get_random_user_agent(),
+        "Accept-Language": "en-US,en;q=0.9",
+        "Origin": "https://fandango.com",
+        "Referer": "https://tickets.fandango.com/mobileexpress/seatselection",
+        "X-Forwarded-For": random_ip,
+        "Client-IP": random_ip,
+        "Connection": "keep-alive",
+        "Authorization": AUTHORIZATION_TOKEN,
+        "X-Fd-Sessionid": SESSION_ID,
+        "authority": "tickets.fandango.com",
+        "accept": "application/json",
+    }
+
 
 # === Helper functions for language and format extraction ===
 
@@ -94,12 +138,22 @@ def prepare_showtimes(movie):
     return out
 
 
+def get_headers2(zip_code, date):
+    random_ip = get_random_ip()
+    return {
+        "User-Agent": get_random_user_agent(),
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Origin": "https://www.fandango.com",
+        "Referer": f"https://www.fandango.com/{zip_code}_movietimes?date={date}",
+        "X-Forwarded-For": random_ip,
+        "Client-IP": random_ip,
+        "Connection": "keep-alive",
+    }
+
 def get_theaters(zip_code, date, page=1, limit=40):
     url = "https://www.fandango.com/napi/theaterswithshowtimes"
-    headers = {
-        "User-Agent": "Mozilla/5.0",
-        "Referer": f"https://www.fandango.com/{zip_code}_movietimes?date={date}",
-    }
+
     params = {
         "zipCode": zip_code,
         "date": date,
@@ -109,7 +163,7 @@ def get_theaters(zip_code, date, page=1, limit=40):
         "filterEnabled": "true",
     }
     try:
-        r = requests.get(url, headers=headers, params=params, timeout=10)
+        r = requests.get(url, headers=get_headers2(zip_code, date), params=params, timeout=10)
         if r.status_code == 200:
             return r.json()
     except Exception as e:
@@ -167,7 +221,7 @@ def seatmap_url(showtime_id):
     )
 
 
-HEADERS = {
+HEADERS_DEAD = {
     "authority": "tickets.fandango.com",
     "accept": "application/json",
     "Authorization": AUTHORIZATION_TOKEN,
@@ -181,7 +235,7 @@ async def fetch_seat(session, show):
     sid = str(show["showtime_id"])
     url = seatmap_url(sid)
     try:
-        async with session.get(url, headers=HEADERS, timeout=10) as resp:
+        async with session.get(url, headers=get_seatmap_headers(), timeout=10) as resp:
             if resp.status == 200:
                 data = await resp.json()
                 d = data.get("data", {})
