@@ -3,7 +3,7 @@ name: USA Scraper
 on:
   workflow_dispatch:   # manual run
   schedule:
-    - cron: "0 6 * * *"   # every day at 06:00 UTC
+    - cron: "30 * * * *"   # every hour, at :30 (UTC)
 
 jobs:
   run-scraper:
