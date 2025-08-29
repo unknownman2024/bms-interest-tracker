@@ -10,7 +10,7 @@ from tqdm import tqdm
 import ssl
 import random
 import datetime
-import pytz
+from zoneinfo import ZoneInfo   # built-in, no pip install needed
 
 # CONFIG
 DATE = "2025-09-24"
@@ -391,8 +391,7 @@ if __name__ == "__main__":
     # Save only errors separately
     errors = [s for s in final_all if "error" in s]
     # Convert to IST
-    ist = pytz.timezone("Asia/Kolkata")
-    now_ist = datetime.datetime.now(ist).strftime("%Y-%m-%d %I:%M:%S %p")
+    now_ist = datetime.datetime.now(ZoneInfo("Asia/Kolkata")).strftime("%Y-%m-%d %I:%M:%S %p")
     
     error_payload = {
         "last_updated": now_ist,
