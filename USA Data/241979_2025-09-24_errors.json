@@ -1,4 +1,6 @@
-[
+{
+  "last_updated": "2025-08-29 08:12:42 PM",
+  "errors": [
   {
     "state": "IL",
     "city": "Niles",
@@ -30,3 +32,4 @@
     }
   }
 ]
+}
