@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-29 08:32:56 PM",
+  "last_updated": "2025-08-29 09:18:48 PM",
   "errors": [
     {
       "state": "IL",
@@ -14,21 +14,6 @@
       "language": "Telugu",
       "error": {
         "status": 404
-      }
-    },
-    {
-      "state": "NH",
-      "city": "Salem",
-      "zip": "03079",
-      "theater_name": "Cinemark Rockingham Park and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514148749,
-      "date": "2025-09-24+17:45",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
       }
     }
   ]
