@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-31 02:17:22 AM",
+  "last_updated": "2025-08-31 02:48:06 AM",
   "errors": [
     {
       "state": "IL",
@@ -107,14 +107,14 @@
       }
     },
     {
-      "state": "CO",
-      "city": "Aurora",
-      "zip": "80013",
-      "theater_name": "Movie Tavern Aurora",
-      "chainName": "Marcus Theatres",
-      "chainCode": "MRCS",
-      "showtime_id": 514286621,
-      "date": "2025-09-24+21:45",
+      "state": "CA",
+      "city": "Redding",
+      "zip": "96003",
+      "theater_name": "Cinemark Redding 14 and XD",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 514286195,
+      "date": "2025-09-24+22:30",
       "format": "Standard",
       "language": "Telugu",
       "error": {
