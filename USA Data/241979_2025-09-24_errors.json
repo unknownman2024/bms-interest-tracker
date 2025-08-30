@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-30 07:27:18 AM",
+  "last_updated": "2025-08-30 08:36:47 AM",
   "errors": [
     {
       "state": "IL",
@@ -108,21 +108,6 @@
     },
     {
       "state": "WI",
-      "city": "Sheboygan",
-      "zip": "53081",
-      "theater_name": "Marcus Sheboygan Cinema",
-      "chainName": "Marcus Theatres",
-      "chainCode": "MRCS",
-      "showtime_id": 514208437,
-      "date": "2025-09-24+19:35",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "WI",
       "city": "Green Bay",
       "zip": "54311",
       "theater_name": "Marcus Green Bay East Cinema",
@@ -146,21 +131,6 @@
       "showtime_id": 514180510,
       "date": "2025-09-24+14:30",
       "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "TX",
-      "city": "Plano",
-      "zip": "75025",
-      "theater_name": "Cinemark Legacy and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514224531,
-      "date": "2025-09-24+21:00",
-      "format": "Cinemark XD",
       "language": "Telugu",
       "error": {
         "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
@@ -213,21 +183,6 @@
     },
     {
       "state": "TX",
-      "city": "Cypress",
-      "zip": "77429",
-      "theater_name": "Cinemark Cypress and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514220587,
-      "date": "2025-09-24+20:50",
-      "format": "Cinemark XD",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "TX",
       "city": "Austin",
       "zip": "78748",
       "theater_name": "Cinemark Southpark Meadows",
@@ -235,66 +190,6 @@
       "chainCode": "CNMK",
       "showtime_id": 514210481,
       "date": "2025-09-24+20:50",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "CA",
-      "city": "Milpitas",
-      "zip": "95035",
-      "theater_name": "Cinemark Century Great Mall 20 XD and ScreenX",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514218082,
-      "date": "2025-09-24+16:55",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "NY",
-      "city": "Binghamton",
-      "zip": "13905",
-      "theater_name": "Regal Binghamton",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514219002,
-      "date": "2025-09-24+21:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "NY",
-      "city": "Pittsford",
-      "zip": "14618",
-      "theater_name": "Apple Cinemas Pittsford",
-      "chainName": "Apple Cinemas",
-      "chainCode": "APPL",
-      "showtime_id": 514186726,
-      "date": "2025-09-24+15:00",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "NY",
-      "city": "Pittsford",
-      "zip": "14618",
-      "theater_name": "Apple Cinemas Pittsford",
-      "chainName": "Apple Cinemas",
-      "chainCode": "APPL",
-      "showtime_id": 514186727,
-      "date": "2025-09-24+18:30",
       "format": "Standard",
       "language": "Telugu",
       "error": {
@@ -317,111 +212,6 @@
       }
     },
     {
-      "state": "VA",
-      "city": "Harrisonburg",
-      "zip": "22801",
-      "theater_name": "Regal Harrisonburg",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514231442,
-      "date": "2025-09-24+14:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "OH",
-      "city": "Columbus",
-      "zip": "43235",
-      "theater_name": "Marcus Crosswoods Cinema",
-      "chainName": "Marcus Theatres",
-      "chainCode": "MRCS",
-      "showtime_id": 514240933,
-      "date": "2025-09-24+19:00",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "OH",
-      "city": "Columbus",
-      "zip": "43235",
-      "theater_name": "Marcus Crosswoods Cinema",
-      "chainName": "Marcus Theatres",
-      "chainCode": "MRCS",
-      "showtime_id": 514240935,
-      "date": "2025-09-24+18:15",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "IL",
-      "city": "Country Club Hills",
-      "zip": "60478",
-      "theater_name": "Marcus Country Club Hills Cinema",
-      "chainName": "Marcus Theatres",
-      "chainCode": "MRCS",
-      "showtime_id": 514229084,
-      "date": "2025-09-24+19:40",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "WI",
-      "city": "Oak Creek",
-      "zip": "53154",
-      "theater_name": "Marcus South Shore Cinema",
-      "chainName": "Marcus Theatres",
-      "chainCode": "MRCS",
-      "showtime_id": 514235619,
-      "date": "2025-09-24+13:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "WI",
-      "city": "Appleton",
-      "zip": "54915",
-      "theater_name": "Marcus Valley Grand Cinema",
-      "chainName": "Marcus Theatres",
-      "chainCode": "MRCS",
-      "showtime_id": 514236229,
-      "date": "2025-09-24+13:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "WI",
-      "city": "Appleton",
-      "zip": "54915",
-      "theater_name": "Marcus Valley Grand Cinema",
-      "chainName": "Marcus Theatres",
-      "chainCode": "MRCS",
-      "showtime_id": 514236231,
-      "date": "2025-09-24+20:00",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
       "state": "WI",
       "city": "Appleton",
       "zip": "54914",
@@ -431,21 +221,6 @@
       "showtime_id": 514231079,
       "date": "2025-09-24+16:00",
       "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "KS",
-      "city": "Merriam",
-      "zip": "66202",
-      "theater_name": "Cinemark Merriam and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514240115,
-      "date": "2025-09-24+13:40",
-      "format": "Cinemark XD",
       "language": "Telugu",
       "error": {
         "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
@@ -482,21 +257,6 @@
       }
     },
     {
-      "state": "NE",
-      "city": "Lincoln",
-      "zip": "68508",
-      "theater_name": "Marcus Lincoln Grand Cinemas",
-      "chainName": "Marcus Theatres",
-      "chainCode": "MRCS",
-      "showtime_id": 514229079,
-      "date": "2025-09-24+17:00",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
       "state": "TX",
       "city": "Houston",
       "zip": "77040",
@@ -512,29 +272,14 @@
       }
     },
     {
-      "state": "TX",
-      "city": "Corpus Christi",
-      "zip": "78412",
-      "theater_name": "Cinemark Century Corpus Christi 16 XD and IMAX",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514233082,
-      "date": "2025-09-24+15:20",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "TX",
-      "city": "Corpus Christi",
-      "zip": "78412",
-      "theater_name": "Cinemark Century Corpus Christi 16 XD and IMAX",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514233083,
-      "date": "2025-09-24+18:00",
+      "state": "MN",
+      "city": "Shakopee",
+      "zip": "55379",
+      "theater_name": "Marcus Southbridge Crossing Cinema",
+      "chainName": "Marcus Theatres",
+      "chainCode": "MRCS",
+      "showtime_id": 514246798,
+      "date": "2025-09-24+19:30",
       "format": "Standard",
       "language": "Telugu",
       "error": {
@@ -543,28 +288,28 @@
     },
     {
       "state": "CA",
-      "city": "Orange",
-      "zip": "92867",
-      "theater_name": "Cinemark Century Orange and XD",
+      "city": "Chula Vista",
+      "zip": "91910",
+      "theater_name": "Regal Rancho Del Rey",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514246623,
+      "date": "2025-09-24+19:45",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "CA",
+      "city": "Milpitas",
+      "zip": "95035",
+      "theater_name": "Cinemark Century Great Mall 20 XD and ScreenX",
       "chainName": "Cinemark Theatres",
       "chainCode": "CNMK",
-      "showtime_id": 514233364,
+      "showtime_id": 514249084,
       "date": "2025-09-24+16:10",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "CA",
-      "city": "San Bruno",
-      "zip": "94066",
-      "theater_name": "Cinemark Century at Tanforan and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514230131,
-      "date": "2025-09-24+15:00",
       "format": "Cinemark XD",
       "language": "Telugu",
       "error": {
@@ -573,29 +318,14 @@
     },
     {
       "state": "CA",
-      "city": "San Bruno",
-      "zip": "94066",
-      "theater_name": "Cinemark Century at Tanforan and XD",
+      "city": "Milpitas",
+      "zip": "95035",
+      "theater_name": "Cinemark Century Great Mall 20 XD and ScreenX",
       "chainName": "Cinemark Theatres",
       "chainCode": "CNMK",
-      "showtime_id": 514230132,
-      "date": "2025-09-24+18:30",
+      "showtime_id": 514249083,
+      "date": "2025-09-24+19:50",
       "format": "Cinemark XD",
-      "language": "Telugu",
-      "error": {
-        "status": 403
-      }
-    },
-    {
-      "state": "OR",
-      "city": "Portland",
-      "zip": "97266",
-      "theater_name": "Cinemark Century Eastport Plaza 16",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514236828,
-      "date": "2025-09-24+18:50",
-      "format": "Standard",
       "language": "Telugu",
       "error": {
         "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
