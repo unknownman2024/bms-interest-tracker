@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-30 11:03:09 AM",
+  "last_updated": "2025-08-30 11:17:19 AM",
   "errors": [
     {
       "state": "IL",
@@ -107,36 +107,6 @@
       }
     },
     {
-      "state": "WI",
-      "city": "Appleton",
-      "zip": "54914",
-      "theater_name": "Marcus Hollywood Cinemas",
-      "chainName": "Marcus Theatres",
-      "chainCode": "MRCS",
-      "showtime_id": 514231079,
-      "date": "2025-09-24+16:00",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "OK",
-      "city": "Tulsa",
-      "zip": "74133",
-      "theater_name": "Cinemark Tulsa and IMAX",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514259671,
-      "date": "2025-09-24+21:25",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
       "state": "AZ",
       "city": "Peoria",
       "zip": "85382",
@@ -160,6 +130,21 @@
       "chainCode": "HRKN",
       "showtime_id": 514260946,
       "date": "2025-09-24+19:20",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "VA",
+      "city": "Christiansburg",
+      "zip": "24073",
+      "theater_name": "Regal New River Valley & RPX",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514260187,
+      "date": "2025-09-24+14:30",
       "format": "Standard",
       "language": "Telugu",
       "error": {
