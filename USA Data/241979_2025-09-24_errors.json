@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-31 12:24:57 AM",
+  "last_updated": "2025-08-31 12:46:33 AM",
   "errors": [
     {
       "state": "IL",
@@ -104,21 +104,6 @@
       "language": "Telugu",
       "error": {
         "status": 500
-      }
-    },
-    {
-      "state": "TX",
-      "city": "Fort Worth",
-      "zip": "76132",
-      "theater_name": "Movie Tavern Hulen",
-      "chainName": "Marcus Theatres",
-      "chainCode": "MRCS",
-      "showtime_id": 514276692,
-      "date": "2025-09-24+13:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
       }
     }
   ]
