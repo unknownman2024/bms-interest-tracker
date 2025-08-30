@@ -401,6 +401,53 @@ if __name__ == "__main__":
     with open(error_file, "w") as f:
         json.dump(error_payload, f, indent=2, ensure_ascii=False)
 
+
+    # === Save logs.json with summary ===
+    logs_file = os.path.join(out_dir, f"{TARGET_MOVIE_ID}_{DATE}_logs.json")
+
+    total_gross = 0.0
+    total_shows = 0
+    total_sold = 0
+    total_capacity = 0
+    venues = set()
+
+    for s in final_all:
+        if "error" not in s:
+            total_gross += s.get("grossRevenueUSD", 0.0)
+            total_shows += 1
+            total_sold += s.get("totalSeatSold", 0)
+            total_capacity += s.get("totalSeatCount", 0)
+            venues.add(s.get("theater_name"))
+
+    avg_occupancy = round((total_sold / total_capacity) * 100, 2) if total_capacity else 0.0
+
+    log_entry = {
+        "time": now_ist,
+        "total_gross_usd": round(total_gross, 2),
+        "total_shows": total_shows,
+        "avg_occupancy": avg_occupancy,
+        "tickets_sold": total_sold,
+        "unique_venues": len(venues),
+    }
+
+    # If file exists, append log entry list
+    existing_logs = []
+    if os.path.exists(logs_file):
+        try:
+            existing_logs = json.load(open(logs_file))
+            if not isinstance(existing_logs, list):
+                existing_logs = []
+        except Exception:
+            existing_logs = []
+
+    existing_logs.append(log_entry)
+
+    with open(logs_file, "w") as f:
+        json.dump(existing_logs, f, indent=2, ensure_ascii=False)
+
+    print(f"📝 Log entry appended to {logs_file}")
+
+    # === Final console prints ===
     print("\n✅ Done.")
     print(
         f"🔁 Updated: {updated} | ➕ Added: {added} | ⏭️ Skipped (errors kept old): {skipped}"
