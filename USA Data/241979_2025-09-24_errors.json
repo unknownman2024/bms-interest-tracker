@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-31 04:49:54 AM",
+  "last_updated": "2025-08-31 05:15:48 AM",
   "errors": [
     {
       "state": "IL",
@@ -122,14 +122,14 @@
       }
     },
     {
-      "state": "NE",
-      "city": "Omaha",
-      "zip": "68164",
-      "theater_name": "Marcus Majestic Cinema of Omaha",
-      "chainName": "Marcus Theatres",
-      "chainCode": "MRCS",
-      "showtime_id": 514297472,
-      "date": "2025-09-24+17:00",
+      "state": "SC",
+      "city": "Mount Pleasant",
+      "zip": "29464",
+      "theater_name": "Regal Palmetto Grande",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514302489,
+      "date": "2025-09-24+22:00",
       "format": "Standard",
       "language": "Telugu",
       "error": {
