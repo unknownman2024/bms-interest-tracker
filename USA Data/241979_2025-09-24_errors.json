@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-30 11:17:19 AM",
+  "last_updated": "2025-08-30 11:54:11 AM",
   "errors": [
     {
       "state": "IL",
@@ -104,51 +104,6 @@
       "language": "Telugu",
       "error": {
         "status": 500
-      }
-    },
-    {
-      "state": "AZ",
-      "city": "Peoria",
-      "zip": "85382",
-      "theater_name": "Harkins Arrowhead Fountains 18",
-      "chainName": "Harkins Theatres",
-      "chainCode": "HRKN",
-      "showtime_id": 514260945,
-      "date": "2025-09-24+15:50",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "AZ",
-      "city": "Peoria",
-      "zip": "85382",
-      "theater_name": "Harkins Arrowhead Fountains 18",
-      "chainName": "Harkins Theatres",
-      "chainCode": "HRKN",
-      "showtime_id": 514260946,
-      "date": "2025-09-24+19:20",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "VA",
-      "city": "Christiansburg",
-      "zip": "24073",
-      "theater_name": "Regal New River Valley & RPX",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514260187,
-      "date": "2025-09-24+14:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
       }
     }
   ]
