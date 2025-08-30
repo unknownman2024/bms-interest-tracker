@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-30 11:14:50 PM",
+  "last_updated": "2025-08-30 11:53:19 PM",
   "errors": [
     {
       "state": "IL",
@@ -104,21 +104,6 @@
       "language": "Telugu",
       "error": {
         "status": 500
-      }
-    },
-    {
-      "state": "IL",
-      "city": "Chicago Heights",
-      "zip": "60411",
-      "theater_name": "Marcus Chicago Heights Cinema",
-      "chainName": "Marcus Theatres",
-      "chainCode": "MRCS",
-      "showtime_id": 514271036,
-      "date": "2025-09-24+19:40",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
       }
     }
   ]
