@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-30 12:48:56 PM",
+  "last_updated": "2025-08-30 01:16:59 PM",
   "errors": [
     {
       "state": "IL",
@@ -115,36 +115,6 @@
       "chainCode": "REGL",
       "showtime_id": 514263070,
       "date": "2025-09-24+14:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "OH",
-      "city": "West Carrollton",
-      "zip": "45449",
-      "theater_name": "Cinemark Dayton South 16 and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514262608,
-      "date": "2025-09-24+14:30",
-      "format": "Cinemark XD",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "CA",
-      "city": "Redlands",
-      "zip": "92374",
-      "theater_name": "Harkins Mountain Grove",
-      "chainName": "Harkins Theatres",
-      "chainCode": "HRKN",
-      "showtime_id": 514262198,
-      "date": "2025-09-24+11:30",
       "format": "Standard",
       "language": "Telugu",
       "error": {
