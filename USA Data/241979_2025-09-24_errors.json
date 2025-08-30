@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-30 09:18:20 PM",
+  "last_updated": "2025-08-30 09:51:32 PM",
   "errors": [
     {
       "state": "IL",
@@ -115,21 +115,6 @@
       "chainCode": "MRCS",
       "showtime_id": 514267140,
       "date": "2025-09-24+16:00",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "MO",
-      "city": "Arnold",
-      "zip": "63010",
-      "theater_name": "Marcus Arnold Cinemas",
-      "chainName": "Marcus Theatres",
-      "chainCode": "MRCS",
-      "showtime_id": 514267141,
-      "date": "2025-09-24+19:30",
       "format": "Standard",
       "language": "Telugu",
       "error": {
