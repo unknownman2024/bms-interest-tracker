@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-31 02:48:06 AM",
+  "last_updated": "2025-08-31 03:17:15 AM",
   "errors": [
     {
       "state": "IL",
@@ -116,6 +116,36 @@
       "showtime_id": 514286195,
       "date": "2025-09-24+22:30",
       "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "TX",
+      "city": "El Paso",
+      "zip": "79912",
+      "theater_name": "Cinemark West El Paso XD and ScreenX",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 514293014,
+      "date": "2025-09-24+12:30",
+      "format": "Cinemark XD",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "TX",
+      "city": "El Paso",
+      "zip": "79912",
+      "theater_name": "Cinemark West El Paso XD and ScreenX",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 514293016,
+      "date": "2025-09-24+19:50",
+      "format": "Cinemark XD",
       "language": "Telugu",
       "error": {
         "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
