@@ -15387,12 +15387,12 @@
     "showtime_id": 514159776,
     "date": "2025-09-24+13:30",
     "format": "Standard",
-    "language": "Unknown",
-    "totalSeatSold": 185,
-    "occupancy": 97.88,
-    "totalAvailableSeatCount": 4,
+    "language": "Telugu",
+    "totalSeatSold": 189,
+    "occupancy": 100,
+    "totalAvailableSeatCount": 0,
     "totalSeatCount": 189,
-    "grossRevenueUSD": 5046.8,
+    "grossRevenueUSD": 5155.92,
     "adultTicketPrice": 27.28
   },
   {
