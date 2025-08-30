@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-30 10:19:55 AM",
+  "last_updated": "2025-08-30 11:03:09 AM",
   "errors": [
     {
       "state": "IL",
@@ -122,14 +122,14 @@
       }
     },
     {
-      "state": "CA",
-      "city": "Chula Vista",
-      "zip": "91910",
-      "theater_name": "Regal Rancho Del Rey",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514246623,
-      "date": "2025-09-24+19:45",
+      "state": "OK",
+      "city": "Tulsa",
+      "zip": "74133",
+      "theater_name": "Cinemark Tulsa and IMAX",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 514259671,
+      "date": "2025-09-24+21:25",
       "format": "Standard",
       "language": "Telugu",
       "error": {
@@ -137,14 +137,14 @@
       }
     },
     {
-      "state": "IL",
-      "city": "Niles",
-      "zip": "60714",
-      "theater_name": "Ciné Lounge at Niles",
-      "chainName": "RTSIND",
-      "chainCode": "RTSIND",
-      "showtime_id": 514256694,
-      "date": "2025-09-24+20:00",
+      "state": "AZ",
+      "city": "Peoria",
+      "zip": "85382",
+      "theater_name": "Harkins Arrowhead Fountains 18",
+      "chainName": "Harkins Theatres",
+      "chainCode": "HRKN",
+      "showtime_id": 514260945,
+      "date": "2025-09-24+15:50",
       "format": "Standard",
       "language": "Telugu",
       "error": {
@@ -152,14 +152,14 @@
       }
     },
     {
-      "state": "WA",
-      "city": "Everett",
-      "zip": "98208",
-      "theater_name": "Regal Everett Stadium 16 & RPX",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514258874,
-      "date": "2025-09-24+19:05",
+      "state": "AZ",
+      "city": "Peoria",
+      "zip": "85382",
+      "theater_name": "Harkins Arrowhead Fountains 18",
+      "chainName": "Harkins Theatres",
+      "chainCode": "HRKN",
+      "showtime_id": 514260946,
+      "date": "2025-09-24+19:20",
       "format": "Standard",
       "language": "Telugu",
       "error": {
