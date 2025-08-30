@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-30 09:23:47 AM",
+  "last_updated": "2025-08-30 10:19:55 AM",
   "errors": [
     {
       "state": "IL",
@@ -122,36 +122,6 @@
       }
     },
     {
-      "state": "TX",
-      "city": "Houston",
-      "zip": "77040",
-      "theater_name": "Cinemark Tinseltown Houston 290 and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514239461,
-      "date": "2025-09-24+14:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "MN",
-      "city": "Shakopee",
-      "zip": "55379",
-      "theater_name": "Marcus Southbridge Crossing Cinema",
-      "chainName": "Marcus Theatres",
-      "chainCode": "MRCS",
-      "showtime_id": 514246798,
-      "date": "2025-09-24+19:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
       "state": "CA",
       "city": "Chula Vista",
       "zip": "91910",
@@ -167,104 +137,14 @@
       }
     },
     {
-      "state": "KY",
-      "city": "Lexington",
-      "zip": "40503",
-      "theater_name": "Cinemark Fayette Mall and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514254987,
-      "date": "2025-09-24+14:45",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "status": 403
-      }
-    },
-    {
-      "state": "KY",
-      "city": "Lexington",
-      "zip": "40503",
-      "theater_name": "Cinemark Fayette Mall and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514254991,
-      "date": "2025-09-24+18:00",
-      "format": "Cinemark XD",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "AZ",
-      "city": "Tempe",
-      "zip": "85282",
-      "theater_name": "Harkins Arizona Mills and IMAX",
-      "chainName": "Harkins Theatres",
-      "chainCode": "HRKN",
-      "showtime_id": 514237715,
-      "date": "2025-09-24+14:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "AZ",
-      "city": "Tempe",
-      "zip": "85282",
-      "theater_name": "Harkins Arizona Mills and IMAX",
-      "chainName": "Harkins Theatres",
-      "chainCode": "HRKN",
-      "showtime_id": 514237714,
-      "date": "2025-09-24+18:00",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "AZ",
-      "city": "Tempe",
-      "zip": "85282",
-      "theater_name": "Harkins Arizona Mills and IMAX",
-      "chainName": "Harkins Theatres",
-      "chainCode": "HRKN",
-      "showtime_id": 514243580,
-      "date": "2025-09-24+15:00",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "AZ",
-      "city": "Gilbert",
-      "zip": "85296",
-      "theater_name": "Harkins SanTan Village 16",
-      "chainName": "Harkins Theatres",
-      "chainCode": "HRKN",
-      "showtime_id": 514244870,
-      "date": "2025-09-24+12:00",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "AZ",
-      "city": "Gilbert",
-      "zip": "85296",
-      "theater_name": "Harkins SanTan Village 16",
-      "chainName": "Harkins Theatres",
-      "chainCode": "HRKN",
-      "showtime_id": 514244872,
-      "date": "2025-09-24+19:00",
+      "state": "IL",
+      "city": "Niles",
+      "zip": "60714",
+      "theater_name": "Ciné Lounge at Niles",
+      "chainName": "RTSIND",
+      "chainCode": "RTSIND",
+      "showtime_id": 514256694,
+      "date": "2025-09-24+20:00",
       "format": "Standard",
       "language": "Telugu",
       "error": {
@@ -273,17 +153,17 @@
     },
     {
       "state": "WA",
-      "city": "Bellevue",
-      "zip": "98004",
-      "theater_name": "Cinemark Lincoln Square",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514253871,
-      "date": "2025-09-24+15:00",
+      "city": "Everett",
+      "zip": "98208",
+      "theater_name": "Regal Everett Stadium 16 & RPX",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514258874,
+      "date": "2025-09-24+19:05",
       "format": "Standard",
       "language": "Telugu",
       "error": {
-        "status": 403
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
       }
     }
   ]
