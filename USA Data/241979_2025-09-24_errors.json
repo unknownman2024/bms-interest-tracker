@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-30 10:20:59 PM",
+  "last_updated": "2025-08-30 10:48:01 PM",
   "errors": [
     {
       "state": "IL",
@@ -104,36 +104,6 @@
       "language": "Telugu",
       "error": {
         "status": 500
-      }
-    },
-    {
-      "state": "PA",
-      "city": "Exton",
-      "zip": "19341",
-      "theater_name": "Movie Tavern Exton",
-      "chainName": "Marcus Theatres",
-      "chainCode": "MRCS",
-      "showtime_id": 514270016,
-      "date": "2025-09-24+14:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "PA",
-      "city": "Exton",
-      "zip": "19341",
-      "theater_name": "Movie Tavern Exton",
-      "chainName": "Marcus Theatres",
-      "chainCode": "MRCS",
-      "showtime_id": 514270015,
-      "date": "2025-09-24+18:00",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
       }
     }
   ]
