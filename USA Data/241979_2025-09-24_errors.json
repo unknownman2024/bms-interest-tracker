@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-30 06:36:41 PM",
+  "last_updated": "2025-08-30 06:56:19 PM",
   "errors": [
     {
       "state": "IL",
@@ -113,38 +113,8 @@
       "theater_name": "Regal Medlock Crossing & RPX",
       "chainName": "Regal",
       "chainCode": "REGL",
-      "showtime_id": 514266250,
-      "date": "2025-09-24+16:25",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "GA",
-      "city": "Duluth",
-      "zip": "30097",
-      "theater_name": "Regal Medlock Crossing & RPX",
-      "chainName": "Regal",
-      "chainCode": "REGL",
       "showtime_id": 514266252,
       "date": "2025-09-24+18:30",
-      "format": "RPX",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "GA",
-      "city": "Duluth",
-      "zip": "30097",
-      "theater_name": "Regal Medlock Crossing & RPX",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514266253,
-      "date": "2025-09-24+22:15",
       "format": "RPX",
       "language": "Telugu",
       "error": {
