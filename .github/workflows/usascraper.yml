@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0   # full history so rebase/merge works
+          fetch-depth: 0   # full history so rebase works
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -34,13 +34,22 @@ jobs:
 
       - name: Commit & Push results
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git fetch origin main
-          git rebase origin/main
-
+          # Stage & commit changes first
           git add "USA Data/*.json"
           git commit -m "Update USA Data ($(date -u +'%Y-%m-%d %H:%M:%S UTC'))" || echo "No changes to commit"
 
-          git push origin HEAD:main
+          # Fetch latest remote
+          git fetch origin main || true
+
+          # Try safe rebase + push
+          if git rebase origin/main; then
+            git push origin HEAD:main
+          else
+            echo "⚠️ Rebase failed, force pushing instead..."
+            git rebase --abort || true
+            git push origin HEAD:main --force
+          fi
