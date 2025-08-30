@@ -3358,11 +3358,11 @@
     "date": "2025-09-24+13:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 158,
-    "occupancy": 98.75,
-    "totalAvailableSeatCount": 2,
+    "totalSeatSold": 160,
+    "occupancy": 100,
+    "totalAvailableSeatCount": 0,
     "totalSeatCount": 160,
-    "grossRevenueUSD": 3950.0,
+    "grossRevenueUSD": 4000,
     "adultTicketPrice": 25.0
   },
   {
@@ -18232,10 +18232,14 @@
     "date": "2025-09-24+18:15",
     "format": "Standard",
     "language": "Telugu",
-    "error": {
-      "status": 500
-    }
+    "totalSeatSold": 108,
+    "occupancy": 100.0,
+    "totalAvailableSeatCount": 0,
+    "totalSeatCount": 108,
+    "grossRevenueUSD": 2922.48,
+    "adultTicketPrice": 27.06
   },
+  
   {
     "state": "TX",
     "city": "Pflugerville",
