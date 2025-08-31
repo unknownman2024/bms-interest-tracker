@@ -21,8 +21,8 @@ TARGET_MOVIE_ID = 241979
 # 240770 for war2
 # CODE BY BFILMY - DONT REMOVE
 
-MAX_WORKERS = 20  # For showtime fetching multiprocessing
-CONCURRENCY = 50  # For async seat fetching concurrency
+MAX_WORKERS = 4  # For showtime fetching multiprocessing
+CONCURRENCY = 10  # For async seat fetching concurrency
 ZIP_FILE = "zipcodes.txt"
 ERROR_FILE_DEAD = "errored_seats.json"
 AUTHORIZATION_TOKEN = "<your-auth-token>"  # Replace here
