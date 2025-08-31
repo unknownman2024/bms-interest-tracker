@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-31 09:28:21 AM",
+  "last_updated": "2025-08-31 09:53:07 AM",
   "errors": [
     {
       "state": "IL",
@@ -115,36 +115,6 @@
       "chainCode": "CNMK",
       "showtime_id": 514286195,
       "date": "2025-09-24+22:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "PA",
-      "city": "Pittsburgh",
-      "zip": "15205",
-      "theater_name": "Cinemark Robinson Township and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514317625,
-      "date": "2025-09-24+21:50",
-      "format": "Cinemark XD",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "PA",
-      "city": "Pittsburgh",
-      "zip": "15205",
-      "theater_name": "Cinemark Robinson Township and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514317626,
-      "date": "2025-09-24+15:00",
       "format": "Standard",
       "language": "Telugu",
       "error": {
