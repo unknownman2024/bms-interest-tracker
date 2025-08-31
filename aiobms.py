@@ -491,6 +491,13 @@ if __name__ == "__main__":
     else:
         fetched_venues = set()
 
+    if os.path.exists("venues_data.json"):
+        with open("venues_data.json", "r", encoding="utf-8") as f:
+            try:
+                all_data = json.load(f)
+            except:
+                all_data = {}
+    else:
         all_data = {}
 
     print(
