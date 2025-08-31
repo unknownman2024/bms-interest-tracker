@@ -1,0 +1,1023 @@
+[
+  {
+    "time": "2025-08-31 01:13:57 PM",
+    "movies": [
+      {
+        "id": 241979,
+        "total_gross_usd": 376659.24,
+        "total_shows": 818,
+        "avg_occupancy": 10.72,
+        "tickets_sold": 12755,
+        "unique_venues": 336
+      },
+      {
+        "id": 240239,
+        "total_gross_usd": 18602.0,
+        "total_shows": 556,
+        "avg_occupancy": 2.2,
+        "tickets_sold": 1301,
+        "unique_venues": 545
+      },
+      {
+        "id": 240927,
+        "total_gross_usd": 74403.27,
+        "total_shows": 3077,
+        "avg_occupancy": 1.44,
+        "tickets_sold": 5809,
+        "unique_venues": 1349
+      },
+      {
+        "id": 240137,
+        "total_gross_usd": 33782.02,
+        "total_shows": 3215,
+        "avg_occupancy": 0.49,
+        "tickets_sold": 2635,
+        "unique_venues": 1126
+      },
+      {
+        "id": 241369,
+        "total_gross_usd": 26104.05,
+        "total_shows": 1528,
+        "avg_occupancy": 1.38,
+        "tickets_sold": 2227,
+        "unique_venues": 727
+      },
+      {
+        "id": 241381,
+        "total_gross_usd": 13537.56,
+        "total_shows": 452,
+        "avg_occupancy": 1.71,
+        "tickets_sold": 850,
+        "unique_venues": 445
+      },
+      {
+        "id": 241954,
+        "total_gross_usd": 41613.88,
+        "total_shows": 278,
+        "avg_occupancy": 6.1,
+        "tickets_sold": 2097,
+        "unique_venues": 278
+      },
+      {
+        "id": 241373,
+        "total_gross_usd": 11468.75,
+        "total_shows": 274,
+        "avg_occupancy": 2.49,
+        "tickets_sold": 706,
+        "unique_venues": 274
+      },
+      {
+        "id": 241909,
+        "total_gross_usd": 2478.16,
+        "total_shows": 330,
+        "avg_occupancy": 0.61,
+        "tickets_sold": 178,
+        "unique_venues": 128
+      },
+      {
+        "id": 236926,
+        "total_gross_usd": 4808.35,
+        "total_shows": 655,
+        "avg_occupancy": 0.49,
+        "tickets_sold": 377,
+        "unique_venues": 336
+      },
+      {
+        "id": 240615,
+        "total_gross_usd": 2325.6,
+        "total_shows": 587,
+        "avg_occupancy": 0.27,
+        "tickets_sold": 163,
+        "unique_venues": 285
+      },
+      {
+        "id": 241047,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 238667,
+        "total_gross_usd": 33.36,
+        "total_shows": 40,
+        "avg_occupancy": 0.1,
+        "tickets_sold": 3,
+        "unique_venues": 16
+      },
+      {
+        "id": 109947,
+        "total_gross_usd": 3308.49,
+        "total_shows": 19,
+        "avg_occupancy": 34.99,
+        "tickets_sold": 633,
+        "unique_venues": 19
+      },
+      {
+        "id": 239732,
+        "total_gross_usd": 1569.44,
+        "total_shows": 224,
+        "avg_occupancy": 0.38,
+        "tickets_sold": 118,
+        "unique_venues": 113
+      },
+      {
+        "id": 21718,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 96746,
+        "total_gross_usd": 155.37,
+        "total_shows": 27,
+        "avg_occupancy": 0.95,
+        "tickets_sold": 30,
+        "unique_venues": 17
+      },
+      {
+        "id": 239912,
+        "total_gross_usd": 566.98,
+        "total_shows": 9,
+        "avg_occupancy": 6.74,
+        "tickets_sold": 92,
+        "unique_venues": 4
+      },
+      {
+        "id": 241514,
+        "total_gross_usd": 6280.3,
+        "total_shows": 77,
+        "avg_occupancy": 1.54,
+        "tickets_sold": 366,
+        "unique_venues": 54
+      },
+      {
+        "id": 1415,
+        "total_gross_usd": 4609.08,
+        "total_shows": 438,
+        "avg_occupancy": 0.98,
+        "tickets_sold": 508,
+        "unique_venues": 171
+      },
+      {
+        "id": 241082,
+        "total_gross_usd": 105.55,
+        "total_shows": 25,
+        "avg_occupancy": 0.36,
+        "tickets_sold": 7,
+        "unique_venues": 25
+      },
+      {
+        "id": 48188,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 240838,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 37910,
+        "total_gross_usd": 10.8,
+        "total_shows": 2,
+        "avg_occupancy": 0.97,
+        "tickets_sold": 2,
+        "unique_venues": 2
+      },
+      {
+        "id": 96599,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 240222,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 228393,
+        "total_gross_usd": 364.5,
+        "total_shows": 6,
+        "avg_occupancy": 2.81,
+        "tickets_sold": 25,
+        "unique_venues": 6
+      },
+      {
+        "id": 862,
+        "total_gross_usd": 333.37,
+        "total_shows": 4,
+        "avg_occupancy": 8.37,
+        "tickets_sold": 22,
+        "unique_venues": 3
+      },
+      {
+        "id": 242091,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 670,
+        "total_gross_usd": 144.0,
+        "total_shows": 1,
+        "avg_occupancy": 6.78,
+        "tickets_sold": 8,
+        "unique_venues": 1
+      },
+      {
+        "id": 241983,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 192727,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 241755,
+        "total_gross_usd": 0.0,
+        "total_shows": 2,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 1
+      },
+      {
+        "id": 241074,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 241135,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 240375,
+        "total_gross_usd": 1267.6,
+        "total_shows": 32,
+        "avg_occupancy": 1.08,
+        "tickets_sold": 51,
+        "unique_venues": 32
+      },
+      {
+        "id": 241903,
+        "total_gross_usd": 197.88,
+        "total_shows": 27,
+        "avg_occupancy": 0.44,
+        "tickets_sold": 12,
+        "unique_venues": 14
+      },
+      {
+        "id": 225867,
+        "total_gross_usd": 40.0,
+        "total_shows": 1,
+        "avg_occupancy": 5.26,
+        "tickets_sold": 4,
+        "unique_venues": 1
+      },
+      {
+        "id": 146531,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 853,
+        "total_gross_usd": 840.0,
+        "total_shows": 3,
+        "avg_occupancy": 31.44,
+        "tickets_sold": 105,
+        "unique_venues": 3
+      },
+      {
+        "id": 239079,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 32227,
+        "total_gross_usd": 1438.51,
+        "total_shows": 72,
+        "avg_occupancy": 2.48,
+        "tickets_sold": 131,
+        "unique_venues": 53
+      },
+      {
+        "id": 240617,
+        "total_gross_usd": 25.89,
+        "total_shows": 8,
+        "avg_occupancy": 0.45,
+        "tickets_sold": 3,
+        "unique_venues": 4
+      },
+      {
+        "id": 20842,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 2080,
+        "total_gross_usd": 546.0,
+        "total_shows": 2,
+        "avg_occupancy": 20.18,
+        "tickets_sold": 46,
+        "unique_venues": 2
+      },
+      {
+        "id": 241542,
+        "total_gross_usd": 209.88,
+        "total_shows": 1,
+        "avg_occupancy": 9.45,
+        "tickets_sold": 12,
+        "unique_venues": 1
+      },
+      {
+        "id": 230934,
+        "total_gross_usd": 0.0,
+        "total_shows": 11,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 4
+      },
+      {
+        "id": 237177,
+        "total_gross_usd": 0.0,
+        "total_shows": 11,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 4
+      },
+      {
+        "id": 380,
+        "total_gross_usd": 0.0,
+        "total_shows": 1,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 1
+      },
+      {
+        "id": 124631,
+        "total_gross_usd": 180.0,
+        "total_shows": 1,
+        "avg_occupancy": 13.64,
+        "tickets_sold": 15,
+        "unique_venues": 1
+      },
+      {
+        "id": 89299,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 90877,
+        "total_gross_usd": 3490.5,
+        "total_shows": 5,
+        "avg_occupancy": 37.32,
+        "tickets_sold": 259,
+        "unique_venues": 5
+      },
+      {
+        "id": 19240,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 200451,
+        "total_gross_usd": 165.06,
+        "total_shows": 1,
+        "avg_occupancy": 29.17,
+        "tickets_sold": 14,
+        "unique_venues": 1
+      },
+      {
+        "id": 23686,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 2438,
+        "total_gross_usd": 5.5,
+        "total_shows": 3,
+        "avg_occupancy": 0.51,
+        "tickets_sold": 1,
+        "unique_venues": 3
+      },
+      {
+        "id": 1728,
+        "total_gross_usd": 15.0,
+        "total_shows": 12,
+        "avg_occupancy": 0.24,
+        "tickets_sold": 3,
+        "unique_venues": 12
+      },
+      {
+        "id": 90729,
+        "total_gross_usd": 37.72,
+        "total_shows": 1,
+        "avg_occupancy": 2.86,
+        "tickets_sold": 2,
+        "unique_venues": 1
+      },
+      {
+        "id": 242048,
+        "total_gross_usd": 75.44,
+        "total_shows": 1,
+        "avg_occupancy": 5.71,
+        "tickets_sold": 4,
+        "unique_venues": 1
+      },
+      {
+        "id": 67460,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 241741,
+        "total_gross_usd": 129.72,
+        "total_shows": 12,
+        "avg_occupancy": 0.93,
+        "tickets_sold": 12,
+        "unique_venues": 4
+      },
+      {
+        "id": 242020,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 241642,
+        "total_gross_usd": 86.0,
+        "total_shows": 1,
+        "avg_occupancy": 3.88,
+        "tickets_sold": 8,
+        "unique_venues": 1
+      },
+      {
+        "id": 241548,
+        "total_gross_usd": 16.96,
+        "total_shows": 1,
+        "avg_occupancy": 2.17,
+        "tickets_sold": 1,
+        "unique_venues": 1
+      },
+      {
+        "id": 329,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 2093,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 238999,
+        "total_gross_usd": 0.0,
+        "total_shows": 1,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 1
+      },
+      {
+        "id": 249,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 30441,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 84880,
+        "total_gross_usd": 0.0,
+        "total_shows": 2,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 2
+      },
+      {
+        "id": 241852,
+        "total_gross_usd": 0.0,
+        "total_shows": 2,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 2
+      },
+      {
+        "id": 241805,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 21,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 238242,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 241976,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 169181,
+        "total_gross_usd": 279.93,
+        "total_shows": 1,
+        "avg_occupancy": 40.57,
+        "tickets_sold": 43,
+        "unique_venues": 1
+      },
+      {
+        "id": 2227,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 241963,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 1409,
+        "total_gross_usd": 194.63,
+        "total_shows": 3,
+        "avg_occupancy": 5.49,
+        "tickets_sold": 24,
+        "unique_venues": 2
+      },
+      {
+        "id": 240037,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 102908,
+        "total_gross_usd": 674.4,
+        "total_shows": 1,
+        "avg_occupancy": 64.86,
+        "tickets_sold": 48,
+        "unique_venues": 1
+      },
+      {
+        "id": 18769,
+        "total_gross_usd": 559.05,
+        "total_shows": 2,
+        "avg_occupancy": 16.2,
+        "tickets_sold": 35,
+        "unique_venues": 2
+      },
+      {
+        "id": 240418,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 37242,
+        "total_gross_usd": 376.38,
+        "total_shows": 22,
+        "avg_occupancy": 2.48,
+        "tickets_sold": 75,
+        "unique_venues": 22
+      },
+      {
+        "id": 126230,
+        "total_gross_usd": 465.69,
+        "total_shows": 3,
+        "avg_occupancy": 16.1,
+        "tickets_sold": 43,
+        "unique_venues": 3
+      },
+      {
+        "id": 48981,
+        "total_gross_usd": 0.0,
+        "total_shows": 1,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 1
+      },
+      {
+        "id": 109793,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 241460,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 85348,
+        "total_gross_usd": 746.98,
+        "total_shows": 3,
+        "avg_occupancy": 31.92,
+        "tickets_sold": 98,
+        "unique_venues": 2
+      },
+      {
+        "id": 239135,
+        "total_gross_usd": 150.0,
+        "total_shows": 1,
+        "avg_occupancy": 16.48,
+        "tickets_sold": 15,
+        "unique_venues": 1
+      },
+      {
+        "id": 183576,
+        "total_gross_usd": 785.43,
+        "total_shows": 11,
+        "avg_occupancy": 4.94,
+        "tickets_sold": 73,
+        "unique_venues": 11
+      },
+      {
+        "id": 241974,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 183577,
+        "total_gross_usd": 42.92,
+        "total_shows": 1,
+        "avg_occupancy": 2.42,
+        "tickets_sold": 4,
+        "unique_venues": 1
+      },
+      {
+        "id": 79319,
+        "total_gross_usd": 42.92,
+        "total_shows": 1,
+        "avg_occupancy": 2.42,
+        "tickets_sold": 4,
+        "unique_venues": 1
+      },
+      {
+        "id": 470,
+        "total_gross_usd": 302.75,
+        "total_shows": 1,
+        "avg_occupancy": 30.17,
+        "tickets_sold": 35,
+        "unique_venues": 1
+      },
+      {
+        "id": 240731,
+        "total_gross_usd": 70.5,
+        "total_shows": 3,
+        "avg_occupancy": 2.04,
+        "tickets_sold": 6,
+        "unique_venues": 1
+      },
+      {
+        "id": 463,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 239916,
+        "total_gross_usd": 30.98,
+        "total_shows": 1,
+        "avg_occupancy": 2.27,
+        "tickets_sold": 2,
+        "unique_venues": 1
+      },
+      {
+        "id": 111206,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 90340,
+        "total_gross_usd": 13.0,
+        "total_shows": 2,
+        "avg_occupancy": 1.16,
+        "tickets_sold": 1,
+        "unique_venues": 2
+      },
+      {
+        "id": 241930,
+        "total_gross_usd": 69.0,
+        "total_shows": 2,
+        "avg_occupancy": 2.05,
+        "tickets_sold": 6,
+        "unique_venues": 1
+      },
+      {
+        "id": 242019,
+        "total_gross_usd": 86.0,
+        "total_shows": 4,
+        "avg_occupancy": 2.2,
+        "tickets_sold": 8,
+        "unique_venues": 1
+      },
+      {
+        "id": 240771,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 1618,
+        "total_gross_usd": 0.0,
+        "total_shows": 2,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 2
+      },
+      {
+        "id": 133727,
+        "total_gross_usd": 40.0,
+        "total_shows": 1,
+        "avg_occupancy": 10.96,
+        "tickets_sold": 8,
+        "unique_venues": 1
+      },
+      {
+        "id": 241800,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 709,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 1439,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 99541,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 922,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 238567,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 192113,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 18789,
+        "total_gross_usd": 57.0,
+        "total_shows": 1,
+        "avg_occupancy": 4.08,
+        "tickets_sold": 6,
+        "unique_venues": 1
+      },
+      {
+        "id": 97605,
+        "total_gross_usd": 0.0,
+        "total_shows": 2,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 2
+      },
+      {
+        "id": 130,
+        "total_gross_usd": 6345.0,
+        "total_shows": 1,
+        "avg_occupancy": 75.81,
+        "tickets_sold": 94,
+        "unique_venues": 1
+      },
+      {
+        "id": 167230,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 239173,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 394,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 241631,
+        "total_gross_usd": 0.0,
+        "total_shows": 2,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 1
+      },
+      {
+        "id": 2175,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 205172,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 836,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 230679,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 155572,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 241472,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 240055,
+        "total_gross_usd": 0.0,
+        "total_shows": 0,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 0
+      },
+      {
+        "id": 240242,
+        "total_gross_usd": 0.0,
+        "total_shows": 1,
+        "avg_occupancy": 0.0,
+        "tickets_sold": 0,
+        "unique_venues": 1
+      }
+    ]
+  }
+]
