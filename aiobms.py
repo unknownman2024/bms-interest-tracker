@@ -61,7 +61,6 @@ def get_headers():
     }
 
 
-headers = get_headers()
 
 # ---------------- VENUES LOADER ----------------
 def load_all_venues(path="venues.json"):
@@ -490,6 +489,9 @@ def fetch_venue_safe(venue_code):
 
 # ---------------- MAIN ----------------
 if __name__ == "__main__":
+
+    headers = get_headers()   # ✅ restart hone pe naya headers banega
+
     with open("venues.json", "r", encoding="utf-8") as f:
         venues = json.load(f)
 
