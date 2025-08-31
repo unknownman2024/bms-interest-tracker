@@ -84,7 +84,7 @@ def format_rgross(value):
 
 # ---------------- FETCH DATA ----------------
 def fetch_data(venue_code):
-    url = f"https://in.bookmyshow.com/api/v2/mobile/showtimes/byvenue?venueCode={venue_code}&dateCode={DATE_CODE}"
+    url = f"https://in.bookmyshow.com/api/v2/mobile/showtimes/byvenue?venueCode={venue_code}&dateCode=20250901"
     try:
         res = scraper.get(url, headers=headers)
         res.raise_for_status()
