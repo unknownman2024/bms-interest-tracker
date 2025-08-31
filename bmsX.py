@@ -7,7 +7,6 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 import cloudscraper
 import random
-import pandas as pd
 from collections import defaultdict
 
 # ---------------- CONFIG ----------------
@@ -56,8 +55,6 @@ def get_headers():
     }
 
 
-headers = get_headers()
-
 # ---------------- VENUES LOADER ----------------
 def load_all_venues(path="venues.json"):
     with open(path, "r", encoding="utf-8") as f:
@@ -79,6 +76,7 @@ def format_rgross(value):
 def fetch_data(venue_code):
     url = f"https://in.bookmyshow.com/api/v2/mobile/showtimes/byvenue?venueCode={venue_code}&dateCode={DATE_CODE}"
     try:
+        headers = get_headers()
         res = scraper.get(url, headers=headers, timeout=15)
         res.raise_for_status()
         data = res.json()
@@ -171,7 +169,7 @@ def dump_progress(all_data, fetched_venues):
 
 # ---------------- SAFE FETCH ----------------
 def fetch_venue_safe(venue_code):
-    global error_count, processed_count
+    global error_count, processed_count, all_data, fetched_venues
     with lock:
         if venue_code in fetched_venues:
             return
@@ -181,9 +179,10 @@ def fetch_venue_safe(venue_code):
         with lock:
             error_count += 1
             if error_count >= MAX_ERRORS:
-                print("🛑 Too many errors. Exiting early...")
+                print("🛑 Too many errors. Restarting script...")
                 dump_progress(all_data, fetched_venues)
-                sys.exit(1)
+                # restart script with same args
+                os.execv(sys.executable, [sys.executable] + sys.argv)
     else:
         with lock:
             if venue_code not in all_data:
