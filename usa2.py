@@ -81,12 +81,9 @@ def get_random_ip():
 def get_seatmap_headers():
     random_ip = get_random_ip()
     return {
-        "User-Agent": get_random_user_agent(),
-        "Accept-Language": "en-US,en;q=0.9",
+        "User-Agent": "Mozilla/5.0",
         "Origin": "https://fandango.com",
         "Referer": "https://tickets.fandango.com/mobileexpress/seatselection",
-        "X-Forwarded-For": random_ip,
-        "Client-IP": random_ip,
         "Connection": "keep-alive",
         "Authorization": AUTHORIZATION_TOKEN,
         "X-Fd-Sessionid": SESSION_ID,
