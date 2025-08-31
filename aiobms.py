@@ -9,7 +9,9 @@ import cloudscraper
 import random
 import pandas as pd
 from collections import defaultdict
+import functools
 
+print = functools.partial(print, flush=True)
 # ---------------- CONFIG ----------------
 DATE_CODE = 20250901
 NUM_WORKERS = 5
