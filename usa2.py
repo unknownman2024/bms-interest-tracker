@@ -15,14 +15,14 @@ from collections import defaultdict
 
 # CONFIG
 DATE = "2025-09-24"
-MAX_WORKERS = 20
-CONCURRENCY = 50
+MAX_WORKERS = 30
+CONCURRENCY = 100
 ZIP_FILE = "zipcodes.txt"
 AUTHORIZATION_TOKEN = "<your-auth-token>"
 SESSION_ID = "<your-session-id>"
 
 # 🎯 If empty → fetch all movies
-TARGET_MOVIES = []  
+TARGET_MOVIES = ["241968"]  
 # Example → TARGET_MOVIES = ["241979", "240770"]
 
 KNOWN_LANGUAGES = [
