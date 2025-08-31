@@ -22,7 +22,7 @@ TARGET_MOVIE_ID = 241979
 # CODE BY BFILMY - DONT REMOVE
 
 MAX_WORKERS = 4  # For showtime fetching multiprocessing
-CONCURRENCY = 10  # For async seat fetching concurrency
+CONCURRENCY = 5  # For async seat fetching concurrency
 ZIP_FILE = "zipcodes.txt"
 ERROR_FILE_DEAD = "errored_seats.json"
 AUTHORIZATION_TOKEN = "<your-auth-token>"  # Replace here
@@ -81,18 +81,16 @@ def get_random_ip():
 def get_seatmap_headers():
     random_ip = get_random_ip()
     return {
-        "User-Agent": get_random_user_agent(),
-        "Accept-Language": "en-US,en;q=0.9",
+        "User-Agent": "Mozilla/5.1",
         "Origin": "https://fandango.com",
         "Referer": "https://tickets.fandango.com/mobileexpress/seatselection",
-        "X-Forwarded-For": random_ip,
-        "Client-IP": random_ip,
         "Connection": "keep-alive",
         "Authorization": AUTHORIZATION_TOKEN,
         "X-Fd-Sessionid": SESSION_ID,
         "authority": "tickets.fandango.com",
         "accept": "application/json",
     }
+
 
 
 # === Helper functions for language and format extraction ===
