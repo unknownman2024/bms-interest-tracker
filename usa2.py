@@ -21,6 +21,10 @@ ZIP_FILE = "zipcodes.txt"
 AUTHORIZATION_TOKEN = "<your-auth-token>"
 SESSION_ID = "<your-session-id>"
 
+# 🎯 If empty → fetch all movies
+TARGET_MOVIES = []  
+# Example → TARGET_MOVIES = ["241979", "240770"]
+
 KNOWN_LANGUAGES = [
     "English","Hindi","Tamil","Telugu","Kannada",
     "Malayalam","Punjabi","Gujarati","Marathi","Bengali",
@@ -142,6 +146,8 @@ def process_zip(args):
     if "theaters" in data:
         for theater in data["theaters"]:
             for movie in theater.get("movies", []):
+                if TARGET_MOVIES and str(movie.get("id")) not in TARGET_MOVIES:
+                    continue
                 theaters.append(
                     {
                         "movie_id": movie.get("id"),
@@ -244,9 +250,15 @@ if __name__ == "__main__":
     print("🎬 Scraping showtimes...")
     theaters = scrape_showtimes(zipcodes, DATE)
 
+    # Deduplicate shows
+    seen = set()
     movies_data = defaultdict(list)
     for t in theaters:
         for s in t["showtimes"]:
+            key = (t["movie_id"], s["showtime_id"])
+            if key in seen:
+                continue
+            seen.add(key)
             entry = {
                 "state": t["state"],
                 "city": t["city"],
@@ -264,7 +276,7 @@ if __name__ == "__main__":
             s["movie_id"] = mid
             flat_showtimes.append(s)
 
-    print(f"🎟️ Total showtimes across all movies: {len(flat_showtimes)}")
+    print(f"🎟️ Total unique showtimes: {len(flat_showtimes)}")
     print("💺 Fetching seat maps...")
     asyncio.run(run_all(flat_showtimes, CONCURRENCY))
 
