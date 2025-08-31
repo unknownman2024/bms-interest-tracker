@@ -512,6 +512,10 @@ if __name__ == "__main__":
     # Instead, load the final updated movie_summary.json
     with open("movie_summary.json", "r", encoding="utf-8") as f:
         movie_summary = json.load(f)
+        
+    # safeguard if it's list instead of dict
+    if isinstance(movie_summary, list):
+        movie_summary = {d.get("Movie", f"Movie_{i}"): d for i, d in enumerate(movie_summary)}
 
     df = pd.DataFrame([{"Movie": k, **v} for k, v in movie_summary.items()])
     df = df.sort_values(by="gross", ascending=False).reset_index(drop=True)
