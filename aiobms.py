@@ -256,10 +256,13 @@ def dump_progress(all_data, fetched_venues):
         with open("movie_summary.json", "r", encoding="utf-8") as f:
             try:
                 movie_summary = json.load(f)
-            except:
+                if not isinstance(movie_summary, dict):   # safety check
+                    movie_summary = {}
+            except json.JSONDecodeError:
                 movie_summary = {}
     else:
         movie_summary = {}
+
 
     # Load venues info for city/state mapping
     if os.path.exists("venues.json"):
