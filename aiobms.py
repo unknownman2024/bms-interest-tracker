@@ -22,6 +22,9 @@ scraper = cloudscraper.create_scraper()
 lock = threading.Lock()
 error_count = 0
 
+# ensure logs appear immediately in GitHub Actions
+sys.stdout.reconfigure(line_buffering=True)
+
 # Example User-Agent pool
 USER_AGENTS = [
     # Chrome on Windows
@@ -84,11 +87,12 @@ def format_rgross(value):
 def fetch_data(venue_code):
     url = f"https://in.bookmyshow.com/api/v2/mobile/showtimes/byvenue?venueCode={venue_code}&dateCode={DATE_CODE}"
     try:
-        res = scraper.get(url, headers=headers)
+        # Added timeout
+        res = scraper.get(url, headers=headers, timeout=10)
         res.raise_for_status()
         data = res.json()
     except Exception as e:
-        print(f"⚠️ Failed {venue_code}: {e}")
+        print(f"⚠️ Failed {venue_code}: {e}", flush=True)
         return None
 
     show_details = data.get("ShowDetails", [])
@@ -366,7 +370,7 @@ def dump_progress(all_data, fetched_venues):
                 )
 
                 # --- Update chain-level ---
-            chain = shows[0].get("chain", "Unknown")
+            chain = shows[0].get("chain", "Unknown") if shows else "Unknown"
 
             chain_block = None
             for d in movie_summary[movie]["Chain_details"]:
@@ -452,32 +456,40 @@ def dump_progress(all_data, fetched_venues):
 # ---------------- FETCH SAFE ----------------
 def fetch_venue_safe(venue_code):
     global error_count
+
     with lock:
         if venue_code in fetched_venues:
             return
 
     data = fetch_data(venue_code)
+
     if data is None:  # real error
         with lock:
             error_count += 1
-            if error_count >= MAX_ERRORS:
-                print("🛑 Too many errors. Restarting...")
-                dump_progress(all_data, fetched_venues)
-                time.sleep(0.5)
-                os.execv(sys.executable, ["python"] + sys.argv)
+            should_restart = error_count >= MAX_ERRORS
+
+        if should_restart:
+            print("🛑 Too many errors. Restarting...", flush=True)
+            dump_progress(all_data, fetched_venues)  # lock ke bahar
+            time.sleep(0.5)
+            os.execv(sys.executable, ["python"] + sys.argv)
+
     else:
         with lock:
             if venue_code not in all_data:
                 all_data[venue_code] = {}
-            # Only add to summary if non-empty
-            if data:
+            if data:  # Only add to summary if non-empty
                 for movie, shows in data.items():
                     all_data[venue_code][movie] = shows
             fetched_venues.add(venue_code)
-            print(
-                f"✅ Successfully fetched venue: {venue_code} ({len(fetched_venues)} fetched so far)"
-            )
-            dump_progress(all_data, fetched_venues)
+            fetched_count = len(fetched_venues)
+
+        print(
+            f"✅ Successfully fetched venue: {venue_code} ({fetched_count} fetched so far)",
+            flush=True
+        )
+
+        dump_progress(all_data, fetched_venues)  # lock ke bahar
 
 
 # ---------------- MAIN ----------------
@@ -506,8 +518,11 @@ if __name__ == "__main__":
 
     with ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
         futures = [executor.submit(fetch_venue_safe, vcode) for vcode in venues.keys()]
-        for _ in as_completed(futures):
-            pass
+        for future in as_completed(futures):
+            try:
+                future.result()   # catch exception and raise immediately
+            except Exception as e:
+                print(f"❌ Thread error: {e}", flush=True)
 
     # Instead, load the final updated movie_summary.json
     with open("movie_summary.json", "r", encoding="utf-8") as f:
