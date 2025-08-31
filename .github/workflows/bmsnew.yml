@@ -27,6 +27,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add venues_data.json fetchedvenues.json
+          git add movie_summary.json movie_summary.csv fetchedvenues.json processed_venues.json venues_data.json
           git commit -m "Auto-update venues data [skip ci]" || echo "No changes"
           git push
