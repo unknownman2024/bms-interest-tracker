@@ -1,4 +1,4 @@
-name: USA AIO Scraper
+name: USA Madharasi Scraper
 
 on:
   workflow_dispatch:   # manual run
