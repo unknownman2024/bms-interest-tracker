@@ -22,9 +22,6 @@ scraper = cloudscraper.create_scraper()
 lock = threading.Lock()
 error_count = 0
 
-# ensure logs appear immediately in GitHub Actions
-sys.stdout.reconfigure(line_buffering=True)
-
 # Example User-Agent pool
 USER_AGENTS = [
     # Chrome on Windows
@@ -87,12 +84,11 @@ def format_rgross(value):
 def fetch_data(venue_code):
     url = f"https://in.bookmyshow.com/api/v2/mobile/showtimes/byvenue?venueCode={venue_code}&dateCode={DATE_CODE}"
     try:
-        # Added timeout
-        res = scraper.get(url, headers=headers, timeout=10)
+        res = scraper.get(url, headers=headers)
         res.raise_for_status()
         data = res.json()
     except Exception as e:
-        print(f"⚠️ Failed {venue_code}: {e}", flush=True)
+        print(f"⚠️ Failed {venue_code}: {e}")
         return None
 
     show_details = data.get("ShowDetails", [])
@@ -370,7 +366,7 @@ def dump_progress(all_data, fetched_venues):
                 )
 
                 # --- Update chain-level ---
-            chain = shows[0].get("chain", "Unknown") if shows else "Unknown"
+            chain = shows[0].get("chain", "Unknown")
 
             chain_block = None
             for d in movie_summary[movie]["Chain_details"]:
@@ -472,8 +468,6 @@ def fetch_venue_safe(venue_code):
             print("🛑 Too many errors. Restarting...", flush=True)
             dump_progress(all_data, fetched_venues)  # lock ke bahar
             time.sleep(0.5)
-            global headers
-            headers = get_headers()
             os.execv(sys.executable, ["python"] + sys.argv)
 
     else:
@@ -520,11 +514,8 @@ if __name__ == "__main__":
 
     with ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
         futures = [executor.submit(fetch_venue_safe, vcode) for vcode in venues.keys()]
-        for future in as_completed(futures):
-            try:
-                future.result()   # catch exception and raise immediately
-            except Exception as e:
-                print(f"❌ Thread error: {e}", flush=True)
+        for _ in as_completed(futures):
+            pass
 
     # Instead, load the final updated movie_summary.json
     with open("movie_summary.json", "r", encoding="utf-8") as f:
