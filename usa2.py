@@ -13,7 +13,7 @@ from zoneinfo import ZoneInfo
 from collections import defaultdict
 
 # ================== CONFIG ==================
-DATE = "2025-09-24"
+DATE = "2025-09-04"
 MAX_WORKERS = 20           # process-level concurrency (per ZIP)
 CONCURRENCY = 50          # async seatmap concurrency
 ZIP_FILE = "zipcodes.txt"
