@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import time
 import asyncio
 import aiohttp
 from aiohttp_retry import RetryClient, ExponentialRetry
@@ -12,16 +13,16 @@ import datetime
 from zoneinfo import ZoneInfo
 from collections import defaultdict
 
-# ================== CONFIG ==================
-DATE = "2025-09-04"
-MAX_WORKERS = 20           # process-level concurrency (per ZIP)
-CONCURRENCY = 50          # async seatmap concurrency
+# CONFIG
+DATE = "2025-09-24"
+MAX_WORKERS = 30
+CONCURRENCY = 100
 ZIP_FILE = "zipcodes.txt"
 AUTHORIZATION_TOKEN = "<your-auth-token>"
 SESSION_ID = "<your-session-id>"
 
-# 🎯 If empty => fetch ALL movies on that date
-TARGET_MOVIES = ["241968"]  # e.g. ["241968"] or []
+# 🎯 If empty → fetch all movies
+TARGET_MOVIES = []
 
 KNOWN_LANGUAGES = [
     "English","Hindi","Tamil","Telugu","Kannada",
@@ -67,7 +68,6 @@ def get_seatmap_headers():
         "accept": "application/json",
     }
 
-# -------------- helpers: language/format --------------
 def extract_language(amenities):
     lang_priority = []
     for item in amenities:
@@ -107,7 +107,6 @@ def prepare_showtimes(movie):
                 )
     return out
 
-# -------------- Fandango theater list --------------
 def get_headers2(zip_code, date):
     random_ip = get_random_ip()
     return {
@@ -121,7 +120,7 @@ def get_headers2(zip_code, date):
         "Connection": "keep-alive",
     }
 
-def fetch_theaters_page(zip_code, date, page=1, limit=40):
+def get_theaters(zip_code, date, page=1, limit=40):
     url = "https://www.fandango.com/napi/theaterswithshowtimes"
     params = {
         "zipCode": zip_code,
@@ -132,35 +131,25 @@ def fetch_theaters_page(zip_code, date, page=1, limit=40):
         "filterEnabled": "true",
     }
     try:
-        r = requests.get(url, headers=get_headers2(zip_code, date), params=params, timeout=12)
+        r = requests.get(url, headers=get_headers2(zip_code, date), params=params, timeout=10)
         if r.status_code == 200:
             return r.json()
     except Exception as e:
-        print(f"❌ Error fetching theaters for ZIP {zip_code} page {page}: {e}")
+        print(f"❌ Error fetching theaters for ZIP {zip_code}: {e}")
     return {}
 
-def normalize_id(x):
-    # robust: support int/str, trim, avoid None
-    return str(x).strip() if x is not None else ""
-
 def process_zip(args):
-    zip_code, date, targets_set = args
-    # paginate until no results
-    page = 1
-    theaters_out = []
-    while True:
-        data = fetch_theaters_page(zip_code, date, page=page, limit=40)
-        if not data or "theaters" not in data or not data["theaters"]:
-            break
+    zip_code, date, page, limit = args
+    data = get_theaters(zip_code, date, page, limit)
+    theaters = []
+    if "theaters" in data:
         for theater in data["theaters"]:
             for movie in theater.get("movies", []):
-                mid = normalize_id(movie.get("id"))
-                # filter only if target list is provided
-                if targets_set and mid not in targets_set:
+                if TARGET_MOVIES and str(movie.get("id")) not in TARGET_MOVIES:
                     continue
-                theaters_out.append(
+                theaters.append(
                     {
-                        "movie_id": mid,
+                        "movie_id": movie.get("id"),
                         "theater_name": theater.get("name"),
                         "state": theater.get("state"),
                         "zip": theater.get("zip"),
@@ -170,13 +159,10 @@ def process_zip(args):
                         "showtimes": prepare_showtimes(movie),
                     }
                 )
-        page += 1
-    return theaters_out
+    return theaters
 
-def scrape_showtimes(zip_list, date, targets):
-    # pass targets explicitly to child processes (avoid relying on globals)
-    targets_set = {normalize_id(t) for t in targets} if targets else set()
-    args = [(z, date, targets_set) for z in zip_list]
+def scrape_showtimes(zip_list, date):
+    args = [(z, date, 1, 40) for z in zip_list]
     all_theaters = []
     with ProcessPoolExecutor(MAX_WORKERS) as executor:
         futures = {executor.submit(process_zip, a): a[0] for a in args}
@@ -186,14 +172,13 @@ def scrape_showtimes(zip_list, date, targets):
                 result = f.result()
                 if result:
                     all_theaters.extend(result)
-                    print(f"✅ {zip_code}: {len(result)} theater-movie matches")
+                    print(f"✅ ZIP {zip_code} processed, found {len(result)} theaters")
                 else:
-                    print(f"⚪ {zip_code}: none")
+                    print(f"⚪ ZIP {zip_code} processed, no theaters found")
             except Exception as e:
-                print(f"❌ {zip_code} failed: {e}")
+                print(f"❌ ZIP {zip_code} failed: {e}")
     return all_theaters
 
-# -------------- Seatmap (async) --------------
 def seatmap_url(showtime_id):
     return f"https://tickets.fandango.com/checkoutapi/showtimes/v2/{showtime_id}/seat-map/"
 
@@ -208,7 +193,7 @@ async def fetch_seat(session, show):
                 area = d.get("areas", [{}])[0]
                 available = d.get("totalAvailableSeatCount", 0)
                 total = d.get("totalSeatCount", 0)
-                sold = max(total - available, 0)
+                sold = total - available
                 show.update(
                     {
                         "totalSeatSold": sold,
@@ -221,7 +206,7 @@ async def fetch_seat(session, show):
                 )
                 ticket_info = area.get("ticketInfo", [])
                 for t in ticket_info:
-                    if "adult" in (t.get("desc", "") or "").lower():
+                    if "adult" in t.get("desc", "").lower():
                         try:
                             price = float(t.get("price", "0.0"))
                             show["adultTicketPrice"] = price
@@ -253,19 +238,18 @@ async def run_all(shows, concurrency=CONCURRENCY):
         for f in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc="Fetching seat maps"):
             await f
 
-# ================== MAIN ==================
 if __name__ == "__main__":
     print("📥 Reading zipcodes...")
     if not os.path.exists(ZIP_FILE):
         print(f"❌ Missing {ZIP_FILE}")
-        raise SystemExit(1)
-    zipcodes = [z.strip() for z in open(ZIP_FILE).read().splitlines() if z.strip()]
+        exit(1)
+    zipcodes = open(ZIP_FILE).read().splitlines()
     print(f"✅ {len(zipcodes)} ZIPs loaded.")
 
     print("🎬 Scraping showtimes...")
-    theaters = scrape_showtimes(zipcodes, DATE, TARGET_MOVIES)
+    theaters = scrape_showtimes(zipcodes, DATE)
 
-    # ---- Deduplicate shows by (movie_id, showtime_id) BEFORE seatmaps ----
+    # Deduplicate shows
     seen = set()
     movies_data = defaultdict(list)
     for t in theaters:
@@ -274,7 +258,7 @@ if __name__ == "__main__":
             if key in seen:
                 continue
             seen.add(key)
-            movies_data[t["movie_id"]].append({
+            entry = {
                 "state": t["state"],
                 "city": t["city"],
                 "zip": t["zip"],
@@ -282,9 +266,9 @@ if __name__ == "__main__":
                 "chainName": t["chainName"],
                 "chainCode": t["chainCode"],
                 **s,
-            })
+            }
+            movies_data[t["movie_id"]].append(entry)
 
-    # flatten for async calls
     flat_showtimes = []
     for mid, shows in movies_data.items():
         for s in shows:
@@ -292,36 +276,31 @@ if __name__ == "__main__":
             flat_showtimes.append(s)
 
     print(f"🎟️ Total unique showtimes: {len(flat_showtimes)}")
-    if flat_showtimes:
-        print("💺 Fetching seat maps...")
-        asyncio.run(run_all(flat_showtimes, CONCURRENCY))
-    else:
-        print("⚠️ No shows found for given filters/date.")
+    print("💺 Fetching seat maps...")
+    asyncio.run(run_all(flat_showtimes, CONCURRENCY))
 
-    # ---- Save master JSON ----
     out_dir = "USA Data"
     os.makedirs(out_dir, exist_ok=True)
 
     main_file = os.path.join(out_dir, f"ALLMOVIES_{DATE}.json")
     final_json = [{"id": mid, "data": shows} for mid, shows in movies_data.items()]
-    with open(main_file, "w", encoding="utf-8") as f:
+    with open(main_file, "w") as f:
         json.dump(final_json, f, indent=2, ensure_ascii=False)
     print(f"💾 Saved master data → {main_file}")
 
-    # ---- Combined logs (append) ----
     now_ist = datetime.datetime.now(ZoneInfo("Asia/Kolkata")).strftime("%Y-%m-%d %I:%M:%S %p")
     combined_logs_file = os.path.join(out_dir, f"ALLMOVIES_{DATE}_logs.json")
     combined_logs_entry = {"time": now_ist, "movies": []}
 
     for mid, shows in movies_data.items():
-        total_gross = total_shows = total_sold = total_capacity = 0
+        total_gross, total_shows, total_sold, total_capacity = 0.0, 0, 0, 0
         venues = set()
         for s in shows:
             if "error" not in s:
-                total_gross += float(s.get("grossRevenueUSD", 0.0) or 0.0)
+                total_gross += s.get("grossRevenueUSD", 0.0)
                 total_shows += 1
-                total_sold += int(s.get("totalSeatSold", 0) or 0)
-                total_capacity += int(s.get("totalSeatCount", 0) or 0)
+                total_sold += s.get("totalSeatSold", 0)
+                total_capacity += s.get("totalSeatCount", 0)
                 venues.add(s.get("theater_name"))
         avg_occupancy = round((total_sold / total_capacity) * 100, 2) if total_capacity else 0.0
         combined_logs_entry["movies"].append({
@@ -336,13 +315,14 @@ if __name__ == "__main__":
     existing_combined = []
     if os.path.exists(combined_logs_file):
         try:
-            existing_combined = json.load(open(combined_logs_file, "r", encoding="utf-8"))
+            existing_combined = json.load(open(combined_logs_file))
             if not isinstance(existing_combined, list):
                 existing_combined = []
         except Exception:
             existing_combined = []
+
     existing_combined.append(combined_logs_entry)
-    with open(combined_logs_file, "w", encoding="utf-8") as f:
+    with open(combined_logs_file, "w") as f:
         json.dump(existing_combined, f, indent=2, ensure_ascii=False)
 
     print(f"📝 Combined logs saved → {combined_logs_file}")
