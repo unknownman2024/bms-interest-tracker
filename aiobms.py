@@ -52,14 +52,34 @@ def get_random_ip():
 
 def get_headers():
     random_ip = get_random_ip()
-    return {
-        "User-Agent": get_random_user_agent(),
+    ua = get_random_user_agent()
+
+    # random platform pick karte hain
+    platforms = ['"Windows"', '"macOS"', '"Linux"']
+    platform = random.choice(platforms)
+
+    headers = {
+        "User-Agent": ua,
         "Accept": "application/json, text/plain, */*",
         "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",  # ✅ add
+        "Connection": "keep-alive",              # ✅ add
         "Origin": "https://in.bookmyshow.com",
         "Referer": "https://in.bookmyshow.com/",
-    }
+        
+        # --- Client spoof ---
+        "X-Forwarded-For": random_ip,
+        "Client-IP": random_ip,
 
+        # --- Browser fingerprint headers ---
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Ch-Ua": f'"Chromium";v="{random.randint(100,120)}", "Not?A_Brand";v="{random.randint(20,40)}"',
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": platform,
+    }
+    return headers
 
 headers = get_headers()
 
@@ -84,7 +104,7 @@ def format_rgross(value):
 def fetch_data(venue_code):
     url = f"https://in.bookmyshow.com/api/v2/mobile/showtimes/byvenue?venueCode={venue_code}&dateCode=20250901"
     try:
-        res = scraper.get(url, headers = get_headers())
+        res = scraper.get(url, headers = headers)
         res.raise_for_status()
         data = res.json()
     except Exception as e:
