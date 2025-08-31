@@ -27,13 +27,13 @@ error_count = 0
 # Example User-Agent pool
 USER_AGENTS = [
     # Chrome on Windows
-    "Mozilla/5.1 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{version} Safari/537.36",
+    "Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{version} Safari/537.36",
     # Firefox on Windows
-    "Mozilla/5.1 (Windows NT 11.0; Win64; x64; rv:{version}) Gecko/20100101 Firefox/{version}",
+    "Mozilla/5.0 (Windows NT 11.0; Win64; x64; rv:{version}) Gecko/20100101 Firefox/{version}",
     # Chrome on Mac
-    "Mozilla/5.1 (Macintosh; Intel Mac OS X 10_{minor}_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{version} Safari/537.38",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_{minor}_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{version} Safari/537.38",
     # Safari on Mac
-    "Mozilla/5.1 (Macintosh; Intel Mac OS X 10_{minor}_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/{safari_ver} Safari/605.1.16",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_{minor}_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/{safari_ver} Safari/605.1.16",
 ]
 
 
@@ -58,8 +58,6 @@ def get_headers():
         "Accept-Language": "en-US,en;q=0.9",
         "Origin": "https://in.bookmyshow.com",
         "Referer": "https://in.bookmyshow.com/",
-        "X-Forwarded-For": random_ip,
-        "Client-IP": random_ip,
     }
 
 
