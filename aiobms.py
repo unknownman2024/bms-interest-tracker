@@ -88,7 +88,7 @@ def fetch_data(venue_code):
     url = f"https://in.bookmyshow.com/api/v2/mobile/showtimes/byvenue?venueCode={venue_code}&dateCode={DATE_CODE}"
     try:
         # Added timeout
-        res = scraper.get(url, headers=get_headers(), timeout=10)
+        res = scraper.get(url, headers=headers, timeout=10)
         res.raise_for_status()
         data = res.json()
     except Exception as e:
@@ -472,7 +472,8 @@ def fetch_venue_safe(venue_code):
             print("🛑 Too many errors. Restarting...", flush=True)
             dump_progress(all_data, fetched_venues)  # lock ke bahar
             time.sleep(0.5)
-            scraper = cloudscraper.create_scraper()
+            global headers
+            headers = get_headers()
             os.execv(sys.executable, ["python"] + sys.argv)
 
     else:
