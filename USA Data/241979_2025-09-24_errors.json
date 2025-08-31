@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-31 11:54:12 AM",
+  "last_updated": "2025-08-31 12:25:06 PM",
   "errors": [
     {
       "state": "IL",
@@ -116,6 +116,21 @@
       "showtime_id": 514286195,
       "date": "2025-09-24+22:30",
       "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
+      }
+    },
+    {
+      "state": "MI",
+      "city": "Taylor",
+      "zip": "48180",
+      "theater_name": "Cinemark Southland Mall and XD",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 514321946,
+      "date": "2025-09-24+21:30",
+      "format": "Cinemark XD",
       "language": "Telugu",
       "error": {
         "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
