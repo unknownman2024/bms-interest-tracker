@@ -11,7 +11,7 @@ import pandas as pd
 from collections import defaultdict
 
 # ---------------- CONFIG ----------------
-DATE_CODE = 20250901
+DATE_CODE = 20250831
 NUM_WORKERS = 5
 MAX_ERRORS = 10
 
