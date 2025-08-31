@@ -2842,5 +2842,23 @@
     "totalSeatCount": 161,
     "grossRevenueUSD": 172.81,
     "adultTicketPrice": 15.71
+  },
+  {
+    "state": "IN",
+    "city": "Fort Wayne",
+    "zip": "46825",
+    "theater_name": "Regal Coldwater Crossing",
+    "chainName": "Regal",
+    "chainCode": "REGL",
+    "showtime_id": 514323672,
+    "date": "2025-09-04+21:00",
+    "format": "Standard",
+    "language": "Tamil",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 60,
+    "totalSeatCount": 60,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 15.49
   }
 ]
