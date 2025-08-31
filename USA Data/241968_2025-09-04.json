@@ -1810,11 +1810,11 @@
     "date": "2025-09-04+19:45",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 6,
-    "occupancy": 4.58,
-    "totalAvailableSeatCount": 125,
+    "totalSeatSold": 7,
+    "occupancy": 5.34,
+    "totalAvailableSeatCount": 124,
     "totalSeatCount": 131,
-    "grossRevenueUSD": 89.28,
+    "grossRevenueUSD": 104.16,
     "adultTicketPrice": 14.88
   },
   {
