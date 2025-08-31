@@ -1,4 +1,4 @@
-name: Fetch BookMyShow
+name: Fetch BookMyShow Data
 
 on:
   schedule:
@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-version: "3.11"
+        python-version: "3.10"
 
     - name: Install dependencies
       run: |
@@ -24,12 +24,12 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run fetch script
-      run: python aiobms.py
+      run: python fetch_bms.py
 
     - name: Commit & Push results
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add -A
+        git add movie_summary.json movie_summary.csv fetchedvenues.json processed_venues.json venues_data.json
         git commit -m "Auto update movie summary [skip ci]" || echo "No changes"
         git push
