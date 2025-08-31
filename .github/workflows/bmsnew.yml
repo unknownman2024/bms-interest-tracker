@@ -1,0 +1,32 @@
+name: BMSX Scraper
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # हर घंटे चलेगा (UTC time, adjust कर सकते हो)
+  workflow_dispatch:       # manual run भी कर सकते हो
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Scraper
+        run: python bmsX.py
+
+      - name: Commit & Push Results
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add venues_data.json fetchedvenues.json
+          git commit -m "Auto-update venues data [skip ci]" || echo "No changes"
+          git push
