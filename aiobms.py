@@ -61,6 +61,7 @@ def get_headers():
     }
 
 
+headers = get_headers()
 
 # ---------------- VENUES LOADER ----------------
 def load_all_venues(path="venues.json"):
@@ -451,47 +452,36 @@ def dump_progress(all_data, fetched_venues):
 # ---------------- FETCH SAFE ----------------
 def fetch_venue_safe(venue_code):
     global error_count
-
     with lock:
         if venue_code in fetched_venues:
             return
 
     data = fetch_data(venue_code)
-
     if data is None:  # real error
         with lock:
             error_count += 1
-            should_restart = error_count >= MAX_ERRORS
-
-        if should_restart:
-            print("🛑 Too many errors. Restarting...", flush=True)
-            dump_progress(all_data, fetched_venues)  # lock ke bahar
-            time.sleep(0.5)
-            os.execv(sys.executable, ["python"] + sys.argv)
-
+            if error_count >= MAX_ERRORS:
+                print("🛑 Too many errors. Restarting...")
+                dump_progress(all_data, fetched_venues)
+                time.sleep(0.5)
+                os.execv(sys.executable, ["python"] + sys.argv)
     else:
         with lock:
             if venue_code not in all_data:
                 all_data[venue_code] = {}
-            if data:  # Only add to summary if non-empty
+            # Only add to summary if non-empty
+            if data:
                 for movie, shows in data.items():
                     all_data[venue_code][movie] = shows
             fetched_venues.add(venue_code)
-            fetched_count = len(fetched_venues)
-
-        print(
-            f"✅ Successfully fetched venue: {venue_code} ({fetched_count} fetched so far)",
-            flush=True
-        )
-
-        dump_progress(all_data, fetched_venues)  # lock ke bahar
+            print(
+                f"✅ Successfully fetched venue: {venue_code} ({len(fetched_venues)} fetched so far)"
+            )
+            dump_progress(all_data, fetched_venues)
 
 
 # ---------------- MAIN ----------------
 if __name__ == "__main__":
-
-    headers = get_headers()   # ✅ restart hone pe naya headers banega
-
     with open("venues.json", "r", encoding="utf-8") as f:
         venues = json.load(f)
 
