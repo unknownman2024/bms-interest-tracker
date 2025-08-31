@@ -512,10 +512,6 @@ if __name__ == "__main__":
     # Instead, load the final updated movie_summary.json
     with open("movie_summary.json", "r", encoding="utf-8") as f:
         movie_summary = json.load(f)
-        
-    # safeguard if it's list instead of dict
-    if isinstance(movie_summary, list):
-        movie_summary = {d.get("Movie", f"Movie_{i}"): d for i, d in enumerate(movie_summary)}
 
     df = pd.DataFrame([{"Movie": k, **v} for k, v in movie_summary.items()])
     df = df.sort_values(by="gross", ascending=False).reset_index(drop=True)
@@ -548,22 +544,12 @@ if __name__ == "__main__":
         key = (base_title, lang)
 
         if key not in lang_summary:
-            lang_summary[key] = {
-                "gross": 0,
-                "nett": 0,
-                "tickets": 0,
-                "atp": 0,
-                "occupancy": 0,
-                "shows": 0,   # always initialize
-            }
+            lang_summary[key] = {"shows": 0, "gross": 0.0, "sold": 0, "totalSeats": 0}
 
-        lang_summary[key]["gross"] += stats.get("gross", 0)
-        lang_summary[key]["nett"] += stats.get("nett", 0)
-        lang_summary[key]["tickets"] += stats.get("tickets", 0)
-        lang_summary[key]["atp"] += stats.get("atp", 0)
-        lang_summary[key]["occupancy"] += stats.get("occupancy", 0)
-        lang_summary[key]["shows"] += stats.get("shows", 0)   # fixed
-
+        lang_summary[key]["shows"] += stats["shows"]
+        lang_summary[key]["gross"] += stats["gross"]
+        lang_summary[key]["sold"] += stats["sold"]
+        lang_summary[key]["totalSeats"] += stats["totalSeats"]
 
     for (title, lang), stats in lang_summary.items():
         occ = (
