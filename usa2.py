@@ -14,7 +14,7 @@ from zoneinfo import ZoneInfo
 from collections import defaultdict
 
 # CONFIG
-DATE = "2025-09-24"
+DATE = "2025-09-25"
 MAX_WORKERS = 30
 CONCURRENCY = 100
 ZIP_FILE = "zipcodes.txt"
