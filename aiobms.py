@@ -547,22 +547,22 @@ if __name__ == "__main__":
 
         key = (base_title, lang)
 
-if key not in lang_summary:
-    lang_summary[key] = {
-        "gross": 0,
-        "nett": 0,
-        "tickets": 0,
-        "atp": 0,
-        "occupancy": 0,
-        "shows": 0,   # always initialize
-    }
+        if key not in lang_summary:
+            lang_summary[key] = {
+                "gross": 0,
+                "nett": 0,
+                "tickets": 0,
+                "atp": 0,
+                "occupancy": 0,
+                "shows": 0,   # always initialize
+            }
 
-lang_summary[key]["gross"] += stats.get("gross", 0)
-lang_summary[key]["nett"] += stats.get("nett", 0)
-lang_summary[key]["tickets"] += stats.get("tickets", 0)
-lang_summary[key]["atp"] += stats.get("atp", 0)
-lang_summary[key]["occupancy"] += stats.get("occupancy", 0)
-lang_summary[key]["shows"] += stats.get("shows", 0)   # fixed
+        lang_summary[key]["gross"] += stats.get("gross", 0)
+        lang_summary[key]["nett"] += stats.get("nett", 0)
+        lang_summary[key]["tickets"] += stats.get("tickets", 0)
+        lang_summary[key]["atp"] += stats.get("atp", 0)
+        lang_summary[key]["occupancy"] += stats.get("occupancy", 0)
+        lang_summary[key]["shows"] += stats.get("shows", 0)   # fixed
 
 
     for (title, lang), stats in lang_summary.items():
