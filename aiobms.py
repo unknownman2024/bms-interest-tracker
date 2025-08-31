@@ -97,13 +97,6 @@ def fetch_data(venue_code):
     if not show_details:
         return {}
 
-    api_date = show_details[0].get("Date")
-    if str(api_date) != str(DATE_CODE):
-        print(
-            f"⏩ Skipping summary for {venue_code} (date mismatch: {api_date} vs {DATE_CODE})"
-        )
-        # Return empty dict so it's still marked as fetched
-        return {}
 
     # --- process normally ---
     venue_info = show_details[0].get("Venues", {})
