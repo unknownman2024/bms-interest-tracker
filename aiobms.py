@@ -448,6 +448,10 @@ def dump_progress(all_data, fetched_venues):
         f"💾 Progress dumped. Venues: {len(fetched_venues)} (New added: {len(new_venues)})"
     )
 
+    # --- NEW: Save all_data snapshot for resume ---
+    with open("venues_data.json.tmp", "w", encoding="utf-8") as f:
+        json.dump(all_data, f, indent=2, ensure_ascii=False)
+    os.replace("venues_data.json.tmp", "venues_data.json")
 
 # ---------------- FETCH SAFE ----------------
 def fetch_venue_safe(venue_code):
