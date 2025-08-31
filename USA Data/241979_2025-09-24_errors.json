@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-31 05:15:48 AM",
+  "last_updated": "2025-08-31 06:41:53 AM",
   "errors": [
     {
       "state": "IL",
@@ -115,21 +115,6 @@
       "chainCode": "CNMK",
       "showtime_id": 514286195,
       "date": "2025-09-24+22:30",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": "200, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://tickets.fandango.com/region-error'"
-      }
-    },
-    {
-      "state": "SC",
-      "city": "Mount Pleasant",
-      "zip": "29464",
-      "theater_name": "Regal Palmetto Grande",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514302489,
-      "date": "2025-09-24+22:00",
       "format": "Standard",
       "language": "Telugu",
       "error": {
