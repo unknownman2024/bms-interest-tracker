@@ -2,24 +2,35 @@ import requests
 import json
 import os
 import time
+import ssl
+import random
 import asyncio
 import aiohttp
 from aiohttp_retry import RetryClient, ExponentialRetry
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from tqdm import tqdm
-import ssl
-import random
-import datetime
-from zoneinfo import ZoneInfo   # built-in, no pip install needed
+from datetime import datetime, date
+from zoneinfo import ZoneInfo
 
 # CONFIG
-DATE = "2025-09-24"
+RELEASE_DATE = date(2025, 9, 24)
 TARGET_MOVIE_ID = 241979
+
 # Change for different movie
+# 241922 for Baaghi4
 # 241979 for OG
 # 241378 for coolie
 # 240770 for war2
 # CODE BY BFILMY - DONT REMOVE
+
+# Get current date in USA Pacific Time
+now_pst = datetime.now(ZoneInfo("America/Los_Angeles")).date()
+# Logic for DATE
+if now_pst < RELEASE_DATE:
+    DATE = RELEASE_DATE.strftime("%Y-%m-%d")
+else:
+    DATE = now_pst.strftime("%Y-%m-%d")
+print(f"🎬 Using DATE = {DATE} (PST)")
 
 MAX_WORKERS = 4  # For showtime fetching multiprocessing
 CONCURRENCY = 5  # For async seat fetching concurrency
@@ -81,7 +92,7 @@ def get_random_ip():
 def get_seatmap_headers():
     random_ip = get_random_ip()
     return {
-        "User-Agent": "Mozilla/5.1",
+        "User-Agent": "Mozilla/5.0",
         "Origin": "https://fandango.com",
         "Referer": "https://tickets.fandango.com/mobileexpress/seatselection",
         "Connection": "keep-alive",
@@ -90,7 +101,6 @@ def get_seatmap_headers():
         "authority": "tickets.fandango.com",
         "accept": "application/json",
     }
-
 
 
 # === Helper functions for language and format extraction ===
@@ -389,7 +399,7 @@ if __name__ == "__main__":
     # Save only errors separately
     errors = [s for s in final_all if "error" in s]
     # Convert to IST
-    now_ist = datetime.datetime.now(ZoneInfo("Asia/Kolkata")).strftime("%Y-%m-%d %I:%M:%S %p")
+    now_ist = datetime.now(ZoneInfo("Asia/Kolkata")).strftime("%Y-%m-%d %I:%M:%S %p")
     
     error_payload = {
         "last_updated": now_ist,
