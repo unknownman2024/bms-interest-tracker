@@ -7,9 +7,9 @@ VENUES = [
     "https://omniwebticketing5.com/orleans/",
     "https://omniwebticketing5.com/woodside/",
     "https://omniwebticketing5.com/york/",
+    "https://omniwebticketing5.com/albion/",
     "https://omniwebticketing5.com/garden-city/",
     "https://omniwebticketing2.com/theatre6/",
-    "https://omniwebticketing5.com/albion/",
 ]
 
 SCH_DATE = "2025-09-24"
