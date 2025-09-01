@@ -1,4 +1,4 @@
-name: USA Aio Scraper
+name: USA Baaghi 4 Scraper
 
 on:
   workflow_dispatch:   # manual run
@@ -30,7 +30,7 @@ jobs:
           AUTHORIZATION_TOKEN: ${{ secrets.AUTHORIZATION_TOKEN }}
           SESSION_ID: ${{ secrets.SESSION_ID }}
         run: |
-          python USAAio25Sep.py
+          python usa3.py
 
       - name: Commit & Push results
         run: |
