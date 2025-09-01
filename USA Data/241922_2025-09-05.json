@@ -46,9 +46,12 @@
     "date": "2025-09-05+18:00",
     "format": "Standard",
     "language": "Hindi",
-    "error": {
-      "status": 403
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 58,
+    "totalSeatCount": 58,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 14.49
   },
   {
     "state": "NY",
