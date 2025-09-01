@@ -25,8 +25,8 @@
     "date": "2025-09-24",
     "time": "6:45pm",
     "total": 204,
-    "available": 149,
-    "blocked": 20,
+    "available": 146,
+    "blocked": 23,
     "sold": 35,
     "gross": 681.45,
     "gross_with_tax": 813.75,
@@ -63,8 +63,8 @@
     "date": "2025-09-24",
     "time": "3:30pm",
     "total": 102,
-    "available": 68,
-    "blocked": 12,
+    "available": 67,
+    "blocked": 13,
     "sold": 22,
     "gross": 584.1,
     "gross_with_tax": 687.5,
@@ -120,8 +120,8 @@
     "date": "2025-09-24",
     "time": "6:00pm",
     "total": 263,
-    "available": 233,
-    "blocked": 14,
+    "available": 245,
+    "blocked": 2,
     "sold": 16,
     "gross": 382.24,
     "gross_with_tax": 452.0,
@@ -225,6 +225,158 @@
       "tax": 0.0,
       "fee": 1.0,
       "grand": 28.0
+    }
+  },
+  {
+    "venue": "york",
+    "movie": "They Call Him OG  -Telugu",
+    "perfIx": "33351",
+    "date": "2025-09-24",
+    "time": "2:45pm",
+    "total": 203,
+    "available": 77,
+    "blocked": 88,
+    "sold": 38,
+    "gross": 907.82,
+    "gross_with_tax": 1073.5,
+    "per_ticket": {
+      "net": 23.89,
+      "tax": 3.11,
+      "fee": 1.25,
+      "grand": 28.25
+    }
+  },
+  {
+    "venue": "york",
+    "movie": "They Call Him OG  -Telugu",
+    "perfIx": "33352",
+    "date": "2025-09-24",
+    "time": "6:45pm",
+    "total": 203,
+    "available": 40,
+    "blocked": 130,
+    "sold": 33,
+    "gross": 788.37,
+    "gross_with_tax": 932.25,
+    "per_ticket": {
+      "net": 23.89,
+      "tax": 3.11,
+      "fee": 1.25,
+      "grand": 28.25
+    }
+  },
+  {
+    "venue": "york",
+    "movie": "They Call Him OG  -Telugu",
+    "perfIx": "33353",
+    "date": "2025-09-24",
+    "time": "10:15pm",
+    "total": 203,
+    "available": 166,
+    "blocked": 9,
+    "sold": 28,
+    "gross": 668.92,
+    "gross_with_tax": 791.0,
+    "per_ticket": {
+      "net": 23.89,
+      "tax": 3.11,
+      "fee": 1.25,
+      "grand": 28.25
+    }
+  },
+  {
+    "venue": "york",
+    "movie": "They Call Him OG  -Telugu",
+    "perfIx": "33356",
+    "date": "2025-09-24",
+    "time": "3:00pm",
+    "total": 195,
+    "available": 158,
+    "blocked": 6,
+    "sold": 31,
+    "gross": 740.59,
+    "gross_with_tax": 875.75,
+    "per_ticket": {
+      "net": 23.89,
+      "tax": 3.11,
+      "fee": 1.25,
+      "grand": 28.25
+    }
+  },
+  {
+    "venue": "york",
+    "movie": "They Call Him OG  -Telugu",
+    "perfIx": "33357",
+    "date": "2025-09-24",
+    "time": "7:00pm",
+    "total": 195,
+    "available": 149,
+    "blocked": 15,
+    "sold": 31,
+    "gross": 740.59,
+    "gross_with_tax": 875.75,
+    "per_ticket": {
+      "net": 23.89,
+      "tax": 3.11,
+      "fee": 1.25,
+      "grand": 28.25
+    }
+  },
+  {
+    "venue": "york",
+    "movie": "They Call Him OG  -Telugu",
+    "perfIx": "33348",
+    "date": "2025-09-24",
+    "time": "2:30pm",
+    "total": 281,
+    "available": 4,
+    "blocked": 179,
+    "sold": 98,
+    "gross": 2601.9,
+    "gross_with_tax": 3062.5,
+    "per_ticket": {
+      "net": 26.55,
+      "tax": 3.45,
+      "fee": 1.25,
+      "grand": 31.25
+    }
+  },
+  {
+    "venue": "york",
+    "movie": "They Call Him OG  -Telugu",
+    "perfIx": "33349",
+    "date": "2025-09-24",
+    "time": "6:30pm",
+    "total": 281,
+    "available": 0,
+    "blocked": 181,
+    "sold": 100,
+    "gross": 2655.0,
+    "gross_with_tax": 3125.0,
+    "per_ticket": {
+      "net": 26.55,
+      "tax": 3.45,
+      "fee": 1.25,
+      "grand": 31.25
+    }
+  },
+  {
+    "venue": "york",
+    "movie": "They Call Him OG  -Telugu",
+    "perfIx": "33350",
+    "date": "2025-09-24",
+    "time": "10:00pm",
+    "total": 281,
+    "available": 79,
+    "blocked": 106,
+    "sold": 96,
+    "gross": 2548.8,
+    "gross_with_tax": 3000.0,
+    "per_ticket": {
+      "net": 26.55,
+      "tax": 3.45,
+      "fee": 1.25,
+      "grand": 31.25
     }
   }
 ]
