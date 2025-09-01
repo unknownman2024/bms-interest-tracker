@@ -1021,5 +1021,23 @@
     "error": {
       "status": 404
     }
+  },
+  {
+    "state": "NJ",
+    "city": "New Brunswick",
+    "zip": "08901",
+    "theater_name": "AMC New Brunswick 18",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514370956,
+    "date": "2025-09-05+20:50",
+    "format": "Standard",
+    "language": "Hindi",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 302,
+    "totalSeatCount": 302,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 13.32
   }
 ]
