@@ -46,11 +46,11 @@
     "date": "2025-09-04+20:30",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 48,
-    "occupancy": 46.15,
-    "totalAvailableSeatCount": 56,
+    "totalSeatSold": 49,
+    "occupancy": 47.12,
+    "totalAvailableSeatCount": 55,
     "totalSeatCount": 104,
-    "grossRevenueUSD": 648.0,
+    "grossRevenueUSD": 661.5,
     "adultTicketPrice": 13.5
   },
   {
@@ -460,11 +460,11 @@
     "date": "2025-09-04+20:30",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 103,
+    "totalSeatSold": 1,
+    "occupancy": 0.97,
+    "totalAvailableSeatCount": 102,
     "totalSeatCount": 103,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 14.51,
     "adultTicketPrice": 14.51
   },
   {
