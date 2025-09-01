@@ -1039,5 +1039,23 @@
     "totalSeatCount": 302,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 13.32
+  },
+  {
+    "state": "GA",
+    "city": "Cumming",
+    "zip": "30041",
+    "theater_name": "AMC Avenue Forsyth 12",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514380362,
+    "date": "2025-09-05+20:45",
+    "format": "Standard",
+    "language": "Hindi",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 170,
+    "totalSeatCount": 170,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 16.04
   }
 ]
