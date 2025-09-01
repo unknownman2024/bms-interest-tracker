@@ -2,7 +2,6 @@ name: Fetch BookMyShow Data
 
 on:
   schedule:
-    - cron: "0 */3 * * *"   # runs every 3 hours
   workflow_dispatch:        # allows manual run
 
 jobs:
