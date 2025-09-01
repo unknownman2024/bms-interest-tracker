@@ -16,7 +16,7 @@ from collections import defaultdict
 # CONFIG
 DATE = "2025-09-25"
 MAX_WORKERS = 50
-CONCURRENCY = 10
+CONCURRENCY = 100
 ZIP_FILE = "zipcodes.txt"
 AUTHORIZATION_TOKEN = "<your-auth-token>"
 SESSION_ID = "<your-session-id>"
