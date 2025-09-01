@@ -1,4 +1,20 @@
 {
-  "last_updated": "2025-09-01 07:42:29 PM",
-  "errors": []
+  "last_updated": "2025-09-01 08:42:34 PM",
+  "errors": [
+    {
+      "state": "GA",
+      "city": "Morrow",
+      "zip": "30260",
+      "theater_name": "AMC Southlake 24",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 0,
+      "date": "2025-09-05+18:45",
+      "format": "Standard",
+      "language": "Hindi",
+      "error": {
+        "status": 404
+      }
+    }
+  ]
 }
