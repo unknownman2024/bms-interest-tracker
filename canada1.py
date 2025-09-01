@@ -47,8 +47,8 @@ def extract_security_token(html_text):
 
 
 def extract_counts(html_text):
-    blocked = len(re.findall(r'class="ow-cb[^"]*ow-sp', html_text))  # blocked
-    sold = len(re.findall(r'class="ow-cb[^"]*ow-hs', html_text))     # sold
+    sold = len(re.findall(r'class="ow-cb[^"]*ow-sp', html_text))  # sold
+    blocked = len(re.findall(r'class="ow-cb[^"]*ow-hs', html_text))     # blocked
     available = len(re.findall(r'class="ow-cb[^"]*ow-cb-av', html_text))
     total = sold + blocked + available
     return available, blocked, sold, total
