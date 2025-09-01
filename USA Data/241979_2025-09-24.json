@@ -2188,12 +2188,12 @@
     "date": "2025-09-24+14:00",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 260,
+    "totalSeatSold": 276,
     "occupancy": 100,
     "totalAvailableSeatCount": 0,
-    "totalSeatCount": 260,
-    "grossRevenueUSD": 7800,
-    "adultTicketPrice": 30
+    "totalSeatCount": 276,
+    "grossRevenueUSD": 8964.48,
+    "adultTicketPrice": 32.48
   },
   {
     "state": "TX",
@@ -2206,12 +2206,12 @@
     "date": "2025-09-24+17:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 260,
+    "totalSeatSold": 276,
     "occupancy": 100,
     "totalAvailableSeatCount": 0,
-    "totalSeatCount": 260,
-    "grossRevenueUSD": 7800,
-    "adultTicketPrice": 30
+    "totalSeatCount": 276,
+    "grossRevenueUSD": 8964.48,
+    "adultTicketPrice": 32.48
   },
   {
     "state": "TX",
