@@ -1,0 +1,230 @@
+[
+  {
+    "venue": "central-parkway",
+    "movie": "They Call Him OG  -Telugu",
+    "perfIx": "17809",
+    "date": "2025-09-24",
+    "time": "2:45pm",
+    "total": 204,
+    "available": 151,
+    "blocked": 8,
+    "sold": 45,
+    "gross": 876.15,
+    "gross_with_tax": 1046.25,
+    "per_ticket": {
+      "net": 19.47,
+      "tax": 2.53,
+      "fee": 1.25,
+      "grand": 23.25
+    }
+  },
+  {
+    "venue": "central-parkway",
+    "movie": "They Call Him OG  -Telugu",
+    "perfIx": "17810",
+    "date": "2025-09-24",
+    "time": "6:45pm",
+    "total": 204,
+    "available": 149,
+    "blocked": 20,
+    "sold": 35,
+    "gross": 681.45,
+    "gross_with_tax": 813.75,
+    "per_ticket": {
+      "net": 19.47,
+      "tax": 2.53,
+      "fee": 1.25,
+      "grand": 23.25
+    }
+  },
+  {
+    "venue": "central-parkway",
+    "movie": "They Call Him OG  -Telugu",
+    "perfIx": "17811",
+    "date": "2025-09-24",
+    "time": "10:15pm",
+    "total": 204,
+    "available": 169,
+    "blocked": 0,
+    "sold": 35,
+    "gross": 681.45,
+    "gross_with_tax": 813.75,
+    "per_ticket": {
+      "net": 19.47,
+      "tax": 2.53,
+      "fee": 1.25,
+      "grand": 23.25
+    }
+  },
+  {
+    "venue": "orleans",
+    "movie": "They Call Him OG  -Telugu",
+    "perfIx": "749",
+    "date": "2025-09-24",
+    "time": "3:30pm",
+    "total": 102,
+    "available": 68,
+    "blocked": 12,
+    "sold": 22,
+    "gross": 584.1,
+    "gross_with_tax": 687.5,
+    "per_ticket": {
+      "net": 26.55,
+      "tax": 3.45,
+      "fee": 1.25,
+      "grand": 31.25
+    }
+  },
+  {
+    "venue": "orleans",
+    "movie": "They Call Him OG  -Telugu",
+    "perfIx": "750",
+    "date": "2025-09-24",
+    "time": "6:30pm",
+    "total": 102,
+    "available": 74,
+    "blocked": 6,
+    "sold": 22,
+    "gross": 584.1,
+    "gross_with_tax": 687.5,
+    "per_ticket": {
+      "net": 26.55,
+      "tax": 3.45,
+      "fee": 1.25,
+      "grand": 31.25
+    }
+  },
+  {
+    "venue": "orleans",
+    "movie": "They Call Him OG  -Telugu",
+    "perfIx": "751",
+    "date": "2025-09-24",
+    "time": "9:30pm",
+    "total": 102,
+    "available": 80,
+    "blocked": 0,
+    "sold": 22,
+    "gross": 584.1,
+    "gross_with_tax": 687.5,
+    "per_ticket": {
+      "net": 26.55,
+      "tax": 3.45,
+      "fee": 1.25,
+      "grand": 31.25
+    }
+  },
+  {
+    "venue": "woodside",
+    "movie": "They Call Him OG  -Telugu",
+    "perfIx": "37192",
+    "date": "2025-09-24",
+    "time": "6:00pm",
+    "total": 263,
+    "available": 233,
+    "blocked": 14,
+    "sold": 16,
+    "gross": 382.24,
+    "gross_with_tax": 452.0,
+    "per_ticket": {
+      "net": 23.89,
+      "tax": 3.11,
+      "fee": 1.25,
+      "grand": 28.25
+    }
+  },
+  {
+    "venue": "woodside",
+    "movie": "They Call Him OG  -Telugu",
+    "perfIx": "37193",
+    "date": "2025-09-24",
+    "time": "9:30pm",
+    "total": 263,
+    "available": 262,
+    "blocked": 0,
+    "sold": 1,
+    "gross": 23.89,
+    "gross_with_tax": 28.25,
+    "per_ticket": {
+      "net": 23.89,
+      "tax": 3.11,
+      "fee": 1.25,
+      "grand": 28.25
+    }
+  },
+  {
+    "venue": "garden-city",
+    "movie": "They Call Him OG  -Telugu",
+    "perfIx": "1348",
+    "date": "2025-09-24",
+    "time": "8:30pm",
+    "total": 199,
+    "available": 199,
+    "blocked": 0,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 22.13,
+      "tax": 4.87,
+      "fee": 1.25,
+      "grand": 28.25
+    }
+  },
+  {
+    "venue": "theatre6",
+    "movie": "OG (TELUGU)",
+    "perfIx": "71468",
+    "date": "2025-09-24",
+    "time": "2:30pm",
+    "total": 128,
+    "available": 108,
+    "blocked": 19,
+    "sold": 1,
+    "gross": 27.0,
+    "gross_with_tax": 28.0,
+    "per_ticket": {
+      "net": 27.0,
+      "tax": 0.0,
+      "fee": 1.0,
+      "grand": 28.0
+    }
+  },
+  {
+    "venue": "theatre6",
+    "movie": "OG (TELUGU)",
+    "perfIx": "71469",
+    "date": "2025-09-24",
+    "time": "6:15pm",
+    "total": 128,
+    "available": 78,
+    "blocked": 45,
+    "sold": 5,
+    "gross": 135.0,
+    "gross_with_tax": 140.0,
+    "per_ticket": {
+      "net": 27.0,
+      "tax": 0.0,
+      "fee": 1.0,
+      "grand": 28.0
+    }
+  },
+  {
+    "venue": "theatre6",
+    "movie": "OG (TELUGU)",
+    "perfIx": "71470",
+    "date": "2025-09-24",
+    "time": "9:45pm",
+    "total": 128,
+    "available": 125,
+    "blocked": 2,
+    "sold": 1,
+    "gross": 27.0,
+    "gross_with_tax": 28.0,
+    "per_ticket": {
+      "net": 27.0,
+      "tax": 0.0,
+      "fee": 1.0,
+      "grand": 28.0
+    }
+  }
+]
