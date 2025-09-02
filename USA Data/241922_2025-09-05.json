@@ -1075,5 +1075,23 @@
     "totalSeatCount": 52,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 14.5
+  },
+  {
+    "state": "CA",
+    "city": "Fremont",
+    "zip": "94538",
+    "theater_name": "Cin\u00e9 Lounge Fremont 7",
+    "chainName": "RTSIND",
+    "chainCode": "RTSIND",
+    "showtime_id": 514417773,
+    "date": "2025-09-05+21:40",
+    "format": "Standard",
+    "language": "Hindi",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 55,
+    "totalSeatCount": 55,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 14.5
   }
 ]
