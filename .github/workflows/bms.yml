@@ -1,13 +1,15 @@
-name: Fetch BMS Venues
+name: Fetch BMS Data
 
 on:
-  workflow_dispatch:   # manual trigger
-  schedule:
-    - cron: "0 * * * *"   # optional: every 1 hour run
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}   # 👈 gh CLI ko auth ke liye
 
     steps:
       - name: Checkout repo
@@ -19,19 +21,16 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: |
-          pip install cloudscraper
+        run: pip install cloudscraper
 
-      - name: Run Fetch Script
-        run: |
-          echo "🚀 Starting aiobms.py run"
-          python aiobms.py
+      - name: Run scraper
+        run: python aiobms.py
 
-      - name: Upload Progress Artifacts
+      - name: Upload progress (always)
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: bms-progress
           path: |
             progress.json
-            partial_results.json
+            scraped_output.json
