@@ -1,0 +1,40 @@
+name: AI BMS Fetch
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"   # हर 30 मिनट पर रन (तू बदल सकता है)
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    env:
+      GH_TOKEN: ${{ github.token }}   # gh CLI auth
+      DATE_CODE: "20250924"           # default date (tune override kar sakta hai)
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install aiohttp
+
+      - name: Run AI BMS fetch
+        run: |
+          echo "⚡ Starting aiobms.py run..."
+          python aiobms.py
+
+      - name: Upload progress.json (artifact)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: progress
+          path: progress.json
