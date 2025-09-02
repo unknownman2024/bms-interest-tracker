@@ -13,11 +13,12 @@ NUM_WORKERS = 5
 # globals
 error_count = 0
 consecutive_errors = 0
+lock = threading.Lock()
+MAX_CONSECUTIVE_ERRORS = 10
 
 IST = timezone(timedelta(hours=5, minutes=30))
 now = datetime.now(IST)
 scraper = cloudscraper.create_scraper()
-lock = threading.Lock()
 error_count = 0
 
 # Global state
@@ -100,32 +101,38 @@ def fetch_data(venue_code):
 # --- FETCH SAFE ---
 def fetch_venue_safe(venue_code):
     global error_count, consecutive_errors
+
     with lock:
         if venue_code in fetched_venues:
             return
 
     data = fetch_data(venue_code)
+
     if data is None:  # error
         with lock:
             error_count += 1
             consecutive_errors += 1
-            if consecutive_errors >= 10:   # 👈 restart after 10 consecutive fails
+
+            if consecutive_errors >= MAX_CONSECUTIVE_ERRORS:
                 print("🛑 10 consecutive errors. Restarting...")
                 dump_progress(all_data, fetched_venues)
                 time.sleep(0.5)
                 os.execv(sys.executable, ["python"] + sys.argv)
-    else:
+
+    else:  # success
         with lock:
-            consecutive_errors = 0  # 👈 reset streak on success
+            consecutive_errors = 0  # only reset streak
+
             if venue_code not in all_data:
                 all_data[venue_code] = {}
+
             if data:
                 for movie, shows in data.items():
                     all_data[venue_code][movie] = shows
+
             fetched_venues.add(venue_code)
             print(f"✅ Successfully fetched venue: {venue_code} ({len(fetched_venues)} fetched so far)")
             dump_progress(all_data, fetched_venues)
-
 # --- main runner ---
 def run():
     global error_count
