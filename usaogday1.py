@@ -13,7 +13,7 @@ from datetime import datetime, date, timedelta
 from zoneinfo import ZoneInfo
 
 # CONFIG
-RELEASE_DATE = date(2025, 9, 24)
+RELEASE_DATE = date(2025, 9, 25)
 TARGET_MOVIE_ID = 241979
 
 # Change for different movie
