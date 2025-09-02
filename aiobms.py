@@ -72,7 +72,7 @@ def load_all_venues(url="https://bfilmy.pages.dev/venues.json"):
 
 # Example usage:
 venues = load_all_venues()
-print(venues)
+print("💾 Venues loaded:", len(venues))
 
 def format_rgross(value):
     if value >= 1e7:
