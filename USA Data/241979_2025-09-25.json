@@ -2686,11 +2686,11 @@
     "date": "2025-09-25+17:00",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 6,
-    "occupancy": 3.23,
-    "totalAvailableSeatCount": 180,
+    "totalSeatSold": 5,
+    "occupancy": 2.69,
+    "totalAvailableSeatCount": 181,
     "totalSeatCount": 186,
-    "grossRevenueUSD": 129.3,
+    "grossRevenueUSD": 107.75,
     "adultTicketPrice": 21.55
   },
   {
@@ -4581,7 +4581,7 @@
     "totalAvailableSeatCount": 98,
     "totalSeatCount": 98,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 10.43
+    "adultTicketPrice": 21.75
   },
   {
     "state": "MO",
@@ -6646,11 +6646,11 @@
     "date": "2025-09-25+17:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 237,
+    "totalSeatSold": 1,
+    "occupancy": 0.42,
+    "totalAvailableSeatCount": 236,
     "totalSeatCount": 237,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 20.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -7294,9 +7294,12 @@
     "date": "2025-09-25+14:30",
     "format": "Standard",
     "language": "Telugu",
-    "error": {
-      "status": 403
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 113,
+    "totalSeatCount": 113,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 21.33
   },
   {
     "state": "NJ",
@@ -7663,5 +7666,23 @@
     "totalSeatCount": 139,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 21.65
+  },
+  {
+    "state": "MA",
+    "city": "Methuen",
+    "zip": "01844",
+    "theater_name": "AMC Methuen 20",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514447493,
+    "date": "2025-09-25+20:45",
+    "format": "Standard",
+    "language": "Telugu",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 58,
+    "totalSeatCount": 58,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 20.0
   }
 ]
