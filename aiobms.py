@@ -1,49 +1,44 @@
-import json, os, sys, time, threading, random
+# aiobms.py
+import cloudscraper, json, os, random, time, sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import datetime, timedelta, timezone
-import cloudscraper
-import pandas as pd
 
-DATE_CODE = 20250905
-NUM_WORKERS = 5
+# constants
+DATE_CODE = "20250905"
+VENUES_FILE = "venues.json"
+PROGRESS_FILE = "progress.json"
+RESULT_FILE = "partial_results.json"
 MAX_ERRORS = 20
+NUM_WORKERS = 3
 
-IST = timezone(timedelta(hours=5, minutes=30))
 scraper = cloudscraper.create_scraper()
-lock = threading.Lock()
-error_count = 0
 
-DUMP_FILE = "partial_results.json"
-
-USER_AGENTS = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{version} Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:{version}) Gecko/20100101 Firefox/{version}",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_{minor}_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{version} Safari/537.38",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_{minor}_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/{safari_ver} Safari/605.1.16",
-]
-
-def get_random_user_agent():
-    template = random.choice(USER_AGENTS)
-    return template.format(
-        version=f"{random.randint(70,120)}.0.{random.randint(1000,5000)}.{random.randint(0,150)}",
-        minor=random.randint(12, 15),
-        safari_ver=f"{random.randint(13,17)}.0.{random.randint(1,3)}",
-    )
-
-def get_random_ip():
-    return ".".join(str(random.randint(1, 255)) for _ in range(4))
-
+# --- headers generator ---
 def get_headers():
-    ip = get_random_ip()
     return {
-        "User-Agent": get_random_user_agent(),
+        "User-Agent": random.choice([
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15",
+            "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:116.0) Gecko/20100101 Firefox/116.0",
+            "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1",
+        ]),
         "Accept": "application/json",
-        "X-Forwarded-For": ip,
-        "Client-IP": ip,
-        "Origin": "https://in.bookmyshow.com",
-        "Referer": "https://in.bookmyshow.com/",
+        "X-Forwarded-For": ".".join(str(random.randint(0, 255)) for _ in range(4)),
     }
 
+# --- save progress ---
+def save_progress(done, remaining, results):
+    json.dump({"done": done, "remaining": remaining}, open(PROGRESS_FILE, "w"), indent=2)
+    json.dump(results, open(RESULT_FILE, "w"), indent=2, ensure_ascii=False)
+
+# --- graceful restart (dump + trigger workflow) ---
+def graceful_restart(done, remaining, results, reason="429"):
+    print(f"🔄 Restarting workflow because: {reason}", flush=True)
+    save_progress(done, remaining, results)
+    # Trigger new workflow (GitHub Actions)
+    os.system("gh workflow run fetch-bms.yml")
+    sys.exit(1)
+
+# --- fetch ---
 def fetch_data(venue_code):
     url = f"https://in.bookmyshow.com/api/v2/mobile/showtimes/byvenue?venueCode={venue_code}&dateCode={DATE_CODE}"
     try:
@@ -51,130 +46,64 @@ def fetch_data(venue_code):
         if res.status_code == 200:
             return res.json()
         elif res.status_code == 403:
-            print(f"⚠️  {venue_code} → 403 Forbidden", flush=True)
+            print(f"⚠️ {venue_code} got 403", flush=True)
             return None
         elif res.status_code == 429:
-            print(f"⏳ 429 Too Many Requests on {venue_code}, saving dump & restarting...", flush=True)
-            save_partial_results()
-            time.sleep(1)
-            os.execv(sys.executable, [sys.executable] + sys.argv)
+            graceful_restart(done, remaining, results, "429 rate limited")
         else:
-            print(f"⚠️  {venue_code} → HTTP {res.status_code}", flush=True)
+            print(f"⚠️ {venue_code} got status {res.status_code}", flush=True)
             return None
     except Exception as e:
-        print(f"⚠️  {venue_code} failed: {e}", flush=True)
+        print(f"⚠️ Failed {venue_code}: {e}", flush=True)
         return None
 
-def parse_shows(data, venue_code):
-    out = []
-    show_details = data.get("ShowDetails", [])
-    if not show_details:
-        return out
-    venue_info = show_details[0].get("Venues", {})
-    venue_name = venue_info.get("VenueName", "")
-    for event in show_details[0].get("Event", []):
-        for child in event.get("ChildEvents", []):
-            movie_title = child.get("EventTitle", event.get("EventTitle", "Unknown"))
-            for show in child.get("ShowTimes", []):
-                total = sold = avail = gross = 0
-                for cat in show.get("Categories", []):
-                    seats = int(cat.get("MaxSeats", 0))
-                    a = int(cat.get("SeatsAvail", 0))
-                    p = float(cat.get("CurPrice", 0))
-                    total += seats
-                    avail += a
-                    sold += seats - a
-                    gross += (seats - a) * p
-                occ = round((sold/total*100),2) if total else 0
-                out.append({
-                    "venue_code": venue_code,
-                    "venue": venue_name,
-                    "movie": movie_title,
-                    "time": show.get("ShowTime"),
-                    "session_id": show.get("SessionId"),
-                    "total": total,
-                    "sold": sold,
-                    "available": avail,
-                    "occupancy": occ,
-                    "gross": gross,
-                })
-    return out
-
-partial_results = {}
-
-def save_partial_results():
-    with lock:
-        if partial_results:
-            with open(DUMP_FILE, "w", encoding="utf-8") as f:
-                json.dump(partial_results, f, ensure_ascii=False, indent=2)
-            print(f"💾 Partial results saved ({len(partial_results)} venues)", flush=True)
-
+# --- safe wrapper ---
 def fetch_venue_safe(venue_code):
     global error_count
     data = fetch_data(venue_code)
     if not data:
-        with lock:
-            error_count += 1
-            if error_count >= MAX_ERRORS:
-                print("🛑 Too many errors. Saving dump & Restarting...", flush=True)
-                save_partial_results()
-                os.execv(sys.executable, [sys.executable] + sys.argv)
-        return []
-    shows = parse_shows(data, venue_code)
-    print(f"✅ {venue_code} → {len(shows)} shows", flush=True)
+        error_count += 1
+        if error_count > MAX_ERRORS:
+            graceful_restart(done, remaining, results, "too many errors")
+        return None
+    return {"venue": venue_code, "data": data}
 
-    # Save per-venue immediately
-    with lock:
-        partial_results[venue_code] = shows
-        save_partial_results()
-    return shows
+# --- main ---
+def run():
+    global error_count, done, remaining, results
+    error_count = 0
 
-# Heartbeat thread
-def heartbeat():
-    while True:
-        print(f"💓 Heartbeat @ {datetime.now(IST).strftime('%H:%M:%S')}", flush=True)
-        time.sleep(10)
+    # Resume if progress exists
+    if os.path.exists(PROGRESS_FILE):
+        prog = json.load(open(PROGRESS_FILE))
+        done = prog.get("done", [])
+        remaining = prog.get("remaining", [])
+        results = json.load(open(RESULT_FILE)) if os.path.exists(RESULT_FILE) else []
+        print(f"▶️ Resuming: {len(done)} done, {len(remaining)} left")
+    else:
+        if not os.path.exists(VENUES_FILE):
+            print(f"❌ {VENUES_FILE} not found")
+            return
+        venues = json.load(open(VENUES_FILE))
+        done, results = [], []
+        remaining = venues
+        print(f"🚀 Starting fresh with {len(venues)} venues")
+
+    with ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
+        futures = {executor.submit(fetch_venue_safe, v): v for v in remaining}
+        for fut in as_completed(futures):
+            res = fut.result()
+            v = futures[fut]
+            if res:
+                results.append(res)
+                done.append(v)
+                remaining.remove(v)
+                print(f"✅ {v} done", flush=True)
+                save_progress(done, remaining, results)  # dump after every success
+            time.sleep(0.5)
+
+    save_progress(done, remaining, results)
+    print(f"\n🎉 Finished all {len(results)} venues", flush=True)
 
 if __name__ == "__main__":
-    with open("venues.json","r",encoding="utf-8") as f:
-        venues = list(json.load(f).keys())
-
-    # Resume if partial exists
-    if os.path.exists(DUMP_FILE):
-        with open(DUMP_FILE,"r",encoding="utf-8") as f:
-            partial_results = json.load(f)
-        print(f"♻️ Resuming, already have {len(partial_results)} venues", flush=True)
-        venues = [v for v in venues if v not in partial_results]
-
-    threading.Thread(target=heartbeat, daemon=True).start()
-
-    all_shows = []
-    print(f"🚀 Fetching {len(venues)} remaining venues with {NUM_WORKERS} workers", flush=True)
-
-    with ThreadPoolExecutor(max_workers=NUM_WORKERS) as ex:
-        futures = {ex.submit(fetch_venue_safe,v):v for v in venues}
-        for fut in as_completed(futures):
-            all_shows.extend(fut.result() or [])
-
-    # Add already saved
-    for v,shows in partial_results.items():
-        all_shows.extend(shows)
-
-    # Save summary
-    movie_summary = {}
-    for s in all_shows:
-        m = s["movie"]
-        if m not in movie_summary:
-            movie_summary[m] = {"shows":0,"gross":0.0,"sold":0,"totalSeats":0}
-        movie_summary[m]["shows"] += 1
-        movie_summary[m]["gross"] += s["gross"]
-        movie_summary[m]["sold"] += s["sold"]
-        movie_summary[m]["totalSeats"] += s["total"]
-
-    with open("movie_summary.json","w",encoding="utf-8") as f:
-        json.dump(movie_summary,f,ensure_ascii=False,indent=2)
-
-    df = pd.DataFrame([{"Movie":k,**v} for k,v in movie_summary.items()])
-    df.to_csv("movie_summary.csv",index=False)
-
-    print(f"🎉 Done. {len(all_shows)} shows across {len(movie_summary)} movies", flush=True)
+    run()
