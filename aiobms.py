@@ -9,6 +9,7 @@ import cloudscraper
 import random
 import pandas as pd
 from collections import defaultdict
+import requests
 
 # ---------------- CONFIG ----------------
 DATE_CODE = 20250905
@@ -64,10 +65,14 @@ def get_headers():
 headers = get_headers()
 
 # ---------------- VENUES LOADER ----------------
-def load_all_venues(path="venues.json"):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+def load_all_venues(url="https://bfilmy.pages.dev/venues.json"):
+    resp = requests.get(url)
+    resp.raise_for_status()  # raises error if request fails
+    return resp.json()
 
+# Example usage:
+venues = load_all_venues()
+print(venues)
 
 def format_rgross(value):
     if value >= 1e7:
