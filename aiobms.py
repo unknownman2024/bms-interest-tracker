@@ -1,23 +1,14 @@
-import json
-import os
-import sys
-import time
-import threading
+import json, os, sys, time, threading, random
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 import cloudscraper
-import random
 import pandas as pd
-from collections import defaultdict
 
-# ---------------- CONFIG ----------------
 DATE_CODE = 20250905
 NUM_WORKERS = 5
 MAX_ERRORS = 20
 
 IST = timezone(timedelta(hours=5, minutes=30))
-now = datetime.now(IST)
-
 scraper = cloudscraper.create_scraper()
 lock = threading.Lock()
 error_count = 0
@@ -51,7 +42,6 @@ def get_headers():
         "Referer": "https://in.bookmyshow.com/",
     }
 
-# ---------------- FETCH DATA ----------------
 def fetch_data(venue_code):
     url = f"https://in.bookmyshow.com/api/v2/mobile/showtimes/byvenue?venueCode={venue_code}&dateCode={DATE_CODE}"
     try:
@@ -59,38 +49,29 @@ def fetch_data(venue_code):
         if res.status_code == 200:
             return res.json()
         elif res.status_code == 403:
-            print(f"⚠️ {venue_code} got 403 (skipped)")
+            print(f"⚠️  {venue_code} → 403 Forbidden", flush=True)
             return None
         elif res.status_code == 429:
-            print(f"⏳ 429 on {venue_code}, restarting script...")
+            print(f"⏳ 429 Too Many Requests on {venue_code}, restarting...", flush=True)
             time.sleep(1)
             os.execv(sys.executable, [sys.executable] + sys.argv)
         else:
-            print(f"⚠️ {venue_code} got {res.status_code}")
+            print(f"⚠️  {venue_code} → HTTP {res.status_code}", flush=True)
             return None
     except Exception as e:
-        print(f"⚠️ {venue_code} failed: {e}")
+        print(f"⚠️  {venue_code} failed: {e}", flush=True)
         return None
 
 def parse_shows(data, venue_code):
     out = []
     show_details = data.get("ShowDetails", [])
-    if not show_details: return out
+    if not show_details:
+        return out
     venue_info = show_details[0].get("Venues", {})
     venue_name = venue_info.get("VenueName", "")
-    venue_add = venue_info.get("VenueAdd", "")
-    chain = venue_info.get("VenueCompName", "Unknown")
-
     for event in show_details[0].get("Event", []):
-        parent_title = event.get("EventTitle", "Unknown")
-        parent_event_code = event.get("EventGroup") or event.get("EventCode")
         for child in event.get("ChildEvents", []):
-            dim = child.get("EventDimension", "").strip()
-            lang = child.get("EventLanguage", "").strip()
-            child_event_code = child.get("EventCode")
-            extra = " | ".join(p for p in [dim, lang] if p)
-            movie_title = f"{parent_title} [{extra}]" if extra else parent_title
-
+            movie_title = child.get("EventTitle", event.get("EventTitle", "Unknown"))
             for show in child.get("ShowTimes", []):
                 total = sold = avail = gross = 0
                 for cat in show.get("Categories", []):
@@ -105,16 +86,9 @@ def parse_shows(data, venue_code):
                 out.append({
                     "venue_code": venue_code,
                     "venue": venue_name,
-                    "address": venue_add,
-                    "chain": chain,
                     "movie": movie_title,
-                    "parent_event_code": parent_event_code,
-                    "child_event_code": child_event_code,
-                    "dimension": dim,
-                    "language": lang,
                     "time": show.get("ShowTime"),
                     "session_id": show.get("SessionId"),
-                    "audi": show.get("Attributes",""),
                     "total": total,
                     "sold": sold,
                     "available": avail,
@@ -123,7 +97,6 @@ def parse_shows(data, venue_code):
                 })
     return out
 
-# ---------------- SAFE FETCH ----------------
 def fetch_venue_safe(venue_code):
     global error_count
     data = fetch_data(venue_code)
@@ -131,33 +104,34 @@ def fetch_venue_safe(venue_code):
         with lock:
             error_count += 1
             if error_count >= MAX_ERRORS:
-                print("🛑 Too many errors. Restarting...")
-                time.sleep(1)
+                print("🛑 Too many errors. Restarting...", flush=True)
                 os.execv(sys.executable, [sys.executable] + sys.argv)
         return []
     shows = parse_shows(data, venue_code)
-    print(f"✅ {venue_code} done ({len(shows)} shows)")
+    print(f"✅ {venue_code} → {len(shows)} shows", flush=True)
     return shows
 
-# ---------------- MAIN ----------------
+# Heartbeat thread (to prove script is alive)
+def heartbeat():
+    while True:
+        print(f"💓 Heartbeat @ {datetime.now(IST).strftime('%H:%M:%S')}", flush=True)
+        time.sleep(10)
+
 if __name__ == "__main__":
     with open("venues.json","r",encoding="utf-8") as f:
         venues = list(json.load(f).keys())
 
-    all_shows = []
+    threading.Thread(target=heartbeat, daemon=True).start()
 
-    print(f"🚀 Starting fetch for {len(venues)} venues with {NUM_WORKERS} workers")
+    all_shows = []
+    print(f"🚀 Fetching {len(venues)} venues with {NUM_WORKERS} workers", flush=True)
 
     with ThreadPoolExecutor(max_workers=NUM_WORKERS) as ex:
         futures = {ex.submit(fetch_venue_safe,v):v for v in venues}
         for fut in as_completed(futures):
             all_shows.extend(fut.result() or [])
 
-    # Save raw shows
-    with open("all_shows.json","w",encoding="utf-8") as f:
-        json.dump(all_shows,f,ensure_ascii=False,indent=2)
-
-    # Summary by movie
+    # Save summary
     movie_summary = {}
     for s in all_shows:
         m = s["movie"]
@@ -172,7 +146,6 @@ if __name__ == "__main__":
         json.dump(movie_summary,f,ensure_ascii=False,indent=2)
 
     df = pd.DataFrame([{"Movie":k,**v} for k,v in movie_summary.items()])
-    df = df.sort_values(by="gross",ascending=False).reset_index(drop=True)
     df.to_csv("movie_summary.csv",index=False)
 
-    print(f"🎉 Done. {len(all_shows)} shows across {len(movie_summary)} movies")
+    print(f"🎉 Done. {len(all_shows)} shows across {len(movie_summary)} movies", flush=True)
