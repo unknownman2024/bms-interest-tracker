@@ -1,99 +1,180 @@
-import cloudscraper, json, os, random, time, sys
+import json, os, sys, time, threading, random
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import datetime, timedelta, timezone
+import cloudscraper
+import pandas as pd
 
-# constants
-DATE_CODE = "20250905"
-VENUES_FILE = "venues.json"
-OUTPUT_FILE = "scraped_output.json"
-MAX_RETRIES = 5
+DATE_CODE = 20250905
 NUM_WORKERS = 5
-BATCH_SIZE = 300   # 3189 venues ~ 11 batches
+MAX_ERRORS = 20
 
+IST = timezone(timedelta(hours=5, minutes=30))
 scraper = cloudscraper.create_scraper()
+lock = threading.Lock()
+error_count = 0
 
-# --- headers generator ---
+DUMP_FILE = "partial_results.json"
+
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{version} Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:{version}) Gecko/20100101 Firefox/{version}",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_{minor}_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{version} Safari/537.38",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_{minor}_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/{safari_ver} Safari/605.1.16",
+]
+
+def get_random_user_agent():
+    template = random.choice(USER_AGENTS)
+    return template.format(
+        version=f"{random.randint(70,120)}.0.{random.randint(1000,5000)}.{random.randint(0,150)}",
+        minor=random.randint(12, 15),
+        safari_ver=f"{random.randint(13,17)}.0.{random.randint(1,3)}",
+    )
+
+def get_random_ip():
+    return ".".join(str(random.randint(1, 255)) for _ in range(4))
+
 def get_headers():
+    ip = get_random_ip()
     return {
-        "User-Agent": random.choice([
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15",
-            "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:116.0) Gecko/20100101 Firefox/116.0",
-            "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1",
-        ]),
+        "User-Agent": get_random_user_agent(),
         "Accept": "application/json",
-        "X-Forwarded-For": ".".join(str(random.randint(0, 255)) for _ in range(4)),
+        "X-Forwarded-For": ip,
+        "Client-IP": ip,
+        "Origin": "https://in.bookmyshow.com",
+        "Referer": "https://in.bookmyshow.com/",
     }
 
-# --- fetch with retry ---
 def fetch_data(venue_code):
     url = f"https://in.bookmyshow.com/api/v2/mobile/showtimes/byvenue?venueCode={venue_code}&dateCode={DATE_CODE}"
-    for attempt in range(1, MAX_RETRIES + 1):
-        try:
-            res = scraper.get(url, headers=get_headers(), timeout=15)
+    try:
+        res = scraper.get(url, headers=get_headers(), timeout=15)
+        if res.status_code == 200:
+            return res.json()
+        elif res.status_code == 403:
+            print(f"⚠️  {venue_code} → 403 Forbidden", flush=True)
+            return None
+        elif res.status_code == 429:
+            print(f"⏳ 429 Too Many Requests on {venue_code}, saving dump & restarting...", flush=True)
+            save_partial_results()
+            time.sleep(1)
+            os.execv(sys.executable, [sys.executable] + sys.argv)
+        else:
+            print(f"⚠️  {venue_code} → HTTP {res.status_code}", flush=True)
+            return None
+    except Exception as e:
+        print(f"⚠️  {venue_code} failed: {e}", flush=True)
+        return None
 
-            if res.status_code == 200:
-                return res.json()
+def parse_shows(data, venue_code):
+    out = []
+    show_details = data.get("ShowDetails", [])
+    if not show_details:
+        return out
+    venue_info = show_details[0].get("Venues", {})
+    venue_name = venue_info.get("VenueName", "")
+    for event in show_details[0].get("Event", []):
+        for child in event.get("ChildEvents", []):
+            movie_title = child.get("EventTitle", event.get("EventTitle", "Unknown"))
+            for show in child.get("ShowTimes", []):
+                total = sold = avail = gross = 0
+                for cat in show.get("Categories", []):
+                    seats = int(cat.get("MaxSeats", 0))
+                    a = int(cat.get("SeatsAvail", 0))
+                    p = float(cat.get("CurPrice", 0))
+                    total += seats
+                    avail += a
+                    sold += seats - a
+                    gross += (seats - a) * p
+                occ = round((sold/total*100),2) if total else 0
+                out.append({
+                    "venue_code": venue_code,
+                    "venue": venue_name,
+                    "movie": movie_title,
+                    "time": show.get("ShowTime"),
+                    "session_id": show.get("SessionId"),
+                    "total": total,
+                    "sold": sold,
+                    "available": avail,
+                    "occupancy": occ,
+                    "gross": gross,
+                })
+    return out
 
-            elif res.status_code == 403:
-                print(f"⚠️ {venue_code} → 403 Forbidden (skipped)", flush=True)
-                return None
+partial_results = {}
 
-            elif res.status_code == 429:
-                wait_time = attempt * 5
-                print(f"⏳ 429 Too Many Requests on {venue_code}, retrying in {wait_time}s...", flush=True)
-                time.sleep(wait_time)
-                continue
+def save_partial_results():
+    with lock:
+        if partial_results:
+            with open(DUMP_FILE, "w", encoding="utf-8") as f:
+                json.dump(partial_results, f, ensure_ascii=False, indent=2)
+            print(f"💾 Partial results saved ({len(partial_results)} venues)", flush=True)
 
-            else:
-                print(f"⚠️ {venue_code} → {res.status_code}", flush=True)
-                return None
-
-        except Exception as e:
-            print(f"⚠️ {venue_code} failed: {e}", flush=True)
-            time.sleep(2)
-
-    print(f"❌ {venue_code} failed after {MAX_RETRIES} retries", flush=True)
-    return None
-
-# --- process venue ---
 def fetch_venue_safe(venue_code):
+    global error_count
     data = fetch_data(venue_code)
     if not data:
-        return None
-    return {"venue": venue_code, "data": data}
+        with lock:
+            error_count += 1
+            if error_count >= MAX_ERRORS:
+                print("🛑 Too many errors. Saving dump & Restarting...", flush=True)
+                save_partial_results()
+                os.execv(sys.executable, [sys.executable] + sys.argv)
+        return []
+    shows = parse_shows(data, venue_code)
+    print(f"✅ {venue_code} → {len(shows)} shows", flush=True)
 
-# --- run in batches ---
-def run():
-    if not os.path.exists(VENUES_FILE):
-        print(f"❌ {VENUES_FILE} not found")
-        return
+    # Save per-venue immediately
+    with lock:
+        partial_results[venue_code] = shows
+        save_partial_results()
+    return shows
 
-    with open(VENUES_FILE, "r", encoding="utf-8") as f:
-        venues = json.load(f)
-
-    results = []
-
-    # split into batches
-    for i in range(0, len(venues), BATCH_SIZE):
-        batch = venues[i:i + BATCH_SIZE]
-        print(f"\n🚀 Processing batch {i//BATCH_SIZE+1} with {len(batch)} venues", flush=True)
-
-        with ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
-            futures = {executor.submit(fetch_venue_safe, v): v for v in batch}
-            for fut in as_completed(futures):
-                res = fut.result()
-                if res:
-                    results.append(res)
-                    shows_count = len(res["data"].get("shows", [])) if "data" in res else "?"
-                    print(f"✅ {res['venue']} → {shows_count} shows", flush=True)
-
-        # save after each batch
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            json.dump(results, f, ensure_ascii=False, indent=2)
-
-        print(f"💾 Saved progress after batch {i//BATCH_SIZE+1}", flush=True)
-
-    print(f"\n🎉 Finished {len(results)} venues total", flush=True)
+# Heartbeat thread
+def heartbeat():
+    while True:
+        print(f"💓 Heartbeat @ {datetime.now(IST).strftime('%H:%M:%S')}", flush=True)
+        time.sleep(10)
 
 if __name__ == "__main__":
-    run()
+    with open("venues.json","r",encoding="utf-8") as f:
+        venues = list(json.load(f).keys())
+
+    # Resume if partial exists
+    if os.path.exists(DUMP_FILE):
+        with open(DUMP_FILE,"r",encoding="utf-8") as f:
+            partial_results = json.load(f)
+        print(f"♻️ Resuming, already have {len(partial_results)} venues", flush=True)
+        venues = [v for v in venues if v not in partial_results]
+
+    threading.Thread(target=heartbeat, daemon=True).start()
+
+    all_shows = []
+    print(f"🚀 Fetching {len(venues)} remaining venues with {NUM_WORKERS} workers", flush=True)
+
+    with ThreadPoolExecutor(max_workers=NUM_WORKERS) as ex:
+        futures = {ex.submit(fetch_venue_safe,v):v for v in venues}
+        for fut in as_completed(futures):
+            all_shows.extend(fut.result() or [])
+
+    # Add already saved
+    for v,shows in partial_results.items():
+        all_shows.extend(shows)
+
+    # Save summary
+    movie_summary = {}
+    for s in all_shows:
+        m = s["movie"]
+        if m not in movie_summary:
+            movie_summary[m] = {"shows":0,"gross":0.0,"sold":0,"totalSeats":0}
+        movie_summary[m]["shows"] += 1
+        movie_summary[m]["gross"] += s["gross"]
+        movie_summary[m]["sold"] += s["sold"]
+        movie_summary[m]["totalSeats"] += s["total"]
+
+    with open("movie_summary.json","w",encoding="utf-8") as f:
+        json.dump(movie_summary,f,ensure_ascii=False,indent=2)
+
+    df = pd.DataFrame([{"Movie":k,**v} for k,v in movie_summary.items()])
+    df.to_csv("movie_summary.csv",index=False)
+
+    print(f"🎉 Done. {len(all_shows)} shows across {len(movie_summary)} movies", flush=True)
