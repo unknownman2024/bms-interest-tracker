@@ -10,6 +10,9 @@ OUTPUT_FILE = "scraped_output.json"
 PROGRESS_FILE = "progress.json"
 MAX_ERRORS = 20
 NUM_WORKERS = 5
+# globals
+error_count = 0
+consecutive_errors = 0
 
 IST = timezone(timedelta(hours=5, minutes=30))
 now = datetime.now(IST)
@@ -96,25 +99,27 @@ def fetch_data(venue_code):
 
 # --- FETCH SAFE ---
 def fetch_venue_safe(venue_code):
-    global error_count
+    global error_count, consecutive_errors
     with lock:
         if venue_code in fetched_venues:
             return
 
     data = fetch_data(venue_code)
-    if data is None:  # real error
+    if data is None:  # error
         with lock:
             error_count += 1
-            if error_count >= MAX_ERRORS:
-                print("🛑 Too many errors. Restarting...")
+            consecutive_errors += 1
+            if consecutive_errors >= 10:   # 👈 restart after 10 consecutive fails
+                print("🛑 10 consecutive errors. Restarting...")
                 dump_progress(all_data, fetched_venues)
                 time.sleep(0.5)
                 os.execv(sys.executable, ["python"] + sys.argv)
     else:
         with lock:
+            consecutive_errors = 0  # 👈 reset streak on success
             if venue_code not in all_data:
                 all_data[venue_code] = {}
-            if data:  # Only add if non-empty
+            if data:
                 for movie, shows in data.items():
                     all_data[venue_code][movie] = shows
             fetched_venues.add(venue_code)
@@ -148,3 +153,5 @@ def run():
 
 if __name__ == "__main__":
     run()
+
+
