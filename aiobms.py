@@ -9,17 +9,18 @@ VENUES_FILE = "venues.json"
 OUTPUT_FILE = "scraped_output.json"
 PROGRESS_FILE = "progress.json"
 MAX_ERRORS = 20
+MAX_CONSECUTIVE_ERRORS = 10
 NUM_WORKERS = 5
+
 # globals
 error_count = 0
 consecutive_errors = 0
 lock = threading.Lock()
-MAX_CONSECUTIVE_ERRORS = 10
 
 IST = timezone(timedelta(hours=5, minutes=30))
 now = datetime.now(IST)
+
 scraper = cloudscraper.create_scraper()
-error_count = 0
 
 # Global state
 all_data = {}
@@ -94,9 +95,17 @@ def fetch_data(venue_code):
                 print(f"⚠️ {venue_code} got status {res.status_code}", flush=True)
                 return None
         except Exception as e:
-            print(f"⚠️ Failed {venue_code}: {e}", flush=True)
-            return None
+            print(f"⚠️ Failed {venue_code} attempt {attempt+1}: {e}", flush=True)
+            time.sleep(1)
+            continue
     return None
+
+# --- Restart Helper ---
+def restart_script():
+    dump_progress(all_data, fetched_venues)
+    print("🔄 Restarting script...", flush=True)
+    time.sleep(0.5)
+    os.execv(sys.executable, ["python"] + sys.argv)
 
 # --- FETCH SAFE ---
 def fetch_venue_safe(venue_code):
@@ -115,13 +124,15 @@ def fetch_venue_safe(venue_code):
 
             if consecutive_errors >= MAX_CONSECUTIVE_ERRORS:
                 print("🛑 10 consecutive errors. Restarting...")
-                dump_progress(all_data, fetched_venues)
-                time.sleep(0.5)
-                os.execv(sys.executable, ["python"] + sys.argv)
+                restart_script()
+
+            if error_count >= MAX_ERRORS:
+                print("🛑 20 total errors. Restarting...")
+                restart_script()
 
     else:  # success
         with lock:
-            consecutive_errors = 0  # only reset streak
+            consecutive_errors = 0  # reset streak
 
             if venue_code not in all_data:
                 all_data[venue_code] = {}
@@ -133,10 +144,12 @@ def fetch_venue_safe(venue_code):
             fetched_venues.add(venue_code)
             print(f"✅ Successfully fetched venue: {venue_code} ({len(fetched_venues)} fetched so far)")
             dump_progress(all_data, fetched_venues)
+
 # --- main runner ---
 def run():
-    global error_count
+    global error_count, consecutive_errors
     error_count = 0
+    consecutive_errors = 0
 
     if not os.path.exists(VENUES_FILE):
         print(f"❌ {VENUES_FILE} not found")
@@ -160,5 +173,3 @@ def run():
 
 if __name__ == "__main__":
     run()
-
-
