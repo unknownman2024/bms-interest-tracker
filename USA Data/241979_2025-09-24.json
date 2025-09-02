@@ -2260,11 +2260,11 @@
     "date": "2025-09-25+04:10",
     "format": "Cinemark XD",
     "language": "Telugu",
-    "totalSeatSold": 33,
-    "occupancy": 11.96,
-    "totalAvailableSeatCount": 243,
+    "totalSeatSold": 30,
+    "occupancy": 10.87,
+    "totalAvailableSeatCount": 246,
     "totalSeatCount": 276,
-    "grossRevenueUSD": 1071.84,
+    "grossRevenueUSD": 974.4,
     "adultTicketPrice": 32.48
   },
   {
@@ -13147,11 +13147,11 @@
     "date": "2025-09-24+20:40",
     "format": "Cinemark XD",
     "language": "Telugu",
-    "totalSeatSold": 2,
-    "occupancy": 0.97,
-    "totalAvailableSeatCount": 204,
+    "totalSeatSold": 5,
+    "occupancy": 2.43,
+    "totalAvailableSeatCount": 201,
     "totalSeatCount": 206,
-    "grossRevenueUSD": 64.96,
+    "grossRevenueUSD": 162.4,
     "adultTicketPrice": 32.48
   },
   {
