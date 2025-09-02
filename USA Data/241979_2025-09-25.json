@@ -10,11 +10,11 @@
     "date": "2025-09-25+12:25",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 1,
-    "occupancy": 0.37,
-    "totalAvailableSeatCount": 272,
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 273,
     "totalSeatCount": 273,
-    "grossRevenueUSD": 20.0,
+    "grossRevenueUSD": 0.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -405,8 +405,8 @@
     "language": "Telugu",
     "totalSeatSold": 0,
     "occupancy": 0.0,
-    "totalAvailableSeatCount": 121,
-    "totalSeatCount": 121,
+    "totalAvailableSeatCount": 93,
+    "totalSeatCount": 93,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 20.0
   },
@@ -423,8 +423,8 @@
     "language": "Telugu",
     "totalSeatSold": 0,
     "occupancy": 0.0,
-    "totalAvailableSeatCount": 121,
-    "totalSeatCount": 121,
+    "totalAvailableSeatCount": 93,
+    "totalSeatCount": 93,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 20.0
   },
@@ -441,8 +441,8 @@
     "language": "Telugu",
     "totalSeatSold": 0,
     "occupancy": 0.0,
-    "totalAvailableSeatCount": 121,
-    "totalSeatCount": 121,
+    "totalAvailableSeatCount": 93,
+    "totalSeatCount": 93,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 20.0
   },
@@ -459,8 +459,8 @@
     "language": "Telugu",
     "totalSeatSold": 0,
     "occupancy": 0.0,
-    "totalAvailableSeatCount": 121,
-    "totalSeatCount": 121,
+    "totalAvailableSeatCount": 93,
+    "totalSeatCount": 93,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 20.0
   },
@@ -5638,11 +5638,11 @@
     "date": "2025-09-25+18:00",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 4,
-    "occupancy": 2.61,
-    "totalAvailableSeatCount": 149,
+    "totalSeatSold": 6,
+    "occupancy": 3.92,
+    "totalAvailableSeatCount": 147,
     "totalSeatCount": 153,
-    "grossRevenueUSD": 80.0,
+    "grossRevenueUSD": 120.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -5926,11 +5926,11 @@
     "date": "2025-09-25+15:00",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 2,
-    "occupancy": 4.0,
-    "totalAvailableSeatCount": 48,
+    "totalSeatSold": 1,
+    "occupancy": 2.0,
+    "totalAvailableSeatCount": 49,
     "totalSeatCount": 50,
-    "grossRevenueUSD": 40.0,
+    "grossRevenueUSD": 20.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -7132,11 +7132,11 @@
     "date": "2025-09-25+19:00",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 119,
+    "totalSeatSold": 1,
+    "occupancy": 0.84,
+    "totalAvailableSeatCount": 118,
     "totalSeatCount": 119,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 20.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -7717,5 +7717,23 @@
     "totalSeatCount": 77,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 22.4
+  },
+  {
+    "state": "IL",
+    "city": "Schaumburg",
+    "zip": "60173",
+    "theater_name": "AMC Loews Streets Of Woodfield 20",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514480487,
+    "date": "2025-09-25+19:45",
+    "format": "Standard",
+    "language": "Telugu",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 89,
+    "totalSeatCount": 89,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 21.6
   }
 ]
