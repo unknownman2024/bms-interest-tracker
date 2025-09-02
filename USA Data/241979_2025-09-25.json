@@ -10,11 +10,11 @@
     "date": "2025-09-25+12:25",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 273,
+    "totalSeatSold": 1,
+    "occupancy": 0.37,
+    "totalAvailableSeatCount": 272,
     "totalSeatCount": 273,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 20.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -4720,11 +4720,11 @@
     "date": "2025-09-25+19:10",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 2,
-    "occupancy": 2.86,
-    "totalAvailableSeatCount": 68,
+    "totalSeatSold": 5,
+    "occupancy": 7.14,
+    "totalAvailableSeatCount": 65,
     "totalSeatCount": 70,
-    "grossRevenueUSD": 25.68,
+    "grossRevenueUSD": 64.2,
     "adultTicketPrice": 12.84
   },
   {
@@ -4810,11 +4810,11 @@
     "date": "2025-09-25+19:10",
     "format": "Sony Digital Cinema",
     "language": "Telugu",
-    "totalSeatSold": 15,
-    "occupancy": 5.43,
-    "totalAvailableSeatCount": 261,
+    "totalSeatSold": 17,
+    "occupancy": 6.16,
+    "totalAvailableSeatCount": 259,
     "totalSeatCount": 276,
-    "grossRevenueUSD": 375.0,
+    "grossRevenueUSD": 425.0,
     "adultTicketPrice": 25.0
   },
   {
@@ -5926,11 +5926,11 @@
     "date": "2025-09-25+15:00",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 1,
-    "occupancy": 2.0,
-    "totalAvailableSeatCount": 49,
+    "totalSeatSold": 2,
+    "occupancy": 4.0,
+    "totalAvailableSeatCount": 48,
     "totalSeatCount": 50,
-    "grossRevenueUSD": 20.0,
+    "grossRevenueUSD": 40.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -7684,5 +7684,38 @@
     "totalSeatCount": 58,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 20.0
+  },
+  {
+    "state": "TN",
+    "city": "Murfreesboro",
+    "zip": "37128",
+    "theater_name": "AMC CLASSIC Murfreesboro 16",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514460153,
+    "date": "2025-09-25+19:30",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 400
+    }
+  },
+  {
+    "state": "IL",
+    "city": "Chicago",
+    "zip": "60611",
+    "theater_name": "AMC River East 21",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514462829,
+    "date": "2025-09-25+18:30",
+    "format": "Standard",
+    "language": "Telugu",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 77,
+    "totalSeatCount": 77,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 22.4
   }
 ]
