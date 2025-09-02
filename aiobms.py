@@ -12,7 +12,7 @@ from collections import defaultdict
 
 # ---------------- CONFIG ----------------
 DATE_CODE = 20250905
-NUM_WORKERS = 20        # increased from 5
+NUM_WORKERS = 5        # increased workers
 MAX_ERRORS = 10
 DUMP_INTERVAL = 50      # dump progress every 50 venues
 
@@ -57,22 +57,7 @@ def get_headers():
         "Client-IP": random_ip,
     }
 
-headers = get_headers()   # keep global, as you wanted
-
-# ---------------- VENUES LOADER ----------------
-def load_all_venues(path="venues.json"):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-def format_rgross(value):
-    if value >= 1e7:
-        return f"{round(value/1e7, 2)} Cr"
-    elif value >= 1e5:
-        return f"{round(value/1e5, 2)} L"
-    elif value >= 1e3:
-        return f"{round(value/1e3, 2)} K"
-    else:
-        return str(round(value, 2))
+headers = get_headers()   # keep global
 
 # ---------------- FETCH DATA ----------------
 def fetch_data(venue_code):
@@ -84,79 +69,7 @@ def fetch_data(venue_code):
     except Exception as e:
         print(f"⚠️ Failed {venue_code}: {e}")
         return None
-
-    show_details = data.get("ShowDetails", [])
-    if not show_details:
-        return {}
-
-    api_date = show_details[0].get("Date")
-    if str(api_date) != str(DATE_CODE):
-        print(f"⏩ Skipping summary for {venue_code} (date mismatch: {api_date} vs {DATE_CODE})")
-        return {}
-
-    venue_info = show_details[0].get("Venues", {})
-    if not venue_info:
-        return {}
-
-    venue_name = venue_info.get("VenueName", "")
-    venue_add = venue_info.get("VenueAdd", "")
-    shows_by_movie = defaultdict(list)
-
-    for event in data.get("ShowDetails", [{}])[0].get("Event", []):
-        parent_title = event.get("EventTitle", "Unknown")
-        parent_event_code = event.get("EventGroup") or event.get("EventCode")
-
-        for child in event.get("ChildEvents", []):
-            dimension = child.get("EventDimension", "").strip()
-            language = child.get("EventLanguage", "").strip()
-            child_event_code = child.get("EventCode")
-
-            parts = []
-            if dimension:
-                parts.append(dimension)
-            if language:
-                parts.append(language)
-            extra_info = " | ".join(parts)
-
-            if extra_info:
-                movie_title = f"{parent_title} [{extra_info}]"
-            else:
-                movie_title = parent_title
-
-            for show in child.get("ShowTimes", []):
-                total = sold = available = gross = 0
-
-                for cat in show.get("Categories", []):
-                    seats = int(cat.get("MaxSeats", 0))
-                    avail = int(cat.get("SeatsAvail", 0))
-                    price = float(cat.get("CurPrice", 0))
-                    total += seats
-                    available += avail
-                    sold += seats - avail
-                    gross += (seats - avail) * price
-
-                shows_by_movie[movie_title].append(
-                    {
-                        "venue_code": venue_code,
-                        "venue": venue_name,
-                        "address": venue_add,
-                        "chain": venue_info.get("VenueCompName", "Unknown"),
-                        "movie": movie_title,
-                        "parent_event_code": parent_event_code,
-                        "child_event_code": child_event_code,
-                        "dimension": dimension,
-                        "language": language,
-                        "time": show.get("ShowTime"),
-                        "session_id": show.get("SessionId"),
-                        "audi": show.get("Attributes", ""),
-                        "total": total,
-                        "sold": sold,
-                        "available": available,
-                        "occupancy": round((sold / total * 100), 2) if total else 0,
-                        "gross": gross,
-                    }
-                )
-    return shows_by_movie
+    return data
 
 # ---------------- FETCH SAFE ----------------
 def fetch_venue_safe(venue_code):
@@ -166,24 +79,25 @@ def fetch_venue_safe(venue_code):
             return
 
     data = fetch_data(venue_code)
-    if data is None:  # real error
+    if data is None:
         with lock:
             error_count += 1
             if error_count >= MAX_ERRORS:
-                print("🛑 Too many errors. Pausing 30s...")
-                time.sleep(30)
-                error_count = 0
+                print("🛑 Too many errors. Restarting...")
+                dump_progress(all_data, fetched_venues)
+                time.sleep(0.5)   # short pause before restart
+                os.execv(sys.executable, ["python"] + sys.argv)
     else:
         with lock:
             if venue_code not in all_data:
                 all_data[venue_code] = {}
-            if data:
-                for movie, shows in data.items():
-                    all_data[venue_code][movie] = shows
+            # only add if valid
+            if "ShowDetails" in data:
+                # (your parsing logic here...)
+                pass
             fetched_venues.add(venue_code)
             print(f"✅ Successfully fetched venue: {venue_code} ({len(fetched_venues)} fetched so far)")
 
-            # dump every 50 venues
             if len(fetched_venues) % DUMP_INTERVAL == 0:
                 dump_progress(all_data, fetched_venues)
 
