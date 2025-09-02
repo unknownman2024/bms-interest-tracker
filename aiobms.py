@@ -38,7 +38,7 @@ def restart_workflow(reason: str):
 
     # trigger new workflow
     subprocess.run([
-        "gh", "workflow", "run", "fetch-bms.yml",
+        "gh", "workflow", "run", "aiobms.yml",
         "--ref", os.getenv("GITHUB_REF", "main")
     ], check=False)
 
