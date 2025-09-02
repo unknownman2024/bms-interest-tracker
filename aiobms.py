@@ -6,7 +6,9 @@ DATE_CODE = "20250905"   # 👈 apna dateCode daalna
 VENUES_FILE = "venues.json"
 OUTPUT_FILE = "scraped_output.json"
 MAX_ERRORS = 20
-NUM_WORKERS = 2  # zyada mat rakho warna 429 chances badhenge
+NUM_WORKERS = 2
+BATCH_SIZE = 10
+BATCH_DELAY = 2  # seconds between batches
 
 scraper = cloudscraper.create_scraper()
 
@@ -57,6 +59,17 @@ def fetch_venue_safe(venue_code):
         return None
     return {"venue": venue_code, "data": data}
 
+# --- run one batch ---
+def run_batch(batch, results):
+    with ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
+        futures = {executor.submit(fetch_venue_safe, v): v for v in batch}
+        for fut in as_completed(futures):
+            res = fut.result()
+            if res:
+                results.append(res)
+                print(f"✅ {res['venue']} done", flush=True)
+            time.sleep(0.5)  # pause between tasks
+
 # --- main runner ---
 def run():
     global error_count
@@ -70,14 +83,14 @@ def run():
         venues = json.load(f)
 
     results = []
-    with ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
-        futures = {executor.submit(fetch_venue_safe, v): v for v in venues}
-        for fut in as_completed(futures):
-            res = fut.result()
-            if res:
-                results.append(res)
-                print(f"✅ {res['venue']} done", flush=True)
-            time.sleep(0.5)  # pause between tasks
+    for i in range(0, len(venues), BATCH_SIZE):
+        batch = venues[i:i+BATCH_SIZE]
+        print(f"\n🚀 Running batch {i//BATCH_SIZE+1} ({len(batch)} venues)...", flush=True)
+        run_batch(batch, results)
+        print(f"✅ Batch {i//BATCH_SIZE+1} complete\n", flush=True)
+
+        if i + BATCH_SIZE < len(venues):
+            time.sleep(BATCH_DELAY)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
