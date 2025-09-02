@@ -712,11 +712,11 @@
     "date": "2025-09-05+21:30",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 5,
-    "occupancy": 7.58,
-    "totalAvailableSeatCount": 61,
+    "totalSeatSold": 6,
+    "occupancy": 9.09,
+    "totalAvailableSeatCount": 60,
     "totalSeatCount": 66,
-    "grossRevenueUSD": 78.25,
+    "grossRevenueUSD": 93.9,
     "adultTicketPrice": 15.65
   },
   {
@@ -1093,5 +1093,23 @@
     "totalSeatCount": 55,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 14.5
+  },
+  {
+    "state": "AL",
+    "city": "Huntsville",
+    "zip": "35802",
+    "theater_name": "AMC Valley Bend 18",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514434293,
+    "date": "2025-09-05+20:30",
+    "format": "Standard",
+    "language": "Hindi",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 147,
+    "totalSeatCount": 147,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 13.07
   }
 ]
