@@ -6,7 +6,7 @@ DATE_CODE = "20250905"   # 👈 apna dateCode daalna
 VENUES_FILE = "venues.json"
 OUTPUT_FILE = "scraped_output.json"
 MAX_ERRORS = 20
-NUM_WORKERS = 2 # zyada mat rakho warna 429 chances badhenge
+NUM_WORKERS = 2  # zyada mat rakho warna 429 chances badhenge
 
 scraper = cloudscraper.create_scraper()
 
@@ -23,25 +23,26 @@ def get_headers():
         "X-Forwarded-For": ".".join(str(random.randint(0, 255)) for _ in range(4)),
     }
 
-# --- fetch with retry ---
+# --- fetch with hard restart on 429 ---
 def fetch_data(venue_code):
     url = f"https://in.bookmyshow.com/api/v2/mobile/showtimes/byvenue?venueCode={venue_code}&dateCode={DATE_CODE}"
-    for attempt in range(3):
-        try:
-            res = scraper.get(url, headers=get_headers(), timeout=15)
-            if res.status_code == 200:
-                return res.json()
-            elif res.status_code == 429:
-                print(f"⏳ 429 for {venue_code}, retrying... (attempt {attempt+1})", flush=True)
-                time.sleep(random.uniform(1, 3))
-                continue
-            else:
-                print(f"⚠️ {venue_code} got status {res.status_code}", flush=True)
-                return None
-        except Exception as e:
-            print(f"⚠️ Failed {venue_code}: {e}", flush=True)
+    try:
+        res = scraper.get(url, headers=get_headers(), timeout=15)
+        if res.status_code == 200:
+            return res.json()
+        elif res.status_code == 403:
+            print(f"⚠️ {venue_code} got status 403 (skipping)", flush=True)
             return None
-    return None
+        elif res.status_code == 429:
+            print(f"⏳ 429 for {venue_code}, restarting script...", flush=True)
+            time.sleep(0.5)
+            os.execv(sys.executable, [sys.executable] + sys.argv)
+        else:
+            print(f"⚠️ {venue_code} got status {res.status_code}", flush=True)
+            return None
+    except Exception as e:
+        print(f"⚠️ Failed {venue_code}: {e}", flush=True)
+        return None
 
 # --- process venue safely ---
 def fetch_venue_safe(venue_code):
@@ -50,9 +51,9 @@ def fetch_venue_safe(venue_code):
     if not data:
         error_count += 1
         if error_count > MAX_ERRORS:
-            print("🔄 Too many errors, restarting...", flush=True)
+            print("🔄 Too many errors, restarting script...", flush=True)
             time.sleep(0.5)
-            os.execv(sys.executable, ['python'] + sys.argv)
+            os.execv(sys.executable, [sys.executable] + sys.argv)
         return None
     return {"venue": venue_code, "data": data}
 
@@ -76,6 +77,7 @@ def run():
             if res:
                 results.append(res)
                 print(f"✅ {res['venue']} done", flush=True)
+            time.sleep(0.5)  # pause between tasks
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
