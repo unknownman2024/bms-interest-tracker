@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-03 03:34:57 AM",
+  "last_updated": "2025-09-03 04:40:48 AM",
   "errors": [
     {
       "state": "GA",
@@ -10,21 +10,6 @@
       "chainCode": "AMC",
       "showtime_id": 0,
       "date": "2025-09-05+18:45",
-      "format": "Standard",
-      "language": "Hindi",
-      "error": {
-        "status": 404
-      }
-    },
-    {
-      "state": "GA",
-      "city": "Pooler",
-      "zip": "31322",
-      "theater_name": "Royal Cinemas 14 World's Tallest IMAX & Dolby Atmo",
-      "chainName": "RTSIND",
-      "chainCode": "RTSIND",
-      "showtime_id": 514471965,
-      "date": "2025-09-05+21:10",
       "format": "Standard",
       "language": "Hindi",
       "error": {
@@ -59,6 +44,21 @@
       "language": "Hindi",
       "error": {
         "status": 400
+      }
+    },
+    {
+      "state": "IL",
+      "city": "Schaumburg",
+      "zip": "60173",
+      "theater_name": "AMC Loews Streets Of Woodfield 20",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 514611446,
+      "date": "2025-09-05+22:15",
+      "format": "Standard",
+      "language": "Hindi",
+      "error": {
+        "status": 500
       }
     }
   ]
