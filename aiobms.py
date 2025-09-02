@@ -2,14 +2,12 @@ import cloudscraper, json, os, random, time, sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import threading
 from datetime import datetime, timedelta, timezone
-import pandas as pd
-from collections import defaultdict
-
 
 # constants
 DATE_CODE = "20250905"   # 👈 apna dateCode daalna
 VENUES_FILE = "venues.json"
 OUTPUT_FILE = "scraped_output.json"
+PROGRESS_FILE = "progress.json"
 MAX_ERRORS = 20
 NUM_WORKERS = 5
 
@@ -19,27 +17,17 @@ scraper = cloudscraper.create_scraper()
 lock = threading.Lock()
 error_count = 0
 
-# --- headers generator ---
-
-IST = timezone(timedelta(hours=5, minutes=30))
-now = datetime.now(IST)
-
-scraper = cloudscraper.create_scraper()
-lock = threading.Lock()
-error_count = 0
+# Global state
+all_data = {}
+fetched_venues = set()
 
 # Example User-Agent pool
 USER_AGENTS = [
-    # Chrome on Windows
     "Mozilla/5.1 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{version} Safari/537.36",
-    # Firefox on Windows
     "Mozilla/5.1 (Windows NT 11.0; Win64; x64; rv:{version}) Gecko/20100101 Firefox/{version}",
-    # Chrome on Mac
     "Mozilla/5.1 (Macintosh; Intel Mac OS X 10_{minor}_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{version} Safari/537.38",
-    # Safari on Mac
     "Mozilla/5.1 (Macintosh; Intel Mac OS X 10_{minor}_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/{safari_ver} Safari/605.1.16",
 ]
-
 
 def get_random_user_agent():
     template = random.choice(USER_AGENTS)
@@ -49,10 +37,8 @@ def get_random_user_agent():
         safari_ver=f"{random.randint(13,17)}.0.{random.randint(1,3)}",
     )
 
-
 def get_random_ip():
     return ".".join(str(random.randint(1, 255)) for _ in range(4))
-
 
 def get_headers():
     random_ip = get_random_ip()
@@ -66,8 +52,27 @@ def get_headers():
         "Client-IP": random_ip,
     }
 
+# --- PROGRESS HELPERS ---
+def dump_progress(all_data, fetched_venues):
+    progress = {
+        "all_data": all_data,
+        "fetched_venues": list(fetched_venues),
+    }
+    with open(PROGRESS_FILE, "w", encoding="utf-8") as f:
+        json.dump(progress, f, ensure_ascii=False, indent=2)
+    print("💾 Progress saved.", flush=True)
 
-headers = get_headers()
+def load_progress():
+    global all_data, fetched_venues
+    if os.path.exists(PROGRESS_FILE):
+        try:
+            with open(PROGRESS_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                all_data = data.get("all_data", {})
+                fetched_venues = set(data.get("fetched_venues", []))
+            print(f"🔄 Loaded progress: {len(fetched_venues)} venues already fetched.")
+        except Exception as e:
+            print(f"⚠️ Failed to load progress: {e}")
 
 # --- fetch with retry ---
 def fetch_data(venue_code):
@@ -89,18 +94,32 @@ def fetch_data(venue_code):
             return None
     return None
 
-# --- process venue safely ---
+# --- FETCH SAFE ---
 def fetch_venue_safe(venue_code):
     global error_count
+    with lock:
+        if venue_code in fetched_venues:
+            return
+
     data = fetch_data(venue_code)
-    if not data:
-        error_count += 1
-        if error_count > MAX_ERRORS:
-            print("🔄 Too many errors, restarting...", flush=True)
-            time.sleep(0.5)
-            os.execv(sys.executable, ['python'] + sys.argv)
-        return None
-    return {"venue": venue_code, "data": data}
+    if data is None:  # real error
+        with lock:
+            error_count += 1
+            if error_count >= MAX_ERRORS:
+                print("🛑 Too many errors. Restarting...")
+                dump_progress(all_data, fetched_venues)
+                time.sleep(0.5)
+                os.execv(sys.executable, ["python"] + sys.argv)
+    else:
+        with lock:
+            if venue_code not in all_data:
+                all_data[venue_code] = {}
+            if data:  # Only add if non-empty
+                for movie, shows in data.items():
+                    all_data[venue_code][movie] = shows
+            fetched_venues.add(venue_code)
+            print(f"✅ Successfully fetched venue: {venue_code} ({len(fetched_venues)} fetched so far)")
+            dump_progress(all_data, fetched_venues)
 
 # --- main runner ---
 def run():
@@ -114,19 +133,18 @@ def run():
     with open(VENUES_FILE, "r", encoding="utf-8") as f:
         venues = json.load(f)
 
-    results = []
+    load_progress()
+    to_fetch = [v for v in venues if v not in fetched_venues]
+
     with ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
-        futures = {executor.submit(fetch_venue_safe, v): v for v in venues}
+        futures = {executor.submit(fetch_venue_safe, v): v for v in to_fetch}
         for fut in as_completed(futures):
-            res = fut.result()
-            if res:
-                results.append(res)
-                print(f"✅ {res['venue']} done", flush=True)
+            fut.result()  # result handled inside fetch_venue_safe
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
+        json.dump(all_data, f, ensure_ascii=False, indent=2)
 
-    print(f"\n🎉 Finished {len(results)} venues", flush=True)
+    print(f"\n🎉 Finished {len(fetched_venues)} venues", flush=True)
 
 if __name__ == "__main__":
     run()
