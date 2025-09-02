@@ -12,7 +12,7 @@ from collections import defaultdict
 import requests
 
 # ---------------- CONFIG ----------------
-DATE_CODE = 20250905
+DATE_CODE = 20250902
 NUM_WORKERS = 5
 MAX_ERRORS = 10
 
