@@ -120,8 +120,8 @@
     "language": "Hindi",
     "totalSeatSold": 0,
     "occupancy": 0.0,
-    "totalAvailableSeatCount": 96,
-    "totalSeatCount": 96,
+    "totalAvailableSeatCount": 158,
+    "totalSeatCount": 158,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 14.38
   },
@@ -1111,5 +1111,41 @@
     "totalSeatCount": 147,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 13.07
+  },
+  {
+    "state": "IL",
+    "city": "Champaign",
+    "zip": "61822",
+    "theater_name": "AMC Champaign 13",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514452060,
+    "date": "2025-09-05+21:20",
+    "format": "Standard",
+    "language": "Hindi",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 130,
+    "totalSeatCount": 130,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 11.99
+  },
+  {
+    "state": "CA",
+    "city": "Sunnyvale",
+    "zip": "94086",
+    "theater_name": "AMC Sunnyvale 12",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514464111,
+    "date": "2025-09-05+22:30",
+    "format": "Standard",
+    "language": "Hindi",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 126,
+    "totalSeatCount": 126,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 17.99
   }
 ]
