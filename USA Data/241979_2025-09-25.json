@@ -781,11 +781,11 @@
     "date": "2025-09-25+21:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 4,
-    "occupancy": 3.1,
-    "totalAvailableSeatCount": 125,
+    "totalSeatSold": 6,
+    "occupancy": 4.65,
+    "totalAvailableSeatCount": 123,
     "totalSeatCount": 129,
-    "grossRevenueUSD": 85.32,
+    "grossRevenueUSD": 127.98,
     "adultTicketPrice": 21.33
   },
   {
@@ -1087,11 +1087,11 @@
     "date": "2025-09-25+19:35",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 156,
+    "totalSeatSold": 4,
+    "occupancy": 2.56,
+    "totalAvailableSeatCount": 152,
     "totalSeatCount": 156,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 80.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -1894,7 +1894,7 @@
     "chainName": "Regal",
     "chainCode": "REGL",
     "showtime_id": 514021505,
-    "date": "2025-09-25+12:15",
+    "date": "2025-09-25+12:20",
     "format": "Standard",
     "language": "Telugu",
     "totalSeatSold": 0,
@@ -4108,11 +4108,11 @@
     "date": "2025-09-25+19:10",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 75,
+    "totalSeatSold": 2,
+    "occupancy": 2.67,
+    "totalAvailableSeatCount": 73,
     "totalSeatCount": 75,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 40.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -7132,11 +7132,11 @@
     "date": "2025-09-25+19:00",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 1,
-    "occupancy": 0.84,
-    "totalAvailableSeatCount": 118,
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 119,
     "totalSeatCount": 119,
-    "grossRevenueUSD": 20.0,
+    "grossRevenueUSD": 0.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -7735,5 +7735,35 @@
     "totalSeatCount": 89,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 21.6
+  },
+  {
+    "state": "TN",
+    "city": "Hixson",
+    "zip": "37343",
+    "theater_name": "AMC Northgate 14",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514513120,
+    "date": "2025-09-25+14:30",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 400
+    }
+  },
+  {
+    "state": "TN",
+    "city": "Hixson",
+    "zip": "37343",
+    "theater_name": "AMC Northgate 14",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514513121,
+    "date": "2025-09-25+18:15",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 400
+    }
   }
 ]
