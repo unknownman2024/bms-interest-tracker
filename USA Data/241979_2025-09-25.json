@@ -100,11 +100,11 @@
     "date": "2025-09-25+20:00",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 8,
-    "occupancy": 1.76,
-    "totalAvailableSeatCount": 447,
+    "totalSeatSold": 11,
+    "occupancy": 2.42,
+    "totalAvailableSeatCount": 444,
     "totalSeatCount": 455,
-    "grossRevenueUSD": 160.0,
+    "grossRevenueUSD": 220.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -1087,11 +1087,11 @@
     "date": "2025-09-25+19:35",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 3,
-    "occupancy": 1.92,
-    "totalAvailableSeatCount": 153,
+    "totalSeatSold": 4,
+    "occupancy": 2.56,
+    "totalAvailableSeatCount": 152,
     "totalSeatCount": 156,
-    "grossRevenueUSD": 60.0,
+    "grossRevenueUSD": 80.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -2686,11 +2686,11 @@
     "date": "2025-09-25+17:00",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 5,
-    "occupancy": 2.69,
-    "totalAvailableSeatCount": 181,
+    "totalSeatSold": 8,
+    "occupancy": 4.3,
+    "totalAvailableSeatCount": 178,
     "totalSeatCount": 186,
-    "grossRevenueUSD": 107.75,
+    "grossRevenueUSD": 172.4,
     "adultTicketPrice": 21.55
   },
   {
@@ -6610,11 +6610,11 @@
     "date": "2025-09-25+11:15",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 49,
+    "totalSeatSold": 1,
+    "occupancy": 2.04,
+    "totalAvailableSeatCount": 48,
     "totalSeatCount": 49,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 20.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -7873,5 +7873,23 @@
     "totalSeatCount": 170,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 20.0
+  },
+  {
+    "state": "FL",
+    "city": "Tampa",
+    "zip": "33634",
+    "theater_name": "AMC Veterans 24",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514651707,
+    "date": "2025-09-25+20:45",
+    "format": "Standard",
+    "language": "Telugu",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 77,
+    "totalSeatCount": 77,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 21.5
   }
 ]
