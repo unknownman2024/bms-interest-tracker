@@ -262,11 +262,11 @@
     "date": "2025-09-04+20:30",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 5,
-    "occupancy": 4.67,
-    "totalAvailableSeatCount": 102,
+    "totalSeatSold": 10,
+    "occupancy": 9.35,
+    "totalAvailableSeatCount": 97,
     "totalSeatCount": 107,
-    "grossRevenueUSD": 70.0,
+    "grossRevenueUSD": 140.0,
     "adultTicketPrice": 14.0
   },
   {
@@ -874,11 +874,11 @@
     "date": "2025-09-04+21:00",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 15,
-    "occupancy": 30.61,
-    "totalAvailableSeatCount": 34,
+    "totalSeatSold": 16,
+    "occupancy": 32.65,
+    "totalAvailableSeatCount": 33,
     "totalSeatCount": 49,
-    "grossRevenueUSD": 224.85,
+    "grossRevenueUSD": 239.84,
     "adultTicketPrice": 14.99
   },
   {
@@ -1072,11 +1072,11 @@
     "date": "2025-09-04+20:00",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 14,
-    "occupancy": 8.75,
-    "totalAvailableSeatCount": 146,
+    "totalSeatSold": 15,
+    "occupancy": 9.38,
+    "totalAvailableSeatCount": 145,
     "totalSeatCount": 160,
-    "grossRevenueUSD": 195.3,
+    "grossRevenueUSD": 209.25,
     "adultTicketPrice": 13.95
   },
   {
@@ -1126,11 +1126,11 @@
     "date": "2025-09-04+19:35",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 9,
-    "occupancy": 4.97,
-    "totalAvailableSeatCount": 172,
+    "totalSeatSold": 7,
+    "occupancy": 3.87,
+    "totalAvailableSeatCount": 174,
     "totalSeatCount": 181,
-    "grossRevenueUSD": 113.4,
+    "grossRevenueUSD": 88.2,
     "adultTicketPrice": 12.6
   },
   {
@@ -1486,11 +1486,11 @@
     "date": "2025-09-04+21:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 1,
-    "occupancy": 0.93,
-    "totalAvailableSeatCount": 107,
+    "totalSeatSold": 2,
+    "occupancy": 1.85,
+    "totalAvailableSeatCount": 106,
     "totalSeatCount": 108,
-    "grossRevenueUSD": 14.61,
+    "grossRevenueUSD": 29.22,
     "adultTicketPrice": 14.61
   },
   {
@@ -1544,8 +1544,8 @@
     "occupancy": 7.61,
     "totalAvailableSeatCount": 85,
     "totalSeatCount": 92,
-    "grossRevenueUSD": 87.15,
-    "adultTicketPrice": 12.45
+    "grossRevenueUSD": 89.04,
+    "adultTicketPrice": 12.72
   },
   {
     "state": "TX",
@@ -1563,7 +1563,7 @@
     "totalAvailableSeatCount": 92,
     "totalSeatCount": 92,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 12.45
+    "adultTicketPrice": 12.72
   },
   {
     "state": "TX",
@@ -1580,8 +1580,8 @@
     "occupancy": 26.47,
     "totalAvailableSeatCount": 50,
     "totalSeatCount": 68,
-    "grossRevenueUSD": 209.52,
-    "adultTicketPrice": 11.64
+    "grossRevenueUSD": 214.38,
+    "adultTicketPrice": 11.91
   },
   {
     "state": "TX",
@@ -1599,7 +1599,7 @@
     "totalAvailableSeatCount": 68,
     "totalSeatCount": 68,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 11.64
+    "adultTicketPrice": 11.91
   },
   {
     "state": "TX",
@@ -1616,8 +1616,8 @@
     "occupancy": 20.59,
     "totalAvailableSeatCount": 54,
     "totalSeatCount": 68,
-    "grossRevenueUSD": 162.96,
-    "adultTicketPrice": 11.64
+    "grossRevenueUSD": 166.74,
+    "adultTicketPrice": 11.91
   },
   {
     "state": "TX",
@@ -1635,7 +1635,7 @@
     "totalAvailableSeatCount": 68,
     "totalSeatCount": 68,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 11.64
+    "adultTicketPrice": 11.91
   },
   {
     "state": "TX",
@@ -1652,8 +1652,8 @@
     "occupancy": 5.0,
     "totalAvailableSeatCount": 76,
     "totalSeatCount": 80,
-    "grossRevenueUSD": 44.4,
-    "adultTicketPrice": 11.1
+    "grossRevenueUSD": 45.48,
+    "adultTicketPrice": 11.37
   },
   {
     "state": "TX",
@@ -1671,7 +1671,7 @@
     "totalAvailableSeatCount": 80,
     "totalSeatCount": 80,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 11.1
+    "adultTicketPrice": 11.37
   },
   {
     "state": "TX",
@@ -1688,8 +1688,8 @@
     "occupancy": 14.94,
     "totalAvailableSeatCount": 74,
     "totalSeatCount": 87,
-    "grossRevenueUSD": 144.3,
-    "adultTicketPrice": 11.1
+    "grossRevenueUSD": 147.81,
+    "adultTicketPrice": 11.37
   },
   {
     "state": "TX",
@@ -1707,7 +1707,7 @@
     "totalAvailableSeatCount": 87,
     "totalSeatCount": 87,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 11.1
+    "adultTicketPrice": 11.37
   },
   {
     "state": "TX",
@@ -1756,11 +1756,11 @@
     "date": "2025-09-04+19:30",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 11,
-    "occupancy": 15.71,
-    "totalAvailableSeatCount": 59,
+    "totalSeatSold": 12,
+    "occupancy": 17.14,
+    "totalAvailableSeatCount": 58,
     "totalSeatCount": 70,
-    "grossRevenueUSD": 160.71,
+    "grossRevenueUSD": 175.32,
     "adultTicketPrice": 14.61
   },
   {
@@ -1810,11 +1810,11 @@
     "date": "2025-09-04+19:45",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 19,
-    "occupancy": 14.5,
-    "totalAvailableSeatCount": 112,
+    "totalSeatSold": 21,
+    "occupancy": 16.03,
+    "totalAvailableSeatCount": 110,
     "totalSeatCount": 131,
-    "grossRevenueUSD": 282.72,
+    "grossRevenueUSD": 312.48,
     "adultTicketPrice": 14.88
   },
   {
@@ -1833,7 +1833,7 @@
     "totalAvailableSeatCount": 137,
     "totalSeatCount": 137,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 10.83
+    "adultTicketPrice": 11.1
   },
   {
     "state": "TX",
@@ -1851,7 +1851,7 @@
     "totalAvailableSeatCount": 136,
     "totalSeatCount": 136,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 10.83
+    "adultTicketPrice": 11.1
   },
   {
     "state": "TX",
@@ -1868,8 +1868,8 @@
     "occupancy": 2.61,
     "totalAvailableSeatCount": 112,
     "totalSeatCount": 115,
-    "grossRevenueUSD": 36.54,
-    "adultTicketPrice": 12.18
+    "grossRevenueUSD": 37.35,
+    "adultTicketPrice": 12.45
   },
   {
     "state": "TX",
@@ -1887,7 +1887,7 @@
     "totalAvailableSeatCount": 115,
     "totalSeatCount": 115,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 12.18
+    "adultTicketPrice": 12.45
   },
   {
     "state": "TX",
@@ -1905,7 +1905,7 @@
     "totalAvailableSeatCount": 71,
     "totalSeatCount": 71,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 13.26
+    "adultTicketPrice": 13.53
   },
   {
     "state": "TX",
@@ -1940,8 +1940,8 @@
     "occupancy": 2.7,
     "totalAvailableSeatCount": 72,
     "totalSeatCount": 74,
-    "grossRevenueUSD": 23.82,
-    "adultTicketPrice": 11.91
+    "grossRevenueUSD": 24.9,
+    "adultTicketPrice": 12.45
   },
   {
     "state": "TX",
@@ -1959,7 +1959,7 @@
     "totalAvailableSeatCount": 104,
     "totalSeatCount": 104,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 11.91
+    "adultTicketPrice": 12.45
   },
   {
     "state": "TX",
@@ -2156,8 +2156,8 @@
     "occupancy": 1.61,
     "totalAvailableSeatCount": 61,
     "totalSeatCount": 62,
-    "grossRevenueUSD": 16.25,
-    "adultTicketPrice": 16.25
+    "grossRevenueUSD": 16.5,
+    "adultTicketPrice": 16.5
   },
   {
     "state": "CA",
@@ -2175,7 +2175,7 @@
     "totalAvailableSeatCount": 62,
     "totalSeatCount": 62,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 16.25
+    "adultTicketPrice": 16.5
   },
   {
     "state": "CA",
@@ -2192,8 +2192,8 @@
     "occupancy": 30.65,
     "totalAvailableSeatCount": 43,
     "totalSeatCount": 62,
-    "grossRevenueUSD": 308.75,
-    "adultTicketPrice": 16.25
+    "grossRevenueUSD": 313.5,
+    "adultTicketPrice": 16.5
   },
   {
     "state": "CA",
@@ -2210,8 +2210,8 @@
     "occupancy": 38.71,
     "totalAvailableSeatCount": 38,
     "totalSeatCount": 62,
-    "grossRevenueUSD": 390.0,
-    "adultTicketPrice": 16.25
+    "grossRevenueUSD": 396.0,
+    "adultTicketPrice": 16.5
   },
   {
     "state": "CA",
@@ -2301,7 +2301,7 @@
     "totalAvailableSeatCount": 65,
     "totalSeatCount": 65,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 15.75
+    "adultTicketPrice": 16.0
   },
   {
     "state": "CA",
@@ -2319,7 +2319,7 @@
     "totalAvailableSeatCount": 65,
     "totalSeatCount": 65,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 15.75
+    "adultTicketPrice": 16.0
   },
   {
     "state": "CA",
@@ -2336,8 +2336,8 @@
     "occupancy": 26.09,
     "totalAvailableSeatCount": 51,
     "totalSeatCount": 69,
-    "grossRevenueUSD": 283.5,
-    "adultTicketPrice": 15.75
+    "grossRevenueUSD": 288.0,
+    "adultTicketPrice": 16.0
   },
   {
     "state": "CA",
@@ -2354,8 +2354,8 @@
     "occupancy": 7.25,
     "totalAvailableSeatCount": 64,
     "totalSeatCount": 69,
-    "grossRevenueUSD": 78.75,
-    "adultTicketPrice": 15.75
+    "grossRevenueUSD": 80.0,
+    "adultTicketPrice": 16.0
   },
   {
     "state": "CA",
@@ -2368,11 +2368,11 @@
     "date": "2025-09-04+19:00",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 48,
-    "occupancy": 45.71,
-    "totalAvailableSeatCount": 57,
+    "totalSeatSold": 47,
+    "occupancy": 44.76,
+    "totalAvailableSeatCount": 58,
     "totalSeatCount": 105,
-    "grossRevenueUSD": 612.0,
+    "grossRevenueUSD": 599.25,
     "adultTicketPrice": 12.75
   },
   {
@@ -2512,11 +2512,11 @@
     "date": "2025-09-04+21:30",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 14,
-    "occupancy": 14.0,
-    "totalAvailableSeatCount": 86,
+    "totalSeatSold": 16,
+    "occupancy": 16.0,
+    "totalAvailableSeatCount": 84,
     "totalSeatCount": 100,
-    "grossRevenueUSD": 238.0,
+    "grossRevenueUSD": 272.0,
     "adultTicketPrice": 17.0
   },
   {
@@ -2782,11 +2782,11 @@
     "date": "2025-09-04+17:45",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 1,
-    "occupancy": 0.83,
-    "totalAvailableSeatCount": 120,
+    "totalSeatSold": 9,
+    "occupancy": 7.44,
+    "totalAvailableSeatCount": 112,
     "totalSeatCount": 121,
-    "grossRevenueUSD": 15.71,
+    "grossRevenueUSD": 141.39,
     "adultTicketPrice": 15.71
   },
   {
