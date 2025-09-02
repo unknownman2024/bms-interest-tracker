@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-03 01:43:13 AM",
+  "last_updated": "2025-09-03 02:38:19 AM",
   "errors": [
     {
       "state": "GA",
@@ -32,18 +32,33 @@
       }
     },
     {
-      "state": "TX",
-      "city": "Irving",
-      "zip": "75062",
-      "theater_name": "AMC Irving Mall 14",
+      "state": "PA",
+      "city": "Pittsburgh",
+      "zip": "15241",
+      "theater_name": "AMC CLASSIC South Hills Village 10",
       "chainName": "AMC",
       "chainCode": "AMC",
-      "showtime_id": 514470469,
-      "date": "2025-09-05+18:15",
+      "showtime_id": 514511801,
+      "date": "2025-09-05+17:00",
       "format": "Standard",
       "language": "Hindi",
       "error": {
-        "status": 403
+        "status": 400
+      }
+    },
+    {
+      "state": "FL",
+      "city": "Tampa",
+      "zip": "33647",
+      "theater_name": "AMC Highwoods 20",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 514494443,
+      "date": "2025-09-05+22:10",
+      "format": "Standard",
+      "language": "Hindi",
+      "error": {
+        "status": 400
       }
     }
   ]
