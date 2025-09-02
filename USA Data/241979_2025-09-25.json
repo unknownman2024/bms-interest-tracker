@@ -1087,11 +1087,11 @@
     "date": "2025-09-25+19:35",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 4,
-    "occupancy": 2.56,
-    "totalAvailableSeatCount": 152,
+    "totalSeatSold": 2,
+    "occupancy": 1.28,
+    "totalAvailableSeatCount": 154,
     "totalSeatCount": 156,
-    "grossRevenueUSD": 80.0,
+    "grossRevenueUSD": 40.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -2668,11 +2668,11 @@
     "date": "2025-09-25+13:05",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 186,
+    "totalSeatSold": 1,
+    "occupancy": 0.54,
+    "totalAvailableSeatCount": 185,
     "totalSeatCount": 186,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 21.55,
     "adultTicketPrice": 21.55
   },
   {
@@ -2740,11 +2740,11 @@
     "date": "2025-09-25+19:00",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 3,
-    "occupancy": 1.1,
-    "totalAvailableSeatCount": 269,
+    "totalSeatSold": 2,
+    "occupancy": 0.74,
+    "totalAvailableSeatCount": 270,
     "totalSeatCount": 272,
-    "grossRevenueUSD": 50.61,
+    "grossRevenueUSD": 33.74,
     "adultTicketPrice": 16.87
   },
   {
@@ -4810,11 +4810,11 @@
     "date": "2025-09-25+19:10",
     "format": "Sony Digital Cinema",
     "language": "Telugu",
-    "totalSeatSold": 17,
-    "occupancy": 6.16,
-    "totalAvailableSeatCount": 259,
+    "totalSeatSold": 19,
+    "occupancy": 6.88,
+    "totalAvailableSeatCount": 257,
     "totalSeatCount": 276,
-    "grossRevenueUSD": 425.0,
+    "grossRevenueUSD": 475.0,
     "adultTicketPrice": 25.0
   },
   {
@@ -4846,11 +4846,11 @@
     "date": "2025-09-25+11:00",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 153,
+    "totalSeatSold": 1,
+    "occupancy": 0.65,
+    "totalAvailableSeatCount": 152,
     "totalSeatCount": 153,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 25.0,
     "adultTicketPrice": 25.0
   },
   {
@@ -5080,11 +5080,11 @@
     "date": "2025-09-25+20:45",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 101,
+    "totalSeatSold": 3,
+    "occupancy": 2.97,
+    "totalAvailableSeatCount": 98,
     "totalSeatCount": 101,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 64.95,
     "adultTicketPrice": 21.65
   },
   {
@@ -7765,5 +7765,41 @@
     "error": {
       "status": 400
     }
+  },
+  {
+    "state": "KY",
+    "city": "Newport",
+    "zip": "41071",
+    "theater_name": "AMC Newport On The Levee 20",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514539254,
+    "date": "2025-09-25+20:50",
+    "format": "Standard",
+    "language": "Telugu",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 88,
+    "totalSeatCount": 88,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 21.2
+  },
+  {
+    "state": "IL",
+    "city": "Naperville",
+    "zip": "60564",
+    "theater_name": "AMC Naperville 16",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514561801,
+    "date": "2025-09-25+20:45",
+    "format": "Standard",
+    "language": "Telugu",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 189,
+    "totalSeatCount": 189,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 20.0
   }
 ]
