@@ -604,11 +604,11 @@
     "date": "2025-09-05+20:30",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 154,
+    "totalSeatSold": 2,
+    "occupancy": 1.3,
+    "totalAvailableSeatCount": 152,
     "totalSeatCount": 154,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 28.32,
     "adultTicketPrice": 14.16
   },
   {
@@ -640,11 +640,11 @@
     "date": "2025-09-05+20:30",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 3,
-    "occupancy": 3.03,
-    "totalAvailableSeatCount": 96,
+    "totalSeatSold": 4,
+    "occupancy": 4.04,
+    "totalAvailableSeatCount": 95,
     "totalSeatCount": 99,
-    "grossRevenueUSD": 26.97,
+    "grossRevenueUSD": 35.96,
     "adultTicketPrice": 8.99
   },
   {
@@ -712,11 +712,11 @@
     "date": "2025-09-05+21:30",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 3,
-    "occupancy": 4.55,
-    "totalAvailableSeatCount": 63,
+    "totalSeatSold": 5,
+    "occupancy": 7.58,
+    "totalAvailableSeatCount": 61,
     "totalSeatCount": 66,
-    "grossRevenueUSD": 46.95,
+    "grossRevenueUSD": 78.25,
     "adultTicketPrice": 15.65
   },
   {
@@ -1057,5 +1057,23 @@
     "totalSeatCount": 170,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 16.04
+  },
+  {
+    "state": "CA",
+    "city": "Fremont",
+    "zip": "94538",
+    "theater_name": "Cin\u00e9 Lounge Fremont 7",
+    "chainName": "RTSIND",
+    "chainCode": "RTSIND",
+    "showtime_id": 514407278,
+    "date": "2025-09-05+15:35",
+    "format": "Standard",
+    "language": "Hindi",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 52,
+    "totalSeatCount": 52,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 14.5
   }
 ]
