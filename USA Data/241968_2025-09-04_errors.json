@@ -1,4 +1,20 @@
 {
-  "last_updated": "2025-09-04 03:52:13 AM",
-  "errors": []
+  "last_updated": "2025-09-04 04:50:19 AM",
+  "errors": [
+    {
+      "state": "NJ",
+      "city": "Secaucus",
+      "zip": "07094",
+      "theater_name": "Regal Secaucus ShowPlace 14",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 515055401,
+      "date": "2025-09-04+21:30",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "status": 404
+      }
+    }
+  ]
 }
