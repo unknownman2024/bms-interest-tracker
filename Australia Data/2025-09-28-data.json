@@ -286,7 +286,8 @@
     "max_gross": 3120.0,
     "total_gross": 78.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 502"
   },
   {
     "id": 281618,

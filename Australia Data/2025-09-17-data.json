@@ -286,8 +286,7 @@
     "max_gross": 3510.0,
     "total_gross": 108.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 280104,
@@ -621,11 +620,11 @@
     "screenName": "Xtremescreen 09",
     "operator": "PEN",
     "total": 476,
-    "sold": 8,
-    "available": 468,
-    "occupancy": 1.68,
+    "sold": 10,
+    "available": 466,
+    "occupancy": 2.1,
     "max_gross": 12852.0,
-    "total_gross": 216.0,
+    "total_gross": 270.0,
     "price": 27.0,
     "error": false
   },
@@ -661,8 +660,7 @@
     "max_gross": 16983.0,
     "total_gross": 54.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 336269,

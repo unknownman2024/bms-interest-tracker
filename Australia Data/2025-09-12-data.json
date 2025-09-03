@@ -93,11 +93,11 @@
     "screenName": "HOYTS LUX 5",
     "operator": "CWF",
     "total": 72,
-    "sold": 2,
-    "available": 70,
-    "occupancy": 2.78,
+    "sold": 4,
+    "available": 68,
+    "occupancy": 5.56,
     "max_gross": 2700.0,
-    "total_gross": 75.0,
+    "total_gross": 150.0,
     "price": 37.5,
     "error": false
   },
@@ -405,8 +405,7 @@
     "max_gross": 15741.0,
     "total_gross": 185.5,
     "price": 26.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 498741,
@@ -1273,8 +1272,7 @@
     "max_gross": 2812.0,
     "total_gross": 0.0,
     "price": 19.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 329121,
@@ -1308,8 +1306,7 @@
     "max_gross": 5400.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 421652,
@@ -1388,11 +1385,11 @@
     "screenName": "Cinema 06",
     "operator": "TAY",
     "total": 150,
-    "sold": 16,
-    "available": 134,
-    "occupancy": 10.67,
+    "sold": 18,
+    "available": 132,
+    "occupancy": 12.0,
     "max_gross": 4200.0,
-    "total_gross": 448.0,
+    "total_gross": 504.0,
     "price": 28.0,
     "error": false
   },
@@ -2499,8 +2496,7 @@
     "max_gross": 2618.0,
     "total_gross": 34.0,
     "price": 17.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 273218,
@@ -2534,8 +2530,7 @@
     "max_gross": 2618.0,
     "total_gross": 34.0,
     "price": 17.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 311016,
@@ -2807,8 +2802,7 @@
     "max_gross": 3710.0,
     "total_gross": 185.5,
     "price": 26.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 281664,
@@ -2955,11 +2949,11 @@
     "screenName": "Cinema 05",
     "operator": "CAR",
     "total": 200,
-    "sold": 27,
-    "available": 173,
-    "occupancy": 13.5,
+    "sold": 29,
+    "available": 171,
+    "occupancy": 14.5,
     "max_gross": 5200.0,
-    "total_gross": 702.0,
+    "total_gross": 754.0,
     "price": 26.0,
     "error": false
   },
@@ -3142,11 +3136,11 @@
     "screenName": "Cinema 04",
     "operator": "CHA",
     "total": 143,
-    "sold": 8,
-    "available": 135,
-    "occupancy": 5.59,
+    "sold": 9,
+    "available": 134,
+    "occupancy": 6.29,
     "max_gross": 3074.5,
-    "total_gross": 172.0,
+    "total_gross": 193.5,
     "price": 21.5,
     "error": false
   },
