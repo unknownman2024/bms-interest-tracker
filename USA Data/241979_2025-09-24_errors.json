@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-03 09:51:58 PM",
+  "last_updated": "2025-09-03 10:23:28 PM",
   "errors": [
     {
       "state": "IL",
@@ -190,6 +190,66 @@
       "chainCode": "AMC",
       "showtime_id": 514651705,
       "date": "2025-09-24+18:05",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "AL",
+      "city": "Hoover",
+      "zip": "35244",
+      "theater_name": "AMC Patton Creek 15",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 514979394,
+      "date": "2025-09-24+16:50",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "AL",
+      "city": "Hoover",
+      "zip": "35244",
+      "theater_name": "AMC Patton Creek 15",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 514979395,
+      "date": "2025-09-24+20:30",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "OH",
+      "city": "Columbus",
+      "zip": "43219",
+      "theater_name": "AMC Dine-in Easton Town Center 30",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 514972221,
+      "date": "2025-09-24+14:30",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "OH",
+      "city": "Columbus",
+      "zip": "43219",
+      "theater_name": "AMC Dine-in Easton Town Center 30",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 514972222,
+      "date": "2025-09-24+18:15",
       "format": "Standard",
       "language": "Telugu",
       "error": {
