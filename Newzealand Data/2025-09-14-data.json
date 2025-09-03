@@ -286,7 +286,8 @@
     "max_gross": 3078.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 502"
   },
   {
     "id": 67305,
@@ -858,11 +859,11 @@
     "screenName": "Xtremescreen 04",
     "operator": "CHC",
     "total": 372,
-    "sold": 53,
-    "available": 319,
-    "occupancy": 14.25,
+    "sold": 56,
+    "available": 316,
+    "occupancy": 15.05,
     "max_gross": 9300.0,
-    "total_gross": 1325.0,
+    "total_gross": 1400.0,
     "price": 25.0,
     "error": false
   },
