@@ -547,11 +547,11 @@
     "date": "2025-09-25+10:10",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 88,
+    "totalSeatSold": 3,
+    "occupancy": 3.41,
+    "totalAvailableSeatCount": 85,
     "totalSeatCount": 88,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 60.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -1768,7 +1768,7 @@
     "chainName": "Regal",
     "chainCode": "REGL",
     "showtime_id": 514153139,
-    "date": "2025-09-25+16:00",
+    "date": "2025-09-25+16:10",
     "format": "Standard",
     "language": "Telugu",
     "totalSeatSold": 0,
@@ -2118,7 +2118,7 @@
     "totalAvailableSeatCount": 116,
     "totalSeatCount": 116,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 26.25
+    "adultTicketPrice": 21.0
   },
   {
     "state": "VA",
@@ -2136,7 +2136,7 @@
     "totalAvailableSeatCount": 116,
     "totalSeatCount": 116,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 26.25
+    "adultTicketPrice": 21.0
   },
   {
     "state": "VA",
@@ -2154,7 +2154,7 @@
     "totalAvailableSeatCount": 116,
     "totalSeatCount": 116,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 26.25
+    "adultTicketPrice": 21.0
   },
   {
     "state": "VA",
@@ -2279,8 +2279,8 @@
     "occupancy": 0.36,
     "totalAvailableSeatCount": 280,
     "totalSeatCount": 281,
-    "grossRevenueUSD": 10.99,
-    "adultTicketPrice": 10.99
+    "grossRevenueUSD": 22.0,
+    "adultTicketPrice": 22.0
   },
   {
     "state": "VA",
@@ -2298,7 +2298,7 @@
     "totalAvailableSeatCount": 281,
     "totalSeatCount": 281,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 13.74
+    "adultTicketPrice": 22.0
   },
   {
     "state": "VA",
@@ -2316,7 +2316,7 @@
     "totalAvailableSeatCount": 281,
     "totalSeatCount": 281,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 13.74
+    "adultTicketPrice": 22.0
   },
   {
     "state": "NC",
@@ -2380,11 +2380,11 @@
     "date": "2025-09-25+20:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 14,
-    "occupancy": 15.56,
-    "totalAvailableSeatCount": 76,
+    "totalSeatSold": 17,
+    "occupancy": 18.89,
+    "totalAvailableSeatCount": 73,
     "totalSeatCount": 90,
-    "grossRevenueUSD": 300.3,
+    "grossRevenueUSD": 364.65,
     "adultTicketPrice": 21.45
   },
   {
@@ -2619,7 +2619,7 @@
     "totalAvailableSeatCount": 50,
     "totalSeatCount": 50,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 27.13
+    "adultTicketPrice": 21.7
   },
   {
     "state": "GA",
@@ -2637,7 +2637,7 @@
     "totalAvailableSeatCount": 50,
     "totalSeatCount": 50,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 27.13
+    "adultTicketPrice": 21.7
   },
   {
     "state": "GA",
@@ -2655,7 +2655,7 @@
     "totalAvailableSeatCount": 50,
     "totalSeatCount": 50,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 27.13
+    "adultTicketPrice": 21.7
   },
   {
     "state": "GA",
@@ -2668,11 +2668,11 @@
     "date": "2025-09-25+13:05",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 186,
+    "totalSeatSold": 3,
+    "occupancy": 1.61,
+    "totalAvailableSeatCount": 183,
     "totalSeatCount": 186,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 64.65,
     "adultTicketPrice": 21.55
   },
   {
@@ -3640,11 +3640,11 @@
     "date": "2025-09-25+11:25",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 1,
-    "occupancy": 0.6,
-    "totalAvailableSeatCount": 165,
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 166,
     "totalSeatCount": 166,
-    "grossRevenueUSD": 21.95,
+    "grossRevenueUSD": 0.0,
     "adultTicketPrice": 21.95
   },
   {
@@ -5138,8 +5138,8 @@
     "occupancy": 1.16,
     "totalAvailableSeatCount": 170,
     "totalSeatCount": 172,
-    "grossRevenueUSD": 54.12,
-    "adultTicketPrice": 27.06
+    "grossRevenueUSD": 43.3,
+    "adultTicketPrice": 21.65
   },
   {
     "state": "TX",
@@ -5157,7 +5157,7 @@
     "totalAvailableSeatCount": 172,
     "totalSeatCount": 172,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 27.06
+    "adultTicketPrice": 21.65
   },
   {
     "state": "TX",
@@ -5174,8 +5174,8 @@
     "occupancy": 1.16,
     "totalAvailableSeatCount": 170,
     "totalSeatCount": 172,
-    "grossRevenueUSD": 54.12,
-    "adultTicketPrice": 27.06
+    "grossRevenueUSD": 43.3,
+    "adultTicketPrice": 21.65
   },
   {
     "state": "TX",
@@ -6219,7 +6219,7 @@
     "totalAvailableSeatCount": 272,
     "totalSeatCount": 272,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 25.0
+    "adultTicketPrice": 20.0
   },
   {
     "state": "CA",
@@ -6237,7 +6237,7 @@
     "totalAvailableSeatCount": 272,
     "totalSeatCount": 272,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 25.0
+    "adultTicketPrice": 20.0
   },
   {
     "state": "CA",
@@ -6255,7 +6255,7 @@
     "totalAvailableSeatCount": 272,
     "totalSeatCount": 272,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 25.0
+    "adultTicketPrice": 20.0
   },
   {
     "state": "CA",
@@ -6664,11 +6664,11 @@
     "date": "2025-09-25+21:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 237,
+    "totalSeatSold": 1,
+    "occupancy": 0.42,
+    "totalAvailableSeatCount": 236,
     "totalSeatCount": 237,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 20.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -7818,7 +7818,7 @@
     "totalAvailableSeatCount": 103,
     "totalSeatCount": 103,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 26.82
+    "adultTicketPrice": 21.45
   },
   {
     "state": "NC",
@@ -7836,7 +7836,7 @@
     "totalAvailableSeatCount": 103,
     "totalSeatCount": 103,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 26.82
+    "adultTicketPrice": 21.45
   },
   {
     "state": "NC",
@@ -7854,7 +7854,7 @@
     "totalAvailableSeatCount": 103,
     "totalSeatCount": 103,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 26.82
+    "adultTicketPrice": 21.45
   },
   {
     "state": "MI",
@@ -7939,11 +7939,11 @@
     "date": "2025-09-25+18:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 22,
-    "occupancy": 22.45,
-    "totalAvailableSeatCount": 76,
+    "totalSeatSold": 24,
+    "occupancy": 24.49,
+    "totalAvailableSeatCount": 74,
     "totalSeatCount": 98,
-    "grossRevenueUSD": 226.16,
+    "grossRevenueUSD": 246.72,
     "adultTicketPrice": 10.28
   },
   {
@@ -8209,11 +8209,11 @@
     "date": "2025-09-25+19:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 2,
-    "occupancy": 0.54,
-    "totalAvailableSeatCount": 366,
+    "totalSeatSold": 5,
+    "occupancy": 1.36,
+    "totalAvailableSeatCount": 363,
     "totalSeatCount": 368,
-    "grossRevenueUSD": 41.2,
+    "grossRevenueUSD": 103.0,
     "adultTicketPrice": 20.6
   },
   {
@@ -8233,5 +8233,20 @@
     "totalSeatCount": 444,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 20.6
+  },
+  {
+    "state": "TX",
+    "city": "Grapevine",
+    "zip": "76051",
+    "theater_name": "AMC Grapevine Mills 24",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 515051219,
+    "date": "2025-09-25+20:30",
+    "format": "Standard",
+    "language": "Unknown",
+    "error": {
+      "status": 500
+    }
   }
 ]
