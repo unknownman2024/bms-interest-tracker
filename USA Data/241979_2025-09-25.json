@@ -2704,11 +2704,11 @@
     "date": "2025-09-25+20:55",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 21,
-    "occupancy": 11.29,
-    "totalAvailableSeatCount": 165,
+    "totalSeatSold": 23,
+    "occupancy": 12.37,
+    "totalAvailableSeatCount": 163,
     "totalSeatCount": 186,
-    "grossRevenueUSD": 452.55,
+    "grossRevenueUSD": 495.65,
     "adultTicketPrice": 21.55
   },
   {
@@ -3640,11 +3640,11 @@
     "date": "2025-09-25+11:25",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 166,
+    "totalSeatSold": 1,
+    "occupancy": 0.6,
+    "totalAvailableSeatCount": 165,
     "totalSeatCount": 166,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 21.95,
     "adultTicketPrice": 21.95
   },
   {
@@ -4144,11 +4144,11 @@
     "date": "2025-09-25+19:35",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 6,
-    "occupancy": 6.45,
-    "totalAvailableSeatCount": 87,
+    "totalSeatSold": 8,
+    "occupancy": 8.6,
+    "totalAvailableSeatCount": 85,
     "totalSeatCount": 93,
-    "grossRevenueUSD": 120.0,
+    "grossRevenueUSD": 160.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -7939,11 +7939,11 @@
     "date": "2025-09-25+18:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 11,
-    "occupancy": 11.22,
-    "totalAvailableSeatCount": 87,
+    "totalSeatSold": 22,
+    "occupancy": 22.45,
+    "totalAvailableSeatCount": 76,
     "totalSeatCount": 98,
-    "grossRevenueUSD": 113.08,
+    "grossRevenueUSD": 226.16,
     "adultTicketPrice": 10.28
   },
   {
@@ -8131,5 +8131,107 @@
     "error": {
       "status": 500
     }
+  },
+  {
+    "state": "KS",
+    "city": "Overland Park",
+    "zip": "66223",
+    "theater_name": "AMC DINE-IN Prairiefire 17",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 515029171,
+    "date": "2025-09-25+15:50",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 500
+    }
+  },
+  {
+    "state": "KS",
+    "city": "Overland Park",
+    "zip": "66223",
+    "theater_name": "AMC DINE-IN Prairiefire 17",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 515029170,
+    "date": "2025-09-25+19:30",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 500
+    }
+  },
+  {
+    "state": "WA",
+    "city": "Bellevue",
+    "zip": "98004",
+    "theater_name": "Cinemark Lincoln Square",
+    "chainName": "Cinemark Theatres",
+    "chainCode": "CNMK",
+    "showtime_id": 515021036,
+    "date": "2025-09-25+11:30",
+    "format": "Standard",
+    "language": "Telugu",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 444,
+    "totalSeatCount": 444,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 20.6
+  },
+  {
+    "state": "WA",
+    "city": "Bellevue",
+    "zip": "98004",
+    "theater_name": "Cinemark Lincoln Square",
+    "chainName": "Cinemark Theatres",
+    "chainCode": "CNMK",
+    "showtime_id": 515021037,
+    "date": "2025-09-25+15:10",
+    "format": "Standard",
+    "language": "Telugu",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 444,
+    "totalSeatCount": 444,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 20.6
+  },
+  {
+    "state": "WA",
+    "city": "Bellevue",
+    "zip": "98004",
+    "theater_name": "Cinemark Lincoln Square",
+    "chainName": "Cinemark Theatres",
+    "chainCode": "CNMK",
+    "showtime_id": 515021038,
+    "date": "2025-09-25+19:30",
+    "format": "Standard",
+    "language": "Telugu",
+    "totalSeatSold": 2,
+    "occupancy": 0.54,
+    "totalAvailableSeatCount": 366,
+    "totalSeatCount": 368,
+    "grossRevenueUSD": 41.2,
+    "adultTicketPrice": 20.6
+  },
+  {
+    "state": "WA",
+    "city": "Bellevue",
+    "zip": "98004",
+    "theater_name": "Cinemark Lincoln Square",
+    "chainName": "Cinemark Theatres",
+    "chainCode": "CNMK",
+    "showtime_id": 515021039,
+    "date": "2025-09-25+21:45",
+    "format": "Standard",
+    "language": "Telugu",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 444,
+    "totalSeatCount": 444,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 20.6
   }
 ]
