@@ -167,8 +167,7 @@
     "max_gross": 2574.0,
     "total_gross": 260.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 299901,
@@ -213,11 +212,11 @@
     "screenName": "Cinema 07",
     "operator": "CAR",
     "total": 160,
-    "sold": 48,
-    "available": 112,
-    "occupancy": 30.0,
+    "sold": 50,
+    "available": 110,
+    "occupancy": 31.25,
     "max_gross": 3840.0,
-    "total_gross": 1152.0,
+    "total_gross": 1200.0,
     "price": 24.0,
     "error": false
   },
@@ -236,8 +235,7 @@
     "max_gross": 1690.0,
     "total_gross": 884.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 76276,
@@ -254,8 +252,7 @@
     "max_gross": 1690.0,
     "total_gross": 806.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 375931,
@@ -289,8 +286,7 @@
     "max_gross": 2080.0,
     "total_gross": 494.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 300756,
