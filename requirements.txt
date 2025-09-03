@@ -4,3 +4,4 @@ aiohttp_retry
 tqdm
 cloudscraper
 pandas
+tabulate
