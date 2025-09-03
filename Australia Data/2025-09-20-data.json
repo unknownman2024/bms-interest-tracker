@@ -65,8 +65,7 @@
     "max_gross": 2340.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 434350,
@@ -134,8 +133,7 @@
     "max_gross": 2340.0,
     "total_gross": 286.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 514863,
@@ -305,8 +303,7 @@
     "max_gross": 1380.0,
     "total_gross": 391.0,
     "price": 23.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 310990,
@@ -374,8 +371,7 @@
     "max_gross": 3840.0,
     "total_gross": 1128.0,
     "price": 24.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 499193,
@@ -443,8 +439,7 @@
     "max_gross": 3978.0,
     "total_gross": 1066.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 311181,

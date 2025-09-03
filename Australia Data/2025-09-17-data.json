@@ -201,8 +201,7 @@
     "max_gross": 4536.0,
     "total_gross": 297.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 336268,
@@ -287,7 +286,8 @@
     "max_gross": 3510.0,
     "total_gross": 108.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 280104,
@@ -525,8 +525,7 @@
     "max_gross": 8323.0,
     "total_gross": 203.0,
     "price": 29.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 68522,
@@ -628,8 +627,7 @@
     "max_gross": 12852.0,
     "total_gross": 216.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 68527,
@@ -663,7 +661,8 @@
     "max_gross": 16983.0,
     "total_gross": 54.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 336269,
@@ -765,8 +764,7 @@
     "max_gross": 8532.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 308898,
@@ -817,8 +815,7 @@
     "max_gross": 10098.0,
     "total_gross": 243.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 487204,
@@ -903,8 +900,7 @@
     "max_gross": 4158.0,
     "total_gross": 135.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 260542,
@@ -1040,8 +1036,7 @@
     "max_gross": 6210.0,
     "total_gross": 81.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 358734,
@@ -1126,8 +1121,7 @@
     "max_gross": 4830.0,
     "total_gross": 230.0,
     "price": 23.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 271222,
@@ -1246,8 +1240,7 @@
     "max_gross": 4050.0,
     "total_gross": 0.0,
     "price": 37.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 497013,

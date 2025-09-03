@@ -133,8 +133,7 @@
     "max_gross": 7480.0,
     "total_gross": 0.0,
     "price": 40.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 69445,
@@ -185,8 +184,7 @@
     "max_gross": 7200.0,
     "total_gross": 0.0,
     "price": 40.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 8367,
@@ -203,8 +201,7 @@
     "max_gross": 5240.0,
     "total_gross": 0.0,
     "price": 40.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 270629,
@@ -221,7 +218,8 @@
     "max_gross": 10360.0,
     "total_gross": 0.0,
     "price": 37.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 29308,
@@ -255,8 +253,7 @@
     "max_gross": 5760.0,
     "total_gross": 0.0,
     "price": 40.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 42410,
@@ -267,7 +264,7 @@
     "operator": "MID",
     "error": true,
     "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]",
-    "last_error": "HTTP 500"
+    "last_error": "HTTP 416"
   },
   {
     "id": 42411,
@@ -386,8 +383,7 @@
     "max_gross": 3600.0,
     "total_gross": 80.0,
     "price": 40.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 498716,
@@ -404,8 +400,7 @@
     "max_gross": 6400.0,
     "total_gross": 0.0,
     "price": 40.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 282016,
@@ -439,7 +434,8 @@
     "max_gross": 3840.0,
     "total_gross": 0.0,
     "price": 40.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 171517,
@@ -558,8 +554,7 @@
     "max_gross": 8806.0,
     "total_gross": 111.0,
     "price": 37.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 498715,
@@ -576,8 +571,7 @@
     "max_gross": 5346.0,
     "total_gross": 135.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 334787,
