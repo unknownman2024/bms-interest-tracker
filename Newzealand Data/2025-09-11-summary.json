@@ -1,0 +1,50 @@
+[
+  {
+    "sessions": 25,
+    "venues": 11,
+    "sold": 831,
+    "available": 6415,
+    "total": 7246,
+    "gross": 22905.0,
+    "max_gross": 206326.0,
+    "occupancy": 11.47,
+    "name": "Demon Slayer: Kimetsu no Yaiba- Infinity Castle (Japanese, Eng Sub)",
+    "summary": "The Demon Slayer Corps plunge into Infinity Castle to defeat Muzan. However, the remaining Hashiras and the Demon Slayers who survived Tanjiro's Final Selection...",
+    "duration": 155,
+    "releaseDate": "2025-09-11T00:00:00",
+    "posterImage": "mx/posters/nz/demon-slayer-kimetsu-no-yaiba-infinity-castle-subbed-e944bd48.jpg",
+    "id": "HO00007811"
+  },
+  {
+    "sessions": 10,
+    "venues": 10,
+    "sold": 54,
+    "available": 2027,
+    "total": 2081,
+    "gross": 1373.5,
+    "max_gross": 50842.0,
+    "occupancy": 2.59,
+    "name": "Demon Slayer: Kimetsu no Yaiba- Infinity Castle (Dubbed)",
+    "summary": "The Demon Slayer Corps plunge into Infinity Castle to defeat Muzan. However, the remaining Hashiras and the Demon Slayers who survived Tanjiro's Final Selection...",
+    "duration": 155,
+    "releaseDate": "2025-09-11T00:00:00",
+    "posterImage": "mx/posters/nz/demon-slayer-kimetsu-no-yaiba-infinity-castle-dubbed-8e2f4842.jpg",
+    "id": "HO00007812"
+  },
+  {
+    "sessions": 2,
+    "venues": 1,
+    "sold": 57,
+    "available": 229,
+    "total": 286,
+    "gross": 912.0,
+    "max_gross": 4576.0,
+    "occupancy": 19.93,
+    "name": "Downton Abbey: The Grand Finale",
+    "summary": "Experience the beloved Crawley family\u2019s final chapter in Downton Abbey: The Grand Finale.",
+    "duration": 122,
+    "releaseDate": "2025-09-11T00:00:00",
+    "posterImage": "mx/posters/nz/downton-abbey-the-grand-finale-5a661bb7.jpg",
+    "id": "HO00007444"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "sessions": 3,
+    "venues": 3,
+    "sold": 23,
+    "available": 513,
+    "total": 536,
+    "gross": 502.5,
+    "max_gross": 12172.0,
+    "occupancy": 4.29,
+    "name": "David Gilmour Live at the Circus Maximus, Rome",
+    "summary": "The forthcoming film of David Gilmour's 2024 return to Rome's historic Circus Maximus as part of the Luck and Strange tour, his first in nearly a decade.",
+    "duration": 150,
+    "releaseDate": "2025-09-17T00:00:00",
+    "posterImage": "mx/posters/nz/david-gilmour-live-at-the-circus-maximus-rome-2065aa36.jpg",
+    "id": "HO00008061"
+  },
+  {
+    "sessions": 3,
+    "venues": 3,
+    "sold": 16,
+    "available": 357,
+    "total": 373,
+    "gross": 281.0,
+    "max_gross": 7288.0,
+    "occupancy": 4.29,
+    "name": "Andrea Bocelli: Because I Believe",
+    "summary": "One of the world\u2019s greatest singers, Andrea Bocelli has a voice that transcends genres and generations.",
+    "duration": 107,
+    "releaseDate": "2025-09-21T00:00:00",
+    "posterImage": "mx/posters/au/andrea-bocelli-1sheet.jpg",
+    "id": "HO00008031"
+  }
+]
