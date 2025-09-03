@@ -709,11 +709,11 @@
     "date": "2025-09-25+13:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 129,
+    "totalSeatSold": 1,
+    "occupancy": 0.78,
+    "totalAvailableSeatCount": 128,
     "totalSeatCount": 129,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 21.33,
     "adultTicketPrice": 21.33
   },
   {
@@ -1627,11 +1627,11 @@
     "date": "2025-09-25+12:20",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 2,
-    "occupancy": 1.44,
-    "totalAvailableSeatCount": 137,
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 139,
     "totalSeatCount": 139,
-    "grossRevenueUSD": 44.0,
+    "grossRevenueUSD": 0.0,
     "adultTicketPrice": 22.0
   },
   {
@@ -5080,11 +5080,11 @@
     "date": "2025-09-25+20:45",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 3,
-    "occupancy": 2.97,
-    "totalAvailableSeatCount": 98,
+    "totalSeatSold": 4,
+    "occupancy": 3.96,
+    "totalAvailableSeatCount": 97,
     "totalSeatCount": 101,
-    "grossRevenueUSD": 64.95,
+    "grossRevenueUSD": 86.6,
     "adultTicketPrice": 21.65
   },
   {
@@ -7939,11 +7939,11 @@
     "date": "2025-09-25+18:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 98,
+    "totalSeatSold": 4,
+    "occupancy": 4.08,
+    "totalAvailableSeatCount": 94,
     "totalSeatCount": 98,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 41.12,
     "adultTicketPrice": 10.28
   },
   {
@@ -7981,5 +7981,23 @@
     "totalSeatCount": 41,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 20.0
+  },
+  {
+    "state": "AZ",
+    "city": "Phoenix",
+    "zip": "85050",
+    "theater_name": "AMC Desert Ridge 18",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514852135,
+    "date": "2025-09-25+19:15",
+    "format": "Standard",
+    "language": "Telugu",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 45,
+    "totalSeatCount": 45,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 21.82
   }
 ]
