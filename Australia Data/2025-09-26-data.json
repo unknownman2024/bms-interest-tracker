@@ -4,9 +4,16 @@
     "cinemaId": "NWDCIN",
     "movieId": "HO00010685",
     "date": "2025-09-26T19:00:00",
+    "typeId": "STANDARD",
     "screenName": "Cinema 05",
     "operator": "NWD",
-    "error": true,
-    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+    "total": 128,
+    "sold": 0,
+    "available": 128,
+    "occupancy": 0.0,
+    "max_gross": 3072.0,
+    "total_gross": 0.0,
+    "price": 24.0,
+    "error": false
   }
 ]
