@@ -14,7 +14,8 @@
     "max_gross": 4536.0,
     "total_gross": 72.0,
     "price": 24.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 434841,
@@ -150,8 +151,7 @@
     "max_gross": 3120.0,
     "total_gross": 208.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 292262,
@@ -322,7 +322,8 @@
     "max_gross": 4536.0,
     "total_gross": 192.0,
     "price": 24.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 515395,
@@ -435,13 +436,12 @@
     "screenName": "Cinema 06",
     "operator": "CAR",
     "total": 160,
-    "sold": 42,
-    "available": 118,
-    "occupancy": 26.25,
+    "sold": 43,
+    "available": 117,
+    "occupancy": 26.88,
     "max_gross": 3840.0,
-    "total_gross": 1008.0,
+    "total_gross": 1032.0,
     "price": 24.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   }
 ]
