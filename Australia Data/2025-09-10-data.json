@@ -2207,7 +2207,8 @@
     "max_gross": 2444.0,
     "total_gross": 0.0,
     "price": 23.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 377366,
@@ -2326,7 +2327,8 @@
     "max_gross": 2444.0,
     "total_gross": 0.0,
     "price": 23.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 171776,
@@ -3119,11 +3121,11 @@
     "screenName": "Cinema 03",
     "operator": "MCE",
     "total": 401,
-    "sold": 146,
-    "available": 255,
-    "occupancy": 36.41,
+    "sold": 148,
+    "available": 253,
+    "occupancy": 36.91,
     "max_gross": 11228.0,
-    "total_gross": 4088.0,
+    "total_gross": 4144.0,
     "price": 28.0,
     "error": false
   },
@@ -3618,7 +3620,8 @@
     "max_gross": 3960.0,
     "total_gross": 0.0,
     "price": 27.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 248509,
@@ -3669,7 +3672,8 @@
     "max_gross": 5445.0,
     "total_gross": 0.0,
     "price": 27.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 489480,
@@ -3805,7 +3809,8 @@
     "max_gross": 3640.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 71202,
@@ -3856,7 +3861,8 @@
     "max_gross": 15300.0,
     "total_gross": 0.0,
     "price": 25.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 421401,
@@ -4383,7 +4389,8 @@
     "max_gross": 14553.0,
     "total_gross": 0.0,
     "price": 24.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 292776,
@@ -4740,7 +4747,8 @@
     "max_gross": 3960.0,
     "total_gross": 0.0,
     "price": 27.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 312573,
@@ -6287,7 +6295,8 @@
     "max_gross": 8775.0,
     "total_gross": 0.0,
     "price": 32.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 248428,
@@ -7137,7 +7146,8 @@
     "max_gross": 3960.0,
     "total_gross": 0.0,
     "price": 27.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 361401,
@@ -7426,7 +7436,8 @@
     "max_gross": 15300.0,
     "total_gross": 0.0,
     "price": 25.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 357319,
@@ -7817,7 +7828,8 @@
     "max_gross": 2444.0,
     "total_gross": 0.0,
     "price": 23.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 499675,
@@ -7987,7 +7999,8 @@
     "max_gross": 3080.0,
     "total_gross": 0.0,
     "price": 27.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 141024,
@@ -9058,7 +9071,8 @@
     "max_gross": 2000.0,
     "total_gross": 0.0,
     "price": 25.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 43055,
@@ -9368,19 +9382,19 @@
   },
   {
     "id": 311915,
-    "cinemaId": "CHWOOD",
-    "movieId": "HO00010395",
-    "date": "2025-09-10T10:10:00",
-    "typeId": "STANDARD",
-    "screenName": "Cinema 08",
-    "operator": "CHW",
-    "total": 130,
+    "cinemaId": "CHDSTN",
+    "movieId": "HO00008335",
+    "date": "2025-09-10T12:00:00",
+    "typeId": "LUX",
+    "screenName": "HOYTS LUX 03",
+    "operator": "CDSLP",
+    "total": 70,
     "sold": 0,
-    "available": 130,
+    "available": 70,
     "occupancy": 0.0,
-    "max_gross": 3510.0,
+    "max_gross": 2520.0,
     "total_gross": 0.0,
-    "price": 27.0,
+    "price": 36.0,
     "error": false
   },
   {
@@ -9772,7 +9786,8 @@
     "max_gross": 3960.0,
     "total_gross": 0.0,
     "price": 27.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 489467,
@@ -10095,7 +10110,8 @@
     "max_gross": 3960.0,
     "total_gross": 0.0,
     "price": 27.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 136878,
@@ -11744,7 +11760,8 @@
     "max_gross": 3276.0,
     "total_gross": 0.0,
     "price": 36.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 489457,
@@ -13907,19 +13924,19 @@
   },
   {
     "id": 311934,
-    "cinemaId": "CHWOOD",
-    "movieId": "HO00010166",
-    "date": "2025-09-10T15:45:00",
-    "typeId": "STANDARD",
-    "screenName": "Cinema 06",
-    "operator": "CHW",
-    "total": 112,
-    "sold": 0,
-    "available": 112,
-    "occupancy": 0.0,
-    "max_gross": 2912.0,
-    "total_gross": 0.0,
-    "price": 26.0,
+    "cinemaId": "CHDSTN",
+    "movieId": "HO00010233",
+    "date": "2025-09-10T20:30:00",
+    "typeId": "LUX",
+    "screenName": "HOYTS LUX 03",
+    "operator": "CDSLP",
+    "total": 70,
+    "sold": 13,
+    "available": 57,
+    "occupancy": 18.57,
+    "max_gross": 2625.0,
+    "total_gross": 487.5,
+    "price": 37.5,
     "error": false
   },
   {
@@ -14209,7 +14226,8 @@
     "max_gross": 2444.0,
     "total_gross": 0.0,
     "price": 23.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 388873,
@@ -15093,7 +15111,8 @@
     "max_gross": 3960.0,
     "total_gross": 0.0,
     "price": 27.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 499651,
@@ -19343,7 +19362,8 @@
     "max_gross": 7150.0,
     "total_gross": 0.0,
     "price": 32.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 30296,
@@ -19360,7 +19380,8 @@
     "max_gross": 2444.0,
     "total_gross": 0.0,
     "price": 23.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 30292,
@@ -19377,7 +19398,8 @@
     "max_gross": 14553.0,
     "total_gross": 0.0,
     "price": 24.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 140921,
@@ -19551,19 +19573,19 @@
   },
   {
     "id": 311913,
-    "cinemaId": "CHWOOD",
+    "cinemaId": "CHDSTN",
     "movieId": "HO00010303",
-    "date": "2025-09-10T10:00:00",
-    "typeId": "STANDARD",
-    "screenName": "Cinema 02",
-    "operator": "CHW",
-    "total": 97,
+    "date": "2025-09-10T18:00:00",
+    "typeId": "LUX",
+    "screenName": "HOYTS LUX 03",
+    "operator": "CDSLP",
+    "total": 70,
     "sold": 0,
-    "available": 97,
+    "available": 70,
     "occupancy": 0.0,
-    "max_gross": 2522.0,
+    "max_gross": 2520.0,
     "total_gross": 0.0,
-    "price": 26.0,
+    "price": 36.0,
     "error": false
   },
   {
@@ -19738,19 +19760,19 @@
   },
   {
     "id": 311914,
-    "cinemaId": "CHWOOD",
-    "movieId": "HO00010490",
-    "date": "2025-09-10T10:00:00",
-    "typeId": "STANDARD",
-    "screenName": "Cinema 05",
-    "operator": "CHW",
-    "total": 99,
+    "cinemaId": "CHDSTN",
+    "movieId": "HO00009498",
+    "date": "2025-09-10T15:30:00",
+    "typeId": "LUX",
+    "screenName": "HOYTS LUX 01",
+    "operator": "CDSLP",
+    "total": 90,
     "sold": 0,
-    "available": 99,
+    "available": 90,
     "occupancy": 0.0,
-    "max_gross": 2574.0,
+    "max_gross": 3240.0,
     "total_gross": 0.0,
-    "price": 26.0,
+    "price": 36.0,
     "error": false
   },
   {
@@ -24624,11 +24646,11 @@
     "screenName": "Cinema 03",
     "operator": "KYP",
     "total": 160,
-    "sold": 10,
-    "available": 150,
-    "occupancy": 6.25,
+    "sold": 12,
+    "available": 148,
+    "occupancy": 7.5,
     "max_gross": 4480.0,
-    "total_gross": 280.0,
+    "total_gross": 336.0,
     "price": 28.0,
     "error": false
   },
@@ -25242,7 +25264,8 @@
     "max_gross": 4050.0,
     "total_gross": 0.0,
     "price": 25.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 428946,
@@ -25548,7 +25571,8 @@
     "max_gross": 2457.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 301073,
@@ -26211,7 +26235,8 @@
     "max_gross": 3412.5,
     "total_gross": 1125.0,
     "price": 37.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 311001,
@@ -26568,7 +26593,8 @@
     "max_gross": 2502.5,
     "total_gross": 0.0,
     "price": 27.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 282529,
@@ -29242,11 +29268,11 @@
     "screenName": "Cinema 06",
     "operator": "PEN",
     "total": 299,
-    "sold": 0,
-    "available": 299,
-    "occupancy": 0.0,
+    "sold": 2,
+    "available": 297,
+    "occupancy": 0.67,
     "max_gross": 6877.0,
-    "total_gross": 0.0,
+    "total_gross": 46.0,
     "price": 23.0,
     "error": false
   },
@@ -29418,7 +29444,8 @@
     "max_gross": 7700.0,
     "total_gross": 0.0,
     "price": 25.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 71197,
@@ -30557,7 +30584,8 @@
     "max_gross": 2444.0,
     "total_gross": 0.0,
     "price": 23.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 499639,
@@ -31271,7 +31299,8 @@
     "max_gross": 15725.0,
     "total_gross": 0.0,
     "price": 25.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 286352,
@@ -31883,7 +31912,8 @@
     "max_gross": 14553.0,
     "total_gross": 0.0,
     "price": 24.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 335525,
@@ -32053,7 +32083,8 @@
     "max_gross": 7920.0,
     "total_gross": 0.0,
     "price": 24.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 318209,
@@ -33158,7 +33189,8 @@
     "max_gross": 3276.0,
     "total_gross": 0.0,
     "price": 36.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 435345,
@@ -34076,7 +34108,8 @@
     "max_gross": 3640.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 270889,

@@ -1289,7 +1289,8 @@
     "max_gross": 8019.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 292542,
@@ -2377,7 +2378,8 @@
     "max_gross": 2295.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 333749,
@@ -4468,7 +4470,8 @@
     "max_gross": 3675.0,
     "total_gross": 337.5,
     "price": 37.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 371219,
@@ -5573,7 +5576,8 @@
     "max_gross": 3969.0,
     "total_gross": 108.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 311944,
@@ -6434,11 +6438,11 @@
     "screenName": "Cinema 04",
     "operator": "BMW",
     "total": 144,
-    "sold": 16,
-    "available": 128,
-    "occupancy": 11.11,
+    "sold": 13,
+    "available": 131,
+    "occupancy": 9.03,
     "max_gross": 3456.0,
-    "total_gross": 384.0,
+    "total_gross": 312.0,
     "price": 24.0,
     "error": false
   },

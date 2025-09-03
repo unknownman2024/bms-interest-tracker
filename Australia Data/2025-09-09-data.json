@@ -1901,7 +1901,8 @@
     "max_gross": 1836.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 301055,
@@ -2411,7 +2412,8 @@
     "max_gross": 1836.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 489316,
@@ -3550,7 +3552,8 @@
     "max_gross": 6048.0,
     "total_gross": 0.0,
     "price": 24.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 345736,
@@ -4676,19 +4679,19 @@
   },
   {
     "id": 311902,
-    "cinemaId": "CHWOOD",
-    "movieId": "HO00010539",
-    "date": "2025-09-09T18:20:00",
-    "typeId": "STANDARD",
-    "screenName": "Cinema 04",
-    "operator": "CHW",
-    "total": 99,
-    "sold": 4,
-    "available": 95,
-    "occupancy": 4.04,
-    "max_gross": 2574.0,
-    "total_gross": 104.0,
-    "price": 26.0,
+    "cinemaId": "CHDSTN",
+    "movieId": "HO00009611",
+    "date": "2025-09-09T20:40:00",
+    "typeId": "LUX",
+    "screenName": "HOYTS LUX 03",
+    "operator": "CDSLP",
+    "total": 70,
+    "sold": 3,
+    "available": 67,
+    "occupancy": 4.29,
+    "max_gross": 2520.0,
+    "total_gross": 108.0,
+    "price": 36.0,
     "error": false
   },
   {
@@ -4893,7 +4896,8 @@
     "max_gross": 4180.0,
     "total_gross": 0.0,
     "price": 27.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 171662,
@@ -5097,7 +5101,8 @@
     "max_gross": 3272.5,
     "total_gross": 0.0,
     "price": 27.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 140892,
@@ -5454,7 +5459,8 @@
     "max_gross": 2444.0,
     "total_gross": 0.0,
     "price": 23.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 212758,
@@ -5794,7 +5800,8 @@
     "max_gross": 14553.0,
     "total_gross": 0.0,
     "price": 24.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 489329,
@@ -6219,7 +6226,8 @@
     "max_gross": 3276.0,
     "total_gross": 0.0,
     "price": 36.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 262828,
@@ -9249,19 +9257,19 @@
   },
   {
     "id": 311900,
-    "cinemaId": "CHWOOD",
+    "cinemaId": "CHDSTN",
     "movieId": "HO00008335",
-    "date": "2025-09-09T18:00:00",
-    "typeId": "STANDARD",
-    "screenName": "Cinema 08",
-    "operator": "CHW",
-    "total": 130,
-    "sold": 0,
-    "available": 130,
-    "occupancy": 0.0,
-    "max_gross": 3380.0,
-    "total_gross": 0.0,
-    "price": 26.0,
+    "date": "2025-09-09T18:45:00",
+    "typeId": "LUX",
+    "screenName": "HOYTS LUX 02",
+    "operator": "CDSLP",
+    "total": 70,
+    "sold": 19,
+    "available": 51,
+    "occupancy": 27.14,
+    "max_gross": 2520.0,
+    "total_gross": 684.0,
+    "price": 36.0,
     "error": false
   },
   {
@@ -9334,19 +9342,19 @@
   },
   {
     "id": 311901,
-    "cinemaId": "CHWOOD",
-    "movieId": "HO00010303",
-    "date": "2025-09-09T18:15:00",
-    "typeId": "STANDARD",
-    "screenName": "Cinema 02",
-    "operator": "CHW",
-    "total": 97,
-    "sold": 0,
-    "available": 97,
-    "occupancy": 0.0,
-    "max_gross": 2522.0,
-    "total_gross": 0.0,
-    "price": 26.0,
+    "cinemaId": "CHDSTN",
+    "movieId": "HO00009351",
+    "date": "2025-09-09T19:10:00",
+    "typeId": "LUX",
+    "screenName": "HOYTS LUX 01",
+    "operator": "CDSLP",
+    "total": 90,
+    "sold": 2,
+    "available": 88,
+    "occupancy": 2.22,
+    "max_gross": 3240.0,
+    "total_gross": 72.0,
+    "price": 36.0,
     "error": false
   },
   {
@@ -10996,7 +11004,8 @@
     "max_gross": 14553.0,
     "total_gross": 0.0,
     "price": 24.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 69699,
@@ -11132,7 +11141,8 @@
     "max_gross": 3080.0,
     "total_gross": 0.0,
     "price": 27.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 435326,
@@ -11697,19 +11707,19 @@
   },
   {
     "id": 311904,
-    "cinemaId": "CHWOOD",
-    "movieId": "HO00009351",
-    "date": "2025-09-09T18:50:00",
-    "typeId": "STANDARD",
-    "screenName": "Cinema 03",
-    "operator": "CHW",
-    "total": 112,
+    "cinemaId": "CHDSTN",
+    "movieId": "HO00009498",
+    "date": "2025-09-09T21:40:00",
+    "typeId": "LUX",
+    "screenName": "HOYTS LUX 02",
+    "operator": "CDSLP",
+    "total": 70,
     "sold": 0,
-    "available": 112,
+    "available": 70,
     "occupancy": 0.0,
-    "max_gross": 2912.0,
+    "max_gross": 2520.0,
     "total_gross": 0.0,
-    "price": 26.0,
+    "price": 36.0,
     "error": false
   },
   {
@@ -11965,7 +11975,8 @@
     "max_gross": 2444.0,
     "total_gross": 0.0,
     "price": 23.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 330275,
@@ -12798,7 +12809,8 @@
     "max_gross": 5049.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 357419,
@@ -13546,7 +13558,8 @@
     "max_gross": 3888.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 428872,
@@ -13686,19 +13699,19 @@
   },
   {
     "id": 311903,
-    "cinemaId": "CHWOOD",
-    "movieId": "HO00010166",
-    "date": "2025-09-09T18:30:00",
-    "typeId": "STANDARD",
-    "screenName": "Cinema 06",
-    "operator": "CHW",
-    "total": 112,
+    "cinemaId": "CHDSTN",
+    "movieId": "HO00008335",
+    "date": "2025-09-09T21:15:00",
+    "typeId": "LUX",
+    "screenName": "HOYTS LUX 01",
+    "operator": "CDSLP",
+    "total": 90,
     "sold": 0,
-    "available": 112,
+    "available": 90,
     "occupancy": 0.0,
-    "max_gross": 2912.0,
+    "max_gross": 3240.0,
     "total_gross": 0.0,
-    "price": 26.0,
+    "price": 36.0,
     "error": false
   },
   {
@@ -13818,7 +13831,8 @@
     "max_gross": 2754.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 30249,
@@ -14175,7 +14189,8 @@
     "max_gross": 4675.0,
     "total_gross": 0.0,
     "price": 27.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 337451,
@@ -15654,8 +15669,7 @@
     "max_gross": 10426.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 301052,
@@ -15982,19 +15996,19 @@
   },
   {
     "id": 311899,
-    "cinemaId": "CHWOOD",
-    "movieId": "HO00010653",
-    "date": "2025-09-09T18:00:00",
-    "typeId": "STANDARD",
-    "screenName": "Cinema 01",
-    "operator": "CHW",
-    "total": 126,
-    "sold": 3,
-    "available": 123,
-    "occupancy": 2.38,
-    "max_gross": 3276.0,
-    "total_gross": 78.0,
-    "price": 26.0,
+    "cinemaId": "CHDSTN",
+    "movieId": "HO00010303",
+    "date": "2025-09-09T18:10:00",
+    "typeId": "LUX",
+    "screenName": "HOYTS LUX 03",
+    "operator": "CDSLP",
+    "total": 70,
+    "sold": 4,
+    "available": 66,
+    "occupancy": 5.71,
+    "max_gross": 2520.0,
+    "total_gross": 144.0,
+    "price": 36.0,
     "error": false
   },
   {
@@ -17542,7 +17556,8 @@
     "max_gross": 5304.0,
     "total_gross": 0.0,
     "price": 24.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 292726,
@@ -18392,7 +18407,8 @@
     "max_gross": 14553.0,
     "total_gross": 0.0,
     "price": 24.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 41005,
@@ -19667,7 +19683,8 @@
     "max_gross": 3276.0,
     "total_gross": 0.0,
     "price": 36.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 270856,
@@ -20772,7 +20789,8 @@
     "max_gross": 2444.0,
     "total_gross": 0.0,
     "price": 23.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 337467,
@@ -22387,7 +22405,8 @@
     "max_gross": 2444.0,
     "total_gross": 0.0,
     "price": 23.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 77622,
@@ -22608,7 +22627,8 @@
     "max_gross": 2444.0,
     "total_gross": 0.0,
     "price": 23.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 312486,
@@ -22795,7 +22815,8 @@
     "max_gross": 3276.0,
     "total_gross": 0.0,
     "price": 36.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 272519,
@@ -23288,7 +23309,8 @@
     "max_gross": 4160.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 11433,
@@ -23526,8 +23548,7 @@
     "max_gross": 3952.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 282481,
@@ -26536,7 +26557,8 @@
     "max_gross": 5445.0,
     "total_gross": 0.0,
     "price": 27.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 332896,
@@ -26910,7 +26932,8 @@
     "max_gross": 7150.0,
     "total_gross": 0.0,
     "price": 32.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 272500,
@@ -29052,7 +29075,8 @@
     "max_gross": 8775.0,
     "total_gross": 130.0,
     "price": 32.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 318128,
@@ -29783,8 +29807,7 @@
     "max_gross": 2040.0,
     "total_gross": 136.0,
     "price": 34.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 489292,
@@ -29954,7 +29977,8 @@
     "max_gross": 2295.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 274326,
@@ -30957,7 +30981,8 @@
     "max_gross": 5445.0,
     "total_gross": 0.0,
     "price": 27.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 171724,
@@ -32266,7 +32291,8 @@
     "max_gross": 2444.0,
     "total_gross": 0.0,
     "price": 23.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 212786,
