@@ -99,7 +99,8 @@
     "max_gross": 2565.0,
     "total_gross": 0.0,
     "price": 22.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 419505,
@@ -297,11 +298,11 @@
     "screenName": "Cinema 09",
     "operator": "STA",
     "total": 60,
-    "sold": 17,
-    "available": 43,
-    "occupancy": 28.33,
+    "sold": 19,
+    "available": 41,
+    "occupancy": 31.67,
     "max_gross": 1380.0,
-    "total_gross": 391.0,
+    "total_gross": 437.0,
     "price": 23.0,
     "error": false
   },
@@ -507,7 +508,8 @@
     "max_gross": 2565.0,
     "total_gross": 45.0,
     "price": 22.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 261856,
@@ -524,6 +526,7 @@
     "max_gross": 2565.0,
     "total_gross": 0.0,
     "price": 22.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   }
 ]

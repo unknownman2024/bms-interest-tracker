@@ -229,11 +229,11 @@
     "screenName": "Cinema 08",
     "operator": "MCE",
     "total": 152,
-    "sold": 73,
-    "available": 79,
-    "occupancy": 48.03,
+    "sold": 74,
+    "available": 78,
+    "occupancy": 48.68,
     "max_gross": 3952.0,
-    "total_gross": 1898.0,
+    "total_gross": 1924.0,
     "price": 26.0,
     "error": false
   },
@@ -286,8 +286,7 @@
     "max_gross": 3120.0,
     "total_gross": 78.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 502"
+    "error": false
   },
   {
     "id": 281618,

@@ -82,7 +82,8 @@
     "max_gross": 11951.0,
     "total_gross": 152.0,
     "price": 19.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 120055,
@@ -354,7 +355,8 @@
     "max_gross": 8316.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 281670,
@@ -388,7 +390,8 @@
     "max_gross": 4698.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 428517,
@@ -1034,7 +1037,8 @@
     "max_gross": 3969.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 40833,
@@ -1096,11 +1100,11 @@
     "screenName": "Xtremescreen 03",
     "operator": "TAY",
     "total": 252,
-    "sold": 66,
-    "available": 186,
-    "occupancy": 26.19,
+    "sold": 67,
+    "available": 185,
+    "occupancy": 26.59,
     "max_gross": 8316.0,
-    "total_gross": 2178.0,
+    "total_gross": 2211.0,
     "price": 33.0,
     "error": false
   },
@@ -1544,7 +1548,8 @@
     "max_gross": 3726.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 488207,
@@ -1799,7 +1804,8 @@
     "max_gross": 16038.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 300763,
@@ -1833,7 +1839,8 @@
     "max_gross": 4347.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 68833,
@@ -1884,7 +1891,8 @@
     "max_gross": 16524.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 41999,
@@ -1969,7 +1977,8 @@
     "max_gross": 12096.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 408722,
@@ -2122,7 +2131,8 @@
     "max_gross": 2400.0,
     "total_gross": 400.0,
     "price": 25.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 248159,
@@ -2269,11 +2279,11 @@
     "screenName": "HOYTS LUX 01",
     "operator": "MCEDS",
     "total": 55,
-    "sold": 13,
-    "available": 42,
-    "occupancy": 23.64,
+    "sold": 14,
+    "available": 41,
+    "occupancy": 25.45,
     "max_gross": 2062.5,
-    "total_gross": 487.5,
+    "total_gross": 525.0,
     "price": 37.5,
     "error": false
   },
@@ -2462,7 +2472,8 @@
     "max_gross": 9947.0,
     "total_gross": 171.5,
     "price": 24.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 269992,
@@ -2632,7 +2643,8 @@
     "max_gross": 2352.0,
     "total_gross": 364.0,
     "price": 28.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 280882,
@@ -2700,7 +2712,8 @@
     "max_gross": 9174.0,
     "total_gross": 924.0,
     "price": 33.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 356531,
@@ -3040,7 +3053,8 @@
     "max_gross": 12096.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 371221,
@@ -3754,7 +3768,8 @@
     "max_gross": 16524.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 248160,
@@ -4451,7 +4466,8 @@
     "max_gross": 4374.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 244886,
@@ -4468,7 +4484,8 @@
     "max_gross": 4860.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 336598,
@@ -4825,7 +4842,8 @@
     "max_gross": 2916.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 281764,
@@ -4972,11 +4990,11 @@
     "screenName": "Xtremescreen 07",
     "operator": "STA",
     "total": 108,
-    "sold": 17,
-    "available": 91,
-    "occupancy": 15.74,
+    "sold": 15,
+    "available": 93,
+    "occupancy": 13.89,
     "max_gross": 3132.0,
-    "total_gross": 493.0,
+    "total_gross": 435.0,
     "price": 29.0,
     "error": false
   },
@@ -5284,7 +5302,8 @@
     "max_gross": 3780.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 311024,
@@ -5505,7 +5524,8 @@
     "max_gross": 2812.0,
     "total_gross": 38.0,
     "price": 19.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 11304,
@@ -5522,7 +5542,8 @@
     "max_gross": 4698.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 120652,
@@ -5652,11 +5673,11 @@
     "screenName": "DBOX 01",
     "operator": "MCE",
     "total": 60,
-    "sold": 11,
-    "available": 49,
-    "occupancy": 18.33,
+    "sold": 13,
+    "available": 47,
+    "occupancy": 21.67,
     "max_gross": 2160.0,
-    "total_gross": 396.0,
+    "total_gross": 468.0,
     "price": 36.0,
     "error": false
   },
@@ -5862,7 +5883,8 @@
     "max_gross": 2652.0,
     "total_gross": 178.5,
     "price": 25.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 70356,
@@ -5896,7 +5918,8 @@
     "max_gross": 5220.0,
     "total_gross": 1189.0,
     "price": 29.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 271611,
@@ -6219,7 +6242,8 @@
     "max_gross": 3726.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 77780,
@@ -6457,7 +6481,8 @@
     "max_gross": 5967.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 427507,
@@ -6604,11 +6629,11 @@
     "screenName": "HOYTS LUX 01",
     "operator": "CDSLP",
     "total": 90,
-    "sold": 10,
-    "available": 80,
-    "occupancy": 11.11,
+    "sold": 12,
+    "available": 78,
+    "occupancy": 13.33,
     "max_gross": 3375.0,
-    "total_gross": 375.0,
+    "total_gross": 450.0,
     "price": 37.5,
     "error": false
   },
@@ -6984,7 +7009,8 @@
     "max_gross": 4374.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 40149,
@@ -7035,7 +7061,8 @@
     "max_gross": 3510.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 421628,
@@ -7239,7 +7266,8 @@
     "max_gross": 2744.0,
     "total_gross": 98.0,
     "price": 24.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 261527,
@@ -7290,7 +7318,8 @@
     "max_gross": 16524.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 421629,
@@ -7494,7 +7523,8 @@
     "max_gross": 4347.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 344708,
@@ -7647,7 +7677,8 @@
     "max_gross": 3456.0,
     "total_gross": 96.0,
     "price": 24.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 260881,
