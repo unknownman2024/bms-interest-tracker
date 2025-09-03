@@ -133,7 +133,8 @@
     "max_gross": 3960.0,
     "total_gross": 137.5,
     "price": 27.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 38585,
@@ -354,7 +355,8 @@
     "max_gross": 3840.0,
     "total_gross": 672.0,
     "price": 24.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 357240,
@@ -371,8 +373,7 @@
     "max_gross": 4830.0,
     "total_gross": 207.0,
     "price": 23.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 278993,
