@@ -248,6 +248,34 @@ async def main():
             json.dump(summary_list, f, indent=2)
         print(f"📊 Summary saved to {summary_path}")
 
+        # ---- UPDATE MOVIE DATES ----
+        movie_dates_path = "Australia Data/movie_dates.json"
+
+        # load existing
+        if os.path.exists(movie_dates_path):
+            with open(movie_dates_path, "r") as f:
+                movie_dates = json.load(f)
+        else:
+            movie_dates = {}
+
+        for agg in summary_list:
+            mid = agg["id"]
+
+            if mid not in movie_dates:
+                movie_dates[mid] = {
+                    "name": agg.get("name", "-"),
+                    "poster": agg.get("posterImage"),
+                    "dates": []
+                }
+
+            if show_date not in movie_dates[mid]["dates"]:
+                movie_dates[mid]["dates"].append(show_date)
+
+        # save back
+        with open(movie_dates_path, "w") as f:
+            json.dump(movie_dates, f, indent=2)
+        print(f"📅 Movie dates updated -> {movie_dates_path}")
+
         # pretty print
         print(f"\n📅 Date: {show_date}")
         table = []
