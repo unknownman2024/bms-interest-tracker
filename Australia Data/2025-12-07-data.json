@@ -65,8 +65,7 @@
     "max_gross": 6400.0,
     "total_gross": 0.0,
     "price": 40.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 347411,
@@ -134,7 +133,8 @@
     "max_gross": 7480.0,
     "total_gross": 0.0,
     "price": 40.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 69445,
@@ -185,7 +185,8 @@
     "max_gross": 7200.0,
     "total_gross": 0.0,
     "price": 40.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 8367,
@@ -202,7 +203,8 @@
     "max_gross": 5240.0,
     "total_gross": 0.0,
     "price": 40.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 270629,
@@ -253,7 +255,8 @@
     "max_gross": 5760.0,
     "total_gross": 0.0,
     "price": 40.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 42410,
@@ -264,7 +267,7 @@
     "operator": "MID",
     "error": true,
     "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]",
-    "last_error": "HTTP 416"
+    "last_error": "HTTP 500"
   },
   {
     "id": 42411,
@@ -383,7 +386,8 @@
     "max_gross": 3600.0,
     "total_gross": 80.0,
     "price": 40.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 498716,
@@ -400,7 +404,8 @@
     "max_gross": 6400.0,
     "total_gross": 0.0,
     "price": 40.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 282016,
@@ -468,8 +473,7 @@
     "max_gross": 1485.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 261238,
@@ -554,7 +558,8 @@
     "max_gross": 8806.0,
     "total_gross": 111.0,
     "price": 37.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 498715,
@@ -571,7 +576,8 @@
     "max_gross": 5346.0,
     "total_gross": 135.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 334787,
@@ -707,7 +713,6 @@
     "max_gross": 1890.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   }
 ]

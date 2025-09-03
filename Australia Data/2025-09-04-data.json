@@ -269,8 +269,7 @@
     "max_gross": 2574.0,
     "total_gross": 0.0,
     "price": 19.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 361042,
@@ -491,8 +490,7 @@
     "max_gross": 12276.0,
     "total_gross": 0.0,
     "price": 31.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 516617,
@@ -594,8 +592,7 @@
     "max_gross": 3468.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 516611,
@@ -1054,8 +1051,7 @@
     "max_gross": 2600.0,
     "total_gross": 0.0,
     "price": 25.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 434989,
@@ -1123,8 +1119,7 @@
     "max_gross": 10431.0,
     "total_gross": 91.5,
     "price": 30.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 499248,
@@ -1311,8 +1306,7 @@
     "max_gross": 5704.0,
     "total_gross": 0.0,
     "price": 31.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 274000,
@@ -1567,8 +1561,7 @@
     "max_gross": 5704.0,
     "total_gross": 0.0,
     "price": 31.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 40878,
@@ -1653,8 +1646,7 @@
     "max_gross": 2574.0,
     "total_gross": 182.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 262710,
@@ -1824,8 +1816,7 @@
     "max_gross": 10431.0,
     "total_gross": 0.0,
     "price": 30.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 248204,
@@ -1893,8 +1884,7 @@
     "max_gross": 8670.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 11336,
@@ -2506,8 +2496,7 @@
     "max_gross": 9537.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 388755,
@@ -2541,8 +2530,7 @@
     "max_gross": 2574.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 428573,
@@ -2593,8 +2581,7 @@
     "max_gross": 3468.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 435004,
@@ -2764,8 +2751,7 @@
     "max_gross": 2016.0,
     "total_gross": 0.0,
     "price": 24.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 282369,
@@ -2782,8 +2768,7 @@
     "max_gross": 4602.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 262700,
@@ -3106,8 +3091,7 @@
     "max_gross": 2548.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 499254,
@@ -3288,14 +3272,13 @@
     "screenName": "Xtremescreen 06",
     "operator": "BEL",
     "total": 168,
-    "sold": 8,
-    "available": 160,
-    "occupancy": 4.76,
+    "sold": 7,
+    "available": 161,
+    "occupancy": 4.17,
     "max_gross": 4956.0,
-    "total_gross": 236.0,
+    "total_gross": 206.5,
     "price": 29.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 300810,
@@ -3550,8 +3533,7 @@
     "max_gross": 2106.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 273984,
@@ -3670,8 +3652,7 @@
     "max_gross": 2080.0,
     "total_gross": 26.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 41389,
@@ -3875,8 +3856,7 @@
     "max_gross": 8670.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 30199,
@@ -4063,8 +4043,7 @@
     "max_gross": 2574.0,
     "total_gross": 0.0,
     "price": 19.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 40873,
@@ -4194,11 +4173,11 @@
     "screenName": "DBOX 01",
     "operator": "MCE",
     "total": 60,
-    "sold": 17,
-    "available": 43,
-    "occupancy": 28.33,
+    "sold": 16,
+    "available": 44,
+    "occupancy": 26.67,
     "max_gross": 2040.0,
-    "total_gross": 578.0,
+    "total_gross": 544.0,
     "price": 34.0,
     "error": false
   },
@@ -4551,11 +4530,11 @@
     "screenName": "Xtremescreen 10",
     "operator": "NOR",
     "total": 232,
-    "sold": 4,
-    "available": 228,
-    "occupancy": 1.72,
+    "sold": 6,
+    "available": 226,
+    "occupancy": 2.59,
     "max_gross": 7192.0,
-    "total_gross": 124.0,
+    "total_gross": 186.0,
     "price": 31.0,
     "error": false
   },
@@ -4846,8 +4825,7 @@
     "max_gross": 4536.0,
     "total_gross": 0.0,
     "price": 24.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 262674,
@@ -5051,8 +5029,7 @@
     "max_gross": 2080.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 358489,
@@ -5188,8 +5165,7 @@
     "max_gross": 4160.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 330370,
@@ -5342,8 +5318,7 @@
     "max_gross": 5250.0,
     "total_gross": 200.0,
     "price": 25.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 286204,
@@ -5547,8 +5522,7 @@
     "max_gross": 2142.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 516646,
@@ -5616,8 +5590,7 @@
     "max_gross": 1863.0,
     "total_gross": 207.0,
     "price": 34.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 272284,
@@ -5634,8 +5607,7 @@
     "max_gross": 2925.0,
     "total_gross": 0.0,
     "price": 25.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 69508,
@@ -5720,8 +5692,7 @@
     "max_gross": 5772.0,
     "total_gross": 208.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 274005,
@@ -6163,8 +6134,7 @@
     "max_gross": 3468.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 312336,
@@ -6198,8 +6168,7 @@
     "max_gross": 6500.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 388549,
@@ -6352,8 +6321,7 @@
     "max_gross": 2142.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 274006,
@@ -6404,8 +6372,7 @@
     "max_gross": 4160.0,
     "total_gross": 52.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 286218,
@@ -6660,8 +6627,7 @@
     "max_gross": 4725.0,
     "total_gross": 125.0,
     "price": 25.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 337398,
@@ -6797,8 +6763,7 @@
     "max_gross": 1925.0,
     "total_gross": 0.0,
     "price": 25.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 212680,
@@ -6917,8 +6882,7 @@
     "max_gross": 2184.0,
     "total_gross": 0.0,
     "price": 24.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 140778,
@@ -6986,8 +6950,7 @@
     "max_gross": 2788.5,
     "total_gross": 0.0,
     "price": 19.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 272607,
@@ -7004,8 +6967,7 @@
     "max_gross": 2925.0,
     "total_gross": 0.0,
     "price": 25.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 358470,
@@ -7339,11 +7301,11 @@
     "screenName": "Cinema 08",
     "operator": "HIG",
     "total": 210,
-    "sold": 0,
-    "available": 210,
-    "occupancy": 0.0,
+    "sold": 1,
+    "available": 209,
+    "occupancy": 0.48,
     "max_gross": 5460.0,
-    "total_gross": 0.0,
+    "total_gross": 26.0,
     "price": 26.0,
     "error": false
   },
@@ -7464,8 +7426,7 @@
     "max_gross": 3822.0,
     "total_gross": 1638.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 516657,
@@ -7771,8 +7732,7 @@
     "max_gross": 2925.0,
     "total_gross": 0.0,
     "price": 25.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 286209,
@@ -8316,8 +8276,7 @@
     "max_gross": 2652.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 428585,
@@ -8368,8 +8327,7 @@
     "max_gross": 2788.5,
     "total_gross": 117.0,
     "price": 19.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 41226,
@@ -8420,8 +8378,7 @@
     "max_gross": 2574.0,
     "total_gross": 0.0,
     "price": 19.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 42824,
@@ -8557,8 +8514,7 @@
     "max_gross": 3648.0,
     "total_gross": 48.0,
     "price": 24.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 312334,
@@ -8586,11 +8542,11 @@
     "screenName": "Cinema 05",
     "operator": "TWD",
     "total": 128,
-    "sold": 2,
-    "available": 126,
-    "occupancy": 1.56,
+    "sold": 4,
+    "available": 124,
+    "occupancy": 3.12,
     "max_gross": 2752.0,
-    "total_gross": 43.0,
+    "total_gross": 86.0,
     "price": 21.5,
     "error": false
   },
@@ -8677,8 +8633,7 @@
     "max_gross": 3276.0,
     "total_gross": 104.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 428572,
@@ -8848,8 +8803,7 @@
     "max_gross": 6936.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 330377,
@@ -9036,8 +8990,7 @@
     "max_gross": 2859.5,
     "total_gross": 43.0,
     "price": 21.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 408750,
@@ -9479,8 +9432,7 @@
     "max_gross": 1925.0,
     "total_gross": 0.0,
     "price": 25.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 281790,
@@ -9497,8 +9449,7 @@
     "max_gross": 3072.0,
     "total_gross": 0.0,
     "price": 24.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 30204,
@@ -9566,8 +9517,7 @@
     "max_gross": 5250.0,
     "total_gross": 25.0,
     "price": 25.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 30208,
@@ -9748,11 +9698,11 @@
     "screenName": "Xtremescreen 01",
     "operator": "RED",
     "total": 161,
-    "sold": 30,
-    "available": 131,
-    "occupancy": 18.63,
+    "sold": 32,
+    "available": 129,
+    "occupancy": 19.88,
     "max_gross": 4266.5,
-    "total_gross": 795.0,
+    "total_gross": 848.0,
     "price": 26.5,
     "error": false
   },
@@ -9907,8 +9857,7 @@
     "max_gross": 3060.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 71219,
@@ -10265,8 +10214,7 @@
     "max_gross": 2912.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 41231,
@@ -10300,8 +10248,7 @@
     "max_gross": 2320.5,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 335724,
@@ -10403,8 +10350,7 @@
     "max_gross": 3160.5,
     "total_gross": 0.0,
     "price": 21.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 434998,
@@ -10778,8 +10724,7 @@
     "max_gross": 9537.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 300773,
@@ -10983,8 +10928,7 @@
     "max_gross": 2448.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 29576,
@@ -11001,8 +10945,7 @@
     "max_gross": 8670.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 388536,
@@ -11274,8 +11217,7 @@
     "max_gross": 6960.0,
     "total_gross": 0.0,
     "price": 29.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 335273,
@@ -11972,8 +11914,7 @@
     "max_gross": 2859.5,
     "total_gross": 0.0,
     "price": 21.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 377120,
@@ -12500,8 +12441,7 @@
     "max_gross": 2548.0,
     "total_gross": 52.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 212685,
@@ -12552,8 +12492,7 @@
     "max_gross": 2788.5,
     "total_gross": 0.0,
     "price": 19.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 358471,
@@ -12706,8 +12645,7 @@
     "max_gross": 8670.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 270655,
@@ -12752,11 +12690,11 @@
     "screenName": "Xtremescreen 01",
     "operator": "CDS",
     "total": 278,
-    "sold": 64,
-    "available": 214,
-    "occupancy": 23.02,
+    "sold": 62,
+    "available": 216,
+    "occupancy": 22.3,
     "max_gross": 8618.0,
-    "total_gross": 1984.0,
+    "total_gross": 1922.0,
     "price": 31.0,
     "error": false
   },
@@ -13404,8 +13342,7 @@
     "max_gross": 9537.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 358506,
@@ -13745,8 +13682,7 @@
     "max_gross": 2580.0,
     "total_gross": 0.0,
     "price": 21.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 41196,
@@ -14052,8 +13988,7 @@
     "max_gross": 12648.0,
     "total_gross": 186.0,
     "price": 31.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 356998,
@@ -14138,8 +14073,7 @@
     "max_gross": 5772.0,
     "total_gross": 52.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 136804,
@@ -14190,8 +14124,7 @@
     "max_gross": 1836.0,
     "total_gross": 408.0,
     "price": 34.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 421157,
@@ -14293,8 +14226,7 @@
     "max_gross": 2574.0,
     "total_gross": 52.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 262676,
@@ -14345,8 +14277,7 @@
     "max_gross": 5300.0,
     "total_gross": 0.0,
     "price": 26.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 434984,
@@ -14414,7 +14345,8 @@
     "max_gross": 4160.0,
     "total_gross": 52.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 272277,
@@ -14516,8 +14448,7 @@
     "max_gross": 2448.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 317924,
@@ -14619,8 +14550,7 @@
     "max_gross": 5151.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 29583,
@@ -14637,8 +14567,7 @@
     "max_gross": 9537.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 11333,
@@ -14961,8 +14890,7 @@
     "max_gross": 6324.0,
     "total_gross": 0.0,
     "price": 31.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 361423,
@@ -15030,8 +14958,7 @@
     "max_gross": 2580.0,
     "total_gross": 0.0,
     "price": 21.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 421136,
@@ -15558,8 +15485,7 @@
     "max_gross": 2548.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 248218,
@@ -15678,8 +15604,7 @@
     "max_gross": 2522.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 77423,
@@ -15934,8 +15859,7 @@
     "max_gross": 5610.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 69494,
@@ -16173,8 +16097,7 @@
     "max_gross": 2548.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 371976,
@@ -16276,8 +16199,7 @@
     "max_gross": 5250.0,
     "total_gross": 175.0,
     "price": 25.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 421145,
@@ -16481,8 +16403,7 @@
     "max_gross": 2652.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 120684,
@@ -16771,8 +16692,7 @@
     "max_gross": 5850.0,
     "total_gross": 52.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 270659,
@@ -16857,8 +16777,7 @@
     "max_gross": 3276.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 71048,
@@ -17504,8 +17423,7 @@
     "max_gross": 2080.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 69514,
@@ -17743,8 +17661,7 @@
     "max_gross": 5300.0,
     "total_gross": 106.0,
     "price": 26.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 330347,
@@ -18526,8 +18443,7 @@
     "max_gross": 5704.0,
     "total_gross": 0.0,
     "price": 31.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 77466,
@@ -18578,8 +18494,7 @@
     "max_gross": 4956.0,
     "total_gross": 88.5,
     "price": 29.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 317913,
@@ -19055,8 +18970,7 @@
     "max_gross": 2106.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 516898,
@@ -19090,8 +19004,7 @@
     "max_gross": 1120.0,
     "total_gross": 0.0,
     "price": 32.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 345600,
@@ -19125,8 +19038,7 @@
     "max_gross": 4224.0,
     "total_gross": 0.0,
     "price": 24.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 272644,
@@ -19177,8 +19089,7 @@
     "max_gross": 1120.0,
     "total_gross": 256.0,
     "price": 32.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 273999,
@@ -19212,8 +19123,7 @@
     "max_gross": 2574.0,
     "total_gross": 156.0,
     "price": 19.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 41244,
@@ -19247,8 +19157,7 @@
     "max_gross": 2788.5,
     "total_gross": 0.0,
     "price": 19.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 262692,
@@ -19367,8 +19276,7 @@
     "max_gross": 3276.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 333939,
@@ -19487,8 +19395,7 @@
     "max_gross": 10431.0,
     "total_gross": 122.0,
     "price": 30.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 326673,
@@ -19590,8 +19497,7 @@
     "max_gross": 2912.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 282353,
@@ -19642,8 +19548,7 @@
     "max_gross": 3120.0,
     "total_gross": 52.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 409077,
@@ -19671,11 +19576,11 @@
     "screenName": "Xtremescreen 02",
     "operator": "CDS",
     "total": 495,
-    "sold": 2,
-    "available": 493,
-    "occupancy": 0.4,
+    "sold": 0,
+    "available": 495,
+    "occupancy": 0.0,
     "max_gross": 15345.0,
-    "total_gross": 62.0,
+    "total_gross": 0.0,
     "price": 31.0,
     "error": false
   },
@@ -19762,8 +19667,7 @@
     "max_gross": 2574.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 333959,
@@ -20188,8 +20092,7 @@
     "max_gross": 5610.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 41243,
@@ -20325,8 +20228,7 @@
     "max_gross": 2788.5,
     "total_gross": 0.0,
     "price": 19.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 408754,
@@ -20411,8 +20313,7 @@
     "max_gross": 2080.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 244984,
@@ -20480,8 +20381,7 @@
     "max_gross": 3120.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 428565,
@@ -20498,8 +20398,7 @@
     "max_gross": 3640.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 29781,
@@ -20516,8 +20415,7 @@
     "max_gross": 6936.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 261534,
@@ -21095,8 +20993,7 @@
     "max_gross": 2376.0,
     "total_gross": 0.0,
     "price": 36.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 337373,
@@ -21249,8 +21146,7 @@
     "max_gross": 3276.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 434973,
@@ -22253,8 +22149,7 @@
     "max_gross": 3276.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 317912,
@@ -22373,8 +22268,7 @@
     "max_gross": 2673.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 270669,
@@ -22493,8 +22387,7 @@
     "max_gross": 2184.0,
     "total_gross": 0.0,
     "price": 24.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 421156,
@@ -22505,11 +22398,11 @@
     "screenName": "HOYTS LUX 02",
     "operator": "EAS",
     "total": 108,
-    "sold": 2,
-    "available": 106,
-    "occupancy": 1.85,
+    "sold": 0,
+    "available": 108,
+    "occupancy": 0.0,
     "max_gross": 2808.0,
-    "total_gross": 52.0,
+    "total_gross": 0.0,
     "price": 26.0,
     "error": false
   },
@@ -22562,8 +22455,7 @@
     "max_gross": 5610.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 300783,
@@ -22682,8 +22574,7 @@
     "max_gross": 5250.0,
     "total_gross": 100.0,
     "price": 25.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 516666,
@@ -22853,8 +22744,7 @@
     "max_gross": 3120.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 261570,
@@ -22956,8 +22846,7 @@
     "max_gross": 2080.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 335314,
@@ -23178,8 +23067,7 @@
     "max_gross": 2574.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 286231,
@@ -23230,8 +23118,7 @@
     "max_gross": 3172.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 326815,
@@ -23248,8 +23135,7 @@
     "max_gross": 2040.0,
     "total_gross": 0.0,
     "price": 34.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 71053,
@@ -23470,8 +23356,7 @@
     "max_gross": 3380.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 261567,
@@ -23573,8 +23458,7 @@
     "max_gross": 4160.0,
     "total_gross": 130.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 286220,
@@ -23727,8 +23611,7 @@
     "max_gross": 2496.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 357051,
@@ -23881,8 +23764,7 @@
     "max_gross": 3822.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 272273,
@@ -24086,8 +23968,7 @@
     "max_gross": 2548.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 212688,
@@ -24240,8 +24121,7 @@
     "max_gross": 5610.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 212693,
@@ -24275,8 +24155,7 @@
     "max_gross": 2752.0,
     "total_gross": 0.0,
     "price": 21.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 332482,
@@ -24287,11 +24166,11 @@
     "screenName": "Cinema 01",
     "operator": "WWG",
     "total": 130,
-    "sold": 4,
-    "available": 126,
-    "occupancy": 3.08,
+    "sold": 7,
+    "available": 123,
+    "occupancy": 5.38,
     "max_gross": 3185.0,
-    "total_gross": 98.0,
+    "total_gross": 171.5,
     "price": 24.5,
     "error": false
   },
@@ -24304,11 +24183,11 @@
     "screenName": "Xtremescreen 03",
     "operator": "STA",
     "total": 108,
-    "sold": 16,
-    "available": 92,
-    "occupancy": 14.81,
+    "sold": 18,
+    "available": 90,
+    "occupancy": 16.67,
     "max_gross": 2916.0,
-    "total_gross": 432.0,
+    "total_gross": 486.0,
     "price": 27.0,
     "error": false
   },
@@ -24837,8 +24716,7 @@
     "max_gross": 5300.0,
     "total_gross": 53.0,
     "price": 26.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 371965,
@@ -24872,8 +24750,7 @@
     "max_gross": 2080.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 428592,
@@ -24941,8 +24818,7 @@
     "max_gross": 5300.0,
     "total_gross": 689.0,
     "price": 26.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 337379,
@@ -25038,11 +24914,11 @@
     "screenName": "Cinema 08",
     "operator": "CHW",
     "total": 130,
-    "sold": 5,
-    "available": 125,
-    "occupancy": 3.85,
+    "sold": 7,
+    "available": 123,
+    "occupancy": 5.38,
     "max_gross": 3380.0,
-    "total_gross": 130.0,
+    "total_gross": 182.0,
     "price": 26.0,
     "error": false
   },
@@ -25197,8 +25073,7 @@
     "max_gross": 5772.0,
     "total_gross": 78.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 489152,
@@ -25402,8 +25277,7 @@
     "max_gross": 4720.0,
     "total_gross": 767.0,
     "price": 29.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 261549,
@@ -25590,8 +25464,7 @@
     "max_gross": 6960.0,
     "total_gross": 464.0,
     "price": 29.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 292601,
@@ -25710,8 +25583,7 @@
     "max_gross": 3160.5,
     "total_gross": 0.0,
     "price": 21.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 332499,
@@ -25756,11 +25628,11 @@
     "screenName": "Cinema 09",
     "operator": "STA",
     "total": 60,
-    "sold": 0,
-    "available": 60,
-    "occupancy": 0.0,
+    "sold": 7,
+    "available": 53,
+    "occupancy": 11.67,
     "max_gross": 1620.0,
-    "total_gross": 0.0,
+    "total_gross": 189.0,
     "price": 27.0,
     "error": false
   },
@@ -26017,8 +25889,7 @@
     "max_gross": 2080.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 330378,
@@ -26029,11 +25900,11 @@
     "screenName": "Cinema 07",
     "operator": "BAN",
     "total": 170,
-    "sold": 8,
-    "available": 162,
-    "occupancy": 4.71,
+    "sold": 10,
+    "available": 160,
+    "occupancy": 5.88,
     "max_gross": 4250.0,
-    "total_gross": 200.0,
+    "total_gross": 250.0,
     "price": 25.0,
     "error": false
   },
@@ -26188,8 +26059,7 @@
     "max_gross": 4536.0,
     "total_gross": 0.0,
     "price": 24.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 272271,
@@ -26359,8 +26229,7 @@
     "max_gross": 3120.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 11346,
@@ -27023,8 +26892,7 @@
     "max_gross": 2580.0,
     "total_gross": 0.0,
     "price": 21.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 326660,
@@ -27041,8 +26909,7 @@
     "max_gross": 5704.0,
     "total_gross": 0.0,
     "price": 31.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 337367,
@@ -27297,8 +27164,7 @@
     "max_gross": 4602.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 274390,
@@ -27485,8 +27351,7 @@
     "max_gross": 2016.0,
     "total_gross": 0.0,
     "price": 24.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 357039,
@@ -27571,8 +27436,7 @@
     "max_gross": 4725.0,
     "total_gross": 0.0,
     "price": 25.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 292583,
@@ -27640,8 +27504,7 @@
     "max_gross": 5704.0,
     "total_gross": 0.0,
     "price": 31.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 516893,
@@ -28100,8 +27963,7 @@
     "max_gross": 1836.0,
     "total_gross": 68.0,
     "price": 34.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 140741,
@@ -28305,8 +28167,7 @@
     "max_gross": 3060.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 212686,
@@ -28680,8 +28541,7 @@
     "max_gross": 4224.0,
     "total_gross": 0.0,
     "price": 24.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 286203,
@@ -28732,8 +28592,7 @@
     "max_gross": 4836.0,
     "total_gross": 0.0,
     "price": 31.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 261560,
@@ -28982,11 +28841,11 @@
     "screenName": "Cinema 07",
     "operator": "WES",
     "total": 225,
-    "sold": 0,
-    "available": 225,
-    "occupancy": 0.0,
+    "sold": 1,
+    "available": 224,
+    "occupancy": 0.44,
     "max_gross": 5850.0,
-    "total_gross": 0.0,
+    "total_gross": 26.0,
     "price": 26.0,
     "error": false
   },
@@ -29617,8 +29476,7 @@
     "max_gross": 2600.0,
     "total_gross": 0.0,
     "price": 25.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 41250,
@@ -29737,8 +29595,7 @@
     "max_gross": 3375.0,
     "total_gross": 0.0,
     "price": 25.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 499295,
@@ -30027,8 +29884,7 @@
     "max_gross": 3468.0,
     "total_gross": 127.5,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 317896,
@@ -30419,8 +30275,7 @@
     "max_gross": 8670.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 434974,
@@ -30658,8 +30513,7 @@
     "max_gross": 3468.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 333958,
@@ -30710,8 +30564,7 @@
     "max_gross": 5850.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 516603,
@@ -30898,8 +30751,7 @@
     "max_gross": 12276.0,
     "total_gross": 0.0,
     "price": 31.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 282365,
@@ -30933,8 +30785,7 @@
     "max_gross": 2548.0,
     "total_gross": 104.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 140750,
@@ -30951,8 +30802,7 @@
     "max_gross": 2548.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 428556,
@@ -31122,8 +30972,7 @@
     "max_gross": 2652.0,
     "total_gross": 178.5,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 140767,
@@ -31157,8 +31006,7 @@
     "max_gross": 2320.5,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 136786,
@@ -31192,8 +31040,7 @@
     "max_gross": 2948.0,
     "total_gross": 435.5,
     "price": 33.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 335304,
@@ -31380,8 +31227,7 @@
     "max_gross": 2425.5,
     "total_gross": 73.5,
     "price": 36.75,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 244975,
@@ -31908,8 +31754,7 @@
     "max_gross": 2496.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 262718,
@@ -32164,8 +32009,7 @@
     "max_gross": 2548.0,
     "total_gross": 104.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 312404,
@@ -32199,8 +32043,7 @@
     "max_gross": 5610.0,
     "total_gross": 25.5,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 337369,
@@ -32846,8 +32689,7 @@
     "max_gross": 5151.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 77436,
@@ -32864,8 +32706,7 @@
     "max_gross": 1836.0,
     "total_gross": 204.0,
     "price": 34.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 330345,
@@ -33409,8 +33250,7 @@
     "max_gross": 4224.0,
     "total_gross": 168.0,
     "price": 24.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 357004,
@@ -33818,8 +33658,7 @@
     "max_gross": 1690.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 499276,
@@ -33887,8 +33726,7 @@
     "max_gross": 2040.0,
     "total_gross": 68.0,
     "price": 34.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 326642,
@@ -33905,8 +33743,7 @@
     "max_gross": 2574.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 71034,
@@ -34195,8 +34032,7 @@
     "max_gross": 4956.0,
     "total_gross": 88.5,
     "price": 29.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 244986,
@@ -34281,8 +34117,7 @@
     "max_gross": 2295.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 41237,
@@ -34673,8 +34508,7 @@
     "max_gross": 13392.0,
     "total_gross": 62.0,
     "price": 31.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 274212,
@@ -34946,8 +34780,7 @@
     "max_gross": 2925.0,
     "total_gross": 550.0,
     "price": 25.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 377017,
@@ -35009,11 +34842,11 @@
     "screenName": "Xtremescreen 10",
     "operator": "MCE",
     "total": 556,
-    "sold": 53,
-    "available": 503,
-    "occupancy": 9.53,
+    "sold": 55,
+    "available": 501,
+    "occupancy": 9.89,
     "max_gross": 17236.0,
-    "total_gross": 1643.0,
+    "total_gross": 1705.0,
     "price": 31.0,
     "error": false
   },
@@ -35100,8 +34933,7 @@
     "max_gross": 5151.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 428544,
@@ -35203,8 +35035,7 @@
     "max_gross": 2548.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 516605,
@@ -35340,8 +35171,7 @@
     "max_gross": 6936.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 245041,
@@ -35460,8 +35290,7 @@
     "max_gross": 4602.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 140824,
@@ -35750,8 +35579,7 @@
     "max_gross": 2600.0,
     "total_gross": 0.0,
     "price": 25.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 408786,
