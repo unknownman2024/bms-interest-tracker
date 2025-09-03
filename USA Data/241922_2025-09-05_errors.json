@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-03 07:44:35 PM",
+  "last_updated": "2025-09-03 08:43:50 PM",
   "errors": [
     {
       "state": "GA",
@@ -87,21 +87,6 @@
       "date": "2025-09-05+18:25",
       "format": "Standard",
       "language": "Hindi",
-      "error": {
-        "status": 400
-      }
-    },
-    {
-      "state": "MD",
-      "city": "Gaithersburg",
-      "zip": "20878",
-      "theater_name": "AMC DINE-IN Rio Cinemas 18",
-      "chainName": "AMC",
-      "chainCode": "AMC",
-      "showtime_id": 514836068,
-      "date": "2025-09-05+14:00",
-      "format": "Standard",
-      "language": "Unknown",
       "error": {
         "status": 400
       }
