@@ -1,0 +1,139 @@
+[
+  {
+    "id": 428077,
+    "cinemaId": "WETHER",
+    "movieId": "HO00010550",
+    "date": "2025-09-25T18:30:00",
+    "screenName": "Cinema 03",
+    "operator": "WET",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  },
+  {
+    "id": 497611,
+    "cinemaId": "CAROUS",
+    "movieId": "HO00010550",
+    "date": "2025-09-25T18:30:00",
+    "screenName": "Cinema 06",
+    "operator": "CAR",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  },
+  {
+    "id": 407446,
+    "cinemaId": "NORTHL",
+    "movieId": "HO00010550",
+    "date": "2025-09-25T18:30:00",
+    "screenName": "Cinema 09",
+    "operator": "NOR",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  },
+  {
+    "id": 361464,
+    "cinemaId": "VGDCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-25T14:00:00",
+    "screenName": "Cinema 05",
+    "operator": "VGD",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  },
+  {
+    "id": 292263,
+    "cinemaId": "CWFFLD",
+    "movieId": "HO00010550",
+    "date": "2025-09-25T18:30:00",
+    "screenName": "Cinema 06",
+    "operator": "CWF",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  },
+  {
+    "id": 376372,
+    "cinemaId": "TTPLZA",
+    "movieId": "HO00010550",
+    "date": "2025-09-25T18:30:00",
+    "screenName": "Cinema 07",
+    "operator": "TTP",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  },
+  {
+    "id": 281273,
+    "cinemaId": "NWDCIN",
+    "movieId": "HO00010550",
+    "date": "2025-09-25T18:30:00",
+    "screenName": "Cinema 09",
+    "operator": "NWD",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  },
+  {
+    "id": 434830,
+    "cinemaId": "BROADW",
+    "movieId": "HO00009267",
+    "date": "2025-09-25T18:00:00",
+    "screenName": "Cinema 08",
+    "operator": "BRO",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  },
+  {
+    "id": 434840,
+    "cinemaId": "BROADW",
+    "movieId": "HO00010550",
+    "date": "2025-09-25T18:30:00",
+    "screenName": "Cinema 03",
+    "operator": "BRO",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  },
+  {
+    "id": 370802,
+    "cinemaId": "MCECIN",
+    "movieId": "HO00010550",
+    "date": "2025-09-25T18:30:00",
+    "screenName": "Cinema 08",
+    "operator": "MCE",
+    "error": true,
+    "error_msg": "[Errno 32] Broken pipe"
+  },
+  {
+    "id": 344120,
+    "cinemaId": "BELCON",
+    "movieId": "HO00010550",
+    "date": "2025-09-25T18:30:00",
+    "screenName": "Cinema 01",
+    "operator": "BEL",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  },
+  {
+    "id": 310353,
+    "cinemaId": "CHDSTN",
+    "movieId": "HO00010550",
+    "date": "2025-09-25T18:30:00",
+    "screenName": "Cinema 10",
+    "operator": "CDS",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  },
+  {
+    "id": 371947,
+    "cinemaId": "MCECIN",
+    "movieId": "HO00010550",
+    "date": "2025-09-25T16:00:00",
+    "typeId": "STANDARD",
+    "screenName": "Cinema 08",
+    "operator": "MCE",
+    "total": 152,
+    "sold": 3,
+    "available": 149,
+    "occupancy": 1.97,
+    "max_gross": 3952.0,
+    "total_gross": 78.0,
+    "price": 26.0,
+    "error": false
+  }
+]

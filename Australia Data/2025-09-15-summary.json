@@ -1,0 +1,18 @@
+[
+  {
+    "sessions": 1,
+    "venues": 1,
+    "sold": 0,
+    "available": 108,
+    "total": 108,
+    "gross": 0.0,
+    "max_gross": 3888.0,
+    "occupancy": 0.0,
+    "name": "The Naked Gun",
+    "summary": "Follows the misadventures of Detective Frank Drebin's son, Frank Drebin jr.",
+    "duration": 85,
+    "releaseDate": "2025-08-21T00:00:00",
+    "posterImage": "mx/posters/au/the-naked-gun-d92e182e.jpg",
+    "id": "HO00009351"
+  }
+]

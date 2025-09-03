@@ -1,0 +1,12 @@
+[
+  {
+    "id": 435434,
+    "cinemaId": "BROADW",
+    "movieId": "HO00010693",
+    "date": "2025-10-04T13:00:00",
+    "screenName": "Cinema 08",
+    "operator": "BRO",
+    "error": true,
+    "error_msg": "[Errno 32] Broken pipe"
+  }
+]

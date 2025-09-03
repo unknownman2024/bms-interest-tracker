@@ -1,0 +1,59 @@
+[
+  {
+    "id": 421637,
+    "cinemaId": "EASTLN",
+    "movieId": "HO00010233",
+    "date": "2025-09-15T18:00:00",
+    "screenName": "HOYTS LUX 03",
+    "operator": "EASLP",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  },
+  {
+    "id": 421643,
+    "cinemaId": "EASTLN",
+    "movieId": "HO00008335",
+    "date": "2025-09-15T19:20:00",
+    "screenName": "HOYTS LUX 01",
+    "operator": "EASLP",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  },
+  {
+    "id": 421655,
+    "cinemaId": "EASTLN",
+    "movieId": "HO00009618",
+    "date": "2025-09-15T20:30:00",
+    "screenName": "HOYTS LUX 02",
+    "operator": "EASLP",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  },
+  {
+    "id": 421640,
+    "cinemaId": "EASTLN",
+    "movieId": "HO00008335",
+    "date": "2025-09-15T21:15:00",
+    "screenName": "HOYTS LUX 03",
+    "operator": "EASLP",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  },
+  {
+    "id": 421638,
+    "cinemaId": "EASTLN",
+    "movieId": "HO00009351",
+    "date": "2025-09-15T18:30:00",
+    "typeId": "LUX",
+    "screenName": "HOYTS LUX 02",
+    "operator": "EASLP",
+    "total": 108,
+    "sold": 0,
+    "available": 108,
+    "occupancy": 0.0,
+    "max_gross": 3888.0,
+    "total_gross": 0.0,
+    "price": 36.0,
+    "error": false
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "sessions": 3,
+    "venues": 3,
+    "sold": 11,
+    "available": 188,
+    "total": 199,
+    "gross": 272.0,
+    "max_gross": 4826.0,
+    "occupancy": 5.53,
+    "name": "Andrea Bocelli: Because I Believe",
+    "summary": "One of the world\u2019s greatest singers, Andrea Bocelli has a voice that transcends genres and generations.",
+    "duration": 107,
+    "releaseDate": "2025-09-21T00:00:00",
+    "posterImage": "mx/posters/au/andrea-bocelli-1sheet.jpg",
+    "id": "HO00010481"
+  },
+  {
+    "sessions": 2,
+    "venues": 2,
+    "sold": 8,
+    "available": 256,
+    "total": 264,
+    "gross": 208.0,
+    "max_gross": 6864.0,
+    "occupancy": 3.03,
+    "name": "BTS 2016 Live The Most Beautiful Moment in Life On Stage: Epilogue Remastered",
+    "summary": "The grand finale of \u201cThe Most Beautiful Moment in Life\u201d series by BTS, where the story of youth shines brightest\u2014 it\u2019s <BTS 2016 Live The Most Beautiful Moment in Life On Stage: Epilogue Remastered>.",
+    "duration": 102,
+    "releaseDate": "2025-09-24T00:00:00",
+    "posterImage": "mx/posters/au/bts-2016-epilogue-one-sheet-artwork-english.jpg",
+    "id": "HO00010549"
+  }
+]

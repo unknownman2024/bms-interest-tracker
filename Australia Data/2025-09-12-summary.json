@@ -1,0 +1,34 @@
+[
+  {
+    "sessions": 21,
+    "venues": 19,
+    "sold": 461,
+    "available": 3622,
+    "total": 4083,
+    "gross": 14533.0,
+    "max_gross": 124510.5,
+    "occupancy": 11.29,
+    "name": "Demon Slayer: Kimetsu no Yaiba- Infinity Castle (Japanese, Eng Sub)",
+    "summary": "The three-part cinematic movie represents the final arc and culmination of the hugely popular award-winning anime shonen series. ",
+    "duration": 155,
+    "releaseDate": "2025-09-11T00:00:00",
+    "posterImage": "mx/posters/au/demon-slayer-kimetsu-no-yaiba-infinity-castle-subbed-ce798f8d.jpg",
+    "id": "HO00010233"
+  },
+  {
+    "sessions": 11,
+    "venues": 11,
+    "sold": 83,
+    "available": 1739,
+    "total": 1822,
+    "gross": 2336.0,
+    "max_gross": 50098.0,
+    "occupancy": 4.56,
+    "name": "Demon Slayer: Kimetsu no Yaiba- Infinity Castle (Dubbed)",
+    "summary": "The three-part cinematic movie represents the final arc and culmination of the hugely popular award-winning anime shonen series. ",
+    "duration": 155,
+    "releaseDate": "2025-09-11T00:00:00",
+    "posterImage": "mx/posters/au/demon-slayer-kimetsu-no-yaiba-infinity-castle-dubbed-0827b096.jpg",
+    "id": "HO00010246"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": 212969,
+    "cinemaId": "FHLCIN",
+    "movieId": "HO00009618",
+    "date": "2025-09-19T10:15:00",
+    "typeId": "STANDARD",
+    "screenName": "Cinema 06",
+    "operator": "FHL",
+    "total": 128,
+    "sold": 2,
+    "available": 126,
+    "occupancy": 1.56,
+    "max_gross": 2240.0,
+    "total_gross": 35.0,
+    "price": 17.5,
+    "error": false
+  }
+]

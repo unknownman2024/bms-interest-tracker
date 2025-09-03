@@ -1,0 +1,12 @@
+[
+  {
+    "id": 434835,
+    "cinemaId": "BROADW",
+    "movieId": "HO00010074",
+    "date": "2025-10-12T13:00:00",
+    "screenName": "Cinema 08",
+    "operator": "BRO",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  }
+]

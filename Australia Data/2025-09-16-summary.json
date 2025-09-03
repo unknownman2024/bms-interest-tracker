@@ -1,0 +1,18 @@
+[
+  {
+    "sessions": 1,
+    "venues": 1,
+    "sold": 0,
+    "available": 108,
+    "total": 108,
+    "gross": 0.0,
+    "max_gross": 3888.0,
+    "occupancy": 0.0,
+    "name": "The Conjuring: Last Rites",
+    "summary": "The Conjuring: Last Rites delivers another thrilling chapter of the iconic Conjuring cinematic universe, based on real events. ",
+    "duration": 130,
+    "releaseDate": "2025-09-04T00:00:00",
+    "posterImage": "mx/posters/au/the-conjuring-last-rites-efeea4c3.jpg",
+    "id": "HO00008335"
+  }
+]

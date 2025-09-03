@@ -1,0 +1,136 @@
+[
+  {
+    "id": 407449,
+    "cinemaId": "NORTHL",
+    "movieId": "HO00010551",
+    "date": "2025-10-01T18:30:00",
+    "screenName": "Cinema 09",
+    "operator": "NOR",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  },
+  {
+    "id": 344123,
+    "cinemaId": "BELCON",
+    "movieId": "HO00010551",
+    "date": "2025-10-01T18:30:00",
+    "screenName": "Cinema 01",
+    "operator": "BEL",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  },
+  {
+    "id": 310356,
+    "cinemaId": "CHDSTN",
+    "movieId": "HO00010551",
+    "date": "2025-10-01T18:30:00",
+    "screenName": "Cinema 10",
+    "operator": "CDS",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  },
+  {
+    "id": 370805,
+    "cinemaId": "MCECIN",
+    "movieId": "HO00010551",
+    "date": "2025-10-01T18:30:00",
+    "screenName": "Cinema 08",
+    "operator": "MCE",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  },
+  {
+    "id": 515398,
+    "cinemaId": "HIGPNT",
+    "movieId": "HO00010551",
+    "date": "2025-10-01T18:30:00",
+    "screenName": "Cinema 07",
+    "operator": "HIG",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  },
+  {
+    "id": 371950,
+    "cinemaId": "MCECIN",
+    "movieId": "HO00010551",
+    "date": "2025-10-01T16:00:00",
+    "screenName": "Cinema 08",
+    "operator": "MCE",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  },
+  {
+    "id": 497614,
+    "cinemaId": "CAROUS",
+    "movieId": "HO00010551",
+    "date": "2025-10-01T18:30:00",
+    "typeId": "STANDARD",
+    "screenName": "Cinema 06",
+    "operator": "CAR",
+    "total": 160,
+    "sold": 45,
+    "available": 115,
+    "occupancy": 28.12,
+    "max_gross": 3840.0,
+    "total_gross": 1080.0,
+    "price": 24.0,
+    "error": false
+  },
+  {
+    "id": 434843,
+    "cinemaId": "BROADW",
+    "movieId": "HO00010551",
+    "date": "2025-10-01T18:30:00",
+    "typeId": "STANDARD",
+    "screenName": "Cinema 03",
+    "operator": "BRO",
+    "total": 119,
+    "sold": 10,
+    "available": 109,
+    "occupancy": 8.4,
+    "max_gross": 3272.5,
+    "total_gross": 275.0,
+    "price": 27.5,
+    "error": false
+  },
+  {
+    "id": 281275,
+    "cinemaId": "NWDCIN",
+    "movieId": "HO00010551",
+    "date": "2025-10-01T18:30:00",
+    "screenName": "Cinema 09",
+    "operator": "NWD",
+    "error": true,
+    "error_msg": "Connection timeout to host https://apim.hoyts.com.au/au/ticketing/api/v1/ticket/NWDCIN/281275"
+  },
+  {
+    "id": 428079,
+    "cinemaId": "WETHER",
+    "movieId": "HO00010551",
+    "date": "2025-10-01T18:30:00",
+    "screenName": "Cinema 03",
+    "operator": "WET",
+    "error": true,
+    "error_msg": "Connection timeout to host https://apim.hoyts.com.au/au/ticketing/api/v1/ticket/WETHER/428079"
+  },
+  {
+    "id": 376375,
+    "cinemaId": "TTPLZA",
+    "movieId": "HO00010551",
+    "date": "2025-10-01T18:30:00",
+    "screenName": "Cinema 07",
+    "operator": "TTP",
+    "error": true,
+    "error_msg": "Connection timeout to host https://apim.hoyts.com.au/au/ticketing/api/v1/ticket/TTPLZA/376375"
+  },
+  {
+    "id": 292265,
+    "cinemaId": "CWFFLD",
+    "movieId": "HO00010551",
+    "date": "2025-10-01T18:30:00",
+    "screenName": "Cinema 06",
+    "operator": "CWF",
+    "error": true,
+    "error_msg": "Connection timeout to host https://apim.hoyts.com.au/au/ticketing/api/v1/ticket/CWFFLD/292265"
+  }
+]

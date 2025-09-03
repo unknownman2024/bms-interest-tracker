@@ -1,0 +1,22 @@
+[
+  {
+    "id": 434834,
+    "cinemaId": "BROADW",
+    "movieId": "HO00010074",
+    "date": "2025-10-11T13:00:00",
+    "screenName": "Cinema 08",
+    "operator": "BRO",
+    "error": true,
+    "error_msg": "Cannot connect to host apim.hoyts.com.au:443 ssl:default [None]"
+  },
+  {
+    "id": 409119,
+    "cinemaId": "NORTHL",
+    "movieId": "HO00010684",
+    "date": "2025-10-11T19:00:00",
+    "screenName": "Cinema 09",
+    "operator": "NOR",
+    "error": true,
+    "error_msg": "[Errno 32] Broken pipe"
+  }
+]

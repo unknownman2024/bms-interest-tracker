@@ -1,0 +1,18 @@
+[
+  {
+    "sessions": 3,
+    "venues": 3,
+    "sold": 8,
+    "available": 388,
+    "total": 396,
+    "gross": 208.0,
+    "max_gross": 10539.0,
+    "occupancy": 2.02,
+    "name": "Les Miserables - The Staged Concert",
+    "summary": "Now cinema audiences can experience a unique encore of this incredible show to celebrate Les Mis\u00e9rables 40th Anniversary. ",
+    "duration": 170,
+    "releaseDate": "2025-10-16T00:00:00",
+    "posterImage": "mx/posters/au/les-miserables---the-staged-concert-2019-3823c4ca.jpg",
+    "id": "HO00010532"
+  }
+]

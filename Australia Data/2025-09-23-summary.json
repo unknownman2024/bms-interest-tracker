@@ -1,0 +1,18 @@
+[
+  {
+    "sessions": 2,
+    "venues": 2,
+    "sold": 53,
+    "available": 133,
+    "total": 186,
+    "gross": 1376.0,
+    "max_gross": 4788.0,
+    "occupancy": 28.49,
+    "name": "The Sound of Music 60th Anniversary",
+    "summary": "A woman leaves an Austrian convent to become a governess to the children of a Naval officer widower.",
+    "duration": 178,
+    "releaseDate": "2025-09-20T00:00:00",
+    "posterImage": "mx/posters/au/the-sound-of-music-60th-anniversary-8b5ba7bf.jpg",
+    "id": "HO00010553"
+  }
+]
