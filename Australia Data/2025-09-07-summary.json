@@ -1,0 +1,34 @@
+[
+  {
+    "sessions": 26,
+    "venues": 20,
+    "sold": 4,
+    "available": 6581,
+    "total": 6585,
+    "gross": 104.0,
+    "max_gross": 164752.5,
+    "occupancy": 0.06,
+    "name": "Baaghi 4 (Hindi, Eng Sub)",
+    "summary": "At his lowest, Ronny survives a deadly train crash he never intended to live through. ",
+    "duration": 166,
+    "releaseDate": "2025-09-05T00:00:00",
+    "posterImage": "mx/posters/au/baaghi-4-c324e2d7.jpg",
+    "id": "HO00010415"
+  },
+  {
+    "sessions": 22,
+    "venues": 19,
+    "sold": 42,
+    "available": 5223,
+    "total": 5265,
+    "gross": 1162.0,
+    "max_gross": 127074.5,
+    "occupancy": 0.8,
+    "name": "Madharaasi (Tamil, Eng Sub)",
+    "summary": "Madharasi is an upcoming Indian Tamil-language action thriller film written and directed by AR Murugadoss.",
+    "duration": 178,
+    "releaseDate": "2025-09-05T00:00:00",
+    "posterImage": "mx/posters/au/madharaasi-5f64fc1f.jpg",
+    "id": "HO00010548"
+  }
+]
