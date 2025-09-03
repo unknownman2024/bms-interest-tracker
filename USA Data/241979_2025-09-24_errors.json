@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-03 10:47:52 PM",
+  "last_updated": "2025-09-03 11:18:09 PM",
   "errors": [
     {
       "state": "IL",
@@ -250,6 +250,66 @@
       "chainCode": "AMC",
       "showtime_id": 514972222,
       "date": "2025-09-24+18:15",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "AL",
+      "city": "Birmingham",
+      "zip": "35243",
+      "theater_name": "AMC Summit 16",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 514985558,
+      "date": "2025-09-24+16:00",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "AL",
+      "city": "Birmingham",
+      "zip": "35243",
+      "theater_name": "AMC Summit 16",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 514985559,
+      "date": "2025-09-24+19:35",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "MI",
+      "city": "Livonia",
+      "zip": "48152",
+      "theater_name": "AMC Livonia 20",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 514995267,
+      "date": "2025-09-24+16:45",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "MI",
+      "city": "Livonia",
+      "zip": "48152",
+      "theater_name": "AMC Livonia 20",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 514995266,
+      "date": "2025-09-24+20:15",
       "format": "Standard",
       "language": "Telugu",
       "error": {
