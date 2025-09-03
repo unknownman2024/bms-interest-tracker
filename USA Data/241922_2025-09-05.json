@@ -640,11 +640,11 @@
     "date": "2025-09-05+20:30",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 6,
-    "occupancy": 6.06,
-    "totalAvailableSeatCount": 93,
+    "totalSeatSold": 10,
+    "occupancy": 10.1,
+    "totalAvailableSeatCount": 89,
     "totalSeatCount": 99,
-    "grossRevenueUSD": 53.94,
+    "grossRevenueUSD": 89.9,
     "adultTicketPrice": 8.99
   },
   {
@@ -1770,7 +1770,7 @@
     "totalAvailableSeatCount": 99,
     "totalSeatCount": 99,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 15.99
+    "adultTicketPrice": 16.99
   },
   {
     "state": "NJ",
@@ -1819,11 +1819,11 @@
     "date": "2025-09-05+21:40",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 5,
-    "occupancy": 4.27,
-    "totalAvailableSeatCount": 112,
+    "totalSeatSold": 7,
+    "occupancy": 5.98,
+    "totalAvailableSeatCount": 110,
     "totalSeatCount": 117,
-    "grossRevenueUSD": 85.25,
+    "grossRevenueUSD": 119.35,
     "adultTicketPrice": 17.05
   },
   {
@@ -2055,8 +2055,8 @@
     "language": "Hindi",
     "totalSeatSold": 0,
     "occupancy": 0.0,
-    "totalAvailableSeatCount": 118,
-    "totalSeatCount": 118,
+    "totalAvailableSeatCount": 306,
+    "totalSeatCount": 306,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 10.99
   },
@@ -3016,7 +3016,7 @@
     "chainName": "Regal",
     "chainCode": "REGL",
     "showtime_id": 514692143,
-    "date": "2025-09-05+12:05",
+    "date": "2025-09-05+12:20",
     "format": "Standard",
     "language": "Hindi",
     "totalSeatSold": 8,
@@ -7360,5 +7360,41 @@
     "totalSeatCount": 78,
     "grossRevenueUSD": 204.0,
     "adultTicketPrice": 17.0
+  },
+  {
+    "state": "WI",
+    "city": "New Berlin",
+    "zip": "53151",
+    "theater_name": "Marcus Ridge Cinema",
+    "chainName": "Marcus Theatres",
+    "chainCode": "MRCS",
+    "showtime_id": 515031254,
+    "date": "2025-09-05+11:50",
+    "format": "Standard",
+    "language": "Hindi",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 46,
+    "totalSeatCount": 46,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 11.55
+  },
+  {
+    "state": "WI",
+    "city": "New Berlin",
+    "zip": "53151",
+    "theater_name": "Marcus Ridge Cinema",
+    "chainName": "Marcus Theatres",
+    "chainCode": "MRCS",
+    "showtime_id": 515031256,
+    "date": "2025-09-05+19:20",
+    "format": "Standard",
+    "language": "Hindi",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 46,
+    "totalSeatCount": 46,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 14.18
   }
 ]
