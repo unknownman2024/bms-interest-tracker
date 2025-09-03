@@ -388,7 +388,8 @@
     "max_gross": 3840.0,
     "total_gross": 456.0,
     "price": 24.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 434351,
@@ -405,7 +406,8 @@
     "max_gross": 3960.0,
     "total_gross": 110.0,
     "price": 27.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 299902,
@@ -416,11 +418,11 @@
     "screenName": "Cinema 09",
     "operator": "STA",
     "total": 60,
-    "sold": 32,
-    "available": 28,
-    "occupancy": 53.33,
+    "sold": 34,
+    "available": 26,
+    "occupancy": 56.67,
     "max_gross": 1380.0,
-    "total_gross": 736.0,
+    "total_gross": 782.0,
     "price": 23.0,
     "error": false
   },
@@ -484,11 +486,11 @@
     "screenName": "Cinema 05",
     "operator": "CDS",
     "total": 240,
-    "sold": 51,
-    "available": 189,
-    "occupancy": 21.25,
+    "sold": 56,
+    "available": 184,
+    "occupancy": 23.33,
     "max_gross": 6240.0,
-    "total_gross": 1326.0,
+    "total_gross": 1456.0,
     "price": 26.0,
     "error": false
   },
@@ -507,7 +509,8 @@
     "max_gross": 2565.0,
     "total_gross": 45.0,
     "price": 22.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 261856,

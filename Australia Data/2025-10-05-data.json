@@ -42,11 +42,11 @@
     "screenName": "Cinema 07",
     "operator": "TTP",
     "total": 160,
-    "sold": 7,
-    "available": 153,
-    "occupancy": 4.38,
+    "sold": 10,
+    "available": 150,
+    "occupancy": 6.25,
     "max_gross": 3840.0,
-    "total_gross": 168.0,
+    "total_gross": 240.0,
     "price": 24.0,
     "error": false
   },
@@ -150,7 +150,8 @@
     "max_gross": 5200.0,
     "total_gross": 624.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 428081,
@@ -314,11 +315,11 @@
     "screenName": "Cinema 07",
     "operator": "TTP",
     "total": 160,
-    "sold": 8,
-    "available": 152,
-    "occupancy": 5.0,
+    "sold": 11,
+    "available": 149,
+    "occupancy": 6.88,
     "max_gross": 3840.0,
-    "total_gross": 192.0,
+    "total_gross": 264.0,
     "price": 24.0,
     "error": false
   },

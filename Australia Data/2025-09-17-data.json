@@ -269,7 +269,8 @@
     "max_gross": 3276.0,
     "total_gross": 286.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 247140,
@@ -558,7 +559,8 @@
     "max_gross": 1782.0,
     "total_gross": 216.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 284752,
@@ -773,11 +775,11 @@
     "screenName": "HOYTS LUX 01",
     "operator": "CDSLP",
     "total": 90,
-    "sold": 4,
-    "available": 86,
-    "occupancy": 4.44,
+    "sold": 6,
+    "available": 84,
+    "occupancy": 6.67,
     "max_gross": 2430.0,
-    "total_gross": 108.0,
+    "total_gross": 162.0,
     "price": 27.0,
     "error": false
   },
@@ -1221,7 +1223,8 @@
     "max_gross": 2160.0,
     "total_gross": 315.0,
     "price": 22.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 421606,

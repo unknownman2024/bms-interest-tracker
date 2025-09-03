@@ -14,7 +14,8 @@
     "max_gross": 2574.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 360957,
@@ -48,7 +49,8 @@
     "max_gross": 3060.0,
     "total_gross": 127.5,
     "price": 25.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 29537,
@@ -269,7 +271,8 @@
     "max_gross": 1690.0,
     "total_gross": 52.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 262925,
@@ -433,11 +436,11 @@
     "screenName": "Cinema 08",
     "operator": "TAY",
     "total": 150,
-    "sold": 0,
-    "available": 150,
-    "occupancy": 0.0,
+    "sold": 2,
+    "available": 148,
+    "occupancy": 1.33,
     "max_gross": 3900.0,
-    "total_gross": 0.0,
+    "total_gross": 52.0,
     "price": 26.0,
     "error": false
   },
@@ -507,7 +510,8 @@
     "max_gross": 3978.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 371945,
@@ -524,7 +528,8 @@
     "max_gross": 3952.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 434877,
@@ -677,7 +682,8 @@
     "max_gross": 2310.0,
     "total_gross": 0.0,
     "price": 15.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 333746,

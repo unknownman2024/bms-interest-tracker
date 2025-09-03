@@ -31,7 +31,8 @@
     "max_gross": 3272.5,
     "total_gross": 330.0,
     "price": 27.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 407447,
@@ -178,11 +179,11 @@
     "screenName": "Cinema 06",
     "operator": "CAR",
     "total": 160,
-    "sold": 35,
-    "available": 125,
-    "occupancy": 21.88,
+    "sold": 36,
+    "available": 124,
+    "occupancy": 22.5,
     "max_gross": 3840.0,
-    "total_gross": 840.0,
+    "total_gross": 864.0,
     "price": 24.0,
     "error": false
   },
@@ -252,7 +253,8 @@
     "max_gross": 3952.0,
     "total_gross": 2184.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 344121,
@@ -399,11 +401,11 @@
     "screenName": "Cinema 07",
     "operator": "TTP",
     "total": 160,
-    "sold": 12,
-    "available": 148,
-    "occupancy": 7.5,
+    "sold": 15,
+    "available": 145,
+    "occupancy": 9.38,
     "max_gross": 3840.0,
-    "total_gross": 288.0,
+    "total_gross": 360.0,
     "price": 24.0,
     "error": false
   },
