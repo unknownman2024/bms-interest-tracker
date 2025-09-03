@@ -7,7 +7,7 @@ from tqdm.asyncio import tqdm_asyncio
 from tabulate import tabulate
 
 # ---------------- CONFIG ----------------
-ALL_MOVIES = False  # set True to fetch all movies
+ALL_MOVIES = True  # set True to fetch all movies
 TARGET_MOVIE_IDS = ["HO00010415", "HO00010548"]
 CINEMAS_URL = "https://apim.hoyts.com.au/au/cinemaapi/api/cinemas"
 MOVIES_URL = "https://apim.hoyts.com.au/au/cinemaapi/api/movies/"
