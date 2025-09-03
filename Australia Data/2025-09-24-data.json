@@ -184,7 +184,8 @@
     "max_gross": 4940.0,
     "total_gross": 572.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 38586,
@@ -229,11 +230,11 @@
     "screenName": "Cinema 06",
     "operator": "CAR",
     "total": 160,
-    "sold": 43,
-    "available": 117,
-    "occupancy": 26.88,
+    "sold": 39,
+    "available": 121,
+    "occupancy": 24.38,
     "max_gross": 3840.0,
-    "total_gross": 1032.0,
+    "total_gross": 936.0,
     "price": 24.0,
     "error": false
   },
