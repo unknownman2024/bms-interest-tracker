@@ -9,6 +9,8 @@ from tabulate import tabulate
 # ---------------- CONFIG ----------------
 ALL_MOVIES = True  # set True to fetch all movies
 TARGET_MOVIE_IDS = ["HO00010415", "HO00010548"]
+CONCURRENCY_LIMIT = 500   # max concurrent requests
+
 CINEMAS_URL = "https://apim.hoyts.com.au/au/cinemaapi/api/cinemas"
 MOVIES_URL = "https://apim.hoyts.com.au/au/cinemaapi/api/movies/"
 SESSIONS_URL_TEMPLATE = "https://apim.hoyts.com.au/au/cinemaapi/api/sessions/{cinema_id}"
@@ -59,50 +61,53 @@ async def fetch_sessions(session, cinema_id):
         sessions = [s for s in sessions if s.get("movieId") in TARGET_MOVIE_IDS]
     return sessions
 
-async def fetch_adult_price(session, cinema_id, session_id):
-    url = TICKET_URL_TEMPLATE.format(cinema_id=cinema_id, session_id=session_id)
-    data = await fetch_json(session, url)
-    if isinstance(data, dict) and "__error__" in data:
-        raise Exception(data["__error__"])
-    price = 27.0
-    if data and "ticketTypes" in data:
-        tickets = data["ticketTypes"]
-        adult = next((t for t in tickets if "adult" in t["name"].lower() and t["priceInCents"] > 0), None)
-        if not adult:
-            adult = next((t for t in tickets if t["name"].strip().lower() == "stnd adult" and t["priceInCents"] > 0), None)
-        if adult:
-            price = adult["priceInCents"] / 100
-    return price
+async def fetch_adult_price(session, cinema_id, session_id, sem):
+    async with sem:  # concurrency limit
+        url = TICKET_URL_TEMPLATE.format(cinema_id=cinema_id, session_id=session_id)
+        data = await fetch_json(session, url)
+        if isinstance(data, dict) and "__error__" in data:
+            raise Exception(data["__error__"])
+        price = 27.0
+        if data and "ticketTypes" in data:
+            tickets = data["ticketTypes"]
+            adult = next((t for t in tickets if "adult" in t["name"].lower() and t["priceInCents"] > 0), None)
+            if not adult:
+                adult = next((t for t in tickets if t["name"].strip().lower() == "stnd adult" and t["priceInCents"] > 0), None)
+            if adult:
+                price = adult["priceInCents"] / 100
+        return price
 
-async def fetch_seat_stats(session, cinema_id, sess, price):
-    url = SEATS_URL_TEMPLATE.format(cinema_id=cinema_id, session_id=sess["id"])
-    data = await fetch_json(session, url) or {}
-    if isinstance(data, dict) and "__error__" in data:
-        raise Exception(data["__error__"])
-    total = sold = 0
-    for row in data.get("rows", []):
-        for seat in row.get("seats", []):
-            total += 1
-            if seat.get("sold"):
-                sold += 1
-    available = total - sold
-    total_gross = sold * price
-    max_gross = total * price
-    occupancy = (sold / total * 100) if total else 0
-    return {
-        "total": total,
-        "sold": sold,
-        "available": available,
-        "occupancy": round(occupancy, 2),
-        "max_gross": max_gross,
-        "total_gross": total_gross,
-        "price": price,
-    }
 
-async def process_session(session, cinema_id, sess):
+async def fetch_seat_stats(session, cinema_id, sess, price, sem):
+    async with sem:  # concurrency limit
+        url = SEATS_URL_TEMPLATE.format(cinema_id=cinema_id, session_id=sess["id"])
+        data = await fetch_json(session, url) or {}
+        if isinstance(data, dict) and "__error__" in data:
+            raise Exception(data["__error__"])
+        total = sold = 0
+        for row in data.get("rows", []):
+            for seat in row.get("seats", []):
+                total += 1
+                if seat.get("sold"):
+                    sold += 1
+        available = total - sold
+        total_gross = sold * price
+        max_gross = total * price
+        occupancy = (sold / total * 100) if total else 0
+        return {
+            "total": total,
+            "sold": sold,
+            "available": available,
+            "occupancy": round(occupancy, 2),
+            "max_gross": max_gross,
+            "total_gross": total_gross,
+            "price": price,
+        }
+
+async def process_session(session, cinema_id, sess, sem):
     try:
-        price = await fetch_adult_price(session, cinema_id, sess["id"])
-        stats = await fetch_seat_stats(session, cinema_id, sess, price)
+        price = await fetch_adult_price(session, cinema_id, sess["id"], sem)
+        stats = await fetch_seat_stats(session, cinema_id, sess, price, sem)
         simplified = {
             "id": sess["id"],
             "cinemaId": cinema_id,
@@ -148,6 +153,7 @@ def save_data(filepath, data_dict):
 
 # ---------------- MAIN ----------------
 async def main():
+    sem = asyncio.Semaphore(CONCURRENCY_LIMIT)   # yaha banaya
     connector = aiohttp.TCPConnector(limit=0)
     async with aiohttp.ClientSession(connector=connector) as session:
         cinemas = await fetch_cinemas(session)
@@ -166,7 +172,7 @@ async def main():
         print(f"📊 Total sessions fetched: {len(all_sessions)}")
 
         # process sessions
-        tasks = [process_session(session, s["cinemaId"], s) for s in all_sessions]
+        tasks = [process_session(session, s["cinemaId"], s, sem) for s in all_sessions]
         all_results = []
         for f in tqdm_asyncio.as_completed(tasks, total=len(tasks), desc="Fetching seats & prices"):
             try:
