@@ -1861,11 +1861,11 @@
     "date": "2025-09-25+18:10",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 7,
-    "occupancy": 2.34,
-    "totalAvailableSeatCount": 292,
+    "totalSeatSold": 9,
+    "occupancy": 3.01,
+    "totalAvailableSeatCount": 290,
     "totalSeatCount": 299,
-    "grossRevenueUSD": 140.0,
+    "grossRevenueUSD": 180.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -2920,11 +2920,11 @@
     "date": "2025-09-25+20:35",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
+    "totalSeatSold": 4,
+    "occupancy": 4.71,
     "totalAvailableSeatCount": 81,
-    "totalSeatCount": 81,
-    "grossRevenueUSD": 0.0,
+    "totalSeatCount": 85,
+    "grossRevenueUSD": 86.0,
     "adultTicketPrice": 21.5
   },
   {
@@ -4162,11 +4162,11 @@
     "date": "2025-09-25+12:10",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 49,
+    "totalSeatSold": 1,
+    "occupancy": 2.04,
+    "totalAvailableSeatCount": 48,
     "totalSeatCount": 49,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 20.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -4810,11 +4810,11 @@
     "date": "2025-09-25+19:10",
     "format": "Sony Digital Cinema",
     "language": "Telugu",
-    "totalSeatSold": 25,
-    "occupancy": 9.06,
-    "totalAvailableSeatCount": 251,
+    "totalSeatSold": 31,
+    "occupancy": 11.23,
+    "totalAvailableSeatCount": 245,
     "totalSeatCount": 276,
-    "grossRevenueUSD": 625.0,
+    "grossRevenueUSD": 775.0,
     "adultTicketPrice": 25.0
   },
   {
@@ -6646,11 +6646,11 @@
     "date": "2025-09-25+17:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 1,
-    "occupancy": 0.42,
-    "totalAvailableSeatCount": 236,
+    "totalSeatSold": 5,
+    "occupancy": 2.11,
+    "totalAvailableSeatCount": 232,
     "totalSeatCount": 237,
-    "grossRevenueUSD": 20.0,
+    "grossRevenueUSD": 100.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -8071,5 +8071,35 @@
     "totalSeatCount": 53,
     "grossRevenueUSD": 21.71,
     "adultTicketPrice": 21.71
+  },
+  {
+    "state": "AL",
+    "city": "Hoover",
+    "zip": "35244",
+    "theater_name": "AMC Patton Creek 15",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514979397,
+    "date": "2025-09-25+20:30",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 500
+    }
+  },
+  {
+    "state": "OH",
+    "city": "Columbus",
+    "zip": "43219",
+    "theater_name": "AMC Dine-in Easton Town Center 30",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514972228,
+    "date": "2025-09-25+18:30",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 500
+    }
   }
 ]
