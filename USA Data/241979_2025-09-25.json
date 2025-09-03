@@ -2758,11 +2758,11 @@
     "date": "2025-09-25+11:10",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 3,
-    "occupancy": 0.7,
-    "totalAvailableSeatCount": 425,
+    "totalSeatSold": 2,
+    "occupancy": 0.47,
+    "totalAvailableSeatCount": 426,
     "totalSeatCount": 428,
-    "grossRevenueUSD": 63.6,
+    "grossRevenueUSD": 42.4,
     "adultTicketPrice": 21.2
   },
   {
@@ -4810,11 +4810,11 @@
     "date": "2025-09-25+19:10",
     "format": "Sony Digital Cinema",
     "language": "Telugu",
-    "totalSeatSold": 26,
-    "occupancy": 9.42,
-    "totalAvailableSeatCount": 250,
+    "totalSeatSold": 25,
+    "occupancy": 9.06,
+    "totalAvailableSeatCount": 251,
     "totalSeatCount": 276,
-    "grossRevenueUSD": 650.0,
+    "grossRevenueUSD": 625.0,
     "adultTicketPrice": 25.0
   },
   {
@@ -7132,11 +7132,11 @@
     "date": "2025-09-25+19:00",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 5,
-    "occupancy": 4.2,
-    "totalAvailableSeatCount": 114,
+    "totalSeatSold": 7,
+    "occupancy": 5.88,
+    "totalAvailableSeatCount": 112,
     "totalSeatCount": 119,
-    "grossRevenueUSD": 100.0,
+    "grossRevenueUSD": 140.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -7939,11 +7939,11 @@
     "date": "2025-09-25+18:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 4,
-    "occupancy": 4.08,
-    "totalAvailableSeatCount": 94,
+    "totalSeatSold": 11,
+    "occupancy": 11.22,
+    "totalAvailableSeatCount": 87,
     "totalSeatCount": 98,
-    "grossRevenueUSD": 41.12,
+    "grossRevenueUSD": 113.08,
     "adultTicketPrice": 10.28
   },
   {
