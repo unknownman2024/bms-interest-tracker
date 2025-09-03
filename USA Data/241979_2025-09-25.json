@@ -100,11 +100,11 @@
     "date": "2025-09-25+20:00",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 11,
-    "occupancy": 2.42,
-    "totalAvailableSeatCount": 444,
+    "totalSeatSold": 12,
+    "occupancy": 2.64,
+    "totalAvailableSeatCount": 443,
     "totalSeatCount": 455,
-    "grossRevenueUSD": 220.0,
+    "grossRevenueUSD": 240.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -1933,11 +1933,11 @@
     "date": "2025-09-25+18:40",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 124,
+    "totalSeatSold": 1,
+    "occupancy": 0.81,
+    "totalAvailableSeatCount": 123,
     "totalSeatCount": 124,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 20.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -2704,11 +2704,11 @@
     "date": "2025-09-25+20:55",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 18,
-    "occupancy": 9.68,
-    "totalAvailableSeatCount": 168,
+    "totalSeatSold": 21,
+    "occupancy": 11.29,
+    "totalAvailableSeatCount": 165,
     "totalSeatCount": 186,
-    "grossRevenueUSD": 387.9,
+    "grossRevenueUSD": 452.55,
     "adultTicketPrice": 21.55
   },
   {
@@ -4702,11 +4702,11 @@
     "date": "2025-09-25+17:00",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 4,
-    "occupancy": 6.67,
-    "totalAvailableSeatCount": 56,
+    "totalSeatSold": 6,
+    "occupancy": 10.0,
+    "totalAvailableSeatCount": 54,
     "totalSeatCount": 60,
-    "grossRevenueUSD": 51.36,
+    "grossRevenueUSD": 77.04,
     "adultTicketPrice": 12.84
   },
   {
@@ -5170,11 +5170,11 @@
     "date": "2025-09-25+19:45",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 1,
-    "occupancy": 0.58,
-    "totalAvailableSeatCount": 171,
+    "totalSeatSold": 2,
+    "occupancy": 1.16,
+    "totalAvailableSeatCount": 170,
     "totalSeatCount": 172,
-    "grossRevenueUSD": 27.06,
+    "grossRevenueUSD": 54.12,
     "adultTicketPrice": 27.06
   },
   {
@@ -8053,5 +8053,23 @@
     "totalSeatCount": 161,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 20.0
+  },
+  {
+    "state": "MN",
+    "city": "Eden Prairie",
+    "zip": "55344",
+    "theater_name": "AMC Eden Prairie Mall 18",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514954758,
+    "date": "2025-09-25+18:45",
+    "format": "Standard",
+    "language": "Telugu",
+    "totalSeatSold": 1,
+    "occupancy": 1.89,
+    "totalAvailableSeatCount": 52,
+    "totalSeatCount": 53,
+    "grossRevenueUSD": 21.71,
+    "adultTicketPrice": 21.71
   }
 ]
