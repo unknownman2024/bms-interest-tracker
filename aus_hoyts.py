@@ -5,6 +5,53 @@ import json
 from collections import defaultdict
 from tqdm.asyncio import tqdm_asyncio
 from tabulate import tabulate
+import random
+import string
+
+
+def random_version():
+    return f"{random.randint(50,150)}.0.{random.randint(1000,9999)}.{random.randint(0,999)}"
+
+def random_os():
+    platforms = [
+        f"Windows NT {random.randint(6,10)}.{random.randint(0,3)}",
+        f"Macintosh; Intel Mac OS X 10_{random.randint(10,15)}_{random.randint(0,7)}",
+        f"Linux; Android {random.randint(8,14)}; Pixel {random.randint(3,8)}",
+        f"X11; Linux x86_64"
+    ]
+    return random.choice(platforms)
+
+def random_user_agent():
+    browsers = [
+        "Chrome",
+        "Firefox",
+        "Safari",
+        "Edge"
+    ]
+    browser = random.choice(browsers)
+    if browser == "Chrome":
+        return f"Mozilla/5.0 ({random_os()}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{random_version()} Safari/537.36"
+    elif browser == "Firefox":
+        return f"Mozilla/5.0 ({random_os()}; rv:{random.randint(100,120)}.0) Gecko/20100101 Firefox/{random.randint(100,120)}.0"
+    elif browser == "Safari":
+        return f"Mozilla/5.0 ({random_os()}) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/{random.randint(13,18)}.0 Safari/605.1.15"
+    else:  # Edge
+        return f"Mozilla/5.0 ({random_os()}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{random_version()} Safari/537.36 Edg/{random_version()}"
+
+def random_accept():
+    types = ["application/json", "text/html", "text/plain", "*/*"]
+    q = round(random.uniform(0.5,1.0), 2)
+    return ", ".join([f"{t}; q={round(random.uniform(0.5,1.0),2)}" if t != "*/*" else t for t in types])
+
+def generate_random_headers():
+    return {
+        "User-Agent": random_user_agent(),
+        "Accept": random_accept(),
+        "Accept-Language": f"en-US,en;q={round(random.uniform(0.7,1.0),2)}",
+        "Connection": "keep-alive",
+        "Cache-Control": "no-cache"
+    }
+
 
 # ---------------- CONFIG ----------------
 ALL_MOVIES = True  # set True to fetch all movies
@@ -17,14 +64,12 @@ SESSIONS_URL_TEMPLATE = "https://apim.hoyts.com.au/au/cinemaapi/api/sessions/{ci
 SEATS_URL_TEMPLATE = "https://apim.hoyts.com.au/au/ticketing/api/v1/ticket/seats/{cinema_id}/{session_id}"
 TICKET_URL_TEMPLATE = "https://apim.hoyts.com.au/au/ticketing/api/v1/ticket/{cinema_id}/{session_id}"
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0",
-    "Accept": "application/json",
-}
+HEADERS = generate_random_headers()
 
 # ---------------- HELPERS ----------------
 async def fetch_json(session, url):
     try:
+        headers = generate_random_headers()  # generate new headers per request
         async with session.get(url, headers=HEADERS) as resp:
             if resp.status == 200:
                 return await resp.json()
@@ -154,7 +199,7 @@ def save_data(filepath, data_dict):
 # ---------------- MAIN ----------------
 async def main():
     sem = asyncio.Semaphore(CONCURRENCY_LIMIT)   # yaha banaya
-    connector = aiohttp.TCPConnector(limit=0)
+    connector = aiohttp.TCPConnector(limit=CONCURRENCY_LIMIT)
     async with aiohttp.ClientSession(connector=connector) as session:
         cinemas = await fetch_cinemas(session)
         movies_map = await fetch_movies(session)
