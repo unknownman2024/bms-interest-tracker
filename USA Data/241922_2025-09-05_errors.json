@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-03 04:40:48 AM",
+  "last_updated": "2025-09-03 06:13:10 AM",
   "errors": [
     {
       "state": "GA",
@@ -59,6 +59,66 @@
       "language": "Hindi",
       "error": {
         "status": 500
+      }
+    },
+    {
+      "state": "PA",
+      "city": "Oaks",
+      "zip": "19456",
+      "theater_name": "Oaks Center Cinema",
+      "chainName": "Veezi Theaters",
+      "chainCode": "VZ",
+      "showtime_id": 514542494,
+      "date": "2025-09-05+14:45",
+      "format": "Standard",
+      "language": "Unknown",
+      "error": {
+        "status": 400
+      }
+    },
+    {
+      "state": "GA",
+      "city": "Augusta",
+      "zip": "30909",
+      "theater_name": "Regal Augusta Exchange & IMAX",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514679642,
+      "date": "2025-09-05+18:25",
+      "format": "Standard",
+      "language": "Hindi",
+      "error": {
+        "status": 400
+      }
+    },
+    {
+      "state": "GA",
+      "city": "Cumming",
+      "zip": "30041",
+      "theater_name": "AMC Avenue Forsyth 12",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 514732299,
+      "date": "2025-09-05+21:00",
+      "format": "Standard",
+      "language": "Unknown",
+      "error": {
+        "status": 400
+      }
+    },
+    {
+      "state": "AZ",
+      "city": "Glendale",
+      "zip": "85305",
+      "theater_name": "AMC Westgate 20",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 514655943,
+      "date": "2025-09-05+19:45",
+      "format": "Standard",
+      "language": "Unknown",
+      "error": {
+        "status": 400
       }
     }
   ]
