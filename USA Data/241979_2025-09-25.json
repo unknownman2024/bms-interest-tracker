@@ -1933,11 +1933,11 @@
     "date": "2025-09-25+18:40",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 7,
-    "occupancy": 5.65,
-    "totalAvailableSeatCount": 117,
+    "totalSeatSold": 8,
+    "occupancy": 6.45,
+    "totalAvailableSeatCount": 116,
     "totalSeatCount": 124,
-    "grossRevenueUSD": 140.0,
+    "grossRevenueUSD": 160.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -2416,11 +2416,11 @@
     "date": "2025-09-25+18:15",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 12,
-    "occupancy": 14.63,
-    "totalAvailableSeatCount": 70,
+    "totalSeatSold": 14,
+    "occupancy": 17.07,
+    "totalAvailableSeatCount": 68,
     "totalSeatCount": 82,
-    "grossRevenueUSD": 257.4,
+    "grossRevenueUSD": 300.3,
     "adultTicketPrice": 21.45
   },
   {
@@ -4162,11 +4162,11 @@
     "date": "2025-09-25+12:10",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 1,
-    "occupancy": 2.04,
-    "totalAvailableSeatCount": 48,
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 49,
     "totalSeatCount": 49,
-    "grossRevenueUSD": 20.0,
+    "grossRevenueUSD": 0.0,
     "adultTicketPrice": 20.0
   },
   {
@@ -8096,6 +8096,36 @@
     "chainCode": "AMC",
     "showtime_id": 514972228,
     "date": "2025-09-25+18:30",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 500
+    }
+  },
+  {
+    "state": "AL",
+    "city": "Birmingham",
+    "zip": "35243",
+    "theater_name": "AMC Summit 16",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514985564,
+    "date": "2025-09-25+19:40",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 500
+    }
+  },
+  {
+    "state": "MI",
+    "city": "Livonia",
+    "zip": "48152",
+    "theater_name": "AMC Livonia 20",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514995268,
+    "date": "2025-09-25+20:15",
     "format": "Standard",
     "language": "Telugu",
     "error": {
