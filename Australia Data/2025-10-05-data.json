@@ -110,11 +110,11 @@
     "screenName": "Cinema 05",
     "operator": "CAR",
     "total": 200,
-    "sold": 71,
-    "available": 129,
-    "occupancy": 35.5,
+    "sold": 72,
+    "available": 128,
+    "occupancy": 36.0,
     "max_gross": 4800.0,
-    "total_gross": 1704.0,
+    "total_gross": 1728.0,
     "price": 24.0,
     "error": false
   },
@@ -150,8 +150,7 @@
     "max_gross": 5200.0,
     "total_gross": 624.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 428081,
@@ -247,11 +246,11 @@
     "screenName": "Cinema 05",
     "operator": "CAR",
     "total": 200,
-    "sold": 37,
-    "available": 163,
-    "occupancy": 18.5,
+    "sold": 38,
+    "available": 162,
+    "occupancy": 19.0,
     "max_gross": 4800.0,
-    "total_gross": 888.0,
+    "total_gross": 912.0,
     "price": 24.0,
     "error": false
   },

@@ -167,8 +167,7 @@
     "max_gross": 1690.0,
     "total_gross": 884.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 497620,
@@ -213,11 +212,11 @@
     "screenName": "Cinema 05",
     "operator": "VGD",
     "total": 90,
-    "sold": 17,
-    "available": 73,
-    "occupancy": 18.89,
+    "sold": 19,
+    "available": 71,
+    "occupancy": 21.11,
     "max_gross": 2340.0,
-    "total_gross": 442.0,
+    "total_gross": 494.0,
     "price": 26.0,
     "error": false
   },
@@ -253,7 +252,6 @@
     "max_gross": 2160.0,
     "total_gross": 427.5,
     "price": 22.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   }
 ]

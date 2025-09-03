@@ -82,7 +82,8 @@
     "max_gross": 3276.0,
     "total_gross": 312.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 333374,
@@ -218,8 +219,7 @@
     "max_gross": 3744.0,
     "total_gross": 130.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 406112,
@@ -315,11 +315,11 @@
     "screenName": "Cinema 01",
     "operator": "BOO",
     "total": 294,
-    "sold": 29,
-    "available": 265,
-    "occupancy": 9.86,
+    "sold": 32,
+    "available": 262,
+    "occupancy": 10.88,
     "max_gross": 6615.0,
-    "total_gross": 652.5,
+    "total_gross": 720.0,
     "price": 22.5,
     "error": false
   },
