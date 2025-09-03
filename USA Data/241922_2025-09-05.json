@@ -1711,11 +1711,11 @@
     "date": "2025-09-05+21:20",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 2,
-    "occupancy": 2.99,
-    "totalAvailableSeatCount": 65,
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 67,
     "totalSeatCount": 67,
-    "grossRevenueUSD": 26.1,
+    "grossRevenueUSD": 0.0,
     "adultTicketPrice": 13.05
   },
   {
@@ -2356,11 +2356,11 @@
     "date": "2025-09-05+23:05",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 1,
-    "occupancy": 1.12,
-    "totalAvailableSeatCount": 88,
+    "totalSeatSold": 3,
+    "occupancy": 3.37,
+    "totalAvailableSeatCount": 86,
     "totalSeatCount": 89,
-    "grossRevenueUSD": 14.07,
+    "grossRevenueUSD": 42.21,
     "adultTicketPrice": 14.07
   },
   {
@@ -2734,11 +2734,11 @@
     "date": "2025-09-05+18:00",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 1,
-    "occupancy": 1.75,
-    "totalAvailableSeatCount": 56,
+    "totalSeatSold": 3,
+    "occupancy": 5.26,
+    "totalAvailableSeatCount": 54,
     "totalSeatCount": 57,
-    "grossRevenueUSD": 20.49,
+    "grossRevenueUSD": 61.47,
     "adultTicketPrice": 20.49
   },
   {
@@ -6271,11 +6271,11 @@
     "date": "2025-09-05+20:55",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 100,
+    "totalSeatSold": 1,
+    "occupancy": 1.0,
+    "totalAvailableSeatCount": 99,
     "totalSeatCount": 100,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 18.31,
     "adultTicketPrice": 18.31
   },
   {
