@@ -265,8 +265,13 @@ async def main():
                 movie_dates[mid] = {
                     "name": agg.get("name", "-"),
                     "poster": agg.get("posterImage"),
+                    "releaseDate": agg.get("releaseDate"),   # 🔥 Add release date here
                     "dates": []
                 }
+            else:
+                # agar pehle se hai toh bhi releaseDate update kar do (null avoid karne ke liye)
+                if not movie_dates[mid].get("releaseDate"):
+                    movie_dates[mid]["releaseDate"] = agg.get("releaseDate")
 
             if show_date not in movie_dates[mid]["dates"]:
                 movie_dates[mid]["dates"].append(show_date)
@@ -275,6 +280,7 @@ async def main():
         with open(movie_dates_path, "w") as f:
             json.dump(movie_dates, f, indent=2)
         print(f"📅 Movie dates updated -> {movie_dates_path}")
+
 
         # pretty print
         print(f"\n📅 Date: {show_date}")
