@@ -370,11 +370,11 @@
     "date": "2025-09-05+15:15",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 95,
+    "totalSeatSold": 1,
+    "occupancy": 1.05,
+    "totalAvailableSeatCount": 94,
     "totalSeatCount": 95,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 11.55,
     "adultTicketPrice": 11.55
   },
   {
@@ -1141,11 +1141,11 @@
     "date": "2025-09-05+22:30",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 126,
+    "totalSeatSold": 3,
+    "occupancy": 2.38,
+    "totalAvailableSeatCount": 123,
     "totalSeatCount": 126,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 53.97,
     "adultTicketPrice": 17.99
   },
   {
@@ -2248,11 +2248,11 @@
     "date": "2025-09-05+14:40",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 37,
+    "totalSeatSold": 1,
+    "occupancy": 2.7,
+    "totalAvailableSeatCount": 36,
     "totalSeatCount": 37,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 11.07,
     "adultTicketPrice": 11.07
   },
   {
@@ -2716,11 +2716,11 @@
     "date": "2025-09-05+22:00",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 6,
-    "occupancy": 6.9,
-    "totalAvailableSeatCount": 81,
+    "totalSeatSold": 4,
+    "occupancy": 4.6,
+    "totalAvailableSeatCount": 83,
     "totalSeatCount": 87,
-    "grossRevenueUSD": 115.08,
+    "grossRevenueUSD": 76.72,
     "adultTicketPrice": 19.18
   },
   {
@@ -2788,11 +2788,11 @@
     "date": "2025-09-05+18:00",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 289,
+    "totalSeatSold": 2,
+    "occupancy": 0.69,
+    "totalAvailableSeatCount": 287,
     "totalSeatCount": 289,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 27.98,
     "adultTicketPrice": 13.99
   },
   {
@@ -2824,11 +2824,11 @@
     "date": "2025-09-05+18:45",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 5,
-    "occupancy": 3.4,
-    "totalAvailableSeatCount": 142,
+    "totalSeatSold": 3,
+    "occupancy": 2.04,
+    "totalAvailableSeatCount": 144,
     "totalSeatCount": 147,
-    "grossRevenueUSD": 80.0,
+    "grossRevenueUSD": 48.0,
     "adultTicketPrice": 16.0
   },
   {
@@ -3808,11 +3808,11 @@
     "date": "2025-09-05+15:10",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 1,
-    "occupancy": 3.03,
-    "totalAvailableSeatCount": 32,
+    "totalSeatSold": 2,
+    "occupancy": 6.06,
+    "totalAvailableSeatCount": 31,
     "totalSeatCount": 33,
-    "grossRevenueUSD": 12.39,
+    "grossRevenueUSD": 24.78,
     "adultTicketPrice": 12.39
   },
   {
@@ -5181,7 +5181,7 @@
     "totalAvailableSeatCount": 64,
     "totalSeatCount": 64,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 15.99
+    "adultTicketPrice": 16.99
   },
   {
     "state": "VA",
@@ -5199,7 +5199,7 @@
     "totalAvailableSeatCount": 234,
     "totalSeatCount": 234,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 15.99
+    "adultTicketPrice": 16.99
   },
   {
     "state": "NC",
@@ -5914,11 +5914,11 @@
     "date": "2025-09-05+19:40",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 42,
+    "totalSeatSold": 1,
+    "occupancy": 2.38,
+    "totalAvailableSeatCount": 41,
     "totalSeatCount": 42,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 16.99,
     "adultTicketPrice": 16.99
   },
   {
@@ -5986,11 +5986,11 @@
     "date": "2025-09-05+18:30",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 10,
-    "occupancy": 8.93,
-    "totalAvailableSeatCount": 102,
+    "totalSeatSold": 15,
+    "occupancy": 13.39,
+    "totalAvailableSeatCount": 97,
     "totalSeatCount": 112,
-    "grossRevenueUSD": 174.9,
+    "grossRevenueUSD": 262.35,
     "adultTicketPrice": 17.49
   },
   {
@@ -6400,11 +6400,11 @@
     "date": "2025-09-05+22:15",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 2,
-    "occupancy": 2.3,
-    "totalAvailableSeatCount": 85,
+    "totalSeatSold": 5,
+    "occupancy": 5.75,
+    "totalAvailableSeatCount": 82,
     "totalSeatCount": 87,
-    "grossRevenueUSD": 28.12,
+    "grossRevenueUSD": 70.3,
     "adultTicketPrice": 14.06
   },
   {
@@ -6856,5 +6856,41 @@
     "totalSeatCount": 50,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 13.53
+  },
+  {
+    "state": "MD",
+    "city": "Frederick",
+    "zip": "21704",
+    "theater_name": "Regal Westview & IMAX",
+    "chainName": "Regal",
+    "chainCode": "REGL",
+    "showtime_id": 514974777,
+    "date": "2025-09-05+18:40",
+    "format": "Standard",
+    "language": "Hindi",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 61,
+    "totalSeatCount": 61,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 28.49
+  },
+  {
+    "state": "MI",
+    "city": "Walled Lake",
+    "zip": "48390",
+    "theater_name": "Regal UA Commerce Township",
+    "chainName": "Regal",
+    "chainCode": "REGL",
+    "showtime_id": 514983516,
+    "date": "2025-09-05+14:15",
+    "format": "Standard",
+    "language": "Hindi",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 204,
+    "totalSeatCount": 204,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 8.49
   }
 ]
