@@ -1793,11 +1793,11 @@
     "screenName": "Xtremescreen 10",
     "operator": "MCE",
     "total": 556,
-    "sold": 62,
-    "available": 494,
-    "occupancy": 11.15,
+    "sold": 64,
+    "available": 492,
+    "occupancy": 11.51,
     "max_gross": 18348.0,
-    "total_gross": 2046.0,
+    "total_gross": 2112.0,
     "price": 33.0,
     "error": false
   },
@@ -1935,8 +1935,7 @@
     "max_gross": 3888.0,
     "total_gross": 72.0,
     "price": 36.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 388742,
@@ -2072,8 +2071,7 @@
     "max_gross": 2450.0,
     "total_gross": 0.0,
     "price": 25.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 171522,
@@ -4011,8 +4009,7 @@
     "max_gross": 2916.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 427510,
@@ -6437,11 +6434,11 @@
     "screenName": "Cinema 04",
     "operator": "BMW",
     "total": 144,
-    "sold": 13,
-    "available": 131,
-    "occupancy": 9.03,
+    "sold": 16,
+    "available": 128,
+    "occupancy": 11.11,
     "max_gross": 3456.0,
-    "total_gross": 312.0,
+    "total_gross": 384.0,
     "price": 24.0,
     "error": false
   },
@@ -6528,8 +6525,7 @@
     "max_gross": 6048.0,
     "total_gross": 0.0,
     "price": 36.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 42728,
@@ -6614,8 +6610,7 @@
     "max_gross": 6300.0,
     "total_gross": 750.0,
     "price": 37.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 270616,
@@ -6660,11 +6655,11 @@
     "screenName": "Xtremescreen 10",
     "operator": "MCE",
     "total": 556,
-    "sold": 144,
-    "available": 412,
-    "occupancy": 25.9,
+    "sold": 145,
+    "available": 411,
+    "occupancy": 26.08,
     "max_gross": 18348.0,
-    "total_gross": 4752.0,
+    "total_gross": 4785.0,
     "price": 33.0,
     "error": false
   },

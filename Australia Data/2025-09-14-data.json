@@ -2694,11 +2694,11 @@
     "screenName": "Xtremescreen 01",
     "operator": "CDS",
     "total": 278,
-    "sold": 22,
-    "available": 256,
-    "occupancy": 7.91,
+    "sold": 28,
+    "available": 250,
+    "occupancy": 10.07,
     "max_gross": 9174.0,
-    "total_gross": 726.0,
+    "total_gross": 924.0,
     "price": 33.0,
     "error": false
   },
@@ -6474,7 +6474,8 @@
     "max_gross": 4680.0,
     "total_gross": 756.0,
     "price": 36.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 502"
   },
   {
     "id": 344706,
@@ -7369,11 +7370,11 @@
     "screenName": "Xtremescreen 01",
     "operator": "KYP",
     "total": 432,
-    "sold": 119,
-    "available": 313,
-    "occupancy": 27.55,
+    "sold": 121,
+    "available": 311,
+    "occupancy": 28.01,
     "max_gross": 14256.0,
-    "total_gross": 3927.0,
+    "total_gross": 3993.0,
     "price": 33.0,
     "error": false
   },

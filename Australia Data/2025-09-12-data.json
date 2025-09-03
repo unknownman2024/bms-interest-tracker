@@ -524,8 +524,7 @@
     "max_gross": 3920.0,
     "total_gross": 728.0,
     "price": 28.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 334278,
@@ -655,11 +654,11 @@
     "screenName": "DBOX 02",
     "operator": "EAS",
     "total": 84,
-    "sold": 21,
-    "available": 63,
-    "occupancy": 25.0,
+    "sold": 23,
+    "available": 61,
+    "occupancy": 27.38,
     "max_gross": 3024.0,
-    "total_gross": 756.0,
+    "total_gross": 828.0,
     "price": 36.0,
     "error": false
   },
@@ -797,8 +796,7 @@
     "max_gross": 3888.0,
     "total_gross": 0.0,
     "price": 36.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 41993,
@@ -928,11 +926,11 @@
     "screenName": "Cinema 05",
     "operator": "CAR",
     "total": 200,
-    "sold": 4,
-    "available": 196,
-    "occupancy": 2.0,
+    "sold": 6,
+    "available": 194,
+    "occupancy": 3.0,
     "max_gross": 5200.0,
-    "total_gross": 104.0,
+    "total_gross": 156.0,
     "price": 26.0,
     "error": false
   },
@@ -1325,8 +1323,7 @@
     "max_gross": 3888.0,
     "total_gross": 108.0,
     "price": 36.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 329119,
@@ -1921,8 +1918,7 @@
     "max_gross": 2450.0,
     "total_gross": 0.0,
     "price": 25.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 76571,
