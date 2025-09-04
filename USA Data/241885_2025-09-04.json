@@ -3271,11 +3271,11 @@
     "date": "2025-09-04+21:00",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 63,
-    "occupancy": 72.41,
-    "totalAvailableSeatCount": 24,
+    "totalSeatSold": 62,
+    "occupancy": 71.26,
+    "totalAvailableSeatCount": 25,
     "totalSeatCount": 87,
-    "grossRevenueUSD": 885.78,
+    "grossRevenueUSD": 871.72,
     "adultTicketPrice": 14.06
   },
   {
