@@ -2937,7 +2937,7 @@
     "totalAvailableSeatCount": 65,
     "totalSeatCount": 65,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 19.35
+    "adultTicketPrice": 14.51
   },
   {
     "state": "PA",
@@ -4150,11 +4150,11 @@
     "date": "2025-09-05+22:25",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 3,
-    "occupancy": 4.05,
-    "totalAvailableSeatCount": 71,
+    "totalSeatSold": 9,
+    "occupancy": 12.16,
+    "totalAvailableSeatCount": 65,
     "totalSeatCount": 74,
-    "grossRevenueUSD": 43.83,
+    "grossRevenueUSD": 131.49,
     "adultTicketPrice": 14.61
   },
   {
@@ -4420,11 +4420,11 @@
     "date": "2025-09-05+18:00",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 7,
-    "occupancy": 16.28,
-    "totalAvailableSeatCount": 36,
+    "totalSeatSold": 8,
+    "occupancy": 18.6,
+    "totalAvailableSeatCount": 35,
     "totalSeatCount": 43,
-    "grossRevenueUSD": 108.43,
+    "grossRevenueUSD": 123.92,
     "adultTicketPrice": 15.49
   },
   {
@@ -4816,11 +4816,11 @@
     "date": "2025-09-05+19:20",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 29,
-    "occupancy": 50.0,
-    "totalAvailableSeatCount": 29,
+    "totalSeatSold": 31,
+    "occupancy": 53.45,
+    "totalAvailableSeatCount": 27,
     "totalSeatCount": 58,
-    "grossRevenueUSD": 398.75,
+    "grossRevenueUSD": 426.25,
     "adultTicketPrice": 13.75
   },
   {
@@ -5122,11 +5122,11 @@
     "date": "2025-09-05+20:45",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 13,
-    "occupancy": 15.48,
-    "totalAvailableSeatCount": 71,
+    "totalSeatSold": 11,
+    "occupancy": 13.1,
+    "totalAvailableSeatCount": 73,
     "totalSeatCount": 84,
-    "grossRevenueUSD": 200.85,
+    "grossRevenueUSD": 169.95,
     "adultTicketPrice": 15.45
   },
   {
@@ -5374,11 +5374,11 @@
     "date": "2025-09-05+21:30",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 12,
-    "occupancy": 35.29,
-    "totalAvailableSeatCount": 22,
+    "totalSeatSold": 16,
+    "occupancy": 47.06,
+    "totalAvailableSeatCount": 18,
     "totalSeatCount": 34,
-    "grossRevenueUSD": 203.88,
+    "grossRevenueUSD": 271.84,
     "adultTicketPrice": 16.99
   },
   {
@@ -5554,11 +5554,11 @@
     "date": "2025-09-05+14:55",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 48,
+    "totalSeatSold": 1,
+    "occupancy": 2.08,
+    "totalAvailableSeatCount": 47,
     "totalSeatCount": 48,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 11.5,
     "adultTicketPrice": 11.5
   },
   {
@@ -6004,11 +6004,11 @@
     "date": "2025-09-05+22:20",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 2,
-    "occupancy": 2.22,
-    "totalAvailableSeatCount": 88,
+    "totalSeatSold": 4,
+    "occupancy": 4.44,
+    "totalAvailableSeatCount": 86,
     "totalSeatCount": 90,
-    "grossRevenueUSD": 34.98,
+    "grossRevenueUSD": 69.96,
     "adultTicketPrice": 17.49
   },
   {
@@ -6274,11 +6274,11 @@
     "date": "2025-09-05+20:55",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 15,
-    "occupancy": 15.0,
-    "totalAvailableSeatCount": 85,
+    "totalSeatSold": 16,
+    "occupancy": 16.0,
+    "totalAvailableSeatCount": 84,
     "totalSeatCount": 100,
-    "grossRevenueUSD": 274.65,
+    "grossRevenueUSD": 292.96,
     "adultTicketPrice": 18.31
   },
   {
@@ -7984,11 +7984,11 @@
     "date": "2025-09-05+16:05",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 160,
+    "totalSeatSold": 4,
+    "occupancy": 2.5,
+    "totalAvailableSeatCount": 156,
     "totalSeatCount": 160,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 39.8,
     "adultTicketPrice": 9.95
   },
   {
@@ -8239,5 +8239,20 @@
     "totalSeatCount": 185,
     "grossRevenueUSD": 46.0,
     "adultTicketPrice": 11.5
+  },
+  {
+    "state": "NJ",
+    "city": "Paramus",
+    "zip": "07652",
+    "theater_name": "AMC Garden State 16",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 515109293,
+    "date": "2025-09-05+20:45",
+    "format": "Standard",
+    "language": "Hindi",
+    "error": {
+      "status": 500
+    }
   }
 ]
