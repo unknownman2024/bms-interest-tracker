@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-04 11:55:25 AM",
+  "last_updated": "2025-09-04 12:24:56 PM",
   "errors": [
     {
       "state": "IL",
@@ -400,6 +400,21 @@
       "chainCode": "AMC",
       "showtime_id": 515072517,
       "date": "2025-09-24+17:30",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "CA",
+      "city": "Fremont",
+      "zip": "94538",
+      "theater_name": "Ciné Lounge Fremont 7",
+      "chainName": "RTSIND",
+      "chainCode": "RTSIND",
+      "showtime_id": 515078477,
+      "date": "2025-09-24+19:10",
       "format": "Standard",
       "language": "Telugu",
       "error": {

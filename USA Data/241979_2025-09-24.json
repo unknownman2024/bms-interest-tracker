@@ -2548,11 +2548,11 @@
     "date": "2025-09-24+14:40",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 47,
-    "occupancy": 45.63,
-    "totalAvailableSeatCount": 56,
+    "totalSeatSold": 50,
+    "occupancy": 48.54,
+    "totalAvailableSeatCount": 53,
     "totalSeatCount": 103,
-    "grossRevenueUSD": 1175.0,
+    "grossRevenueUSD": 1250.0,
     "adultTicketPrice": 25.0
   },
   {
@@ -3124,11 +3124,11 @@
     "date": "2025-09-24+15:30",
     "format": "RPX",
     "language": "Telugu",
-    "totalSeatSold": 8,
-    "occupancy": 5.06,
-    "totalAvailableSeatCount": 150,
+    "totalSeatSold": 14,
+    "occupancy": 8.86,
+    "totalAvailableSeatCount": 144,
     "totalSeatCount": 158,
-    "grossRevenueUSD": 240.0,
+    "grossRevenueUSD": 420.0,
     "adultTicketPrice": 30.0
   },
   {
@@ -6919,11 +6919,11 @@
     "date": "2025-09-24+14:30",
     "format": "Cinemark XD",
     "language": "Telugu",
-    "totalSeatSold": 72,
-    "occupancy": 45.0,
-    "totalAvailableSeatCount": 88,
+    "totalSeatSold": 68,
+    "occupancy": 42.5,
+    "totalAvailableSeatCount": 92,
     "totalSeatCount": 160,
-    "grossRevenueUSD": 2224.8,
+    "grossRevenueUSD": 2101.2,
     "adultTicketPrice": 30.9
   },
   {
@@ -11599,11 +11599,11 @@
     "date": "2025-09-24+22:00",
     "format": "Cinemark XD",
     "language": "Telugu",
-    "totalSeatSold": 43,
-    "occupancy": 19.03,
-    "totalAvailableSeatCount": 183,
+    "totalSeatSold": 44,
+    "occupancy": 19.47,
+    "totalAvailableSeatCount": 182,
     "totalSeatCount": 226,
-    "grossRevenueUSD": 1290.0,
+    "grossRevenueUSD": 1320.0,
     "adultTicketPrice": 30.0
   },
   {
@@ -13345,11 +13345,11 @@
     "date": "2025-09-24+18:20",
     "format": "RPX",
     "language": "Telugu",
-    "totalSeatSold": 14,
-    "occupancy": 12.17,
-    "totalAvailableSeatCount": 101,
+    "totalSeatSold": 13,
+    "occupancy": 11.3,
+    "totalAvailableSeatCount": 102,
     "totalSeatCount": 115,
-    "grossRevenueUSD": 420.0,
+    "grossRevenueUSD": 390.0,
     "adultTicketPrice": 30.0
   },
   {
@@ -16234,11 +16234,11 @@
     "date": "2025-09-24+18:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 2,
-    "occupancy": 1.56,
-    "totalAvailableSeatCount": 126,
+    "totalSeatSold": 3,
+    "occupancy": 2.34,
+    "totalAvailableSeatCount": 125,
     "totalSeatCount": 128,
-    "grossRevenueUSD": 50.0,
+    "grossRevenueUSD": 75.0,
     "adultTicketPrice": 25.0
   },
   {
@@ -16540,11 +16540,11 @@
     "date": "2025-09-24+12:20",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 4,
-    "occupancy": 5.41,
-    "totalAvailableSeatCount": 70,
+    "totalSeatSold": 2,
+    "occupancy": 2.7,
+    "totalAvailableSeatCount": 72,
     "totalSeatCount": 74,
-    "grossRevenueUSD": 105.0,
+    "grossRevenueUSD": 52.5,
     "adultTicketPrice": 26.25
   },
   {
@@ -18985,11 +18985,11 @@
     "date": "2025-09-24+18:30",
     "format": "Cinemark XD",
     "language": "Telugu",
-    "totalSeatSold": 7,
-    "occupancy": 4.05,
-    "totalAvailableSeatCount": 166,
+    "totalSeatSold": 8,
+    "occupancy": 4.62,
+    "totalAvailableSeatCount": 165,
     "totalSeatCount": 173,
-    "grossRevenueUSD": 210.0,
+    "grossRevenueUSD": 240.0,
     "adultTicketPrice": 30.0
   },
   {
@@ -19021,11 +19021,11 @@
     "date": "2025-09-24+19:00",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 23,
-    "occupancy": 19.33,
-    "totalAvailableSeatCount": 96,
+    "totalSeatSold": 22,
+    "occupancy": 18.49,
+    "totalAvailableSeatCount": 97,
     "totalSeatCount": 119,
-    "grossRevenueUSD": 690.0,
+    "grossRevenueUSD": 660.0,
     "adultTicketPrice": 30.0
   },
   {
@@ -21667,11 +21667,11 @@
     "date": "2025-09-24+15:00",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 85,
-    "occupancy": 19.14,
-    "totalAvailableSeatCount": 359,
+    "totalSeatSold": 86,
+    "occupancy": 19.37,
+    "totalAvailableSeatCount": 358,
     "totalSeatCount": 444,
-    "grossRevenueUSD": 2188.75,
+    "grossRevenueUSD": 2214.5,
     "adultTicketPrice": 25.75
   },
   {
@@ -21757,11 +21757,11 @@
     "date": "2025-09-24+13:40",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 11,
-    "occupancy": 9.82,
-    "totalAvailableSeatCount": 101,
+    "totalSeatSold": 8,
+    "occupancy": 7.14,
+    "totalAvailableSeatCount": 104,
     "totalSeatCount": 112,
-    "grossRevenueUSD": 275.0,
+    "grossRevenueUSD": 200.0,
     "adultTicketPrice": 25.0
   },
   {
@@ -22639,11 +22639,11 @@
     "date": "2025-09-24+19:09",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 70,
-    "occupancy": 82.35,
-    "totalAvailableSeatCount": 15,
+    "totalSeatSold": 55,
+    "occupancy": 64.71,
+    "totalAvailableSeatCount": 30,
     "totalSeatCount": 85,
-    "grossRevenueUSD": 1750.0,
+    "grossRevenueUSD": 1375.0,
     "adultTicketPrice": 25.0
   },
   {
@@ -22693,11 +22693,11 @@
     "date": "2025-09-24+19:16",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 40,
-    "occupancy": 78.43,
-    "totalAvailableSeatCount": 11,
+    "totalSeatSold": 51,
+    "occupancy": 100.0,
+    "totalAvailableSeatCount": 0,
     "totalSeatCount": 51,
-    "grossRevenueUSD": 1000.0,
+    "grossRevenueUSD": 1275.0,
     "adultTicketPrice": 25.0
   },
   {
@@ -23788,11 +23788,11 @@
     "date": "2025-09-24+15:00",
     "format": "Standard",
     "language": "Unknown",
-    "totalSeatSold": 3,
-    "occupancy": 1.59,
-    "totalAvailableSeatCount": 186,
+    "totalSeatSold": 2,
+    "occupancy": 1.06,
+    "totalAvailableSeatCount": 187,
     "totalSeatCount": 189,
-    "grossRevenueUSD": 81.84,
+    "grossRevenueUSD": 54.56,
     "adultTicketPrice": 27.28
   },
   {
@@ -23968,11 +23968,11 @@
     "date": "2025-09-24+18:45",
     "format": "Cinemark XD",
     "language": "Telugu",
-    "totalSeatSold": 9,
-    "occupancy": 5.06,
-    "totalAvailableSeatCount": 169,
+    "totalSeatSold": 13,
+    "occupancy": 7.3,
+    "totalAvailableSeatCount": 165,
     "totalSeatCount": 178,
-    "grossRevenueUSD": 270.0,
+    "grossRevenueUSD": 390.0,
     "adultTicketPrice": 30.0
   },
   {
@@ -25459,11 +25459,11 @@
     "date": "2025-09-24+21:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 11,
-    "occupancy": 4.72,
-    "totalAvailableSeatCount": 222,
+    "totalSeatSold": 13,
+    "occupancy": 5.58,
+    "totalAvailableSeatCount": 220,
     "totalSeatCount": 233,
-    "grossRevenueUSD": 330.0,
+    "grossRevenueUSD": 390.0,
     "adultTicketPrice": 30.0
   },
   {
@@ -26812,11 +26812,11 @@
     "date": "2025-09-25+00:01",
     "format": "Cinemark XD",
     "language": "Telugu",
-    "totalSeatSold": 14,
-    "occupancy": 6.73,
-    "totalAvailableSeatCount": 194,
+    "totalSeatSold": 18,
+    "occupancy": 8.65,
+    "totalAvailableSeatCount": 190,
     "totalSeatCount": 208,
-    "grossRevenueUSD": 454.72,
+    "grossRevenueUSD": 584.64,
     "adultTicketPrice": 32.48
   },
   {
@@ -27961,5 +27961,20 @@
     "totalSeatCount": 69,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 27.19
+  },
+  {
+    "state": "CA",
+    "city": "Fremont",
+    "zip": "94538",
+    "theater_name": "Cin\u00e9 Lounge Fremont 7",
+    "chainName": "RTSIND",
+    "chainCode": "RTSIND",
+    "showtime_id": 515078477,
+    "date": "2025-09-24+19:10",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 500
+    }
   }
 ]
