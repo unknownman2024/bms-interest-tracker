@@ -1,23 +1,23 @@
 [
   {
-    "sessions": 14,
-    "venues": 2,
+    "sessions": 52,
+    "venues": 9,
     "sold": 0,
-    "available": 8383,
-    "total": 8383,
+    "available": 19279,
+    "total": 19279,
     "gross": 0.0,
-    "max_gross": 242466.0,
+    "max_gross": 535775.0,
     "occupancy": 0.0,
     "id": "HO00007330"
   },
   {
-    "sessions": 2,
-    "venues": 1,
+    "sessions": 4,
+    "venues": 3,
     "sold": 0,
-    "available": 795,
-    "total": 795,
+    "available": 1253,
+    "total": 1253,
     "gross": 0.0,
-    "max_gross": 22554.0,
+    "max_gross": 39491.0,
     "occupancy": 0.0,
     "id": "HO00008138"
   }
