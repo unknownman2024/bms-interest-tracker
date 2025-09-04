@@ -38130,5 +38130,15 @@
     "error": true,
     "error_msg": "HTTP 403",
     "last_error": "HTTP 403"
+  },
+  {
+    "id": 248566,
+    "cinemaId": "SUNBNK",
+    "movieId": "HO00008335",
+    "date": "2025-09-07T21:15:00",
+    "screenName": "Xtremescreen 7",
+    "operator": "SUN",
+    "error": true,
+    "error_msg": "HTTP 403"
   }
 ]

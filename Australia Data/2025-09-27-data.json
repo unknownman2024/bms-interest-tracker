@@ -1019,7 +1019,8 @@
     "screenName": "Cinema 01",
     "operator": "FHL",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 499909,
@@ -1029,7 +1030,8 @@
     "screenName": "Cinema 08",
     "operator": "CAR",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 429023,
@@ -1039,7 +1041,8 @@
     "screenName": "Cinema 03",
     "operator": "WET",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 421558,
@@ -1049,7 +1052,8 @@
     "screenName": "Cinema 09",
     "operator": "EAS",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 41246,
@@ -1059,7 +1063,8 @@
     "screenName": "Cinema 06",
     "operator": "CUR",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 270953,
@@ -1069,7 +1074,8 @@
     "screenName": "Cinema 08",
     "operator": "BOO",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 274402,
@@ -1079,7 +1085,8 @@
     "screenName": "Cinema 07",
     "operator": "TAY",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 311991,
@@ -1088,6 +1095,27 @@
     "date": "2025-09-27T16:00:00",
     "screenName": "Cinema 06",
     "operator": "CHW",
+    "error": true,
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
+  },
+  {
+    "id": 245274,
+    "cinemaId": "BMWCIN",
+    "movieId": "HO00010690",
+    "date": "2025-09-27T16:00:00",
+    "screenName": "Cinema 07",
+    "operator": "BMW",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 312862,
+    "cinemaId": "CHDSTN",
+    "movieId": "HO00010690",
+    "date": "2025-09-27T16:00:00",
+    "screenName": "Cinema 04",
+    "operator": "CDS",
     "error": true,
     "error_msg": "HTTP 403"
   }

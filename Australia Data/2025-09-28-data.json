@@ -488,5 +488,15 @@
     "error": true,
     "error_msg": "HTTP 403",
     "last_error": "HTTP 403"
+  },
+  {
+    "id": 358780,
+    "cinemaId": "PENRTH",
+    "movieId": "HO00010690",
+    "date": "2025-09-28T15:30:00",
+    "screenName": "Cinema 02",
+    "operator": "PEN",
+    "error": true,
+    "error_msg": "HTTP 403"
   }
 ]
