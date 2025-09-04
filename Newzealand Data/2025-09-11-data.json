@@ -621,11 +621,11 @@
     "screenName": "Xtremescreen 5",
     "operator": "RIC",
     "total": 780,
-    "sold": 105,
-    "available": 675,
-    "occupancy": 13.46,
+    "sold": 104,
+    "available": 676,
+    "occupancy": 13.33,
     "max_gross": 17940.0,
-    "total_gross": 2415.0,
+    "total_gross": 2392.0,
     "price": 23.0,
     "error": false
   }
