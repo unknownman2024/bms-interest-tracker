@@ -756,11 +756,11 @@
     "screenName": "Cinema 1",
     "operator": "WPK",
     "total": 76,
-    "sold": 0,
-    "available": 76,
-    "occupancy": 0.0,
+    "sold": 2,
+    "available": 74,
+    "occupancy": 2.63,
     "max_gross": 1976.0,
-    "total_gross": 0.0,
+    "total_gross": 52.0,
     "price": 26.0,
     "error": false
   },
@@ -4163,7 +4163,8 @@
     "max_gross": 4212.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 169051,

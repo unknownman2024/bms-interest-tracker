@@ -127,11 +127,11 @@
     "screenName": "Cinema 4",
     "operator": "WPK",
     "total": 114,
-    "sold": 12,
-    "available": 102,
-    "occupancy": 10.53,
+    "sold": 13,
+    "available": 101,
+    "occupancy": 11.4,
     "max_gross": 3192.0,
-    "total_gross": 336.0,
+    "total_gross": 364.0,
     "price": 28.0,
     "error": false
   },
@@ -977,11 +977,11 @@
     "screenName": "METRO 6",
     "operator": "HAM",
     "total": 42,
-    "sold": 7,
-    "available": 35,
-    "occupancy": 16.67,
+    "sold": 9,
+    "available": 33,
+    "occupancy": 21.43,
     "max_gross": 1113.0,
-    "total_gross": 185.5,
+    "total_gross": 238.5,
     "price": 26.5,
     "error": false
   },
@@ -1340,7 +1340,8 @@
     "max_gross": 1944.0,
     "total_gross": 54.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 168797,
