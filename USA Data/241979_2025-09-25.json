@@ -8296,11 +8296,11 @@
     "date": "2025-09-25+18:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 2,
-    "occupancy": 2.04,
-    "totalAvailableSeatCount": 96,
+    "totalSeatSold": 6,
+    "occupancy": 6.12,
+    "totalAvailableSeatCount": 92,
     "totalSeatCount": 98,
-    "grossRevenueUSD": 42.0,
+    "grossRevenueUSD": 126.0,
     "adultTicketPrice": 21.0
   },
   {
