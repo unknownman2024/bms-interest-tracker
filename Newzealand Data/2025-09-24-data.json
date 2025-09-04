@@ -14,8 +14,7 @@
     "max_gross": 1443.0,
     "total_gross": 111.0,
     "price": 18.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 326685,
@@ -32,8 +31,7 @@
     "max_gross": 6468.0,
     "total_gross": 73.5,
     "price": 24.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 468064,
@@ -50,8 +48,7 @@
     "max_gross": 1377.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 468063,
@@ -153,8 +150,7 @@
     "max_gross": 2183.0,
     "total_gross": 0.0,
     "price": 18.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 276215,
@@ -171,8 +167,7 @@
     "max_gross": 1295.0,
     "total_gross": 0.0,
     "price": 18.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 276219,
@@ -206,8 +201,7 @@
     "max_gross": 2960.0,
     "total_gross": 0.0,
     "price": 18.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 276218,
@@ -258,8 +252,7 @@
     "max_gross": 2016.0,
     "total_gross": 0.0,
     "price": 16.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 194927,
@@ -293,8 +286,7 @@
     "max_gross": 3072.0,
     "total_gross": 0.0,
     "price": 16.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 194923,
@@ -311,8 +303,7 @@
     "max_gross": 3072.0,
     "total_gross": 0.0,
     "price": 16.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 194924,
@@ -329,8 +320,7 @@
     "max_gross": 3072.0,
     "total_gross": 0.0,
     "price": 16.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 194921,
@@ -364,8 +354,7 @@
     "max_gross": 2560.0,
     "total_gross": 0.0,
     "price": 16.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 316352,
@@ -382,8 +371,7 @@
     "max_gross": 10752.0,
     "total_gross": 0.0,
     "price": 21.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 316348,
@@ -400,8 +388,7 @@
     "max_gross": 10752.0,
     "total_gross": 0.0,
     "price": 21.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 316345,
@@ -418,8 +405,7 @@
     "max_gross": 3300.0,
     "total_gross": 0.0,
     "price": 16.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 316344,
@@ -470,8 +456,7 @@
     "max_gross": 10752.0,
     "total_gross": 0.0,
     "price": 21.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 316349,
@@ -505,8 +490,7 @@
     "max_gross": 8556.0,
     "total_gross": 0.0,
     "price": 23.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 79741,
@@ -523,8 +507,7 @@
     "max_gross": 8556.0,
     "total_gross": 0.0,
     "price": 23.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 79738,
@@ -541,8 +524,7 @@
     "max_gross": 8556.0,
     "total_gross": 0.0,
     "price": 23.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 79753,
@@ -576,8 +558,7 @@
     "max_gross": 8556.0,
     "total_gross": 0.0,
     "price": 23.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 316351,
@@ -594,8 +575,7 @@
     "max_gross": 16380.0,
     "total_gross": 0.0,
     "price": 21.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 79737,
@@ -629,8 +609,7 @@
     "max_gross": 8832.0,
     "total_gross": 0.0,
     "price": 23.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 399999,
@@ -790,60 +769,102 @@
     "cinemaId": "1002",
     "movieId": "HO00007792",
     "date": "2025-09-24T10:00:00",
+    "typeId": "STANDARD",
     "screenName": "Cinema 5",
     "operator": "SYL",
-    "error": true,
-    "error_msg": "HTTP 500"
+    "total": 207,
+    "sold": 0,
+    "available": 207,
+    "occupancy": 0.0,
+    "max_gross": 5278.5,
+    "total_gross": 0.0,
+    "price": 25.5,
+    "error": false
   },
   {
     "id": 469090,
     "cinemaId": "1002",
     "movieId": "HO00007793",
     "date": "2025-09-24T09:40:00",
+    "typeId": "STANDARD",
     "screenName": "Cinema 2",
     "operator": "SYL",
-    "error": true,
-    "error_msg": "HTTP 500"
+    "total": 726,
+    "sold": 0,
+    "available": 726,
+    "occupancy": 0.0,
+    "max_gross": 18513.0,
+    "total_gross": 0.0,
+    "price": 25.5,
+    "error": false
   },
   {
     "id": 469087,
     "cinemaId": "1002",
     "movieId": "HO00007763",
     "date": "2025-09-24T10:30:00",
+    "typeId": "XTREME",
     "screenName": "XTREMESCREEN",
     "operator": "SYL",
-    "error": true,
-    "error_msg": "HTTP 500"
+    "total": 1075,
+    "sold": 0,
+    "available": 1075,
+    "occupancy": 0.0,
+    "max_gross": 32250.0,
+    "total_gross": 0.0,
+    "price": 30.0,
+    "error": false
   },
   {
     "id": 469094,
     "cinemaId": "1002",
     "movieId": "HO00007763",
     "date": "2025-09-24T13:00:00",
+    "typeId": "XTREME",
     "screenName": "XTREMESCREEN",
     "operator": "SYL",
-    "error": true,
-    "error_msg": "HTTP 500"
+    "total": 1075,
+    "sold": 0,
+    "available": 1075,
+    "occupancy": 0.0,
+    "max_gross": 32250.0,
+    "total_gross": 0.0,
+    "price": 30.0,
+    "error": false
   },
   {
     "id": 469089,
     "cinemaId": "1002",
     "movieId": "HO00007793",
     "date": "2025-09-24T12:10:00",
+    "typeId": "STANDARD",
     "screenName": "Cinema 2",
     "operator": "SYL",
-    "error": true,
-    "error_msg": "HTTP 500"
+    "total": 726,
+    "sold": 0,
+    "available": 726,
+    "occupancy": 0.0,
+    "max_gross": 18513.0,
+    "total_gross": 0.0,
+    "price": 25.5,
+    "error": false
   },
   {
     "id": 469092,
     "cinemaId": "1002",
     "movieId": "HO00007763",
     "date": "2025-09-24T18:00:00",
+    "typeId": "XTREME",
     "screenName": "XTREMESCREEN",
     "operator": "SYL",
-    "error": true,
-    "error_msg": "HTTP 500"
+    "total": 1075,
+    "sold": 0,
+    "available": 1075,
+    "occupancy": 0.0,
+    "max_gross": 32250.0,
+    "total_gross": 0.0,
+    "price": 30.0,
+    "error": false
   },
   {
     "id": 469091,

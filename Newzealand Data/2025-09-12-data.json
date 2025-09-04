@@ -48,8 +48,7 @@
     "max_gross": 3192.0,
     "total_gross": 980.0,
     "price": 28.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 467591,
@@ -77,11 +76,11 @@
     "screenName": "Cinema 04",
     "operator": "ORM",
     "total": 133,
-    "sold": 4,
-    "available": 129,
-    "occupancy": 3.01,
+    "sold": 11,
+    "available": 122,
+    "occupancy": 8.27,
     "max_gross": 3724.0,
-    "total_gross": 112.0,
+    "total_gross": 308.0,
     "price": 28.0,
     "error": false
   },
@@ -100,8 +99,7 @@
     "max_gross": 3192.0,
     "total_gross": 56.0,
     "price": 28.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 326136,
@@ -118,8 +116,7 @@
     "max_gross": 6678.0,
     "total_gross": 980.5,
     "price": 26.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 79046,
@@ -153,8 +150,7 @@
     "max_gross": 9295.0,
     "total_gross": 910.0,
     "price": 32.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 67300,
@@ -188,8 +184,7 @@
     "max_gross": 2565.0,
     "total_gross": 891.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 326134,
@@ -206,8 +201,7 @@
     "max_gross": 5724.0,
     "total_gross": 212.0,
     "price": 26.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 79805,
@@ -218,14 +212,13 @@
     "screenName": "HOYTS LUX 02",
     "operator": "CHCLP",
     "total": 54,
-    "sold": 0,
-    "available": 54,
-    "occupancy": 0.0,
+    "sold": 2,
+    "available": 52,
+    "occupancy": 3.7,
     "max_gross": 1458.0,
-    "total_gross": 0.0,
+    "total_gross": 54.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 358165,
@@ -293,8 +286,7 @@
     "max_gross": 1599.0,
     "total_gross": 164.0,
     "price": 20.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 275421,
@@ -305,14 +297,13 @@
     "screenName": "Cinema 3",
     "operator": "NTH",
     "total": 118,
-    "sold": 24,
-    "available": 94,
-    "occupancy": 20.34,
+    "sold": 26,
+    "available": 92,
+    "occupancy": 22.03,
     "max_gross": 2419.0,
-    "total_gross": 492.0,
+    "total_gross": 533.0,
     "price": 20.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 275422,
@@ -323,14 +314,13 @@
     "screenName": "Cinema 5",
     "operator": "NTH",
     "total": 108,
-    "sold": 16,
-    "available": 92,
-    "occupancy": 14.81,
+    "sold": 18,
+    "available": 90,
+    "occupancy": 16.67,
     "max_gross": 2214.0,
-    "total_gross": 328.0,
+    "total_gross": 369.0,
     "price": 20.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 67299,
@@ -347,8 +337,7 @@
     "max_gross": 3724.0,
     "total_gross": 84.0,
     "price": 28.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 176654,
@@ -376,14 +365,13 @@
     "screenName": "Xtremescreen 1",
     "operator": "BOT",
     "total": 312,
-    "sold": 18,
-    "available": 294,
-    "occupancy": 5.77,
+    "sold": 24,
+    "available": 288,
+    "occupancy": 7.69,
     "max_gross": 10140.0,
-    "total_gross": 585.0,
+    "total_gross": 780.0,
     "price": 32.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 176655,
@@ -417,8 +405,7 @@
     "max_gross": 3584.0,
     "total_gross": 84.0,
     "price": 28.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 398697,
@@ -435,8 +422,7 @@
     "max_gross": 3584.0,
     "total_gross": 84.0,
     "price": 28.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 398694,
@@ -470,8 +456,7 @@
     "max_gross": 10140.0,
     "total_gross": 97.5,
     "price": 32.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 168176,
@@ -482,11 +467,11 @@
     "screenName": "METRO 2",
     "operator": "HAM",
     "total": 126,
-    "sold": 0,
-    "available": 126,
-    "occupancy": 0.0,
+    "sold": 2,
+    "available": 124,
+    "occupancy": 1.59,
     "max_gross": 2898.0,
-    "total_gross": 0.0,
+    "total_gross": 46.0,
     "price": 23.0,
     "error": false
   },
