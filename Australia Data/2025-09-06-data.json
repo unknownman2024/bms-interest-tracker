@@ -38331,6 +38331,17 @@
     "screenName": "Cinema 04",
     "operator": "BMW",
     "error": true,
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
+  },
+  {
+    "id": 500339,
+    "cinemaId": "CAROUS",
+    "movieId": "HO00008335",
+    "date": "2025-09-06T20:45:00",
+    "screenName": "HOYTS LUX 01",
+    "operator": "CARLP",
+    "error": true,
     "error_msg": "HTTP 403"
   }
 ]
