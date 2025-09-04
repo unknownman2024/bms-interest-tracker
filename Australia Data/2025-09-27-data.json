@@ -1107,7 +1107,8 @@
     "screenName": "Cinema 07",
     "operator": "BMW",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 312862,
@@ -1116,6 +1117,27 @@
     "date": "2025-09-27T16:00:00",
     "screenName": "Cinema 04",
     "operator": "CDS",
+    "error": true,
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
+  },
+  {
+    "id": 73199,
+    "cinemaId": "ARNCIN",
+    "movieId": "HO00010690",
+    "date": "2025-09-27T15:30:00",
+    "screenName": "Cinema 04",
+    "operator": "ARN",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 409154,
+    "cinemaId": "NORTHL",
+    "movieId": "HO00010690",
+    "date": "2025-09-27T16:00:00",
+    "screenName": "Cinema 01",
+    "operator": "NOR",
     "error": true,
     "error_msg": "HTTP 403"
   }

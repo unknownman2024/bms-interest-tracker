@@ -38139,6 +38139,7 @@
     "screenName": "Xtremescreen 7",
     "operator": "SUN",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   }
 ]
