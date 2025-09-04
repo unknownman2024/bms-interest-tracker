@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-05 04:49:24 AM",
+  "last_updated": "2025-09-05 05:15:13 AM",
   "errors": [
     {
       "state": "IL",
@@ -415,6 +415,36 @@
       "chainCode": "RTSIND",
       "showtime_id": 515078477,
       "date": "2025-09-24+19:10",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "TX",
+      "city": "Sugar Land",
+      "zip": "77479",
+      "theater_name": "AMC First Colony 24",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 515124414,
+      "date": "2025-09-24+13:30",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "TX",
+      "city": "Sugar Land",
+      "zip": "77479",
+      "theater_name": "AMC First Colony 24",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 515124415,
+      "date": "2025-09-24+20:30",
       "format": "Standard",
       "language": "Telugu",
       "error": {
