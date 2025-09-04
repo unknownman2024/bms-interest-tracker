@@ -2938,11 +2938,11 @@
     "date": "2025-09-25+14:00",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 8,
-    "occupancy": 6.3,
-    "totalAvailableSeatCount": 119,
+    "totalSeatSold": 9,
+    "occupancy": 7.09,
+    "totalAvailableSeatCount": 118,
     "totalSeatCount": 127,
-    "grossRevenueUSD": 172.0,
+    "grossRevenueUSD": 193.5,
     "adultTicketPrice": 21.5
   },
   {
@@ -4666,11 +4666,11 @@
     "date": "2025-09-25+19:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 211,
+    "totalSeatSold": 2,
+    "occupancy": 0.95,
+    "totalAvailableSeatCount": 209,
     "totalSeatCount": 211,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 43.0,
     "adultTicketPrice": 21.5
   },
   {
@@ -4720,11 +4720,11 @@
     "date": "2025-09-25+19:10",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 18,
-    "occupancy": 25.71,
-    "totalAvailableSeatCount": 52,
+    "totalSeatSold": 20,
+    "occupancy": 28.57,
+    "totalAvailableSeatCount": 50,
     "totalSeatCount": 70,
-    "grossRevenueUSD": 231.12,
+    "grossRevenueUSD": 256.8,
     "adultTicketPrice": 12.84
   },
   {
@@ -8296,11 +8296,11 @@
     "date": "2025-09-25+18:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 6,
-    "occupancy": 6.12,
-    "totalAvailableSeatCount": 92,
+    "totalSeatSold": 9,
+    "occupancy": 9.18,
+    "totalAvailableSeatCount": 89,
     "totalSeatCount": 98,
-    "grossRevenueUSD": 126.0,
+    "grossRevenueUSD": 189.0,
     "adultTicketPrice": 21.0
   },
   {
