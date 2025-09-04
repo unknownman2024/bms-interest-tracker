@@ -2819,8 +2819,7 @@
     "max_gross": 3276.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 316139,
@@ -3432,8 +3431,7 @@
     "max_gross": 3276.0,
     "total_gross": 52.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 327622,
@@ -4413,11 +4411,11 @@
     "screenName": "HOYTS LUX 11",
     "operator": "SYLDS",
     "total": 96,
-    "sold": 0,
-    "available": 96,
-    "occupancy": 0.0,
+    "sold": 2,
+    "available": 94,
+    "occupancy": 2.08,
     "max_gross": 2592.0,
-    "total_gross": 0.0,
+    "total_gross": 54.0,
     "price": 27.0,
     "error": false
   },
@@ -4453,8 +4451,7 @@
     "max_gross": 3458.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 316154,
@@ -4607,8 +4604,7 @@
     "max_gross": 2548.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 327583,
@@ -5390,8 +5386,7 @@
     "max_gross": 6468.0,
     "total_gross": 0.0,
     "price": 24.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 327597,
@@ -5493,8 +5488,7 @@
     "max_gross": 2548.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 68098,

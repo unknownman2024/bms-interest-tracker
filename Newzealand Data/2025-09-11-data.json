@@ -110,11 +110,11 @@
     "screenName": "XTREMESCREEN",
     "operator": "SYL",
     "total": 1075,
-    "sold": 106,
-    "available": 969,
-    "occupancy": 9.86,
+    "sold": 108,
+    "available": 967,
+    "occupancy": 10.05,
     "max_gross": 34400.0,
-    "total_gross": 3392.0,
+    "total_gross": 3456.0,
     "price": 32.0,
     "error": false
   },
@@ -195,11 +195,11 @@
     "screenName": "Cinema 3",
     "operator": "TER",
     "total": 252,
-    "sold": 39,
-    "available": 213,
-    "occupancy": 15.48,
+    "sold": 41,
+    "available": 211,
+    "occupancy": 16.27,
     "max_gross": 6678.0,
-    "total_gross": 1033.5,
+    "total_gross": 1086.5,
     "price": 26.5,
     "error": false
   },
@@ -439,7 +439,8 @@
     "max_gross": 3640.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 410"
   },
   {
     "id": 168174,

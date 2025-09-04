@@ -807,11 +807,11 @@
     "screenName": "Cinema 3",
     "operator": "NTH",
     "total": 118,
-    "sold": 22,
-    "available": 96,
-    "occupancy": 18.64,
+    "sold": 23,
+    "available": 95,
+    "occupancy": 19.49,
     "max_gross": 2419.0,
-    "total_gross": 451.0,
+    "total_gross": 471.5,
     "price": 20.5,
     "error": false
   },
@@ -1181,11 +1181,11 @@
     "screenName": "Xtremescreen 1",
     "operator": "BOT",
     "total": 312,
-    "sold": 38,
-    "available": 274,
-    "occupancy": 12.18,
+    "sold": 40,
+    "available": 272,
+    "occupancy": 12.82,
     "max_gross": 10140.0,
-    "total_gross": 1235.0,
+    "total_gross": 1300.0,
     "price": 32.5,
     "error": false
   },
@@ -1358,8 +1358,7 @@
     "max_gross": 21060.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 316024,

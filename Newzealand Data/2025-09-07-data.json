@@ -2649,8 +2649,7 @@
     "max_gross": 1536.0,
     "total_gross": 0.0,
     "price": 16.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 315786,
@@ -2933,11 +2932,11 @@
     "screenName": "HOYTS LUX 11",
     "operator": "SYLDS",
     "total": 96,
-    "sold": 0,
-    "available": 96,
-    "occupancy": 0.0,
+    "sold": 2,
+    "available": 94,
+    "occupancy": 2.08,
     "max_gross": 2592.0,
-    "total_gross": 0.0,
+    "total_gross": 54.0,
     "price": 27.0,
     "error": false
   },
@@ -3647,11 +3646,11 @@
     "screenName": "Cinema 5",
     "operator": "WPK",
     "total": 126,
-    "sold": 4,
-    "available": 122,
-    "occupancy": 3.17,
+    "sold": 9,
+    "available": 117,
+    "occupancy": 7.14,
     "max_gross": 3276.0,
-    "total_gross": 104.0,
+    "total_gross": 234.0,
     "price": 26.0,
     "error": false
   },
@@ -6186,8 +6185,7 @@
     "max_gross": 3978.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 276116,
@@ -6527,8 +6525,7 @@
     "max_gross": 3328.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 276130,
