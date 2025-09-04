@@ -1129,7 +1129,8 @@
     "screenName": "Cinema 04",
     "operator": "ARN",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 409154,
@@ -1138,6 +1139,17 @@
     "date": "2025-09-27T16:00:00",
     "screenName": "Cinema 01",
     "operator": "NOR",
+    "error": true,
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
+  },
+  {
+    "id": 301171,
+    "cinemaId": "STAFRD",
+    "movieId": "HO00010690",
+    "date": "2025-09-27T16:00:00",
+    "screenName": "Cinema 02",
+    "operator": "STA",
     "error": true,
     "error_msg": "HTTP 403"
   }

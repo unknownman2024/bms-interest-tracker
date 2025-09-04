@@ -37871,5 +37871,25 @@
     "error": true,
     "error_msg": "HTTP 403",
     "last_error": "HTTP 403"
+  },
+  {
+    "id": 361848,
+    "cinemaId": "VGDCIN",
+    "movieId": "HO00008335",
+    "date": "2025-09-05T18:00:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "VGD",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 361849,
+    "cinemaId": "VGDCIN",
+    "movieId": "HO00008335",
+    "date": "2025-09-05T18:00:00",
+    "screenName": "HOYTS LUX 01",
+    "operator": "VGDDS",
+    "error": true,
+    "error_msg": "HTTP 403"
   }
 ]

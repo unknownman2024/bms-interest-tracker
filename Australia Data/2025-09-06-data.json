@@ -38344,5 +38344,15 @@
     "error": true,
     "error_msg": "HTTP 403",
     "last_error": "HTTP 403"
+  },
+  {
+    "id": 335785,
+    "cinemaId": "FRANKS",
+    "movieId": "HO00008335",
+    "date": "2025-09-06T12:30:00",
+    "screenName": "DBOX 08",
+    "operator": "FRA",
+    "error": true,
+    "error_msg": "HTTP 403"
   }
 ]
