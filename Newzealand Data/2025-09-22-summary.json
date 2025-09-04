@@ -1,19 +1,19 @@
 [
   {
-    "sessions": 4,
-    "venues": 3,
-    "sold": 17,
-    "available": 582,
-    "total": 599,
-    "gross": 442.0,
-    "max_gross": 15194.5,
-    "occupancy": 2.84,
-    "name": "The Sound of Music 60th Anniversary",
-    "summary": "A woman leaves an Austrian convent to become a governess to the children of a Naval officer widower.",
-    "duration": 174,
+    "sessions": 2,
+    "venues": 1,
+    "sold": 0,
+    "available": 320,
+    "total": 320,
+    "gross": 0.0,
+    "max_gross": 5920.0,
+    "occupancy": 0.0,
+    "name": "Gabby's Dollhouse: The Movie",
+    "summary": "Gabby and Grandma Gigi's road trip takes an unexpected turn when Gabby's prized dollhouse ends up with eccentric cat lady Vera. ",
+    "duration": 105,
     "releaseDate": "2025-09-20T00:00:00",
-    "posterImage": "mx/posters/nz/the-sound-of-music-60th-anniversary-1751dee6.jpg",
-    "id": "HO00008078"
+    "posterImage": "mx/posters/nz/gabbys-dollhouse-the-movie-ebed7b85.jpg",
+    "id": "HO00007793"
   },
   {
     "sessions": 4,
@@ -30,22 +30,6 @@
     "releaseDate": "2025-09-18T00:00:00",
     "posterImage": "mx/posters/nz/the-bad-guys-2-f66c3926.jpg",
     "id": "HO00007763"
-  },
-  {
-    "sessions": 2,
-    "venues": 1,
-    "sold": 0,
-    "available": 320,
-    "total": 320,
-    "gross": 0.0,
-    "max_gross": 5920.0,
-    "occupancy": 0.0,
-    "name": "Gabby's Dollhouse: The Movie",
-    "summary": "Gabby and Grandma Gigi's road trip takes an unexpected turn when Gabby's prized dollhouse ends up with eccentric cat lady Vera. ",
-    "duration": 105,
-    "releaseDate": "2025-09-20T00:00:00",
-    "posterImage": "mx/posters/nz/gabbys-dollhouse-the-movie-ebed7b85.jpg",
-    "id": "HO00007793"
   },
   {
     "sessions": 1,
