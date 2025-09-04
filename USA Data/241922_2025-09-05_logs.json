@@ -510,5 +510,13 @@
     "avg_occupancy": 1.55,
     "tickets_sold": 658,
     "unique_venues": 257
+  },
+  {
+    "time": "2025-09-04 08:54:51 AM",
+    "total_gross_usd": 9127.51,
+    "total_shows": 438,
+    "avg_occupancy": 1.55,
+    "tickets_sold": 659,
+    "unique_venues": 258
   }
 ]
