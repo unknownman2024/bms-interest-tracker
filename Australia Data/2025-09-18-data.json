@@ -7,7 +7,8 @@
     "screenName": "Xtremescreen 06",
     "operator": "JOO",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 30330,
@@ -17,7 +18,8 @@
     "screenName": "Xtremescreen 06",
     "operator": "JOO",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 30328,
@@ -27,7 +29,8 @@
     "screenName": "Xtremescreen 06",
     "operator": "JOO",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 30329,
@@ -37,7 +40,8 @@
     "screenName": "Xtremescreen 06",
     "operator": "JOO",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 286481,
@@ -47,7 +51,8 @@
     "screenName": "Xtremescreen 01",
     "operator": "SLY",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 286480,
@@ -57,7 +62,8 @@
     "screenName": "Xtremescreen 01",
     "operator": "SLY",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 286502,
@@ -67,7 +73,8 @@
     "screenName": "Cinema 04",
     "operator": "SLY",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 286479,
@@ -77,7 +84,8 @@
     "screenName": "Xtremescreen 01",
     "operator": "SLY",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 286482,
@@ -87,7 +95,8 @@
     "screenName": "Xtremescreen 01",
     "operator": "SLY",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 121013,
@@ -97,7 +106,8 @@
     "screenName": "Xtremescreen 7",
     "operator": "GHL",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 121019,
@@ -107,7 +117,8 @@
     "screenName": "Cinema 4",
     "operator": "GHL",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 121014,
@@ -117,7 +128,8 @@
     "screenName": "Xtremescreen 7",
     "operator": "GHL",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 121016,
@@ -127,7 +139,8 @@
     "screenName": "Xtremescreen 7",
     "operator": "GHL",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 121015,
@@ -137,7 +150,8 @@
     "screenName": "Xtremescreen 7",
     "operator": "GHL",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 121018,
@@ -147,7 +161,8 @@
     "screenName": "Xtremescreen 7",
     "operator": "GHL",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 141077,
@@ -157,7 +172,8 @@
     "screenName": "Xtremescreen 01",
     "operator": "DOC",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 141078,
@@ -167,7 +183,8 @@
     "screenName": "Cinema 04",
     "operator": "DOC",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 141079,
@@ -177,7 +194,8 @@
     "screenName": "Xtremescreen 01",
     "operator": "DOC",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 141082,
@@ -187,7 +205,8 @@
     "screenName": "Xtremescreen 01",
     "operator": "DOC",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 141081,
@@ -197,7 +216,8 @@
     "screenName": "Xtremescreen 01",
     "operator": "DOC",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 141080,
@@ -207,7 +227,8 @@
     "screenName": "Xtremescreen 01",
     "operator": "DOC",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 388932,
@@ -217,7 +238,8 @@
     "screenName": "Xtremescreen 06",
     "operator": "ERI",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 388934,
@@ -227,7 +249,8 @@
     "screenName": "Xtremescreen 06",
     "operator": "ERI",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 388933,
@@ -237,7 +260,8 @@
     "screenName": "Xtremescreen 06",
     "operator": "ERI",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 388935,
@@ -247,7 +271,8 @@
     "screenName": "Xtremescreen 06",
     "operator": "ERI",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 388962,
@@ -257,7 +282,8 @@
     "screenName": "Cinema 01",
     "operator": "ERI",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 29802,
@@ -267,7 +293,8 @@
     "screenName": "Cinema 05",
     "operator": "BUN",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 29862,
@@ -277,7 +304,8 @@
     "screenName": "Cinema 04",
     "operator": "BUN",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 29865,
@@ -287,7 +315,8 @@
     "screenName": "Cinema 04",
     "operator": "BUN",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 29863,
@@ -297,7 +326,8 @@
     "screenName": "Cinema 04",
     "operator": "BUN",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 29864,
@@ -307,7 +337,8 @@
     "screenName": "Cinema 04",
     "operator": "BUN",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 77782,
@@ -317,7 +348,8 @@
     "screenName": "Xtremescreen 01",
     "operator": "KYP",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 77784,
@@ -327,7 +359,8 @@
     "screenName": "Xtremescreen 01",
     "operator": "KYP",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 77785,
@@ -337,7 +370,8 @@
     "screenName": "Xtremescreen 01",
     "operator": "KYP",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 77783,
@@ -347,7 +381,8 @@
     "screenName": "Xtremescreen 01",
     "operator": "KYP",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 77820,
@@ -357,7 +392,8 @@
     "screenName": "Cinema 04",
     "operator": "KYP",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 346001,
@@ -367,7 +403,8 @@
     "screenName": "Xtremescreen 06",
     "operator": "BEL",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 346002,
@@ -377,7 +414,8 @@
     "screenName": "Xtremescreen 06",
     "operator": "BEL",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 346025,
@@ -387,7 +425,8 @@
     "screenName": "Cinema 07",
     "operator": "BEL",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 346003,
@@ -397,7 +436,8 @@
     "screenName": "Xtremescreen 06",
     "operator": "BEL",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 346004,
@@ -407,7 +447,8 @@
     "screenName": "Xtremescreen 06",
     "operator": "BEL",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 272648,
@@ -417,7 +458,8 @@
     "screenName": "Cinema 01",
     "operator": "SOU",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 272639,
@@ -427,7 +469,8 @@
     "screenName": "Cinema 03",
     "operator": "SOU",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 272650,
@@ -437,7 +480,8 @@
     "screenName": "Cinema 01",
     "operator": "SOU",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 272651,
@@ -447,7 +491,8 @@
     "screenName": "Cinema 01",
     "operator": "SOU",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 272649,
@@ -457,7 +502,8 @@
     "screenName": "Cinema 01",
     "operator": "SOU",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 282233,
@@ -467,7 +513,8 @@
     "screenName": "Xtremescreen 04",
     "operator": "NWD",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 282235,
@@ -477,7 +524,8 @@
     "screenName": "Xtremescreen 04",
     "operator": "NWD",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 282234,
@@ -487,7 +535,8 @@
     "screenName": "Cinema 01",
     "operator": "NWD",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 282237,
@@ -497,7 +546,8 @@
     "screenName": "Xtremescreen 04",
     "operator": "NWD",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 282236,
@@ -507,7 +557,8 @@
     "screenName": "Xtremescreen 04",
     "operator": "NWD",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 43146,
@@ -517,7 +568,8 @@
     "screenName": "Xtremescreen 02",
     "operator": "MID",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 43144,
@@ -527,7 +579,8 @@
     "screenName": "Xtremescreen 02",
     "operator": "MID",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 43148,
@@ -537,7 +590,8 @@
     "screenName": "Cinema 05",
     "operator": "MID",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 43142,
@@ -547,7 +601,8 @@
     "screenName": "Xtremescreen 02",
     "operator": "MID",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 43140,
@@ -557,7 +612,8 @@
     "screenName": "Xtremescreen 02",
     "operator": "MID",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 43141,
@@ -567,7 +623,8 @@
     "screenName": "HOYTS LUX 02",
     "operator": "MIDLP",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 421499,
@@ -577,7 +634,8 @@
     "screenName": "Xtremescreen 04",
     "operator": "EAS",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 335734,
@@ -587,7 +645,8 @@
     "screenName": "Xtremescreen 04",
     "operator": "FRA",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 421501,
@@ -597,7 +656,8 @@
     "screenName": "Xtremescreen 04",
     "operator": "EAS",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 335738,
@@ -607,7 +667,8 @@
     "screenName": "Cinema 07",
     "operator": "FRA",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 421498,
@@ -617,7 +678,8 @@
     "screenName": "Cinema 05",
     "operator": "EAS",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 335735,
@@ -627,7 +689,8 @@
     "screenName": "Xtremescreen 04",
     "operator": "FRA",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 421500,
@@ -637,7 +700,8 @@
     "screenName": "Xtremescreen 04",
     "operator": "EAS",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 421497,
@@ -647,7 +711,8 @@
     "screenName": "Xtremescreen 04",
     "operator": "EAS",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 335764,
@@ -657,7 +722,8 @@
     "screenName": "Xtremescreen 03",
     "operator": "FRA",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 335765,
@@ -667,7 +733,8 @@
     "screenName": "Xtremescreen 03",
     "operator": "FRA",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 335736,
@@ -677,7 +744,8 @@
     "screenName": "Xtremescreen 04",
     "operator": "FRA",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 335763,
@@ -687,7 +755,8 @@
     "screenName": "Xtremescreen 03",
     "operator": "FRA",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 335737,
@@ -697,7 +766,8 @@
     "screenName": "Xtremescreen 04",
     "operator": "FRA",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 517117,
@@ -707,7 +777,8 @@
     "screenName": "Xtremescreen 06",
     "operator": "HIG",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 517118,
@@ -717,7 +788,8 @@
     "screenName": "Xtremescreen 06",
     "operator": "HIG",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 517119,
@@ -727,7 +799,8 @@
     "screenName": "Xtremescreen 06",
     "operator": "HIG",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 517120,
@@ -737,7 +810,8 @@
     "screenName": "Xtremescreen 06",
     "operator": "HIG",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 248567,
@@ -747,7 +821,8 @@
     "screenName": "Xtremescreen 3",
     "operator": "SUN",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 248535,
@@ -757,7 +832,8 @@
     "screenName": "Cinema 05",
     "operator": "SUN",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 248568,
@@ -767,7 +843,8 @@
     "screenName": "Xtremescreen 3",
     "operator": "SUN",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 248570,
@@ -777,7 +854,8 @@
     "screenName": "Xtremescreen 3",
     "operator": "SUN",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 248569,
@@ -787,7 +865,8 @@
     "screenName": "Xtremescreen 3",
     "operator": "SUN",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 261860,
@@ -797,7 +876,8 @@
     "screenName": "Cinema 04",
     "operator": "RED",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 261866,
@@ -807,7 +887,8 @@
     "screenName": "Xtremescreen 01",
     "operator": "RED",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 261869,
@@ -817,7 +898,8 @@
     "screenName": "Xtremescreen 01",
     "operator": "RED",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 261867,
@@ -827,7 +909,8 @@
     "screenName": "Xtremescreen 01",
     "operator": "RED",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 261868,
@@ -837,7 +920,8 @@
     "screenName": "Xtremescreen 01",
     "operator": "RED",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 489568,
@@ -847,7 +931,8 @@
     "screenName": "Xtremescreen 02",
     "operator": "SHO",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 489569,
@@ -857,7 +942,8 @@
     "screenName": "Cinema 08",
     "operator": "SHO",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 489575,
@@ -867,7 +953,8 @@
     "screenName": "Xtremescreen 02",
     "operator": "SHO",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 489573,
@@ -877,7 +964,8 @@
     "screenName": "Xtremescreen 02",
     "operator": "SHO",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 489571,
@@ -886,6 +974,457 @@
     "date": "2025-09-18T13:00:00",
     "screenName": "Xtremescreen 02",
     "operator": "SHO",
+    "error": true,
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
+  },
+  {
+    "id": 517122,
+    "cinemaId": "HIGPNT",
+    "movieId": "HO00010184",
+    "date": "2025-09-18T10:45:00",
+    "screenName": "Cinema 08",
+    "operator": "HIG",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 136958,
+    "cinemaId": "MILENM",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T10:45:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "MIL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 136960,
+    "cinemaId": "MILENM",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T15:45:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "MIL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 136963,
+    "cinemaId": "MILENM",
+    "movieId": "HO00010184",
+    "date": "2025-09-18T10:00:00",
+    "screenName": "Cinema 01",
+    "operator": "MIL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 136961,
+    "cinemaId": "MILENM",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T18:15:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "MIL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 136959,
+    "cinemaId": "MILENM",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T13:15:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "MIL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 361712,
+    "cinemaId": "VGDCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T10:30:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "VGD",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 361713,
+    "cinemaId": "VGDCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T10:30:00",
+    "screenName": "HOYTS LUX 01",
+    "operator": "VGDDS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 361722,
+    "cinemaId": "VGDCIN",
+    "movieId": "HO00010184",
+    "date": "2025-09-18T10:45:00",
+    "screenName": "Cinema 07",
+    "operator": "VGD",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 361714,
+    "cinemaId": "VGDCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T13:00:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "VGD",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 361715,
+    "cinemaId": "VGDCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T13:00:00",
+    "screenName": "HOYTS LUX 01",
+    "operator": "VGDDS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 361717,
+    "cinemaId": "VGDCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T15:30:00",
+    "screenName": "HOYTS LUX 01",
+    "operator": "VGDDS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 361716,
+    "cinemaId": "VGDCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T15:30:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "VGD",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 361718,
+    "cinemaId": "VGDCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T18:00:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "VGD",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 361719,
+    "cinemaId": "VGDCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T18:00:00",
+    "screenName": "HOYTS LUX 01",
+    "operator": "VGDDS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 334194,
+    "cinemaId": "WODENP",
+    "movieId": "HO00010184",
+    "date": "2025-09-18T10:00:00",
+    "screenName": "Cinema 06",
+    "operator": "WOD",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 334175,
+    "cinemaId": "WODENP",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T10:30:00",
+    "screenName": "Xtremescreen 04",
+    "operator": "WOD",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 334177,
+    "cinemaId": "WODENP",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T15:30:00",
+    "screenName": "Xtremescreen 04",
+    "operator": "WOD",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 334176,
+    "cinemaId": "WODENP",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T13:00:00",
+    "screenName": "Xtremescreen 04",
+    "operator": "WOD",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 334178,
+    "cinemaId": "WODENP",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T18:00:00",
+    "screenName": "Xtremescreen 04",
+    "operator": "WOD",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 11638,
+    "cinemaId": "IPSCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T11:00:00",
+    "screenName": "Cinema 03",
+    "operator": "IPS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 11639,
+    "cinemaId": "IPSCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T13:30:00",
+    "screenName": "Cinema 03",
+    "operator": "IPS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 11637,
+    "cinemaId": "IPSCIN",
+    "movieId": "HO00010184",
+    "date": "2025-09-18T10:30:00",
+    "screenName": "Cinema 02",
+    "operator": "IPS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 11640,
+    "cinemaId": "IPSCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T16:00:00",
+    "screenName": "Cinema 03",
+    "operator": "IPS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 11641,
+    "cinemaId": "IPSCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T18:30:00",
+    "screenName": "Cinema 03",
+    "operator": "IPS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 41223,
+    "cinemaId": "CURCIN",
+    "movieId": "HO00010184",
+    "date": "2025-09-18T10:00:00",
+    "screenName": "Cinema 05",
+    "operator": "CUR",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 41221,
+    "cinemaId": "CURCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T15:30:00",
+    "screenName": "Xtremescreen 04",
+    "operator": "CUR",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 41219,
+    "cinemaId": "CURCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T10:30:00",
+    "screenName": "Xtremescreen 04",
+    "operator": "CUR",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 41220,
+    "cinemaId": "CURCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T13:00:00",
+    "screenName": "Xtremescreen 04",
+    "operator": "CUR",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 41222,
+    "cinemaId": "CURCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T18:00:00",
+    "screenName": "Xtremescreen 04",
+    "operator": "CUR",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 263046,
+    "cinemaId": "CHARLE",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T15:45:00",
+    "screenName": "Cinema 05",
+    "operator": "CHA",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 263045,
+    "cinemaId": "CHARLE",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T13:15:00",
+    "screenName": "Cinema 05",
+    "operator": "CHA",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 263041,
+    "cinemaId": "CHARLE",
+    "movieId": "HO00010184",
+    "date": "2025-09-18T10:30:00",
+    "screenName": "Cinema 06",
+    "operator": "CHA",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 263044,
+    "cinemaId": "CHARLE",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T10:45:00",
+    "screenName": "Cinema 05",
+    "operator": "CHA",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 263047,
+    "cinemaId": "CHARLE",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T18:15:00",
+    "screenName": "Cinema 05",
+    "operator": "CHA",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 311992,
+    "cinemaId": "CHWOOD",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T11:00:00",
+    "screenName": "Cinema 08",
+    "operator": "CHW",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 311993,
+    "cinemaId": "CHWOOD",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T13:40:00",
+    "screenName": "Cinema 08",
+    "operator": "CHW",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 311996,
+    "cinemaId": "CHWOOD",
+    "movieId": "HO00010184",
+    "date": "2025-09-18T13:00:00",
+    "screenName": "Cinema 02",
+    "operator": "CHW",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 311995,
+    "cinemaId": "CHWOOD",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T19:00:00",
+    "screenName": "Cinema 08",
+    "operator": "CHW",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 311994,
+    "cinemaId": "CHWOOD",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T16:20:00",
+    "screenName": "Cinema 08",
+    "operator": "CHW",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 282662,
+    "cinemaId": "GRENSB",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T15:40:00",
+    "screenName": "Cinema 08",
+    "operator": "GRE",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 282678,
+    "cinemaId": "GRENSB",
+    "movieId": "HO00010184",
+    "date": "2025-09-18T10:30:00",
+    "screenName": "Cinema 07",
+    "operator": "GRE",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 282663,
+    "cinemaId": "GRENSB",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T18:00:00",
+    "screenName": "Cinema 08",
+    "operator": "GRE",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 282664,
+    "cinemaId": "GRENSB",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T13:20:00",
+    "screenName": "Cinema 08",
+    "operator": "GRE",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 282665,
+    "cinemaId": "GRENSB",
+    "movieId": "HO00009403",
+    "date": "2025-09-18T11:00:00",
+    "screenName": "Cinema 08",
+    "operator": "GRE",
     "error": true,
     "error_msg": "HTTP 403"
   }

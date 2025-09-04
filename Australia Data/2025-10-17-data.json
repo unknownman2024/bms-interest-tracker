@@ -844,5 +844,15 @@
     "price": 26.0,
     "error": false,
     "last_error": "HTTP 403"
+  },
+  {
+    "id": 281782,
+    "cinemaId": "NWDCIN",
+    "movieId": "HO00010662",
+    "date": "2025-10-17T19:00:00",
+    "screenName": "Cinema 07",
+    "operator": "NWD",
+    "error": true,
+    "error_msg": "HTTP 403"
   }
 ]

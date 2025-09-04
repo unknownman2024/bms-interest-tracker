@@ -475,7 +475,8 @@
     "screenName": "Cinema 03",
     "operator": "JOO",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 489600,
@@ -485,6 +486,7 @@
     "screenName": "Cinema 08",
     "operator": "SHO",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   }
 ]

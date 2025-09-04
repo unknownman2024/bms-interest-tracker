@@ -38276,7 +38276,8 @@
     "screenName": "Xtremescreen 02",
     "operator": "CDS",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 312870,
@@ -38286,7 +38287,8 @@
     "screenName": "Xtremescreen 02",
     "operator": "CDS",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 312869,
@@ -38296,7 +38298,8 @@
     "screenName": "Xtremescreen 02",
     "operator": "CDS",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 312868,
@@ -38306,7 +38309,8 @@
     "screenName": "Xtremescreen 02",
     "operator": "CDS",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 312867,
@@ -38315,6 +38319,17 @@
     "date": "2025-09-06T21:30:00",
     "screenName": "Xtremescreen 02",
     "operator": "CDS",
+    "error": true,
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
+  },
+  {
+    "id": 245295,
+    "cinemaId": "BMWCIN",
+    "movieId": "HO00008335",
+    "date": "2025-09-06T18:00:00",
+    "screenName": "Cinema 04",
+    "operator": "BMW",
     "error": true,
     "error_msg": "HTTP 403"
   }

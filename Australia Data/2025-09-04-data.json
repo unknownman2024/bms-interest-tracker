@@ -37841,7 +37841,8 @@
     "screenName": "Cinema 05",
     "operator": "HIG",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 421658,
@@ -37851,7 +37852,8 @@
     "screenName": "HOYTS LUX 03",
     "operator": "EASLP",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 312877,
@@ -37861,7 +37863,8 @@
     "screenName": "Cinema 07",
     "operator": "CDS",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 312878,
@@ -37871,7 +37874,8 @@
     "screenName": "Cinema 04",
     "operator": "CDS",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 318250,
@@ -37881,7 +37885,8 @@
     "screenName": "Cinema 06",
     "operator": "MTD",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 318251,
@@ -37891,6 +37896,7 @@
     "screenName": "Cinema 02",
     "operator": "MTD",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   }
 ]

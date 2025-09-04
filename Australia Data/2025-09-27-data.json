@@ -799,7 +799,8 @@
     "screenName": "Cinema 04",
     "operator": "SLY",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 121095,
@@ -809,7 +810,8 @@
     "screenName": "Cinema 4",
     "operator": "GHL",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 141105,
@@ -819,7 +821,8 @@
     "screenName": "Cinema 04",
     "operator": "DOC",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 389256,
@@ -829,7 +832,8 @@
     "screenName": "Cinema 07",
     "operator": "ERI",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 29795,
@@ -839,7 +843,8 @@
     "screenName": "Cinema 05",
     "operator": "BUN",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 78135,
@@ -849,7 +854,8 @@
     "screenName": "Cinema 03",
     "operator": "KYP",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 346028,
@@ -859,7 +865,8 @@
     "screenName": "Cinema 01",
     "operator": "BEL",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 272614,
@@ -869,7 +876,8 @@
     "screenName": "Cinema 04",
     "operator": "SOU",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 282254,
@@ -879,7 +887,8 @@
     "screenName": "Cinema 07",
     "operator": "NWD",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 43181,
@@ -889,7 +898,8 @@
     "screenName": "Cinema 06",
     "operator": "MID",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 335767,
@@ -899,7 +909,8 @@
     "screenName": "Cinema 07",
     "operator": "FRA",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 248511,
@@ -909,7 +920,8 @@
     "screenName": "Cinema 08",
     "operator": "SUN",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 261859,
@@ -918,6 +930,77 @@
     "date": "2025-09-27T16:00:00",
     "screenName": "Cinema 04",
     "operator": "RED",
+    "error": true,
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
+  },
+  {
+    "id": 517180,
+    "cinemaId": "HIGPNT",
+    "movieId": "HO00010690",
+    "date": "2025-09-27T16:00:00",
+    "screenName": "Cinema 07",
+    "operator": "HIG",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 137002,
+    "cinemaId": "MILENM",
+    "movieId": "HO00010690",
+    "date": "2025-09-27T16:00:00",
+    "screenName": "Cinema 01",
+    "operator": "MIL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 11691,
+    "cinemaId": "IPSCIN",
+    "movieId": "HO00010690",
+    "date": "2025-09-27T16:00:00",
+    "screenName": "Cinema 06",
+    "operator": "IPS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 334202,
+    "cinemaId": "WODENP",
+    "movieId": "HO00010690",
+    "date": "2025-09-27T16:00:00",
+    "screenName": "Cinema 08",
+    "operator": "WOD",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 361839,
+    "cinemaId": "VGDCIN",
+    "movieId": "HO00010690",
+    "date": "2025-09-27T16:00:00",
+    "screenName": "Cinema 06",
+    "operator": "VGD",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 263099,
+    "cinemaId": "CHARLE",
+    "movieId": "HO00010690",
+    "date": "2025-09-27T16:00:00",
+    "screenName": "Cinema 05",
+    "operator": "CHA",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 282691,
+    "cinemaId": "GRENSB",
+    "movieId": "HO00010690",
+    "date": "2025-09-27T16:00:00",
+    "screenName": "Cinema 06",
+    "operator": "GRE",
     "error": true,
     "error_msg": "HTTP 403"
   }

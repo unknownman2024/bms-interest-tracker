@@ -38095,7 +38095,8 @@
     "screenName": "Xtremescreen 02",
     "operator": "CDS",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 312873,
@@ -38105,7 +38106,8 @@
     "screenName": "Xtremescreen 02",
     "operator": "CDS",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 312872,
@@ -38115,7 +38117,8 @@
     "screenName": "Xtremescreen 02",
     "operator": "CDS",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 312871,
@@ -38125,6 +38128,7 @@
     "screenName": "Xtremescreen 02",
     "operator": "CDS",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   }
 ]

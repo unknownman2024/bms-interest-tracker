@@ -385,7 +385,8 @@
     "screenName": "HOYTS LUX 01",
     "operator": "MIDLP",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 43188,
@@ -395,7 +396,8 @@
     "screenName": "Xtremescreen 03",
     "operator": "MID",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 43190,
@@ -405,6 +407,7 @@
     "screenName": "Cinema 01 Boutique",
     "operator": "MID",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   }
 ]
