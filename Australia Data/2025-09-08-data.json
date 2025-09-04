@@ -37354,7 +37354,8 @@
     "screenName": "Cinema 07",
     "operator": "WES",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 358157,
@@ -37364,6 +37365,7 @@
     "screenName": "Cinema 07",
     "operator": "WES",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   }
 ]

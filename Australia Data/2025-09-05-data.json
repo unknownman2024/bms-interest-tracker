@@ -37616,7 +37616,8 @@
     "screenName": "Cinema 10",
     "operator": "BEL",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 499925,
@@ -37626,7 +37627,8 @@
     "screenName": "Cinema 05",
     "operator": "CAR",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 358150,
@@ -37636,7 +37638,8 @@
     "screenName": "Cinema 02",
     "operator": "WES",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 358151,
@@ -37646,7 +37649,8 @@
     "screenName": "Cinema 08",
     "operator": "WES",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 516433,
@@ -37656,7 +37660,8 @@
     "screenName": "HOYTS LUX 02",
     "operator": "HIGDS",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 517188,
@@ -37666,7 +37671,8 @@
     "screenName": "HOYTS LUX 01",
     "operator": "HIGDS",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 248565,
@@ -37676,7 +37682,8 @@
     "screenName": "Cinema 05",
     "operator": "SUN",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 318253,
@@ -37686,7 +37693,8 @@
     "screenName": "Cinema 02",
     "operator": "MTD",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 318254,
@@ -37696,7 +37704,8 @@
     "screenName": "Cinema 01",
     "operator": "MTD",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 318252,
@@ -37705,6 +37714,17 @@
     "date": "2025-09-05T20:50:00",
     "screenName": "Cinema 07",
     "operator": "MTD",
+    "error": true,
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
+  },
+  {
+    "id": 377683,
+    "cinemaId": "TTPLZA",
+    "movieId": "HO00008335",
+    "date": "2025-09-05T17:50:00",
+    "screenName": "Cinema 06",
+    "operator": "TTP",
     "error": true,
     "error_msg": "HTTP 403"
   }

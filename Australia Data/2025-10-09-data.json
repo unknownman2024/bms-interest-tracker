@@ -25,7 +25,8 @@
     "screenName": "Xtremescreen 05",
     "operator": "FRA",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 335676,
@@ -35,7 +36,8 @@
     "screenName": "Xtremescreen 05",
     "operator": "FRA",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 335677,
@@ -45,7 +47,8 @@
     "screenName": "Xtremescreen 05",
     "operator": "FRA",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 335679,
@@ -55,7 +58,8 @@
     "screenName": "DBOX 08",
     "operator": "FRA",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 335678,
@@ -65,7 +69,8 @@
     "screenName": "Xtremescreen 05",
     "operator": "FRA",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 335675,
@@ -75,7 +80,8 @@
     "screenName": "Xtremescreen 05",
     "operator": "FRA",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 248462,
