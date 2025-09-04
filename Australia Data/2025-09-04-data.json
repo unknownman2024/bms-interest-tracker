@@ -37810,5 +37810,25 @@
     "error": true,
     "error_msg": "HTTP 403",
     "last_error": "HTTP 403"
+  },
+  {
+    "id": 245282,
+    "cinemaId": "BMWCIN",
+    "movieId": "HO00008335",
+    "date": "2025-09-04T20:30:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "BMW",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 245283,
+    "cinemaId": "BMWCIN",
+    "movieId": "HO00008335",
+    "date": "2025-09-04T21:40:00",
+    "screenName": "Cinema 04",
+    "operator": "BMW",
+    "error": true,
+    "error_msg": "HTTP 403"
   }
 ]

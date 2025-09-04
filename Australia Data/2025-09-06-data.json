@@ -38201,5 +38201,55 @@
     "error": true,
     "error_msg": "HTTP 403",
     "last_error": "HTTP 403"
+  },
+  {
+    "id": 327162,
+    "cinemaId": "EGDENS",
+    "movieId": "HO00009718",
+    "date": "2025-09-06T20:40:00",
+    "screenName": "Cinema 03",
+    "operator": "EGD",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 327161,
+    "cinemaId": "EGDENS",
+    "movieId": "HO00008335",
+    "date": "2025-09-06T20:30:00",
+    "screenName": "Xtremescreen 05",
+    "operator": "EGD",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 245286,
+    "cinemaId": "BMWCIN",
+    "movieId": "HO00008335",
+    "date": "2025-09-06T14:00:00",
+    "screenName": "Cinema 03",
+    "operator": "BMW",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 245291,
+    "cinemaId": "BMWCIN",
+    "movieId": "HO00008335",
+    "date": "2025-09-06T21:45:00",
+    "screenName": "Cinema 02",
+    "operator": "BMW",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 245284,
+    "cinemaId": "BMWCIN",
+    "movieId": "HO00008335",
+    "date": "2025-09-06T20:30:00",
+    "screenName": "Cinema 07",
+    "operator": "BMW",
+    "error": true,
+    "error_msg": "HTTP 403"
   }
 ]

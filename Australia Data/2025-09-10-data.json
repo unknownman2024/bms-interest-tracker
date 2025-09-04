@@ -36902,6 +36902,17 @@
     "screenName": "Cinema 10",
     "operator": "TTP",
     "error": true,
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
+  },
+  {
+    "id": 245289,
+    "cinemaId": "BMWCIN",
+    "movieId": "HO00010233",
+    "date": "2025-09-10T21:30:00",
+    "screenName": "Xtremescreen 05",
+    "operator": "BMW",
+    "error": true,
     "error_msg": "HTTP 403"
   }
 ]
