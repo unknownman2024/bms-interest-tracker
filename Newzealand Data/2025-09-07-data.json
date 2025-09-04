@@ -1833,7 +1833,8 @@
     "max_gross": 10752.0,
     "total_gross": 42.0,
     "price": 21.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 468674,
@@ -3142,7 +3143,8 @@
     "max_gross": 7854.0,
     "total_gross": 0.0,
     "price": 16.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 468679,
@@ -3499,7 +3501,8 @@
     "max_gross": 5346.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 67972,
@@ -4009,7 +4012,8 @@
     "max_gross": 5346.0,
     "total_gross": 108.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 359065,
@@ -4213,7 +4217,8 @@
     "max_gross": 3276.0,
     "total_gross": 182.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 359058,
@@ -4230,7 +4235,8 @@
     "max_gross": 1976.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 327555,
@@ -5193,11 +5199,11 @@
     "screenName": "Xtremescreen 01",
     "operator": "ORM",
     "total": 286,
-    "sold": 18,
-    "available": 268,
-    "occupancy": 6.29,
+    "sold": 16,
+    "available": 270,
+    "occupancy": 5.59,
     "max_gross": 8723.0,
-    "total_gross": 549.0,
+    "total_gross": 488.0,
     "price": 30.5,
     "error": false
   },
