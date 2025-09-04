@@ -11,9 +11,9 @@
     "sold": 0,
     "available": 160,
     "occupancy": 0.0,
-    "max_gross": 3360.0,
+    "max_gross": 3680.0,
     "total_gross": 0.0,
-    "price": 21.0,
+    "price": 23.0,
     "error": false
   },
   {
@@ -28,9 +28,9 @@
     "sold": 2,
     "available": 40,
     "occupancy": 4.76,
-    "max_gross": 1029.0,
-    "total_gross": 49.0,
-    "price": 24.5,
+    "max_gross": 1113.0,
+    "total_gross": 53.0,
+    "price": 26.5,
     "error": false
   },
   {
@@ -45,9 +45,9 @@
     "sold": 0,
     "available": 209,
     "occupancy": 0.0,
-    "max_gross": 4389.0,
+    "max_gross": 4807.0,
     "total_gross": 0.0,
-    "price": 21.0,
+    "price": 23.0,
     "error": false
   },
   {
@@ -62,9 +62,9 @@
     "sold": 0,
     "available": 126,
     "occupancy": 0.0,
-    "max_gross": 2646.0,
+    "max_gross": 2898.0,
     "total_gross": 0.0,
-    "price": 21.0,
+    "price": 23.0,
     "error": false
   },
   {
@@ -79,9 +79,9 @@
     "sold": 0,
     "available": 42,
     "occupancy": 0.0,
-    "max_gross": 1029.0,
+    "max_gross": 1113.0,
     "total_gross": 0.0,
-    "price": 24.5,
+    "price": 26.5,
     "error": false
   },
   {
@@ -96,9 +96,9 @@
     "sold": 0,
     "available": 160,
     "occupancy": 0.0,
-    "max_gross": 3360.0,
+    "max_gross": 3680.0,
     "total_gross": 0.0,
-    "price": 21.0,
+    "price": 23.0,
     "error": false
   },
   {
@@ -113,9 +113,9 @@
     "sold": 4,
     "available": 205,
     "occupancy": 1.91,
-    "max_gross": 4389.0,
-    "total_gross": 84.0,
-    "price": 21.0,
+    "max_gross": 4807.0,
+    "total_gross": 92.0,
+    "price": 23.0,
     "error": false
   },
   {
@@ -147,9 +147,9 @@
     "sold": 6,
     "available": 36,
     "occupancy": 14.29,
-    "max_gross": 1029.0,
-    "total_gross": 147.0,
-    "price": 24.5,
+    "max_gross": 1113.0,
+    "total_gross": 159.0,
+    "price": 26.5,
     "error": false
   },
   {
@@ -164,9 +164,9 @@
     "sold": 0,
     "available": 42,
     "occupancy": 0.0,
-    "max_gross": 1029.0,
+    "max_gross": 1113.0,
     "total_gross": 0.0,
-    "price": 24.5,
+    "price": 26.5,
     "error": false
   },
   {
@@ -181,9 +181,9 @@
     "sold": 0,
     "available": 42,
     "occupancy": 0.0,
-    "max_gross": 1029.0,
+    "max_gross": 1113.0,
     "total_gross": 0.0,
-    "price": 24.5,
+    "price": 26.5,
     "error": false
   },
   {
@@ -215,9 +215,9 @@
     "sold": 3,
     "available": 206,
     "occupancy": 1.44,
-    "max_gross": 4389.0,
-    "total_gross": 63.0,
-    "price": 21.0,
+    "max_gross": 4807.0,
+    "total_gross": 69.0,
+    "price": 23.0,
     "error": false
   },
   {
@@ -232,9 +232,9 @@
     "sold": 0,
     "available": 42,
     "occupancy": 0.0,
-    "max_gross": 1029.0,
+    "max_gross": 1113.0,
     "total_gross": 0.0,
-    "price": 24.5,
+    "price": 26.5,
     "error": false
   },
   {
@@ -266,9 +266,9 @@
     "sold": 2,
     "available": 207,
     "occupancy": 0.96,
-    "max_gross": 4389.0,
-    "total_gross": 42.0,
-    "price": 21.0,
+    "max_gross": 4807.0,
+    "total_gross": 46.0,
+    "price": 23.0,
     "error": false
   },
   {
@@ -283,9 +283,9 @@
     "sold": 2,
     "available": 124,
     "occupancy": 1.59,
-    "max_gross": 2646.0,
-    "total_gross": 42.0,
-    "price": 21.0,
+    "max_gross": 2898.0,
+    "total_gross": 46.0,
+    "price": 23.0,
     "error": false
   },
   {
@@ -300,9 +300,9 @@
     "sold": 2,
     "available": 124,
     "occupancy": 1.59,
-    "max_gross": 2646.0,
-    "total_gross": 42.0,
-    "price": 21.0,
+    "max_gross": 2898.0,
+    "total_gross": 46.0,
+    "price": 23.0,
     "error": false
   },
   {
@@ -317,9 +317,9 @@
     "sold": 0,
     "available": 160,
     "occupancy": 0.0,
-    "max_gross": 3360.0,
+    "max_gross": 3680.0,
     "total_gross": 0.0,
-    "price": 21.0,
+    "price": 23.0,
     "error": false
   },
   {
@@ -334,9 +334,9 @@
     "sold": 10,
     "available": 116,
     "occupancy": 7.94,
-    "max_gross": 2646.0,
-    "total_gross": 210.0,
-    "price": 21.0,
+    "max_gross": 2898.0,
+    "total_gross": 230.0,
+    "price": 23.0,
     "error": false
   },
   {
@@ -368,9 +368,9 @@
     "sold": 0,
     "available": 42,
     "occupancy": 0.0,
-    "max_gross": 1029.0,
+    "max_gross": 1113.0,
     "total_gross": 0.0,
-    "price": 24.5,
+    "price": 26.5,
     "error": false
   },
   {
@@ -385,9 +385,9 @@
     "sold": 0,
     "available": 126,
     "occupancy": 0.0,
-    "max_gross": 2646.0,
+    "max_gross": 2898.0,
     "total_gross": 0.0,
-    "price": 21.0,
+    "price": 23.0,
     "error": false
   },
   {
@@ -419,9 +419,9 @@
     "sold": 0,
     "available": 253,
     "occupancy": 0.0,
-    "max_gross": 5313.0,
+    "max_gross": 5819.0,
     "total_gross": 0.0,
-    "price": 21.0,
+    "price": 23.0,
     "error": false
   },
   {
@@ -470,9 +470,9 @@
     "sold": 5,
     "available": 121,
     "occupancy": 3.97,
-    "max_gross": 2646.0,
-    "total_gross": 105.0,
-    "price": 21.0,
+    "max_gross": 2898.0,
+    "total_gross": 115.0,
+    "price": 23.0,
     "error": false
   },
   {
@@ -504,9 +504,9 @@
     "sold": 0,
     "available": 209,
     "occupancy": 0.0,
-    "max_gross": 4389.0,
+    "max_gross": 4807.0,
     "total_gross": 0.0,
-    "price": 21.0,
+    "price": 23.0,
     "error": false
   },
   {
@@ -555,9 +555,9 @@
     "sold": 0,
     "available": 126,
     "occupancy": 0.0,
-    "max_gross": 2646.0,
+    "max_gross": 2898.0,
     "total_gross": 0.0,
-    "price": 21.0,
+    "price": 23.0,
     "error": false
   },
   {
@@ -572,9 +572,9 @@
     "sold": 0,
     "available": 126,
     "occupancy": 0.0,
-    "max_gross": 2646.0,
+    "max_gross": 2898.0,
     "total_gross": 0.0,
-    "price": 21.0,
+    "price": 23.0,
     "error": false
   },
   {
@@ -589,9 +589,9 @@
     "sold": 2,
     "available": 40,
     "occupancy": 4.76,
-    "max_gross": 1029.0,
-    "total_gross": 49.0,
-    "price": 24.5,
+    "max_gross": 1113.0,
+    "total_gross": 53.0,
+    "price": 26.5,
     "error": false
   },
   {
@@ -623,9 +623,9 @@
     "sold": 0,
     "available": 126,
     "occupancy": 0.0,
-    "max_gross": 2646.0,
+    "max_gross": 2898.0,
     "total_gross": 0.0,
-    "price": 21.0,
+    "price": 23.0,
     "error": false
   },
   {
@@ -708,9 +708,9 @@
     "sold": 2,
     "available": 158,
     "occupancy": 1.25,
-    "max_gross": 3360.0,
-    "total_gross": 42.0,
-    "price": 21.0,
+    "max_gross": 3680.0,
+    "total_gross": 46.0,
+    "price": 23.0,
     "error": false
   },
   {
@@ -742,9 +742,9 @@
     "sold": 8,
     "available": 34,
     "occupancy": 19.05,
-    "max_gross": 1029.0,
-    "total_gross": 196.0,
-    "price": 24.5,
+    "max_gross": 1113.0,
+    "total_gross": 212.0,
+    "price": 26.5,
     "error": false
   },
   {
@@ -776,9 +776,9 @@
     "sold": 3,
     "available": 39,
     "occupancy": 7.14,
-    "max_gross": 1029.0,
-    "total_gross": 73.5,
-    "price": 24.5,
+    "max_gross": 1113.0,
+    "total_gross": 79.5,
+    "price": 26.5,
     "error": false
   },
   {
@@ -864,7 +864,8 @@
     "max_gross": 3360.0,
     "total_gross": 0.0,
     "price": 24.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 502"
   },
   {
     "id": 177027,
@@ -2341,9 +2342,9 @@
     "sold": 0,
     "available": 133,
     "occupancy": 0.0,
-    "max_gross": 4056.5,
+    "max_gross": 4322.5,
     "total_gross": 0.0,
-    "price": 30.5,
+    "price": 32.5,
     "error": false
   },
   {
@@ -2681,9 +2682,9 @@
     "sold": 2,
     "available": 96,
     "occupancy": 2.04,
-    "max_gross": 2548.0,
-    "total_gross": 52.0,
-    "price": 26.0,
+    "max_gross": 2744.0,
+    "total_gross": 56.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -2885,9 +2886,9 @@
     "sold": 4,
     "available": 124,
     "occupancy": 3.12,
-    "max_gross": 3328.0,
-    "total_gross": 104.0,
-    "price": 26.0,
+    "max_gross": 3584.0,
+    "total_gross": 112.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -3157,9 +3158,9 @@
     "sold": 0,
     "available": 112,
     "occupancy": 0.0,
-    "max_gross": 2912.0,
+    "max_gross": 3136.0,
     "total_gross": 0.0,
-    "price": 26.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -3174,9 +3175,9 @@
     "sold": 0,
     "available": 112,
     "occupancy": 0.0,
-    "max_gross": 2912.0,
+    "max_gross": 3136.0,
     "total_gross": 0.0,
-    "price": 26.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -3310,9 +3311,9 @@
     "sold": 0,
     "available": 286,
     "occupancy": 0.0,
-    "max_gross": 8723.0,
+    "max_gross": 9295.0,
     "total_gross": 0.0,
-    "price": 30.5,
+    "price": 32.5,
     "error": false
   },
   {
@@ -3633,9 +3634,9 @@
     "sold": 2,
     "available": 96,
     "occupancy": 2.04,
-    "max_gross": 2548.0,
-    "total_gross": 52.0,
-    "price": 26.0,
+    "max_gross": 2744.0,
+    "total_gross": 56.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -3769,9 +3770,9 @@
     "sold": 0,
     "available": 128,
     "occupancy": 0.0,
-    "max_gross": 3328.0,
+    "max_gross": 3584.0,
     "total_gross": 0.0,
-    "price": 26.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -3939,9 +3940,9 @@
     "sold": 0,
     "available": 176,
     "occupancy": 0.0,
-    "max_gross": 5368.0,
+    "max_gross": 5720.0,
     "total_gross": 0.0,
-    "price": 30.5,
+    "price": 32.5,
     "error": false
   },
   {
@@ -3956,9 +3957,9 @@
     "sold": 0,
     "available": 98,
     "occupancy": 0.0,
-    "max_gross": 2548.0,
+    "max_gross": 2744.0,
     "total_gross": 0.0,
-    "price": 26.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -4007,9 +4008,9 @@
     "sold": 2,
     "available": 284,
     "occupancy": 0.7,
-    "max_gross": 8723.0,
-    "total_gross": 61.0,
-    "price": 30.5,
+    "max_gross": 9295.0,
+    "total_gross": 65.0,
+    "price": 32.5,
     "error": false
   },
   {
@@ -4041,9 +4042,9 @@
     "sold": 0,
     "available": 176,
     "occupancy": 0.0,
-    "max_gross": 5368.0,
+    "max_gross": 5720.0,
     "total_gross": 0.0,
-    "price": 30.5,
+    "price": 32.5,
     "error": false
   },
   {
@@ -4109,9 +4110,9 @@
     "sold": 13,
     "available": 163,
     "occupancy": 7.39,
-    "max_gross": 5368.0,
-    "total_gross": 396.5,
-    "price": 30.5,
+    "max_gross": 5720.0,
+    "total_gross": 422.5,
+    "price": 32.5,
     "error": false
   },
   {
@@ -4160,9 +4161,9 @@
     "sold": 0,
     "available": 128,
     "occupancy": 0.0,
-    "max_gross": 3328.0,
+    "max_gross": 3584.0,
     "total_gross": 0.0,
-    "price": 26.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -4211,9 +4212,9 @@
     "sold": 0,
     "available": 133,
     "occupancy": 0.0,
-    "max_gross": 3458.0,
+    "max_gross": 3724.0,
     "total_gross": 0.0,
-    "price": 26.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -4330,9 +4331,9 @@
     "sold": 0,
     "available": 98,
     "occupancy": 0.0,
-    "max_gross": 2548.0,
+    "max_gross": 2744.0,
     "total_gross": 0.0,
-    "price": 26.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -4347,9 +4348,9 @@
     "sold": 6,
     "available": 280,
     "occupancy": 2.1,
-    "max_gross": 8723.0,
-    "total_gross": 183.0,
-    "price": 30.5,
+    "max_gross": 9295.0,
+    "total_gross": 195.0,
+    "price": 32.5,
     "error": false
   },
   {
@@ -4364,9 +4365,9 @@
     "sold": 0,
     "available": 112,
     "occupancy": 0.0,
-    "max_gross": 2912.0,
+    "max_gross": 3136.0,
     "total_gross": 0.0,
-    "price": 26.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -4415,9 +4416,9 @@
     "sold": 0,
     "available": 98,
     "occupancy": 0.0,
-    "max_gross": 2548.0,
+    "max_gross": 2744.0,
     "total_gross": 0.0,
-    "price": 26.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -4466,9 +4467,9 @@
     "sold": 3,
     "available": 130,
     "occupancy": 2.26,
-    "max_gross": 3458.0,
-    "total_gross": 78.0,
-    "price": 26.0,
+    "max_gross": 3724.0,
+    "total_gross": 84.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -4517,9 +4518,9 @@
     "sold": 0,
     "available": 120,
     "occupancy": 0.0,
-    "max_gross": 3120.0,
+    "max_gross": 3360.0,
     "total_gross": 0.0,
-    "price": 26.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -4568,9 +4569,9 @@
     "sold": 0,
     "available": 112,
     "occupancy": 0.0,
-    "max_gross": 2912.0,
+    "max_gross": 3136.0,
     "total_gross": 0.0,
-    "price": 26.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -4585,9 +4586,9 @@
     "sold": 3,
     "available": 117,
     "occupancy": 2.5,
-    "max_gross": 3120.0,
-    "total_gross": 78.0,
-    "price": 26.0,
+    "max_gross": 3360.0,
+    "total_gross": 84.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -4687,9 +4688,9 @@
     "sold": 0,
     "available": 120,
     "occupancy": 0.0,
-    "max_gross": 3120.0,
+    "max_gross": 3360.0,
     "total_gross": 0.0,
-    "price": 26.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -4704,9 +4705,9 @@
     "sold": 0,
     "available": 112,
     "occupancy": 0.0,
-    "max_gross": 2912.0,
+    "max_gross": 3136.0,
     "total_gross": 0.0,
-    "price": 26.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -4772,9 +4773,9 @@
     "sold": 3,
     "available": 95,
     "occupancy": 3.06,
-    "max_gross": 2548.0,
-    "total_gross": 78.0,
-    "price": 26.0,
+    "max_gross": 2744.0,
+    "total_gross": 84.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -4789,9 +4790,9 @@
     "sold": 0,
     "available": 120,
     "occupancy": 0.0,
-    "max_gross": 3120.0,
+    "max_gross": 3360.0,
     "total_gross": 0.0,
-    "price": 26.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -4806,9 +4807,9 @@
     "sold": 0,
     "available": 98,
     "occupancy": 0.0,
-    "max_gross": 2548.0,
+    "max_gross": 2744.0,
     "total_gross": 0.0,
-    "price": 26.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -4908,9 +4909,9 @@
     "sold": 4,
     "available": 124,
     "occupancy": 3.12,
-    "max_gross": 3328.0,
-    "total_gross": 104.0,
-    "price": 26.0,
+    "max_gross": 3584.0,
+    "total_gross": 112.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -4942,9 +4943,9 @@
     "sold": 49,
     "available": 237,
     "occupancy": 17.13,
-    "max_gross": 8723.0,
-    "total_gross": 1494.5,
-    "price": 30.5,
+    "max_gross": 9295.0,
+    "total_gross": 1592.5,
+    "price": 32.5,
     "error": false
   },
   {
@@ -4959,9 +4960,9 @@
     "sold": 2,
     "available": 96,
     "occupancy": 2.04,
-    "max_gross": 2548.0,
-    "total_gross": 52.0,
-    "price": 26.0,
+    "max_gross": 2744.0,
+    "total_gross": 56.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -5061,9 +5062,9 @@
     "sold": 0,
     "available": 286,
     "occupancy": 0.0,
-    "max_gross": 8723.0,
+    "max_gross": 9295.0,
     "total_gross": 0.0,
-    "price": 30.5,
+    "price": 32.5,
     "error": false
   },
   {
@@ -5214,9 +5215,9 @@
     "sold": 0,
     "available": 98,
     "occupancy": 0.0,
-    "max_gross": 2548.0,
+    "max_gross": 2744.0,
     "total_gross": 0.0,
-    "price": 26.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -5231,9 +5232,9 @@
     "sold": 0,
     "available": 120,
     "occupancy": 0.0,
-    "max_gross": 3120.0,
+    "max_gross": 3360.0,
     "total_gross": 0.0,
-    "price": 26.0,
+    "price": 28.0,
     "error": false
   },
   {
@@ -5350,9 +5351,9 @@
     "sold": 37,
     "available": 139,
     "occupancy": 21.02,
-    "max_gross": 5368.0,
-    "total_gross": 1128.5,
-    "price": 30.5,
+    "max_gross": 5720.0,
+    "total_gross": 1202.5,
+    "price": 32.5,
     "error": false
   },
   {
@@ -6928,11 +6929,11 @@
     "screenName": "Cinema 3",
     "operator": "NTH",
     "total": 118,
-    "sold": 19,
-    "available": 99,
-    "occupancy": 16.1,
+    "sold": 24,
+    "available": 94,
+    "occupancy": 20.34,
     "max_gross": 2183.0,
-    "total_gross": 351.5,
+    "total_gross": 444.0,
     "price": 18.5,
     "error": false
   },
