@@ -36915,5 +36915,15 @@
     "error": true,
     "error_msg": "HTTP 403",
     "last_error": "HTTP 403"
+  },
+  {
+    "id": 318273,
+    "cinemaId": "MTDRTT",
+    "movieId": "HO00009498",
+    "date": "2025-09-10T13:00:00",
+    "screenName": "Cinema 05",
+    "operator": "MTD",
+    "error": true,
+    "error_msg": "HTTP 403"
   }
 ]

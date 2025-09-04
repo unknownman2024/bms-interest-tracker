@@ -38265,6 +38265,57 @@
     "screenName": "Cinema 06",
     "operator": "FHL",
     "error": true,
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
+  },
+  {
+    "id": 312876,
+    "cinemaId": "CHDSTN",
+    "movieId": "HO00010303",
+    "date": "2025-09-06T10:00:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "CDS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 312870,
+    "cinemaId": "CHDSTN",
+    "movieId": "HO00008335",
+    "date": "2025-09-06T12:30:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "CDS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 312869,
+    "cinemaId": "CHDSTN",
+    "movieId": "HO00008335",
+    "date": "2025-09-06T15:30:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "CDS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 312868,
+    "cinemaId": "CHDSTN",
+    "movieId": "HO00008335",
+    "date": "2025-09-06T18:30:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "CDS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 312867,
+    "cinemaId": "CHDSTN",
+    "movieId": "HO00008335",
+    "date": "2025-09-06T21:30:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "CDS",
+    "error": true,
     "error_msg": "HTTP 403"
   }
 ]

@@ -376,5 +376,35 @@
     "price": 25.0,
     "error": false,
     "last_error": "HTTP 403"
+  },
+  {
+    "id": 43189,
+    "cinemaId": "MIDCIN",
+    "movieId": "HO00008334",
+    "date": "2025-09-24T19:00:00",
+    "screenName": "HOYTS LUX 01",
+    "operator": "MIDLP",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 43188,
+    "cinemaId": "MIDCIN",
+    "movieId": "HO00008334",
+    "date": "2025-09-24T19:30:00",
+    "screenName": "Xtremescreen 03",
+    "operator": "MID",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 43190,
+    "cinemaId": "MIDCIN",
+    "movieId": "HO00008334",
+    "date": "2025-09-24T19:00:00",
+    "screenName": "Cinema 01 Boutique",
+    "operator": "MID",
+    "error": true,
+    "error_msg": "HTTP 403"
   }
 ]

@@ -466,5 +466,25 @@
     "price": 24.0,
     "error": false,
     "last_error": "HTTP 403"
+  },
+  {
+    "id": 30362,
+    "cinemaId": "JOOCIN",
+    "movieId": "HO00010690",
+    "date": "2025-09-28T15:30:00",
+    "screenName": "Cinema 03",
+    "operator": "JOO",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 489600,
+    "cinemaId": "SHOWGR",
+    "movieId": "HO00010690",
+    "date": "2025-09-28T13:15:00",
+    "screenName": "Cinema 08",
+    "operator": "SHO",
+    "error": true,
+    "error_msg": "HTTP 403"
   }
 ]

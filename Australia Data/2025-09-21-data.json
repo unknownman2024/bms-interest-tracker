@@ -412,5 +412,1305 @@
     "price": 24.0,
     "error": false,
     "last_error": "HTTP 403"
+  },
+  {
+    "id": 30360,
+    "cinemaId": "JOOCIN",
+    "movieId": "HO00010184",
+    "date": "2025-09-21T10:20:00",
+    "screenName": "Cinema 03",
+    "operator": "JOO",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 30358,
+    "cinemaId": "JOOCIN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T10:00:00",
+    "screenName": "Xtremescreen 05",
+    "operator": "JOO",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 30375,
+    "cinemaId": "JOOCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T10:30:00",
+    "screenName": "Xtremescreen 06",
+    "operator": "JOO",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 30374,
+    "cinemaId": "JOOCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T13:00:00",
+    "screenName": "Xtremescreen 06",
+    "operator": "JOO",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 30357,
+    "cinemaId": "JOOCIN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T12:30:00",
+    "screenName": "Xtremescreen 05",
+    "operator": "JOO",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 30373,
+    "cinemaId": "JOOCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T15:30:00",
+    "screenName": "Xtremescreen 06",
+    "operator": "JOO",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 30372,
+    "cinemaId": "JOOCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T18:00:00",
+    "screenName": "Xtremescreen 06",
+    "operator": "JOO",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 286494,
+    "cinemaId": "SLYCIN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T11:00:00",
+    "screenName": "Xtremescreen 08",
+    "operator": "SLY",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 286497,
+    "cinemaId": "SLYCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T15:30:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "SLY",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 286493,
+    "cinemaId": "SLYCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T10:30:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "SLY",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 286499,
+    "cinemaId": "SLYCIN",
+    "movieId": "HO00010184",
+    "date": "2025-09-21T10:00:00",
+    "screenName": "Cinema 04",
+    "operator": "SLY",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 286495,
+    "cinemaId": "SLYCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T13:00:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "SLY",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 286496,
+    "cinemaId": "SLYCIN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T13:30:00",
+    "screenName": "Xtremescreen 08",
+    "operator": "SLY",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 286498,
+    "cinemaId": "SLYCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T18:00:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "SLY",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 121064,
+    "cinemaId": "GHLCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T09:30:00",
+    "screenName": "Xtremescreen 7",
+    "operator": "GHL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 121070,
+    "cinemaId": "GHLCIN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T11:15:00",
+    "screenName": "Xtremescreen 6",
+    "operator": "GHL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 121065,
+    "cinemaId": "GHLCIN",
+    "movieId": "HO00010184",
+    "date": "2025-09-21T10:30:00",
+    "screenName": "Cinema 4",
+    "operator": "GHL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 121067,
+    "cinemaId": "GHLCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T14:10:00",
+    "screenName": "Xtremescreen 7",
+    "operator": "GHL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 121071,
+    "cinemaId": "GHLCIN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T13:45:00",
+    "screenName": "Xtremescreen 6",
+    "operator": "GHL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 121066,
+    "cinemaId": "GHLCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T11:50:00",
+    "screenName": "Xtremescreen 7",
+    "operator": "GHL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 121068,
+    "cinemaId": "GHLCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T16:30:00",
+    "screenName": "Xtremescreen 7",
+    "operator": "GHL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 141069,
+    "cinemaId": "DOCCIN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T10:30:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "DOC",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 121069,
+    "cinemaId": "GHLCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T19:00:00",
+    "screenName": "Xtremescreen 7",
+    "operator": "GHL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 141070,
+    "cinemaId": "DOCCIN",
+    "movieId": "HO00010184",
+    "date": "2025-09-21T11:00:00",
+    "screenName": "Cinema 04",
+    "operator": "DOC",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 121072,
+    "cinemaId": "GHLCIN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T16:15:00",
+    "screenName": "Xtremescreen 6",
+    "operator": "GHL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 141068,
+    "cinemaId": "DOCCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T09:30:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "DOC",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 141072,
+    "cinemaId": "DOCCIN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T13:00:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "DOC",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 141071,
+    "cinemaId": "DOCCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T11:50:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "DOC",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 141073,
+    "cinemaId": "DOCCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T14:20:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "DOC",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 141074,
+    "cinemaId": "DOCCIN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T15:30:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "DOC",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 141075,
+    "cinemaId": "DOCCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T16:50:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "DOC",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 141076,
+    "cinemaId": "DOCCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T19:20:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "DOC",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 388952,
+    "cinemaId": "ERINAF",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T13:30:00",
+    "screenName": "Xtremescreen 05",
+    "operator": "ERI",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 388948,
+    "cinemaId": "ERINAF",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T14:00:00",
+    "screenName": "Xtremescreen 06",
+    "operator": "ERI",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 388955,
+    "cinemaId": "ERINAF",
+    "movieId": "HO00010184",
+    "date": "2025-09-21T10:30:00",
+    "screenName": "Cinema 01",
+    "operator": "ERI",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 388951,
+    "cinemaId": "ERINAF",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T11:00:00",
+    "screenName": "Xtremescreen 05",
+    "operator": "ERI",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 388947,
+    "cinemaId": "ERINAF",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T11:30:00",
+    "screenName": "Xtremescreen 06",
+    "operator": "ERI",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 388953,
+    "cinemaId": "ERINAF",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T16:00:00",
+    "screenName": "Xtremescreen 05",
+    "operator": "ERI",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 388949,
+    "cinemaId": "ERINAF",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T16:30:00",
+    "screenName": "Xtremescreen 06",
+    "operator": "ERI",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 388950,
+    "cinemaId": "ERINAF",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T19:00:00",
+    "screenName": "Xtremescreen 06",
+    "operator": "ERI",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 29823,
+    "cinemaId": "BUNCIN",
+    "movieId": "HO00010184",
+    "date": "2025-09-21T10:00:00",
+    "screenName": "Cinema 05",
+    "operator": "BUN",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 29826,
+    "cinemaId": "BUNCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T13:00:00",
+    "screenName": "Cinema 04",
+    "operator": "BUN",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 29824,
+    "cinemaId": "BUNCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T10:30:00",
+    "screenName": "Cinema 04",
+    "operator": "BUN",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 29828,
+    "cinemaId": "BUNCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T15:30:00",
+    "screenName": "Cinema 04",
+    "operator": "BUN",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 29827,
+    "cinemaId": "BUNCIN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T13:30:00",
+    "screenName": "Cinema 01",
+    "operator": "BUN",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 29825,
+    "cinemaId": "BUNCIN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T11:00:00",
+    "screenName": "Cinema 01",
+    "operator": "BUN",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 29830,
+    "cinemaId": "BUNCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T18:00:00",
+    "screenName": "Cinema 04",
+    "operator": "BUN",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 29829,
+    "cinemaId": "BUNCIN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T16:00:00",
+    "screenName": "Cinema 01",
+    "operator": "BUN",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 77988,
+    "cinemaId": "KYPCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T10:30:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "KYP",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 78004,
+    "cinemaId": "KYPCIN",
+    "movieId": "HO00010184",
+    "date": "2025-09-21T10:15:00",
+    "screenName": "Cinema 05",
+    "operator": "KYP",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 77990,
+    "cinemaId": "KYPCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T15:30:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "KYP",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 77991,
+    "cinemaId": "KYPCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T18:00:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "KYP",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 78000,
+    "cinemaId": "KYPCIN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T13:30:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "KYP",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 78001,
+    "cinemaId": "KYPCIN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T16:00:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "KYP",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 346013,
+    "cinemaId": "BELCON",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T10:30:00",
+    "screenName": "Xtremescreen 06",
+    "operator": "BEL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 346021,
+    "cinemaId": "BELCON",
+    "movieId": "HO00010184",
+    "date": "2025-09-21T10:00:00",
+    "screenName": "Cinema 07",
+    "operator": "BEL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 77999,
+    "cinemaId": "KYPCIN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T11:00:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "KYP",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 77989,
+    "cinemaId": "KYPCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T13:00:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "KYP",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 346022,
+    "cinemaId": "BELCON",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T11:00:00",
+    "screenName": "Xtremescreen 05",
+    "operator": "BEL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 346024,
+    "cinemaId": "BELCON",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T16:00:00",
+    "screenName": "Xtremescreen 05",
+    "operator": "BEL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 346023,
+    "cinemaId": "BELCON",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T13:30:00",
+    "screenName": "Xtremescreen 05",
+    "operator": "BEL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 346014,
+    "cinemaId": "BELCON",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T13:00:00",
+    "screenName": "Xtremescreen 06",
+    "operator": "BEL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 346015,
+    "cinemaId": "BELCON",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T15:30:00",
+    "screenName": "Xtremescreen 06",
+    "operator": "BEL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 346016,
+    "cinemaId": "BELCON",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T18:00:00",
+    "screenName": "Xtremescreen 06",
+    "operator": "BEL",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 272660,
+    "cinemaId": "SOUTHL",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T09:30:00",
+    "screenName": "Cinema 01",
+    "operator": "SOU",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 272617,
+    "cinemaId": "SOUTHL",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T10:00:00",
+    "screenName": "Cinema 08",
+    "operator": "SOU",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 272661,
+    "cinemaId": "SOUTHL",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T12:15:00",
+    "screenName": "Cinema 01",
+    "operator": "SOU",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 272618,
+    "cinemaId": "SOUTHL",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T12:30:00",
+    "screenName": "Cinema 08",
+    "operator": "SOU",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 272662,
+    "cinemaId": "SOUTHL",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T15:00:00",
+    "screenName": "Cinema 01",
+    "operator": "SOU",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 272642,
+    "cinemaId": "SOUTHL",
+    "movieId": "HO00010184",
+    "date": "2025-09-21T10:15:00",
+    "screenName": "Cinema 03",
+    "operator": "SOU",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 272663,
+    "cinemaId": "SOUTHL",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T18:00:00",
+    "screenName": "Cinema 01",
+    "operator": "SOU",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 282246,
+    "cinemaId": "NWDCIN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T11:00:00",
+    "screenName": "Cinema 09",
+    "operator": "NWD",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 282248,
+    "cinemaId": "NWDCIN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T16:00:00",
+    "screenName": "Cinema 09",
+    "operator": "NWD",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 282247,
+    "cinemaId": "NWDCIN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T13:30:00",
+    "screenName": "Cinema 09",
+    "operator": "NWD",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 43176,
+    "cinemaId": "MIDCIN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T10:00:00",
+    "screenName": "Cinema 08",
+    "operator": "MID",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 43171,
+    "cinemaId": "MIDCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T13:00:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "MID",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 43170,
+    "cinemaId": "MIDCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T13:00:00",
+    "screenName": "HOYTS LUX 02",
+    "operator": "MIDLP",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 43174,
+    "cinemaId": "MIDCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T18:00:00",
+    "screenName": "HOYTS LUX 02",
+    "operator": "MIDLP",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 43168,
+    "cinemaId": "MIDCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T10:30:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "MID",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 43175,
+    "cinemaId": "MIDCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T18:00:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "MID",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 43169,
+    "cinemaId": "MIDCIN",
+    "movieId": "HO00010184",
+    "date": "2025-09-21T10:45:00",
+    "screenName": "Cinema 05",
+    "operator": "MID",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 43177,
+    "cinemaId": "MIDCIN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T12:30:00",
+    "screenName": "Cinema 08",
+    "operator": "MID",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 43173,
+    "cinemaId": "MIDCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T15:30:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "MID",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 43172,
+    "cinemaId": "MIDCIN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T15:30:00",
+    "screenName": "HOYTS LUX 02",
+    "operator": "MIDLP",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 421517,
+    "cinemaId": "EASTLN",
+    "movieId": "HO00010184",
+    "date": "2025-09-21T10:00:00",
+    "screenName": "Cinema 05",
+    "operator": "EAS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 421516,
+    "cinemaId": "EASTLN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T09:30:00",
+    "screenName": "Xtremescreen 04",
+    "operator": "EAS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 421520,
+    "cinemaId": "EASTLN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T13:00:00",
+    "screenName": "Xtremescreen 07",
+    "operator": "EAS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 421518,
+    "cinemaId": "EASTLN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T10:30:00",
+    "screenName": "Xtremescreen 07",
+    "operator": "EAS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 421519,
+    "cinemaId": "EASTLN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T12:00:00",
+    "screenName": "Xtremescreen 04",
+    "operator": "EAS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 421522,
+    "cinemaId": "EASTLN",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T15:30:00",
+    "screenName": "Xtremescreen 07",
+    "operator": "EAS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 335749,
+    "cinemaId": "FRANKS",
+    "movieId": "HO00010184",
+    "date": "2025-09-21T10:15:00",
+    "screenName": "Cinema 07",
+    "operator": "FRA",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 421523,
+    "cinemaId": "EASTLN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T17:00:00",
+    "screenName": "Xtremescreen 04",
+    "operator": "EAS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 335757,
+    "cinemaId": "FRANKS",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T11:00:00",
+    "screenName": "Xtremescreen 03",
+    "operator": "FRA",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 421524,
+    "cinemaId": "EASTLN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T18:00:00",
+    "screenName": "Xtremescreen 07",
+    "operator": "EAS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 335758,
+    "cinemaId": "FRANKS",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T13:30:00",
+    "screenName": "Xtremescreen 03",
+    "operator": "FRA",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 335750,
+    "cinemaId": "FRANKS",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T10:30:00",
+    "screenName": "Xtremescreen 04",
+    "operator": "FRA",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 421521,
+    "cinemaId": "EASTLN",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T14:30:00",
+    "screenName": "Xtremescreen 04",
+    "operator": "EAS",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 517144,
+    "cinemaId": "HIGPNT",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T10:30:00",
+    "screenName": "Xtremescreen 06",
+    "operator": "HIG",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 335751,
+    "cinemaId": "FRANKS",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T13:00:00",
+    "screenName": "Xtremescreen 04",
+    "operator": "FRA",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 335752,
+    "cinemaId": "FRANKS",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T15:30:00",
+    "screenName": "Xtremescreen 04",
+    "operator": "FRA",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 335753,
+    "cinemaId": "FRANKS",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T18:00:00",
+    "screenName": "Xtremescreen 04",
+    "operator": "FRA",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 517146,
+    "cinemaId": "HIGPNT",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T13:00:00",
+    "screenName": "Xtremescreen 06",
+    "operator": "HIG",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 517153,
+    "cinemaId": "HIGPNT",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T11:00:00",
+    "screenName": "Xtremescreen 03",
+    "operator": "HIG",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 335759,
+    "cinemaId": "FRANKS",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T16:00:00",
+    "screenName": "Xtremescreen 03",
+    "operator": "FRA",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 517154,
+    "cinemaId": "HIGPNT",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T13:30:00",
+    "screenName": "Xtremescreen 03",
+    "operator": "HIG",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 517155,
+    "cinemaId": "HIGPNT",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T16:00:00",
+    "screenName": "Xtremescreen 03",
+    "operator": "HIG",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 517150,
+    "cinemaId": "HIGPNT",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T18:00:00",
+    "screenName": "Xtremescreen 06",
+    "operator": "HIG",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 517148,
+    "cinemaId": "HIGPNT",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T15:30:00",
+    "screenName": "Xtremescreen 06",
+    "operator": "HIG",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 248579,
+    "cinemaId": "SUNBNK",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T09:30:00",
+    "screenName": "Xtremescreen 3",
+    "operator": "SUN",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 248521,
+    "cinemaId": "SUNBNK",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T09:45:00",
+    "screenName": "Xtremescreen 7",
+    "operator": "SUN",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 248581,
+    "cinemaId": "SUNBNK",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T15:00:00",
+    "screenName": "Xtremescreen 3",
+    "operator": "SUN",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 248580,
+    "cinemaId": "SUNBNK",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T12:15:00",
+    "screenName": "Xtremescreen 3",
+    "operator": "SUN",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 248582,
+    "cinemaId": "SUNBNK",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T18:00:00",
+    "screenName": "Xtremescreen 3",
+    "operator": "SUN",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 248522,
+    "cinemaId": "SUNBNK",
+    "movieId": "HO00010184",
+    "date": "2025-09-21T10:00:00",
+    "screenName": "Cinema 05",
+    "operator": "SUN",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 248524,
+    "cinemaId": "SUNBNK",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T12:15:00",
+    "screenName": "Xtremescreen 7",
+    "operator": "SUN",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 261923,
+    "cinemaId": "REDCLF",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T09:30:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "RED",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 261899,
+    "cinemaId": "REDCLF",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T12:15:00",
+    "screenName": "Xtremescreen 05",
+    "operator": "RED",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 261925,
+    "cinemaId": "REDCLF",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T15:00:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "RED",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 261898,
+    "cinemaId": "REDCLF",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T09:45:00",
+    "screenName": "Xtremescreen 05",
+    "operator": "RED",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 261926,
+    "cinemaId": "REDCLF",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T18:00:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "RED",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 261924,
+    "cinemaId": "REDCLF",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T12:15:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "RED",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 261863,
+    "cinemaId": "REDCLF",
+    "movieId": "HO00010184",
+    "date": "2025-09-21T10:00:00",
+    "screenName": "Cinema 04",
+    "operator": "RED",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 489596,
+    "cinemaId": "SHOWGR",
+    "movieId": "HO00010184",
+    "date": "2025-09-21T10:15:00",
+    "screenName": "Cinema 08",
+    "operator": "SHO",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 489583,
+    "cinemaId": "SHOWGR",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T10:30:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "SHO",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 489586,
+    "cinemaId": "SHOWGR",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T13:30:00",
+    "screenName": "Xtremescreen 03",
+    "operator": "SHO",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 489587,
+    "cinemaId": "SHOWGR",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T15:30:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "SHO",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 489585,
+    "cinemaId": "SHOWGR",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T13:00:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "SHO",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 489588,
+    "cinemaId": "SHOWGR",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T16:00:00",
+    "screenName": "Xtremescreen 03",
+    "operator": "SHO",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 489584,
+    "cinemaId": "SHOWGR",
+    "movieId": "HO00008379",
+    "date": "2025-09-21T11:00:00",
+    "screenName": "Xtremescreen 03",
+    "operator": "SHO",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 489589,
+    "cinemaId": "SHOWGR",
+    "movieId": "HO00009403",
+    "date": "2025-09-21T18:00:00",
+    "screenName": "Xtremescreen 02",
+    "operator": "SHO",
+    "error": true,
+    "error_msg": "HTTP 403"
   }
 ]
