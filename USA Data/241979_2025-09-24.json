@@ -12677,14 +12677,14 @@
     "chainCode": "CNMK",
     "showtime_id": 514148751,
     "date": "2025-09-24+18:05",
-    "format": "Cinemark XD",
+    "format": "XD",
     "language": "Telugu",
     "totalSeatSold": 86,
     "occupancy": 44.79,
     "totalAvailableSeatCount": 106,
     "totalSeatCount": 192,
-    "grossRevenueUSD": 2580,
-    "adultTicketPrice": 30
+    "grossRevenueUSD": 2580.0,
+    "adultTicketPrice": 30.0
   },
   {
     "state": "NH",
@@ -17977,11 +17977,11 @@
     "date": "2025-09-24+14:00",
     "format": "XD",
     "language": "Telugu",
-    "totalSeatSold": 173,
-    "occupancy": 60.07,
-    "totalAvailableSeatCount": 115,
+    "totalSeatSold": 174,
+    "occupancy": 60.42,
+    "totalAvailableSeatCount": 114,
     "totalSeatCount": 288,
-    "grossRevenueUSD": 5619.04,
+    "grossRevenueUSD": 5651.52,
     "adultTicketPrice": 32.48
   },
   {
@@ -25225,11 +25225,11 @@
     "date": "2025-09-24+11:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 12,
-    "occupancy": 5.06,
-    "totalAvailableSeatCount": 225,
+    "totalSeatSold": 13,
+    "occupancy": 5.49,
+    "totalAvailableSeatCount": 224,
     "totalSeatCount": 237,
-    "grossRevenueUSD": 300.0,
+    "grossRevenueUSD": 325.0,
     "adultTicketPrice": 25.0
   },
   {
