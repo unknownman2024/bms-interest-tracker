@@ -38029,7 +38029,8 @@
     "screenName": "Cinema 07",
     "operator": "CHW",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 327164,
@@ -38039,7 +38040,8 @@
     "screenName": "Cinema 03",
     "operator": "EGD",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 327163,
@@ -38049,7 +38051,8 @@
     "screenName": "Xtremescreen 05",
     "operator": "EGD",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 245287,
@@ -38059,7 +38062,8 @@
     "screenName": "Cinema 03",
     "operator": "BMW",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 245285,
@@ -38069,7 +38073,8 @@
     "screenName": "Xtremescreen 05",
     "operator": "BMW",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 245292,
@@ -38079,6 +38084,7 @@
     "screenName": "Cinema 02",
     "operator": "BMW",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   }
 ]

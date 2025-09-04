@@ -37819,7 +37819,8 @@
     "screenName": "Xtremescreen 01",
     "operator": "BMW",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 245283,
@@ -37829,6 +37830,7 @@
     "screenName": "Cinema 04",
     "operator": "BMW",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   }
 ]

@@ -37376,6 +37376,17 @@
     "screenName": "Cinema 07",
     "operator": "FRA",
     "error": true,
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
+  },
+  {
+    "id": 489611,
+    "cinemaId": "SHOWGR",
+    "movieId": "HO00008335",
+    "date": "2025-09-08T11:00:00",
+    "screenName": "Xtremescreen 01",
+    "operator": "SHO",
+    "error": true,
     "error_msg": "HTTP 403"
   }
 ]

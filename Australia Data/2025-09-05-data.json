@@ -37737,7 +37737,8 @@
     "screenName": "Xtremescreen 04",
     "operator": "EGD",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 245288,
@@ -37747,7 +37748,8 @@
     "screenName": "Cinema 07",
     "operator": "BMW",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 245290,
@@ -37757,7 +37759,8 @@
     "screenName": "Cinema 02",
     "operator": "BMW",
     "error": true,
-    "error_msg": "HTTP 403"
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
   },
   {
     "id": 274405,
@@ -37766,6 +37769,17 @@
     "date": "2025-09-05T20:00:00",
     "screenName": "Cinema 02",
     "operator": "TAY",
+    "error": true,
+    "error_msg": "HTTP 403",
+    "last_error": "HTTP 403"
+  },
+  {
+    "id": 212985,
+    "cinemaId": "FHLCIN",
+    "movieId": "HO00008335",
+    "date": "2025-09-05T21:15:00",
+    "screenName": "Cinema 01",
+    "operator": "FHL",
     "error": true,
     "error_msg": "HTTP 403"
   }

@@ -747,5 +747,15 @@
     "price": 27.0,
     "error": false,
     "last_error": "HTTP 403"
+  },
+  {
+    "id": 332442,
+    "cinemaId": "WWGCIN",
+    "movieId": "HO00010272",
+    "date": "2025-12-07T12:30:00",
+    "screenName": "Cinema 01",
+    "operator": "WWG",
+    "error": true,
+    "error_msg": "HTTP 403"
   }
 ]
