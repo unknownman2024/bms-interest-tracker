@@ -14,7 +14,8 @@
     "max_gross": 3080.0,
     "total_gross": 0.0,
     "price": 27.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 403"
   },
   {
     "id": 409119,
@@ -31,6 +32,127 @@
     "max_gross": 3744.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 403"
+  },
+  {
+    "id": 335688,
+    "cinemaId": "FRANKS",
+    "movieId": "HO00008567",
+    "date": "2025-10-11T10:15:00",
+    "screenName": "Xtremescreen 05",
+    "operator": "FRA",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 335689,
+    "cinemaId": "FRANKS",
+    "movieId": "HO00008567",
+    "date": "2025-10-11T13:00:00",
+    "screenName": "Xtremescreen 05",
+    "operator": "FRA",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 335690,
+    "cinemaId": "FRANKS",
+    "movieId": "HO00008567",
+    "date": "2025-10-11T15:45:00",
+    "screenName": "Xtremescreen 05",
+    "operator": "FRA",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 335692,
+    "cinemaId": "FRANKS",
+    "movieId": "HO00008567",
+    "date": "2025-10-11T18:30:00",
+    "screenName": "Xtremescreen 05",
+    "operator": "FRA",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 335691,
+    "cinemaId": "FRANKS",
+    "movieId": "HO00008567",
+    "date": "2025-10-11T18:00:00",
+    "screenName": "DBOX 08",
+    "operator": "FRA",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 335694,
+    "cinemaId": "FRANKS",
+    "movieId": "HO00008567",
+    "date": "2025-10-11T21:15:00",
+    "screenName": "Xtremescreen 05",
+    "operator": "FRA",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 248476,
+    "cinemaId": "SUNBNK",
+    "movieId": "HO00008567",
+    "date": "2025-10-11T10:15:00",
+    "screenName": "Xtremescreen 7",
+    "operator": "SUN",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 248480,
+    "cinemaId": "SUNBNK",
+    "movieId": "HO00008567",
+    "date": "2025-10-11T18:30:00",
+    "screenName": "Xtremescreen 7",
+    "operator": "SUN",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 248478,
+    "cinemaId": "SUNBNK",
+    "movieId": "HO00008567",
+    "date": "2025-10-11T15:45:00",
+    "screenName": "Xtremescreen 7",
+    "operator": "SUN",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 248479,
+    "cinemaId": "SUNBNK",
+    "movieId": "HO00008567",
+    "date": "2025-10-11T18:00:00",
+    "screenName": "DBOX 06",
+    "operator": "SUN",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 248477,
+    "cinemaId": "SUNBNK",
+    "movieId": "HO00008567",
+    "date": "2025-10-11T13:00:00",
+    "screenName": "Xtremescreen 7",
+    "operator": "SUN",
+    "error": true,
+    "error_msg": "HTTP 403"
+  },
+  {
+    "id": 248482,
+    "cinemaId": "SUNBNK",
+    "movieId": "HO00008567",
+    "date": "2025-10-11T21:15:00",
+    "screenName": "Xtremescreen 7",
+    "operator": "SUN",
+    "error": true,
+    "error_msg": "HTTP 403"
   }
 ]

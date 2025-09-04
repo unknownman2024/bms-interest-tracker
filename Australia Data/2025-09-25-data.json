@@ -14,7 +14,8 @@
     "max_gross": 3120.0,
     "total_gross": 234.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 403"
   },
   {
     "id": 497611,
@@ -31,7 +32,8 @@
     "max_gross": 3840.0,
     "total_gross": 1248.0,
     "price": 24.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 403"
   },
   {
     "id": 407446,
@@ -48,7 +50,8 @@
     "max_gross": 3744.0,
     "total_gross": 78.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 403"
   },
   {
     "id": 361464,
@@ -65,7 +68,8 @@
     "max_gross": 2340.0,
     "total_gross": 312.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 403"
   },
   {
     "id": 292263,
@@ -82,7 +86,8 @@
     "max_gross": 4940.0,
     "total_gross": 364.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 403"
   },
   {
     "id": 376372,
@@ -99,7 +104,8 @@
     "max_gross": 3840.0,
     "total_gross": 408.0,
     "price": 24.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 403"
   },
   {
     "id": 281273,
@@ -116,7 +122,8 @@
     "max_gross": 4536.0,
     "total_gross": 120.0,
     "price": 24.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 403"
   },
   {
     "id": 434830,
@@ -133,7 +140,8 @@
     "max_gross": 3080.0,
     "total_gross": 0.0,
     "price": 27.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 403"
   },
   {
     "id": 434840,
@@ -150,7 +158,8 @@
     "max_gross": 3272.5,
     "total_gross": 110.0,
     "price": 27.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 403"
   },
   {
     "id": 370802,
@@ -167,7 +176,8 @@
     "max_gross": 3952.0,
     "total_gross": 1924.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 403"
   },
   {
     "id": 344120,
@@ -184,7 +194,8 @@
     "max_gross": 2448.0,
     "total_gross": 739.5,
     "price": 25.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 403"
   },
   {
     "id": 310353,
@@ -202,7 +213,7 @@
     "total_gross": 884.0,
     "price": 26.0,
     "error": false,
-    "last_error": "HTTP 500"
+    "last_error": "HTTP 403"
   },
   {
     "id": 371947,
@@ -219,6 +230,7 @@
     "max_gross": 3952.0,
     "total_gross": 78.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 403"
   }
 ]
