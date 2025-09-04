@@ -82,12 +82,12 @@
   {
     "sessions": 70,
     "venues": 11,
-    "sold": 112,
-    "available": 21203,
+    "sold": 116,
+    "available": 21199,
     "total": 21315,
-    "gross": 2587.0,
+    "gross": 2709.0,
     "max_gross": 537348.5,
-    "occupancy": 0.53,
+    "occupancy": 0.54,
     "name": "The Bad Guys 2",
     "summary": "The Bad Guys are struggling to find trust and acceptance in their newly minted lives as Good Guys, when they are pulled out of retirement and forced to do 'one last job'.",
     "duration": 104,
@@ -226,12 +226,12 @@
   {
     "sessions": 4,
     "venues": 3,
-    "sold": 13,
-    "available": 854,
+    "sold": 17,
+    "available": 850,
     "total": 867,
-    "gross": 340.0,
+    "gross": 442.0,
     "max_gross": 21707.0,
-    "occupancy": 1.5,
+    "occupancy": 1.96,
     "id": "HO00007182"
   },
   {
