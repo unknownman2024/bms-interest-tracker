@@ -1,0 +1,24 @@
+[
+  {
+    "sessions": 19,
+    "venues": 2,
+    "sold": 0,
+    "available": 9169,
+    "total": 9169,
+    "gross": 0.0,
+    "max_gross": 263688.0,
+    "occupancy": 0.0,
+    "id": "HO00007330"
+  },
+  {
+    "sessions": 2,
+    "venues": 1,
+    "sold": 0,
+    "available": 795,
+    "total": 795,
+    "gross": 0.0,
+    "max_gross": 22554.0,
+    "occupancy": 0.0,
+    "id": "HO00008138"
+  }
+]
