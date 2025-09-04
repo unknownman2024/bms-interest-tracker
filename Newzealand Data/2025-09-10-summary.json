@@ -106,7 +106,7 @@
     "occupancy": 0.0,
     "name": "Madharaasi (Tamil, Eng Sub)",
     "summary": "Madharasi is an upcoming Indian Tamil-language action thriller film written and directed by AR Murugadoss.",
-    "duration": 167,
+    "duration": 177,
     "releaseDate": "2025-09-05T00:00:00",
     "posterImage": "mx/posters/nz/madharaasi-532ca4f0.jpg",
     "id": "HO00008124"
@@ -379,13 +379,13 @@
     "id": "HO00007443"
   },
   {
-    "sessions": 8,
+    "sessions": 9,
     "venues": 7,
     "sold": 0,
-    "available": 1476,
-    "total": 1476,
+    "available": 1596,
+    "total": 1596,
     "gross": 0.0,
-    "max_gross": 29977.0,
+    "max_gross": 32857.0,
     "occupancy": 0.0,
     "name": "Mr Burton",
     "summary": "Set in post-war Wales, MR BURTON is the extraordinary true story of a working-class boy destined for greatness and the teacher who saw it first.",

@@ -76,11 +76,11 @@
     "screenName": "Cinema 2",
     "operator": "BOT",
     "total": 172,
-    "sold": 2,
-    "available": 170,
-    "occupancy": 1.16,
+    "sold": 4,
+    "available": 168,
+    "occupancy": 2.33,
     "max_gross": 4816.0,
-    "total_gross": 56.0,
+    "total_gross": 112.0,
     "price": 28.0,
     "error": false
   },
@@ -2768,8 +2768,7 @@
     "max_gross": 5278.5,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 468803,
@@ -6475,6 +6474,23 @@
     "max_gross": 5292.0,
     "total_gross": 0.0,
     "price": 24.5,
+    "error": false
+  },
+  {
+    "id": 177271,
+    "cinemaId": "1013",
+    "movieId": "HO00007889",
+    "date": "2025-09-08T10:10:00",
+    "typeId": "STANDARD",
+    "screenName": "Cinema 3",
+    "operator": "MIS",
+    "total": 120,
+    "sold": 0,
+    "available": 120,
+    "occupancy": 0.0,
+    "max_gross": 2880.0,
+    "total_gross": 0.0,
+    "price": 24.0,
     "error": false
   }
 ]
