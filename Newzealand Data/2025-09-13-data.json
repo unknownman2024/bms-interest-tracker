@@ -450,11 +450,11 @@
     "screenName": "Cinema 2",
     "operator": "SYL",
     "total": 726,
-    "sold": 12,
-    "available": 714,
-    "occupancy": 1.65,
+    "sold": 18,
+    "available": 708,
+    "occupancy": 2.48,
     "max_gross": 19602.0,
-    "total_gross": 324.0,
+    "total_gross": 486.0,
     "price": 27.0,
     "error": false
   },
@@ -1579,6 +1579,23 @@
     "max_gross": 14036.0,
     "total_gross": 0.0,
     "price": 29.0,
+    "error": false
+  },
+  {
+    "id": 276396,
+    "cinemaId": "1004",
+    "movieId": "HO00007811",
+    "date": "2025-09-13T19:15:00",
+    "typeId": "STANDARD",
+    "screenName": "Cinema 5",
+    "operator": "NTH",
+    "total": 108,
+    "sold": 0,
+    "available": 108,
+    "occupancy": 0.0,
+    "max_gross": 2214.0,
+    "total_gross": 0.0,
+    "price": 20.5,
     "error": false
   }
 ]

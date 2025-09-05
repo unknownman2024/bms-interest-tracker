@@ -1,13 +1,13 @@
 [
   {
-    "sessions": 29,
+    "sessions": 31,
     "venues": 11,
     "sold": 1034,
-    "available": 7202,
-    "total": 8236,
+    "available": 7428,
+    "total": 8462,
     "gross": 28540.5,
-    "max_gross": 229390.0,
-    "occupancy": 12.55,
+    "max_gross": 234023.0,
+    "occupancy": 12.22,
     "name": "Demon Slayer: Kimetsu no Yaiba- Infinity Castle (Japanese, Eng Sub)",
     "summary": "The Demon Slayer Corps plunge into Infinity Castle to defeat Muzan. However, the remaining Hashiras and the Demon Slayers who survived Tanjiro's Final Selection...",
     "duration": 155,

@@ -713,5 +713,39 @@
     "total_gross": 0.0,
     "price": 16.0,
     "error": false
+  },
+  {
+    "id": 276241,
+    "cinemaId": "1004",
+    "movieId": "HO00007811",
+    "date": "2025-09-11T19:15:00",
+    "typeId": "STANDARD",
+    "screenName": "Cinema 5",
+    "operator": "NTH",
+    "total": 108,
+    "sold": 0,
+    "available": 108,
+    "occupancy": 0.0,
+    "max_gross": 2214.0,
+    "total_gross": 0.0,
+    "price": 20.5,
+    "error": false
+  },
+  {
+    "id": 276240,
+    "cinemaId": "1004",
+    "movieId": "HO00007811",
+    "date": "2025-09-11T14:45:00",
+    "typeId": "STANDARD",
+    "screenName": "Cinema 3",
+    "operator": "NTH",
+    "total": 118,
+    "sold": 0,
+    "available": 118,
+    "occupancy": 0.0,
+    "max_gross": 2419.0,
+    "total_gross": 0.0,
+    "price": 20.5,
+    "error": false
   }
 ]

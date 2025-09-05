@@ -1767,5 +1767,22 @@
     "total_gross": 0.0,
     "price": 23.0,
     "error": false
+  },
+  {
+    "id": 276435,
+    "cinemaId": "1004",
+    "movieId": "HO00007811",
+    "date": "2025-09-14T19:15:00",
+    "typeId": "STANDARD",
+    "screenName": "Cinema 5",
+    "operator": "NTH",
+    "total": 108,
+    "sold": 0,
+    "available": 108,
+    "occupancy": 0.0,
+    "max_gross": 2214.0,
+    "total_gross": 0.0,
+    "price": 20.5,
+    "error": false
   }
 ]
