@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-06 12:50:36 AM",
+  "last_updated": "2025-09-06 01:56:23 AM",
   "errors": [
     {
       "state": "NH",
@@ -134,6 +134,36 @@
       "language": "Tamil",
       "error": {
         "status": 400
+      }
+    },
+    {
+      "state": "CT",
+      "city": "Milford",
+      "zip": "06460",
+      "theater_name": "Cinemark Connecticut Post 14 and IMAX",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 515164138,
+      "date": "2025-09-05+14:20",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 404
+      }
+    },
+    {
+      "state": "OH",
+      "city": "West Carrollton",
+      "zip": "45449",
+      "theater_name": "Cinemark Dayton South 16 and XD",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 515161764,
+      "date": "2025-09-05+14:55",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 404
       }
     }
   ]
