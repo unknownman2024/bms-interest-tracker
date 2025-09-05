@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-06 01:56:23 AM",
+  "last_updated": "2025-09-06 03:51:57 AM",
   "errors": [
     {
       "state": "NH",
@@ -160,6 +160,51 @@
       "chainCode": "CNMK",
       "showtime_id": 515161764,
       "date": "2025-09-05+14:55",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 404
+      }
+    },
+    {
+      "state": "TX",
+      "city": "College Station",
+      "zip": "77845",
+      "theater_name": "Cinemark College Station and XD",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 515160889,
+      "date": "2025-09-05+15:05",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 404
+      }
+    },
+    {
+      "state": "NV",
+      "city": "Las Vegas",
+      "zip": "89103",
+      "theater_name": "Cinemark Century Orleans 18 and XD",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 515170997,
+      "date": "2025-09-05+14:15",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 404
+      }
+    },
+    {
+      "state": "CA",
+      "city": "Fremont",
+      "zip": "94538",
+      "theater_name": "Cinemark Century at Pacific Commons and XD",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 515170934,
+      "date": "2025-09-05+14:30",
       "format": "Standard",
       "language": "Tamil",
       "error": {
