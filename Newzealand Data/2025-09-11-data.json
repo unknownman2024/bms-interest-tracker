@@ -8,11 +8,11 @@
     "screenName": "Xtremescreen 01",
     "operator": "ORM",
     "total": 286,
-    "sold": 80,
-    "available": 206,
-    "occupancy": 27.97,
+    "sold": 83,
+    "available": 203,
+    "occupancy": 29.02,
     "max_gross": 9295.0,
-    "total_gross": 2600.0,
+    "total_gross": 2697.5,
     "price": 32.5,
     "error": false
   },
@@ -99,7 +99,8 @@
     "max_gross": 3192.0,
     "total_gross": 1232.0,
     "price": 28.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 467586,
@@ -144,11 +145,11 @@
     "screenName": "Xtremescreen 04",
     "operator": "CHC",
     "total": 372,
-    "sold": 25,
-    "available": 347,
-    "occupancy": 6.72,
+    "sold": 29,
+    "available": 343,
+    "occupancy": 7.8,
     "max_gross": 9300.0,
-    "total_gross": 625.0,
+    "total_gross": 725.0,
     "price": 25.0,
     "error": false
   },
@@ -218,7 +219,8 @@
     "max_gross": 2419.0,
     "total_gross": 1127.5,
     "price": 20.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 67294,
@@ -229,11 +231,11 @@
     "screenName": "Xtremescreen 01",
     "operator": "ORM",
     "total": 286,
-    "sold": 72,
-    "available": 214,
-    "occupancy": 25.17,
+    "sold": 75,
+    "available": 211,
+    "occupancy": 26.22,
     "max_gross": 9295.0,
-    "total_gross": 2340.0,
+    "total_gross": 2437.5,
     "price": 32.5,
     "error": false
   },
@@ -280,11 +282,11 @@
     "screenName": "XTREMESCREEN",
     "operator": "SYL",
     "total": 1075,
-    "sold": 14,
-    "available": 1061,
-    "occupancy": 1.3,
+    "sold": 19,
+    "available": 1056,
+    "occupancy": 1.77,
     "max_gross": 34400.0,
-    "total_gross": 448.0,
+    "total_gross": 608.0,
     "price": 32.0,
     "error": false
   },
@@ -371,7 +373,8 @@
     "max_gross": 2214.0,
     "total_gross": 123.0,
     "price": 20.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 176652,
@@ -621,11 +624,11 @@
     "screenName": "Xtremescreen 5",
     "operator": "RIC",
     "total": 780,
-    "sold": 104,
-    "available": 676,
-    "occupancy": 13.33,
+    "sold": 106,
+    "available": 674,
+    "occupancy": 13.59,
     "max_gross": 17940.0,
-    "total_gross": 2392.0,
+    "total_gross": 2438.0,
     "price": 23.0,
     "error": false
   }

@@ -178,11 +178,11 @@
     "screenName": "Xtremescreen 01",
     "operator": "ORM",
     "total": 286,
-    "sold": 18,
-    "available": 268,
-    "occupancy": 6.29,
+    "sold": 20,
+    "available": 266,
+    "occupancy": 6.99,
     "max_gross": 9295.0,
-    "total_gross": 585.0,
+    "total_gross": 650.0,
     "price": 32.5,
     "error": false
   },
@@ -337,7 +337,8 @@
     "max_gross": 1377.0,
     "total_gross": 486.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 327261,
@@ -603,11 +604,11 @@
     "screenName": "HOYTS LUX 12",
     "operator": "SYLDS",
     "total": 69,
-    "sold": 0,
-    "available": 69,
-    "occupancy": 0.0,
+    "sold": 2,
+    "available": 67,
+    "occupancy": 2.9,
     "max_gross": 1863.0,
-    "total_gross": 0.0,
+    "total_gross": 54.0,
     "price": 27.0,
     "error": false
   },
@@ -688,11 +689,11 @@
     "screenName": "HOYTS LUX 11",
     "operator": "SYLDS",
     "total": 96,
-    "sold": 15,
-    "available": 81,
-    "occupancy": 15.62,
+    "sold": 18,
+    "available": 78,
+    "occupancy": 18.75,
     "max_gross": 2592.0,
-    "total_gross": 405.0,
+    "total_gross": 486.0,
     "price": 27.0,
     "error": false
   },
@@ -1017,7 +1018,8 @@
     "max_gross": 1944.0,
     "total_gross": 216.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 399514,

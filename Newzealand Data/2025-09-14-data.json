@@ -133,7 +133,8 @@
     "max_gross": 3192.0,
     "total_gross": 364.0,
     "price": 28.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 68214,
@@ -218,7 +219,8 @@
     "max_gross": 7128.0,
     "total_gross": 27.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 468577,
@@ -263,11 +265,11 @@
     "screenName": "Cinema 4",
     "operator": "WPK",
     "total": 114,
-    "sold": 14,
-    "available": 100,
-    "occupancy": 12.28,
+    "sold": 16,
+    "available": 98,
+    "occupancy": 14.04,
     "max_gross": 3192.0,
-    "total_gross": 392.0,
+    "total_gross": 448.0,
     "price": 28.0,
     "error": false
   },
@@ -541,7 +543,8 @@
     "max_gross": 5346.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 468581,
@@ -773,11 +776,11 @@
     "screenName": "Cinema 3",
     "operator": "NTH",
     "total": 118,
-    "sold": 10,
-    "available": 108,
-    "occupancy": 8.47,
+    "sold": 11,
+    "available": 107,
+    "occupancy": 9.32,
     "max_gross": 2419.0,
-    "total_gross": 205.0,
+    "total_gross": 225.5,
     "price": 20.5,
     "error": false
   },
@@ -1136,7 +1139,8 @@
     "max_gross": 3780.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 399508,

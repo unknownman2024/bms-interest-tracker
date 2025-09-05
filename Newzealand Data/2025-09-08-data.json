@@ -382,11 +382,11 @@
     "screenName": "Xtremescreen 01",
     "operator": "CHC",
     "total": 384,
-    "sold": 14,
-    "available": 370,
-    "occupancy": 3.65,
+    "sold": 16,
+    "available": 368,
+    "occupancy": 4.17,
     "max_gross": 9600.0,
-    "total_gross": 350.0,
+    "total_gross": 400.0,
     "price": 25.0,
     "error": false
   },
@@ -773,11 +773,11 @@
     "screenName": "Xtremescreen 1",
     "operator": "BOT",
     "total": 312,
-    "sold": 0,
-    "available": 312,
-    "occupancy": 0.0,
+    "sold": 1,
+    "available": 311,
+    "occupancy": 0.32,
     "max_gross": 9516.0,
-    "total_gross": 0.0,
+    "total_gross": 30.5,
     "price": 30.5,
     "error": false
   },
@@ -966,7 +966,8 @@
     "max_gross": 1029.0,
     "total_gross": 0.0,
     "price": 24.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 177117,
@@ -1374,7 +1375,8 @@
     "max_gross": 1029.0,
     "total_gross": 0.0,
     "price": 24.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 168959,
@@ -1510,7 +1512,8 @@
     "max_gross": 4389.0,
     "total_gross": 0.0,
     "price": 21.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 177159,
@@ -1544,7 +1547,8 @@
     "max_gross": 4389.0,
     "total_gross": 0.0,
     "price": 21.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 168962,
@@ -1901,7 +1905,8 @@
     "max_gross": 2646.0,
     "total_gross": 0.0,
     "price": 21.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 168980,
@@ -2643,11 +2648,11 @@
     "screenName": "XTREMESCREEN 7",
     "operator": "RIC",
     "total": 512,
-    "sold": 2,
-    "available": 510,
-    "occupancy": 0.39,
+    "sold": 0,
+    "available": 512,
+    "occupancy": 0.0,
     "max_gross": 10752.0,
-    "total_gross": 42.0,
+    "total_gross": 0.0,
     "price": 21.0,
     "error": false
   },
@@ -3493,11 +3498,11 @@
     "screenName": "Cinema 2",
     "operator": "RIC",
     "total": 200,
-    "sold": 0,
-    "available": 200,
-    "occupancy": 0.0,
+    "sold": 3,
+    "available": 197,
+    "occupancy": 1.5,
     "max_gross": 3700.0,
-    "total_gross": 0.0,
+    "total_gross": 55.5,
     "price": 18.5,
     "error": false
   },
@@ -5516,11 +5521,11 @@
     "screenName": "Cinema 06",
     "operator": "ORM",
     "total": 98,
-    "sold": 8,
-    "available": 90,
-    "occupancy": 8.16,
+    "sold": 14,
+    "available": 84,
+    "occupancy": 14.29,
     "max_gross": 2548.0,
-    "total_gross": 208.0,
+    "total_gross": 364.0,
     "price": 26.0,
     "error": false
   },
@@ -5805,11 +5810,11 @@
     "screenName": "Cinema 05",
     "operator": "CHC",
     "total": 120,
-    "sold": 0,
-    "available": 120,
-    "occupancy": 0.0,
+    "sold": 2,
+    "available": 118,
+    "occupancy": 1.67,
     "max_gross": 2220.0,
-    "total_gross": 0.0,
+    "total_gross": 37.0,
     "price": 18.5,
     "error": false
   },

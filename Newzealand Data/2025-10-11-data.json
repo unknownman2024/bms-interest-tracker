@@ -626,7 +626,8 @@
     "max_gross": 17940.0,
     "total_gross": 0.0,
     "price": 23.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 68201,
@@ -779,7 +780,8 @@
     "max_gross": 2419.0,
     "total_gross": 0.0,
     "price": 20.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 79480,
@@ -892,11 +894,11 @@
     "screenName": "Cinema 3",
     "operator": "NTH",
     "total": 118,
-    "sold": 0,
-    "available": 118,
-    "occupancy": 0.0,
+    "sold": 3,
+    "available": 115,
+    "occupancy": 2.54,
     "max_gross": 2419.0,
-    "total_gross": 0.0,
+    "total_gross": 61.5,
     "price": 20.5,
     "error": false
   },
@@ -1068,7 +1070,8 @@
     "max_gross": 3640.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 177171,
@@ -1102,7 +1105,8 @@
     "max_gross": 3640.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 177172,
@@ -1136,6 +1140,7 @@
     "max_gross": 3640.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   }
 ]
