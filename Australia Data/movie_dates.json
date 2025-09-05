@@ -82,7 +82,8 @@
     "dates": [
       "2025-09-06",
       "2025-09-07",
-      "2025-09-05"
+      "2025-09-05",
+      "2025-09-11"
     ],
     "releaseDate": "2025-09-11T00:00:00"
   },
@@ -195,7 +196,10 @@
       "2025-09-14",
       "2025-09-13",
       "2025-09-25",
-      "2025-09-21"
+      "2025-09-21",
+      "2025-09-18",
+      "2025-09-19",
+      "2025-09-20"
     ],
     "releaseDate": "2025-09-18T00:00:00"
   },
@@ -669,7 +673,11 @@
     "poster": "mx/posters/au/kangaroo-poster-incinemassept18.jpg",
     "dates": [
       "2025-09-07",
-      "2025-09-23"
+      "2025-09-23",
+      "2025-09-21",
+      "2025-09-18",
+      "2025-09-19",
+      "2025-09-20"
     ],
     "releaseDate": "2025-09-18T00:00:00"
   },
@@ -823,7 +831,10 @@
       "2025-09-14",
       "2025-09-11",
       "2025-09-12",
-      "2025-09-13"
+      "2025-09-13",
+      "2025-09-17",
+      "2025-09-15",
+      "2025-09-16"
     ],
     "releaseDate": "2025-09-11T00:00:00"
   },
@@ -1078,5 +1089,86 @@
       "2025-09-26"
     ],
     "releaseDate": "2025-09-26T00:00:00"
+  },
+  "HO00010690": {
+    "name": "Dude Perfect: The Hero Tour",
+    "poster": "mx/posters/au/the-hero-tour-movie-poster-portrait-vertical.jpg",
+    "releaseDate": "2025-09-26T00:00:00",
+    "dates": [
+      "2025-09-26",
+      "2025-09-28",
+      "2025-09-27"
+    ]
+  },
+  "HO00010666": {
+    "name": "Mirai (Telugu, Eng Sub)",
+    "poster": "mx/posters/au/mirai-3d4dd90d.jpg",
+    "releaseDate": "2025-09-12T00:00:00",
+    "dates": [
+      "2025-09-13",
+      "2025-09-14",
+      "2025-09-12"
+    ]
+  },
+  "HO00010537": {
+    "name": "Leaving Mom (Vietnamese, Eng Sub)",
+    "poster": "mx/posters/au/leaving-mom-39b71840.jpg",
+    "releaseDate": "2025-09-11T00:00:00",
+    "dates": [
+      "2025-09-13",
+      "2025-09-14",
+      "2025-09-12",
+      "2025-09-11"
+    ]
+  },
+  "HO00008334": {
+    "name": "One Battle After Another",
+    "poster": "mx/posters/au/one-battle-after-another-695b273d.jpg",
+    "releaseDate": "2025-09-25T00:00:00",
+    "dates": [
+      "2025-09-24"
+    ]
+  },
+  "HO00008567": {
+    "name": "Tron: Ares",
+    "poster": "mx/posters/au/tron-ares-128b9bc8.jpg",
+    "releaseDate": "2025-10-09T00:00:00",
+    "dates": [
+      "2025-10-09",
+      "2025-10-10",
+      "2025-10-11",
+      "2025-10-12"
+    ]
+  },
+  "HO00010694": {
+    "name": "-",
+    "poster": null,
+    "releaseDate": null,
+    "dates": [
+      "2025-10-09",
+      "2025-10-10",
+      "2025-10-11",
+      "2025-10-12"
+    ]
+  },
+  "HO00008379": {
+    "name": "Gabby's Dollhouse: The Movie",
+    "poster": "mx/posters/au/gdh-intl-one-sheet-teaser-aus-digital-stdres.jpg",
+    "releaseDate": "2025-09-20T00:00:00",
+    "dates": [
+      "2025-09-21",
+      "2025-09-18",
+      "2025-09-19",
+      "2025-09-20"
+    ]
+  },
+  "HO00010692": {
+    "name": "LFF: Nohad Al Chami: A Sign Of Faith",
+    "poster": "mx/posters/au/nouhadelchamiasignoffaithposter.jpg",
+    "releaseDate": "2025-10-15T00:00:00",
+    "dates": [
+      "2025-10-16",
+      "2025-10-15"
+    ]
   }
 }
