@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-05 12:52:43 PM",
+  "last_updated": "2025-09-05 02:02:27 PM",
   "errors": [
     {
       "state": "NH",
@@ -29,51 +29,6 @@
       "language": "Tamil",
       "error": {
         "status": 500
-      }
-    },
-    {
-      "state": "NJ",
-      "city": "Secaucus",
-      "zip": "07094",
-      "theater_name": "Regal Secaucus ShowPlace 14",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514943718,
-      "date": "2025-09-05+21:40",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": ""
-      }
-    },
-    {
-      "state": "NJ",
-      "city": "Secaucus",
-      "zip": "07094",
-      "theater_name": "Regal Secaucus ShowPlace 14",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514943720,
-      "date": "2025-09-05+13:30",
-      "format": "Standard",
-      "language": "Tamil",
-      "error": {
-        "exception": ""
-      }
-    },
-    {
-      "state": "NJ",
-      "city": "Secaucus",
-      "zip": "07094",
-      "theater_name": "Regal Secaucus ShowPlace 14",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514943719,
-      "date": "2025-09-05+17:30",
-      "format": "Standard",
-      "language": "Tamil",
-      "error": {
-        "exception": ""
       }
     },
     {
@@ -119,21 +74,6 @@
       "language": "Tamil",
       "error": {
         "status": 400
-      }
-    },
-    {
-      "state": "CA",
-      "city": "Milpitas",
-      "zip": "95035",
-      "theater_name": "Cinemark Century Great Mall 20 XD and ScreenX",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 514821158,
-      "date": "2025-09-05+23:20",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "status": 403
       }
     },
     {
