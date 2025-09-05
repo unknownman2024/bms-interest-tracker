@@ -518,11 +518,11 @@
     "screenName": "XTREMESCREEN",
     "operator": "SYL",
     "total": 1075,
-    "sold": 6,
-    "available": 1069,
-    "occupancy": 0.56,
+    "sold": 8,
+    "available": 1067,
+    "occupancy": 0.74,
     "max_gross": 34400.0,
-    "total_gross": 192.0,
+    "total_gross": 256.0,
     "price": 32.0,
     "error": false
   },
@@ -1374,7 +1374,8 @@
     "max_gross": 5184.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 194688,
@@ -1494,7 +1495,8 @@
     "max_gross": 21060.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 316028,
@@ -1522,11 +1524,11 @@
     "screenName": "Xtremescreen 5",
     "operator": "RIC",
     "total": 780,
-    "sold": 27,
-    "available": 753,
-    "occupancy": 3.46,
+    "sold": 31,
+    "available": 749,
+    "occupancy": 3.97,
     "max_gross": 17940.0,
-    "total_gross": 621.0,
+    "total_gross": 713.0,
     "price": 23.0,
     "error": false
   },
