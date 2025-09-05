@@ -195,11 +195,11 @@
     "screenName": "Xtremescreen 1",
     "operator": "BOT",
     "total": 312,
-    "sold": 2,
-    "available": 310,
-    "occupancy": 0.64,
+    "sold": 4,
+    "available": 308,
+    "occupancy": 1.28,
     "max_gross": 8424.0,
-    "total_gross": 54.0,
+    "total_gross": 108.0,
     "price": 27.0,
     "error": false
   },
@@ -337,6 +337,7 @@
     "max_gross": 13824.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 410"
   }
 ]
