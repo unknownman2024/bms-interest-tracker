@@ -1,21 +1,6 @@
 {
-  "last_updated": "2025-09-05 09:29:58 PM",
+  "last_updated": "2025-09-05 10:01:11 PM",
   "errors": [
-    {
-      "state": "KY",
-      "city": "Louisville",
-      "zip": "40241",
-      "theater_name": "Cinemark Tinseltown Louisville and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 515097137,
-      "date": "2025-09-11+17:15",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "status": 403
-      }
-    },
     {
       "state": "IL",
       "city": "Schaumburg",
@@ -29,21 +14,6 @@
       "language": "Telugu",
       "error": {
         "status": 404
-      }
-    },
-    {
-      "state": "TX",
-      "city": "Grapevine",
-      "zip": "76051",
-      "theater_name": "Cinemark Tinseltown Grapevine and XD",
-      "chainName": "Cinemark Theatres",
-      "chainCode": "CNMK",
-      "showtime_id": 515113344,
-      "date": "2025-09-11+20:00",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "status": 403
       }
     }
   ]
