@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-05 10:50:38 PM",
+  "last_updated": "2025-09-06 12:00:53 AM",
   "errors": [
     {
       "state": "NH",
@@ -119,6 +119,36 @@
       "language": "Tamil",
       "error": {
         "status": 404
+      }
+    },
+    {
+      "state": "OH",
+      "city": "Valley View",
+      "zip": "44125",
+      "theater_name": "Cinemark Valley View and XD",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 515151571,
+      "date": "2025-09-05+22:00",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 404
+      }
+    },
+    {
+      "state": "IA",
+      "city": "Ames",
+      "zip": "50010",
+      "theater_name": "Cinemark Ames Movies 12",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 515152408,
+      "date": "2025-09-05+15:15",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 400
       }
     }
   ]
