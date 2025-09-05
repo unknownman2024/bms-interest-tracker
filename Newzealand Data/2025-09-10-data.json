@@ -6595,5 +6595,39 @@
     "total_gross": 0.0,
     "price": 26.0,
     "error": false
+  },
+  {
+    "id": 400354,
+    "cinemaId": "1012",
+    "movieId": "HO00007385",
+    "date": "2025-09-10T14:00:00",
+    "typeId": "STANDARD",
+    "screenName": "Cinema 7",
+    "operator": "BOT",
+    "total": 162,
+    "sold": 0,
+    "available": 162,
+    "occupancy": 0.0,
+    "max_gross": 4212.0,
+    "total_gross": 0.0,
+    "price": 26.0,
+    "error": false
+  },
+  {
+    "id": 400355,
+    "cinemaId": "1012",
+    "movieId": "HO00007179",
+    "date": "2025-09-10T17:30:00",
+    "typeId": "STANDARD",
+    "screenName": "Cinema 7",
+    "operator": "BOT",
+    "total": 162,
+    "sold": 0,
+    "available": 162,
+    "occupancy": 0.0,
+    "max_gross": 4212.0,
+    "total_gross": 0.0,
+    "price": 26.0,
+    "error": false
   }
 ]

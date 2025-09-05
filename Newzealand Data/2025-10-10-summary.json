@@ -2,12 +2,12 @@
   {
     "sessions": 52,
     "venues": 9,
-    "sold": 0,
-    "available": 18659,
+    "sold": 2,
+    "available": 18657,
     "total": 18659,
-    "gross": 0.0,
+    "gross": 54.0,
     "max_gross": 526300.0,
-    "occupancy": 0.0,
+    "occupancy": 0.01,
     "id": "HO00007330"
   },
   {

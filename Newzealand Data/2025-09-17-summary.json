@@ -30,5 +30,21 @@
     "releaseDate": "2025-09-17T00:00:00",
     "posterImage": "mx/posters/nz/david-gilmour-live-at-the-circus-maximus-rome-2065aa36.jpg",
     "id": "HO00008061"
+  },
+  {
+    "sessions": 3,
+    "venues": 1,
+    "sold": 0,
+    "available": 759,
+    "total": 759,
+    "gross": 0.0,
+    "max_gross": 17457.0,
+    "occupancy": 0.0,
+    "name": "Demon Slayer: Kimetsu no Yaiba- Infinity Castle (Japanese, Eng Sub)",
+    "summary": "The Demon Slayer Corps plunge into Infinity Castle to defeat Muzan. However, the remaining Hashiras and the Demon Slayers who survived Tanjiro's Final Selection...",
+    "duration": 155,
+    "releaseDate": "2025-09-11T00:00:00",
+    "posterImage": "mx/posters/nz/demon-slayer-kimetsu-no-yaiba-infinity-castle-subbed-e944bd48.jpg",
+    "id": "HO00007811"
   }
 ]

@@ -48,13 +48,13 @@
     "id": "HO00007279"
   },
   {
-    "sessions": 25,
+    "sessions": 26,
     "venues": 11,
     "sold": 0,
-    "available": 4888,
-    "total": 4888,
+    "available": 5050,
+    "total": 5050,
     "gross": 0.0,
-    "max_gross": 110899.0,
+    "max_gross": 115111.0,
     "occupancy": 0.0,
     "name": "Weapons",
     "summary": "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
@@ -393,5 +393,21 @@
     "releaseDate": "2025-08-14T00:00:00",
     "posterImage": "mx/posters/nz/mr-burton-bd19890e.jpg",
     "id": "HO00007889"
+  },
+  {
+    "sessions": 1,
+    "venues": 1,
+    "sold": 0,
+    "available": 162,
+    "total": 162,
+    "gross": 0.0,
+    "max_gross": 4212.0,
+    "occupancy": 0.0,
+    "name": "How to Train Your Dragon",
+    "summary": "A young Viking who aspires to hunt dragons unexpectedly becomes a friend of a young dragon.",
+    "duration": 125,
+    "releaseDate": "2025-06-12T00:00:00",
+    "posterImage": "mx/posters/au/httyd-exhibition-onesheet-icd-2.jpg",
+    "id": "HO00007179"
   }
 ]

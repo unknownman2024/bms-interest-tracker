@@ -1,0 +1,53 @@
+[
+  {
+    "id": 169352,
+    "cinemaId": "HAMCIN",
+    "movieId": "HO00007811",
+    "date": "2025-09-16T18:00:00",
+    "typeId": "STANDARD",
+    "screenName": "METRO 6",
+    "operator": "HAM",
+    "total": 42,
+    "sold": 0,
+    "available": 42,
+    "occupancy": 0.0,
+    "max_gross": 1113.0,
+    "total_gross": 0.0,
+    "price": 26.5,
+    "error": false
+  },
+  {
+    "id": 169345,
+    "cinemaId": "HAMCIN",
+    "movieId": "HO00007811",
+    "date": "2025-09-16T14:45:00",
+    "typeId": "STANDARD",
+    "screenName": "METRO 6",
+    "operator": "HAM",
+    "total": 42,
+    "sold": 0,
+    "available": 42,
+    "occupancy": 0.0,
+    "max_gross": 1113.0,
+    "total_gross": 0.0,
+    "price": 26.5,
+    "error": false
+  },
+  {
+    "id": 169338,
+    "cinemaId": "HAMCIN",
+    "movieId": "HO00007811",
+    "date": "2025-09-16T11:30:00",
+    "typeId": "STANDARD",
+    "screenName": "METRO 6",
+    "operator": "HAM",
+    "total": 42,
+    "sold": 0,
+    "available": 42,
+    "occupancy": 0.0,
+    "max_gross": 1113.0,
+    "total_gross": 0.0,
+    "price": 26.5,
+    "error": false
+  }
+]
