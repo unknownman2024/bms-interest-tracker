@@ -640,11 +640,11 @@
     "date": "2025-09-05+16:55",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 2,
-    "occupancy": 6.45,
-    "totalAvailableSeatCount": 29,
+    "totalSeatSold": 4,
+    "occupancy": 12.9,
+    "totalAvailableSeatCount": 27,
     "totalSeatCount": 31,
-    "grossRevenueUSD": 32.0,
+    "grossRevenueUSD": 64.0,
     "adultTicketPrice": 16.0
   },
   {
@@ -1015,11 +1015,11 @@
     "date": "2025-09-05+14:50",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 4,
-    "occupancy": 1.71,
-    "totalAvailableSeatCount": 230,
+    "totalSeatSold": 3,
+    "occupancy": 1.28,
+    "totalAvailableSeatCount": 231,
     "totalSeatCount": 234,
-    "grossRevenueUSD": 64.0,
+    "grossRevenueUSD": 48.0,
     "adultTicketPrice": 16.0
   },
   {
@@ -1033,11 +1033,11 @@
     "date": "2025-09-05+18:25",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 25,
-    "occupancy": 10.96,
-    "totalAvailableSeatCount": 203,
+    "totalSeatSold": 26,
+    "occupancy": 11.4,
+    "totalAvailableSeatCount": 202,
     "totalSeatCount": 228,
-    "grossRevenueUSD": 400.0,
+    "grossRevenueUSD": 416.0,
     "adultTicketPrice": 16.0
   },
   {
@@ -2137,11 +2137,11 @@
     "date": "2025-09-05+18:20",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 1,
-    "occupancy": 0.59,
-    "totalAvailableSeatCount": 169,
+    "totalSeatSold": 2,
+    "occupancy": 1.18,
+    "totalAvailableSeatCount": 168,
     "totalSeatCount": 170,
-    "grossRevenueUSD": 8.99,
+    "grossRevenueUSD": 17.98,
     "adultTicketPrice": 8.99
   },
   {
@@ -2155,9 +2155,12 @@
     "date": "2025-09-05+21:50",
     "format": "Standard",
     "language": "Telugu",
-    "error": {
-      "exception": ""
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 170,
+    "totalSeatCount": 170,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 8.99
   },
   {
     "state": "MI",
@@ -3949,5 +3952,23 @@
     "error": {
       "status": 400
     }
+  },
+  {
+    "state": "ND",
+    "city": "Fargo",
+    "zip": "58103",
+    "theater_name": "Marcus West Acres Cinema",
+    "chainName": "Marcus Theatres",
+    "chainCode": "MRCS",
+    "showtime_id": 514521366,
+    "date": "2025-09-05+18:10",
+    "format": "Standard",
+    "language": "Telugu",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 92,
+    "totalSeatCount": 92,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 16.16
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-05 01:46:00 PM",
+  "last_updated": "2025-09-05 02:44:01 PM",
   "errors": [
     {
       "state": "PA",
@@ -74,21 +74,6 @@
       "language": "Telugu",
       "error": {
         "status": 400
-      }
-    },
-    {
-      "state": "MI",
-      "city": "Sterling Heights",
-      "zip": "48314",
-      "theater_name": "AMC Forum 30",
-      "chainName": "AMC",
-      "chainCode": "AMC",
-      "showtime_id": 512515772,
-      "date": "2025-09-05+21:50",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": ""
       }
     },
     {
