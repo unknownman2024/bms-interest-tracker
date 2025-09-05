@@ -1374,8 +1374,7 @@
     "max_gross": 5184.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 194688,
@@ -1495,8 +1494,7 @@
     "max_gross": 21060.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 316028,
@@ -1524,11 +1522,11 @@
     "screenName": "Xtremescreen 5",
     "operator": "RIC",
     "total": 780,
-    "sold": 31,
-    "available": 749,
-    "occupancy": 3.97,
+    "sold": 32,
+    "available": 748,
+    "occupancy": 4.1,
     "max_gross": 17940.0,
-    "total_gross": 713.0,
+    "total_gross": 736.0,
     "price": 23.0,
     "error": false
   },

@@ -2445,8 +2445,7 @@
     "max_gross": 2560.0,
     "total_gross": 0.0,
     "price": 16.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 194808,
@@ -4061,8 +4060,7 @@
     "max_gross": 2548.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 327600,
@@ -4725,8 +4723,7 @@
     "max_gross": 3724.0,
     "total_gross": 0.0,
     "price": 28.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 327628,
@@ -5270,8 +5267,7 @@
     "max_gross": 8723.0,
     "total_gross": 0.0,
     "price": 30.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 358953,
@@ -5441,8 +5437,7 @@
     "max_gross": 9295.0,
     "total_gross": 0.0,
     "price": 32.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 358958,
@@ -5521,14 +5516,13 @@
     "screenName": "Cinema 06",
     "operator": "ORM",
     "total": 98,
-    "sold": 14,
-    "available": 84,
-    "occupancy": 14.29,
+    "sold": 16,
+    "available": 82,
+    "occupancy": 16.33,
     "max_gross": 2548.0,
-    "total_gross": 364.0,
+    "total_gross": 416.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 359059,
