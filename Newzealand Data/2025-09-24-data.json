@@ -1120,5 +1120,22 @@
     "total_gross": 0.0,
     "price": 24.0,
     "error": false
+  },
+  {
+    "id": 177268,
+    "cinemaId": "1013",
+    "movieId": "HO00007793",
+    "date": "2025-09-24T09:40:00",
+    "typeId": "STANDARD",
+    "screenName": "Cinema 2",
+    "operator": "MIS",
+    "total": 140,
+    "sold": 0,
+    "available": 140,
+    "occupancy": 0.0,
+    "max_gross": 3360.0,
+    "total_gross": 0.0,
+    "price": 24.0,
+    "error": false
   }
 ]

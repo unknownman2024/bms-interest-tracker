@@ -5029,8 +5029,7 @@
     "max_gross": 2912.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 502"
+    "error": false
   },
   {
     "id": 358949,
@@ -5126,11 +5125,11 @@
     "screenName": "Xtremescreen 07",
     "operator": "ORM",
     "total": 176,
-    "sold": 2,
-    "available": 174,
-    "occupancy": 1.14,
+    "sold": 4,
+    "available": 172,
+    "occupancy": 2.27,
     "max_gross": 5368.0,
-    "total_gross": 61.0,
+    "total_gross": 122.0,
     "price": 30.5,
     "error": false
   },
