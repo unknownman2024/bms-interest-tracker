@@ -2851,11 +2851,11 @@
     "date": "2025-09-04+22:15",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 8,
-    "occupancy": 6.11,
-    "totalAvailableSeatCount": 123,
+    "totalSeatSold": 10,
+    "occupancy": 7.63,
+    "totalAvailableSeatCount": 121,
     "totalSeatCount": 131,
-    "grossRevenueUSD": 128.0,
+    "grossRevenueUSD": 160.0,
     "adultTicketPrice": 16.0
   },
   {
@@ -3661,5 +3661,20 @@
     "totalSeatCount": 68,
     "grossRevenueUSD": 27.0,
     "adultTicketPrice": 13.5
+  },
+  {
+    "state": "NC",
+    "city": "Greensboro",
+    "zip": "27408",
+    "theater_name": "Red Cinemas",
+    "chainName": "RTSIND",
+    "chainCode": "RTSIND",
+    "showtime_id": 515092532,
+    "date": "2025-09-04+20:00",
+    "format": "Standard",
+    "language": "Telugu",
+    "error": {
+      "status": 403
+    }
   }
 ]
