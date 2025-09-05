@@ -6526,11 +6526,11 @@
     "date": "2025-09-05+09:40",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 1,
-    "occupancy": 0.85,
-    "totalAvailableSeatCount": 117,
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 118,
     "totalSeatCount": 118,
-    "grossRevenueUSD": 11.99,
+    "grossRevenueUSD": 0.0,
     "adultTicketPrice": 11.99
   },
   {
