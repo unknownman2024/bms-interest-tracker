@@ -23,14 +23,13 @@ TARGET_MOVIE_ID = 241979
 # 240770 for war2
 # CODE BY BFILMY - DONT REMOVE
 
-# Eastern Time (EST/EDT, automatic daylight savings adjust)
-now_est = datetime.now(ZoneInfo("America/New_York")).date()
+now_pst = datetime.now(ZoneInfo("America/Los_Angeles")).date()
 # Logic for DATE
-if now_est < RELEASE_DATE:
+if now_pst < RELEASE_DATE:
     DATE = RELEASE_DATE.strftime("%Y-%m-%d")
 else:
-    DATE = now_est.strftime("%Y-%m-%d")
-print(f"🎬 Using DATE = {DATE} ({now_est_dt.tzname()})")
+    DATE = now_pst.strftime("%Y-%m-%d")
+print(f"🎬 Using DATE = {DATE} (PST)")
 
 MAX_WORKERS = 4  # For showtime fetching multiprocessing
 CONCURRENCY = 5  # For async seat fetching concurrency
