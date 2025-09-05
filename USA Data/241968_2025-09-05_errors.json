@@ -1,0 +1,170 @@
+{
+  "last_updated": "2025-09-05 12:52:43 PM",
+  "errors": [
+    {
+      "state": "NH",
+      "city": "Salem",
+      "zip": "03079",
+      "theater_name": "Cinemark Rockingham Park and XD",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 514675446,
+      "date": "2025-09-05+17:25",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "NJ",
+      "city": "Elizabeth",
+      "zip": "07201",
+      "theater_name": "AMC Jersey Gardens 20",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 514298917,
+      "date": "2025-09-05+17:45",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "NJ",
+      "city": "Secaucus",
+      "zip": "07094",
+      "theater_name": "Regal Secaucus ShowPlace 14",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514943718,
+      "date": "2025-09-05+21:40",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "exception": ""
+      }
+    },
+    {
+      "state": "NJ",
+      "city": "Secaucus",
+      "zip": "07094",
+      "theater_name": "Regal Secaucus ShowPlace 14",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514943720,
+      "date": "2025-09-05+13:30",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "exception": ""
+      }
+    },
+    {
+      "state": "NJ",
+      "city": "Secaucus",
+      "zip": "07094",
+      "theater_name": "Regal Secaucus ShowPlace 14",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514943719,
+      "date": "2025-09-05+17:30",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "exception": ""
+      }
+    },
+    {
+      "state": "NY",
+      "city": "Bellmore",
+      "zip": "11710",
+      "theater_name": "Bellmore Playhouse",
+      "chainName": "Veezi Theaters",
+      "chainCode": "VZ",
+      "showtime_id": 514423089,
+      "date": "2025-09-05+21:00",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 400
+      }
+    },
+    {
+      "state": "FL",
+      "city": "Jacksonville",
+      "zip": "32256",
+      "theater_name": "Regal Avenues 4DX & RPX",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514999925,
+      "date": "2025-09-05+16:00",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 404
+      }
+    },
+    {
+      "state": "FL",
+      "city": "Tampa",
+      "zip": "33647",
+      "theater_name": "AMC Highwoods 20",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 514494429,
+      "date": "2025-09-05+19:15",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 400
+      }
+    },
+    {
+      "state": "CA",
+      "city": "Milpitas",
+      "zip": "95035",
+      "theater_name": "Cinemark Century Great Mall 20 XD and ScreenX",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 514821158,
+      "date": "2025-09-05+23:20",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "status": 403
+      }
+    },
+    {
+      "state": "CA",
+      "city": "Santa Clara",
+      "zip": "95054",
+      "theater_name": "AMC Mercado 20",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 514867923,
+      "date": "2025-09-05+14:45",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "CA",
+      "city": "Sunnyvale",
+      "zip": "94086",
+      "theater_name": "AMC Sunnyvale 12",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 0,
+      "date": "2025-09-05+16:45",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 404
+      }
+    }
+  ]
+}
