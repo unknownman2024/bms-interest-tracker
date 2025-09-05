@@ -48,8 +48,7 @@
     "max_gross": 34400.0,
     "total_gross": 1120.0,
     "price": 32.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 358774,
@@ -179,11 +178,11 @@
     "screenName": "Xtremescreen 01",
     "operator": "ORM",
     "total": 286,
-    "sold": 20,
-    "available": 266,
-    "occupancy": 6.99,
+    "sold": 22,
+    "available": 264,
+    "occupancy": 7.69,
     "max_gross": 9295.0,
-    "total_gross": 650.0,
+    "total_gross": 715.0,
     "price": 32.5,
     "error": false
   },
@@ -400,11 +399,11 @@
     "screenName": "Xtremescreen 04",
     "operator": "CHC",
     "total": 372,
-    "sold": 100,
-    "available": 272,
-    "occupancy": 26.88,
+    "sold": 102,
+    "available": 270,
+    "occupancy": 27.42,
     "max_gross": 9300.0,
-    "total_gross": 2500.0,
+    "total_gross": 2550.0,
     "price": 25.0,
     "error": false
   },
