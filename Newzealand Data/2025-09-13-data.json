@@ -48,7 +48,8 @@
     "max_gross": 34400.0,
     "total_gross": 1120.0,
     "price": 32.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 358774,
@@ -1284,11 +1285,11 @@
     "screenName": "Cinema 6",
     "operator": "RIC",
     "total": 476,
-    "sold": 26,
-    "available": 450,
-    "occupancy": 5.46,
+    "sold": 24,
+    "available": 452,
+    "occupancy": 5.04,
     "max_gross": 8806.0,
-    "total_gross": 481.0,
+    "total_gross": 444.0,
     "price": 18.5,
     "error": false
   },
@@ -1460,7 +1461,6 @@
     "max_gross": 7722.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   }
 ]

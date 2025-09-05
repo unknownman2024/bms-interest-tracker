@@ -133,8 +133,7 @@
     "max_gross": 4389.0,
     "total_gross": 0.0,
     "price": 21.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 168924,
@@ -457,8 +456,7 @@
     "max_gross": 3360.0,
     "total_gross": 0.0,
     "price": 21.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 399120,
@@ -560,8 +558,7 @@
     "max_gross": 2646.0,
     "total_gross": 189.0,
     "price": 21.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 168514,
@@ -878,11 +875,11 @@
     "screenName": "METRO 2",
     "operator": "HAM",
     "total": 126,
-    "sold": 0,
-    "available": 126,
-    "occupancy": 0.0,
+    "sold": 5,
+    "available": 121,
+    "occupancy": 3.97,
     "max_gross": 2646.0,
-    "total_gross": 0.0,
+    "total_gross": 105.0,
     "price": 21.0,
     "error": false
   },
@@ -1139,8 +1136,7 @@
     "max_gross": 2880.0,
     "total_gross": 0.0,
     "price": 24.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 177042,
@@ -1429,8 +1425,7 @@
     "max_gross": 2646.0,
     "total_gross": 0.0,
     "price": 21.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 468664,
@@ -4235,8 +4230,7 @@
     "max_gross": 1976.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 327555,
@@ -5743,11 +5737,11 @@
     "screenName": "HOYTS LUX 11",
     "operator": "TERLP",
     "total": 48,
-    "sold": 2,
-    "available": 46,
-    "occupancy": 4.17,
+    "sold": 4,
+    "available": 44,
+    "occupancy": 8.33,
     "max_gross": 1296.0,
-    "total_gross": 54.0,
+    "total_gross": 108.0,
     "price": 27.0,
     "error": false
   },

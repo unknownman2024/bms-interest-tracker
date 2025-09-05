@@ -114,12 +114,12 @@
   {
     "sessions": 33,
     "venues": 11,
-    "sold": 12,
-    "available": 4046,
+    "sold": 14,
+    "available": 4044,
     "total": 4058,
-    "gross": 271.5,
+    "gross": 325.5,
     "max_gross": 91924.0,
-    "occupancy": 0.3,
+    "occupancy": 0.34,
     "name": "Fight or Flight",
     "summary": "A mercenary takes on the job of tracking down a target on a plane but must protect her when they're surrounded by people trying to kill both of them.",
     "duration": 102,
@@ -226,12 +226,12 @@
   {
     "sessions": 4,
     "venues": 3,
-    "sold": 17,
-    "available": 850,
+    "sold": 22,
+    "available": 845,
     "total": 867,
-    "gross": 442.0,
+    "gross": 547.0,
     "max_gross": 21707.0,
-    "occupancy": 1.96,
+    "occupancy": 2.54,
     "id": "HO00007182"
   },
   {
