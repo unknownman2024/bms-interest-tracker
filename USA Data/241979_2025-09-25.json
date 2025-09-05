@@ -2380,11 +2380,11 @@
     "date": "2025-09-25+20:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 24,
-    "occupancy": 26.67,
-    "totalAvailableSeatCount": 66,
+    "totalSeatSold": 22,
+    "occupancy": 24.44,
+    "totalAvailableSeatCount": 68,
     "totalSeatCount": 90,
-    "grossRevenueUSD": 514.8,
+    "grossRevenueUSD": 471.9,
     "adultTicketPrice": 21.45
   },
   {
@@ -2416,11 +2416,11 @@
     "date": "2025-09-25+18:15",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 11,
-    "occupancy": 13.41,
-    "totalAvailableSeatCount": 71,
+    "totalSeatSold": 13,
+    "occupancy": 15.85,
+    "totalAvailableSeatCount": 69,
     "totalSeatCount": 82,
-    "grossRevenueUSD": 235.95,
+    "grossRevenueUSD": 278.85,
     "adultTicketPrice": 21.45
   },
   {
@@ -2722,12 +2722,12 @@
     "date": "2025-09-25+15:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 272,
+    "totalSeatSold": 1,
+    "occupancy": 0.37,
+    "totalAvailableSeatCount": 271,
     "totalSeatCount": 272,
-    "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 16.87
+    "grossRevenueUSD": 21.78,
+    "adultTicketPrice": 21.78
   },
   {
     "state": "GA",
@@ -2744,8 +2744,8 @@
     "occupancy": 0.74,
     "totalAvailableSeatCount": 270,
     "totalSeatCount": 272,
-    "grossRevenueUSD": 33.74,
-    "adultTicketPrice": 16.87
+    "grossRevenueUSD": 43.56,
+    "adultTicketPrice": 21.78
   },
   {
     "state": "GA",
@@ -3205,7 +3205,7 @@
     "chainName": "Regal",
     "chainCode": "REGL",
     "showtime_id": 513834519,
-    "date": "2025-09-25+19:50",
+    "date": "2025-09-25+19:55",
     "format": "Standard",
     "language": "Telugu",
     "totalSeatSold": 5,
@@ -4918,11 +4918,11 @@
     "date": "2025-09-25+11:00",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 8,
-    "occupancy": 6.67,
-    "totalAvailableSeatCount": 112,
+    "totalSeatSold": 4,
+    "occupancy": 3.33,
+    "totalAvailableSeatCount": 116,
     "totalSeatCount": 120,
-    "grossRevenueUSD": 216.48,
+    "grossRevenueUSD": 108.24,
     "adultTicketPrice": 27.06
   },
   {
@@ -7926,7 +7926,7 @@
     "totalAvailableSeatCount": 98,
     "totalSeatCount": 98,
     "grossRevenueUSD": 0.0,
-    "adultTicketPrice": 10.28
+    "adultTicketPrice": 27.06
   },
   {
     "state": "TX",
@@ -7943,8 +7943,8 @@
     "occupancy": 35.71,
     "totalAvailableSeatCount": 63,
     "totalSeatCount": 98,
-    "grossRevenueUSD": 359.8,
-    "adultTicketPrice": 10.28
+    "grossRevenueUSD": 947.1,
+    "adultTicketPrice": 27.06
   },
   {
     "state": "NJ",
@@ -8371,5 +8371,41 @@
     "error": {
       "status": 500
     }
+  },
+  {
+    "state": "AZ",
+    "city": "Chandler",
+    "zip": "85286",
+    "theater_name": "Harkins Chandler Crossroads Towne Center 12",
+    "chainName": "Harkins Theatres",
+    "chainCode": "HRKN",
+    "showtime_id": 515171565,
+    "date": "2025-09-25+16:15",
+    "format": "Standard",
+    "language": "Telugu",
+    "totalSeatSold": 6,
+    "occupancy": 1.42,
+    "totalAvailableSeatCount": 416,
+    "totalSeatCount": 422,
+    "grossRevenueUSD": 120.0,
+    "adultTicketPrice": 20.0
+  },
+  {
+    "state": "AZ",
+    "city": "Chandler",
+    "zip": "85286",
+    "theater_name": "Harkins Chandler Crossroads Towne Center 12",
+    "chainName": "Harkins Theatres",
+    "chainCode": "HRKN",
+    "showtime_id": 515171566,
+    "date": "2025-09-25+19:00",
+    "format": "Standard",
+    "language": "Telugu",
+    "totalSeatSold": 6,
+    "occupancy": 1.42,
+    "totalAvailableSeatCount": 416,
+    "totalSeatCount": 422,
+    "grossRevenueUSD": 120.0,
+    "adultTicketPrice": 20.0
   }
 ]
