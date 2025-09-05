@@ -30,7 +30,7 @@ if now_est < RELEASE_DATE:
     DATE = RELEASE_DATE.strftime("%Y-%m-%d")
 else:
     DATE = now_est.strftime("%Y-%m-%d")
-print(f"🎬 Using DATE = {DATE} (EST)")
+print(f"🎬 Using DATE = {DATE} ({now_est_dt.tzname()})")
 
 MAX_WORKERS = 4  # For showtime fetching multiprocessing
 CONCURRENCY = 5  # For async seat fetching concurrency
