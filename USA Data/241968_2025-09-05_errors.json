@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-05 09:58:43 PM",
+  "last_updated": "2025-09-05 10:50:38 PM",
   "errors": [
     {
       "state": "NH",
@@ -100,6 +100,21 @@
       "chainCode": "AMC",
       "showtime_id": 0,
       "date": "2025-09-05+16:45",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 404
+      }
+    },
+    {
+      "state": "TX",
+      "city": "Lewisville",
+      "zip": "75067",
+      "theater_name": "Cinemark Lewisville and XD",
+      "chainName": "Cinemark Theatres",
+      "chainCode": "CNMK",
+      "showtime_id": 515148260,
+      "date": "2025-09-05+23:05",
       "format": "Standard",
       "language": "Tamil",
       "error": {
