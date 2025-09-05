@@ -99,8 +99,7 @@
     "max_gross": 3192.0,
     "total_gross": 1232.0,
     "price": 28.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 467586,
@@ -145,11 +144,11 @@
     "screenName": "Xtremescreen 04",
     "operator": "CHC",
     "total": 372,
-    "sold": 29,
-    "available": 343,
-    "occupancy": 7.8,
+    "sold": 25,
+    "available": 347,
+    "occupancy": 6.72,
     "max_gross": 9300.0,
-    "total_gross": 725.0,
+    "total_gross": 625.0,
     "price": 25.0,
     "error": false
   },
@@ -168,7 +167,8 @@
     "max_gross": 15125.0,
     "total_gross": 467.5,
     "price": 27.5,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 67296,
@@ -185,7 +185,8 @@
     "max_gross": 3724.0,
     "total_gross": 420.0,
     "price": 28.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 326131,
@@ -219,8 +220,7 @@
     "max_gross": 2419.0,
     "total_gross": 1127.5,
     "price": 20.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 67294,
@@ -288,7 +288,8 @@
     "max_gross": 34400.0,
     "total_gross": 608.0,
     "price": 32.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 79804,
@@ -373,8 +374,7 @@
     "max_gross": 2214.0,
     "total_gross": 123.0,
     "price": 20.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 176652,
@@ -419,11 +419,11 @@
     "screenName": "Cinema 4",
     "operator": "BOT",
     "total": 128,
-    "sold": 5,
-    "available": 123,
-    "occupancy": 3.91,
+    "sold": 7,
+    "available": 121,
+    "occupancy": 5.47,
     "max_gross": 3584.0,
-    "total_gross": 140.0,
+    "total_gross": 196.0,
     "price": 28.0,
     "error": false
   },
@@ -573,11 +573,11 @@
     "screenName": "Cinema 1",
     "operator": "HIB",
     "total": 126,
-    "sold": 19,
-    "available": 107,
-    "occupancy": 15.08,
+    "sold": 21,
+    "available": 105,
+    "occupancy": 16.67,
     "max_gross": 2016.0,
-    "total_gross": 304.0,
+    "total_gross": 336.0,
     "price": 16.0,
     "error": false
   },

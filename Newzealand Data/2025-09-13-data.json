@@ -337,8 +337,7 @@
     "max_gross": 1377.0,
     "total_gross": 486.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 327261,
@@ -1018,8 +1017,7 @@
     "max_gross": 1944.0,
     "total_gross": 216.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 399514,
@@ -1286,11 +1284,11 @@
     "screenName": "Cinema 6",
     "operator": "RIC",
     "total": 476,
-    "sold": 24,
-    "available": 452,
-    "occupancy": 5.04,
+    "sold": 26,
+    "available": 450,
+    "occupancy": 5.46,
     "max_gross": 8806.0,
-    "total_gross": 444.0,
+    "total_gross": 481.0,
     "price": 18.5,
     "error": false
   },
@@ -1337,11 +1335,11 @@
     "screenName": "Xtremescreen 5",
     "operator": "RIC",
     "total": 780,
-    "sold": 66,
-    "available": 714,
-    "occupancy": 8.46,
+    "sold": 67,
+    "available": 713,
+    "occupancy": 8.59,
     "max_gross": 17940.0,
-    "total_gross": 1518.0,
+    "total_gross": 1541.0,
     "price": 23.0,
     "error": false
   },
@@ -1462,6 +1460,7 @@
     "max_gross": 7722.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   }
 ]
