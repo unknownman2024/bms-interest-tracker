@@ -1,13 +1,13 @@
 [
   {
-    "sessions": 16,
+    "sessions": 17,
     "venues": 11,
     "sold": 84,
-    "available": 3991,
-    "total": 4075,
+    "available": 4467,
+    "total": 4551,
     "gross": 2268.0,
-    "max_gross": 110025.0,
-    "occupancy": 2.06,
+    "max_gross": 122877.0,
+    "occupancy": 1.85,
     "name": "A Big Bold Beautiful Journey",
     "summary": "An imaginative tale of two strangers and the unbelievable journey that connects them.",
     "duration": 120,
