@@ -407,5 +407,39 @@
     "total_gross": 0.0,
     "price": 27.0,
     "error": false
+  },
+  {
+    "id": 79959,
+    "cinemaId": "CHCCIN",
+    "movieId": "HO00007811",
+    "date": "2025-09-17T15:45:00",
+    "typeId": "XTREME",
+    "screenName": "Xtremescreen 04",
+    "operator": "CHC",
+    "total": 372,
+    "sold": 0,
+    "available": 372,
+    "occupancy": 0.0,
+    "max_gross": 9300.0,
+    "total_gross": 0.0,
+    "price": 25.0,
+    "error": false
+  },
+  {
+    "id": 79954,
+    "cinemaId": "CHCCIN",
+    "movieId": "HO00007811",
+    "date": "2025-09-17T20:30:00",
+    "typeId": "STANDARD",
+    "screenName": "Cinema 03",
+    "operator": "CHC",
+    "total": 98,
+    "sold": 0,
+    "available": 98,
+    "occupancy": 0.0,
+    "max_gross": 2009.0,
+    "total_gross": 0.0,
+    "price": 20.5,
+    "error": false
   }
 ]

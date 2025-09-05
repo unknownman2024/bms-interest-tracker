@@ -2918,9 +2918,9 @@
     "sold": 0,
     "available": 128,
     "occupancy": 0.0,
-    "max_gross": 3328.0,
+    "max_gross": 3456.0,
     "total_gross": 0.0,
-    "price": 26.0,
+    "price": 27.0,
     "error": false
   },
   {
@@ -5806,11 +5806,11 @@
     "screenName": "Cinema 1",
     "operator": "WPK",
     "total": 76,
-    "sold": 0,
-    "available": 76,
-    "occupancy": 0.0,
+    "sold": 25,
+    "available": 51,
+    "occupancy": 32.89,
     "max_gross": 1976.0,
-    "total_gross": 0.0,
+    "total_gross": 650.0,
     "price": 26.0,
     "error": false
   },
