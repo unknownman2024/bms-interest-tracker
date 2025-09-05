@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-05 04:42:16 PM",
+  "last_updated": "2025-09-05 05:50:40 PM",
   "errors": [
     {
       "state": "PA",
@@ -119,6 +119,21 @@
       "language": "Telugu",
       "error": {
         "status": 400
+      }
+    },
+    {
+      "state": "MD",
+      "city": "Columbia",
+      "zip": "21044",
+      "theater_name": "AMC Columbia 14",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 0,
+      "date": "2025-09-05+18:45",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "status": 404
       }
     }
   ]
