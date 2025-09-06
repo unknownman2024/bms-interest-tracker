@@ -1,107 +1,143 @@
-import time
-import json
-import random
+import cloudscraper
 import requests
-from playwright.sync_api import sync_playwright
+import json
+from collections import defaultdict
 
-# Region codes
-REGION_CODES = ["HYD", "NCR", "BANG", "KOCH", "MUMBAI", "AHD", "CHEN", "KOLK", "PUNE", "CHD"]
+def fetch_city_data(city_slug):
+    scraper = cloudscraper.create_scraper()
 
-# API constants
-TOKEN = "1F201EC3D23C41E8B2E3"
-APP_VERSION = "7.3.6"
+    homepage_url = f"https://in.bookmyshow.com/explore/home/{city_slug}"
+    print(f"[*] Accessing BookMyShow homepage for {city_slug}...")
+    homepage_response = scraper.get(homepage_url)
+    if homepage_response.status_code != 200:
+        print(f"[!] Failed to access homepage for {city_slug}")
+        return None
 
-def get_headers_from_playwright(region_code):
-    """Launch Playwright to get cookies + user-agent for a region."""
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
-        url = f"https://in.bookmyshow.com/explore/movies-{region_code.lower()}"
-        page.goto(url, timeout=60000)  # wait up to 60s
-        time.sleep(random.uniform(2, 4))  # allow JS to run
+    json_url = "https://in.bookmyshow.com/serv/getData?cmd=QUICKBOOK&type=MT"
+    print(f"[*] Fetching movie JSON data for {city_slug}...")
+    json_response = scraper.get(json_url)
+    if json_response.status_code != 200:
+        print(f"[!] Failed to get JSON for {city_slug}")
+        return None
 
-        cookies = page.context.cookies()
-        cookie_header = "; ".join(f"{c['name']}={c['value']}" for c in cookies)
-        user_agent = page.evaluate("() => navigator.userAgent")
-        browser.close()
+    try:
+        return json.loads(json_response.text)
+    except:
+        print(f"[!] Invalid JSON for {city_slug}")
+        return None
 
-    headers = {
-        "User-Agent": user_agent,
-        "Cookie": cookie_header,
-        "Accept": "application/json, text/plain, */*",
-        "Referer": url,
-    }
-    return headers
+def extract_movies(data):
+    result = {}
+    movies = data['moviesData']['BookMyShow']['arrEvents']
 
-def fetch_region_data(region_code):
-    """Fetch movie JSON for a region using requests + Playwright session."""
-    headers = get_headers_from_playwright(region_code)
-    bms_id = f"1.{random.randint(0, 100000000)}.{int(time.time() * 1000)}"
+    for movie in movies:
+        title = movie.get('EventTitle')
+        child_events = movie.get('ChildEvents', [])
+        if not child_events:
+            continue
 
-    url = (
-        f"https://in.bookmyshow.com/api/mobile/movies?"
-        f"regionCode={region_code}&bmsId={bms_id}&isSuperStar=N&channel=mobile"
-        f"&appCode=WEBV2&platform=mobile&enableSA=Y&enablePE=Y"
-        f"&token={TOKEN}&appVersion={APP_VERSION}&deviceToken={TOKEN}"
-    )
+        first_variant = child_events[0]
+        main_poster = f"https://in.bmscdn.com/events/moviecard/{first_variant.get('EventImageCode')}.jpg"
+        main_genres = first_variant.get("Genre", [])
+        main_rating = first_variant.get("EventCensor")
+        main_duration = first_variant.get("Duration")
+        main_event_date = first_variant.get("EventDate")
+        main_is_new = first_variant.get("isNewEvent")
 
-    response = requests.get(url, headers=headers)
-    print(f"📡 [{region_code}] Status: {response.status_code}")
-    if response.status_code == 200:
-        return response.json()
-    else:
-        print(f"⚠️ Failed to fetch region {region_code}, response preview:")
-        print(response.text[:500])
-        return {}
+        if title not in result:
+            result[title] = {
+                "Title": title,
+                "Poster": main_poster,
+                "Genres": main_genres,
+                "Rating": main_rating,
+                "Duration": main_duration,
+                "EventDate": main_event_date,
+                "isNewEvent": main_is_new,
+                "Variants": []
+            }
 
-def main():
-    all_data = []
-    for code in REGION_CODES:
-        time.sleep(random.uniform(2, 5))  # avoid triggering bot detection
-        data = fetch_region_data(code)
-        if data:
-            all_data.append(data)
+        existing_event_codes = {v["EventCode"] for v in result[title]["Variants"]}
 
-    # Aggregate movie info
-    movie_map = {}
-    for region_data in all_data:
-        events = region_data.get("nowShowing", {}).get("arrEvents", [])
-        for event in events:
-            group_key = event.get("EventTitle", "").rsplit("(", 1)[0].strip()
-            if not group_key or not event.get("ChildEvents"):
-                continue
-            base = event["ChildEvents"][0]
-
-            if group_key not in movie_map:
-                movie_map[group_key] = {
-                    "title": group_key,
-                    "releaseDate": base.get("EventDate"),
-                    "genres": base.get("EventGenre", "").split("|"),
-                    "censor": base.get("EventCensor"),
-                    "duration": base.get("Duration"),
-                    "isNewEvent": base.get("isNewEvent"),
-                    "synopsis": base.get("EventSynopsis"),
-                    "rating": event.get("ratings", {}).get("userRating", 0),
-                    "avgRating": event.get("ratings", {}).get("avgRating", 0),
-                    "totalVotes": event.get("ratings", {}).get("totalVotes", 0),
-                    "bmsInterests": event.get("ratings", {}).get("wtsCount", 0),
-                    "imageURL": f"https://in.bmscdn.com/events/moviecard/{base.get('EventImageCode')}.jpg",
-                    "languages": {}
+        for variant in child_events:
+            code = variant.get("EventCode")
+            if code not in existing_event_codes:
+                variant_info = {
+                    "VariantName": variant.get("EventName"),
+                    "EventCode": code,
+                    "Language": variant.get("EventLanguage"),
+                    "Format": variant.get("EventDimension")
                 }
+                result[title]["Variants"].append(variant_info)
 
-            movie_entry = movie_map[group_key]
-            for version in event.get("ChildEvents", []):
-                lang = version.get("EventLanguage")
-                if lang and lang not in movie_entry["languages"]:
-                    movie_entry["languages"][lang] = {
-                        "eventCode": version.get("EventCode"),
-                        "trailer": version.get("EventTrailerURL"),
-                        "eventURL": f"https://in.bookmyshow.com/movies/{version.get('EventURL')}"
-                    }
+    return result
 
-    with open("moviesdata.json", "w", encoding="utf-8") as f:
-        json.dump(list(movie_map.values()), f, indent=2, ensure_ascii=False)
-    print(f"✅ Saved {len(movie_map)} movies to moviesdata.json")
+def merge_paytm_data(all_movies_dict):
+    print("[*] Fetching Paytm movie data...")
+    url = "https://paytmmovies.text2024mail.workers.dev/"
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+        paytm_data = response.json()
+    except Exception as e:
+        print(f"[!] Failed to fetch Paytm data: {e}")
+        return
+
+    for entry in paytm_data:
+        paytm_title = entry["movie"].strip().lower()
+        # Skip if required fields are missing
+        required_fields = ["movie", "movieCode", "id", "language"]
+        if not all(field in entry for field in required_fields):
+            continue
+
+        variant_info = {
+            "movieCode": entry["movieCode"],
+            "id": entry["id"],
+            "language": entry["language"]
+        }
+
+        for bms_title in all_movies_dict:
+            if bms_title.strip().lower() == paytm_title:
+                if "PaytmVariants" not in all_movies_dict[bms_title]:
+                    all_movies_dict[bms_title]["PaytmVariants"] = []
+
+                existing = all_movies_dict[bms_title]["PaytmVariants"]
+                if not any(v["movieCode"] == variant_info["movieCode"] for v in existing):
+                    all_movies_dict[bms_title]["PaytmVariants"].append(variant_info)
+
+    print("[*] Paytm variants merged where matched.")
+
+def load_city_slugs(filename="cities.json"):
+    with open(filename, "r", encoding="utf-8") as f:
+        cities = json.load(f)
+    return [city["RegionSlug"] for city in cities]
 
 if __name__ == "__main__":
-    main()
+    all_movies = {}
+    city_slugs = load_city_slugs()
+
+    for city_slug in city_slugs:
+        data = fetch_city_data(city_slug)
+        if not data:
+            continue
+
+        city_movies = extract_movies(data)
+        for title, movie_info in city_movies.items():
+            if title not in all_movies:
+                all_movies[title] = movie_info
+            else:
+                # merge unique variants
+                existing_codes = {v["EventCode"] for v in all_movies[title]["Variants"]}
+                for v in movie_info["Variants"]:
+                    if v["EventCode"] not in existing_codes:
+                        all_movies[title]["Variants"].append(v)
+
+    # Merge Paytm movie variants
+    merge_paytm_data(all_movies)
+
+    # Final output
+    final_list = list(all_movies.values())
+
+    with open("moviesdata.json", "w", encoding="utf-8") as f:
+        json.dump(final_list, f, indent=4, ensure_ascii=False)
+
+    print(f"\n✅ Done. {len(final_list)} unique movies saved to all_movies_grouped_clean.json")
