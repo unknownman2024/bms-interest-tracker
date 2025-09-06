@@ -2437,11 +2437,11 @@
     "date": "2025-09-11+20:45",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 16,
-    "occupancy": 12.03,
-    "totalAvailableSeatCount": 117,
+    "totalSeatSold": 14,
+    "occupancy": 10.53,
+    "totalAvailableSeatCount": 119,
     "totalSeatCount": 133,
-    "grossRevenueUSD": 294.4,
+    "grossRevenueUSD": 257.6,
     "adultTicketPrice": 18.4
   },
   {
@@ -4399,11 +4399,11 @@
     "date": "2025-09-11+18:30",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 23,
-    "occupancy": 20.54,
-    "totalAvailableSeatCount": 89,
+    "totalSeatSold": 25,
+    "occupancy": 22.32,
+    "totalAvailableSeatCount": 87,
     "totalSeatCount": 112,
-    "grossRevenueUSD": 391.0,
+    "grossRevenueUSD": 425.0,
     "adultTicketPrice": 17.0
   },
   {
