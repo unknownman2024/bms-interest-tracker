@@ -82,9 +82,12 @@
     "date": "2025-09-06+15:10",
     "format": "Standard",
     "language": "Hindi",
-    "error": {
-      "exception": ""
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 273,
+    "totalSeatCount": 273,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 11.99
   },
   {
     "state": "MA",
@@ -655,9 +658,12 @@
     "date": "2025-09-06+20:50",
     "format": "Standard",
     "language": "Hindi",
-    "error": {
-      "status": 500
-    }
+    "totalSeatSold": 3,
+    "occupancy": 0.79,
+    "totalAvailableSeatCount": 377,
+    "totalSeatCount": 380,
+    "grossRevenueUSD": 46.35,
+    "adultTicketPrice": 15.45
   },
   {
     "state": "NJ",
@@ -670,9 +676,12 @@
     "date": "2025-09-06+13:40",
     "format": "Standard",
     "language": "Hindi",
-    "error": {
-      "status": 500
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 380,
+    "totalSeatCount": 380,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 12.36
   },
   {
     "state": "NJ",
@@ -1201,9 +1210,12 @@
     "date": "2025-09-06+18:45",
     "format": "Standard",
     "language": "Hindi",
-    "error": {
-      "exception": ""
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 52,
+    "totalSeatCount": 52,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 14.49
   },
   {
     "state": "NY",
@@ -1357,9 +1369,12 @@
     "date": "2025-09-06+11:50",
     "format": "Standard",
     "language": "Hindi",
-    "error": {
-      "status": 500
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 49,
+    "totalSeatCount": 49,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 12.49
   },
   {
     "state": "MD",
@@ -2014,9 +2029,12 @@
     "date": "2025-09-06+18:00",
     "format": "Standard",
     "language": "Hindi",
-    "error": {
-      "status": 500
-    }
+    "totalSeatSold": 5,
+    "occupancy": 11.11,
+    "totalAvailableSeatCount": 40,
+    "totalSeatCount": 45,
+    "grossRevenueUSD": 75.0,
+    "adultTicketPrice": 15.0
   },
   {
     "state": "NC",
@@ -2065,9 +2083,12 @@
     "date": "2025-09-06+12:05",
     "format": "Standard",
     "language": "Hindi",
-    "error": {
-      "exception": ""
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 94,
+    "totalSeatCount": 94,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 14.16
   },
   {
     "state": "SC",
@@ -2080,9 +2101,12 @@
     "date": "2025-09-06+16:05",
     "format": "Standard",
     "language": "Hindi",
-    "error": {
-      "exception": ""
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 94,
+    "totalSeatCount": 94,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 14.16
   },
   {
     "state": "SC",
@@ -2095,9 +2119,12 @@
     "date": "2025-09-06+20:05",
     "format": "Standard",
     "language": "Hindi",
-    "error": {
-      "exception": ""
-    }
+    "totalSeatSold": 4,
+    "occupancy": 4.26,
+    "totalAvailableSeatCount": 90,
+    "totalSeatCount": 94,
+    "grossRevenueUSD": 56.64,
+    "adultTicketPrice": 14.16
   },
   {
     "state": "SC",
@@ -3715,11 +3742,11 @@
     "date": "2025-09-06+20:30",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 6,
-    "occupancy": 4.0,
-    "totalAvailableSeatCount": 144,
+    "totalSeatSold": 4,
+    "occupancy": 2.67,
+    "totalAvailableSeatCount": 146,
     "totalSeatCount": 150,
-    "grossRevenueUSD": 84.96,
+    "grossRevenueUSD": 56.64,
     "adultTicketPrice": 14.16
   },
   {
@@ -4093,11 +4120,11 @@
     "date": "2025-09-06+22:10",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 5,
-    "occupancy": 15.15,
-    "totalAvailableSeatCount": 28,
+    "totalSeatSold": 9,
+    "occupancy": 27.27,
+    "totalAvailableSeatCount": 24,
     "totalSeatCount": 33,
-    "grossRevenueUSD": 76.85,
+    "grossRevenueUSD": 138.33,
     "adultTicketPrice": 15.37
   },
   {
@@ -5026,11 +5053,11 @@
     "date": "2025-09-06+22:05",
     "format": "Standard",
     "language": "Hindi",
-    "totalSeatSold": 27,
-    "occupancy": 14.44,
-    "totalAvailableSeatCount": 160,
+    "totalSeatSold": 30,
+    "occupancy": 16.04,
+    "totalAvailableSeatCount": 157,
     "totalSeatCount": 187,
-    "grossRevenueUSD": 379.62,
+    "grossRevenueUSD": 421.8,
     "adultTicketPrice": 14.06
   },
   {
@@ -6364,5 +6391,41 @@
     "totalSeatCount": 444,
     "grossRevenueUSD": 109.97,
     "adultTicketPrice": 15.71
+  },
+  {
+    "state": "ND",
+    "city": "Fargo",
+    "zip": "58103",
+    "theater_name": "Marcus West Acres Cinema",
+    "chainName": "Marcus Theatres",
+    "chainCode": "MRCS",
+    "showtime_id": 514521406,
+    "date": "2025-09-06+13:25",
+    "format": "Standard",
+    "language": "Hindi",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 136,
+    "totalSeatCount": 136,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 10.51
+  },
+  {
+    "state": "TX",
+    "city": "Grapevine",
+    "zip": "76051",
+    "theater_name": "AMC Grapevine Mills 24",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514612610,
+    "date": "2025-09-06+15:35",
+    "format": "Standard",
+    "language": "Hindi",
+    "totalSeatSold": 2,
+    "occupancy": 3.39,
+    "totalAvailableSeatCount": 57,
+    "totalSeatCount": 59,
+    "grossRevenueUSD": 20.76,
+    "adultTicketPrice": 10.38
   }
 ]

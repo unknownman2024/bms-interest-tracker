@@ -1,51 +1,6 @@
 {
-  "last_updated": "2025-09-06 12:42:34 PM",
+  "last_updated": "2025-09-06 01:45:01 PM",
   "errors": [
-    {
-      "state": "MA",
-      "city": "Marlborough",
-      "zip": "01752",
-      "theater_name": "Regal Solomon Pond",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514934385,
-      "date": "2025-09-06+15:10",
-      "format": "Standard",
-      "language": "Hindi",
-      "error": {
-        "exception": ""
-      }
-    },
-    {
-      "state": "NJ",
-      "city": "Elizabeth",
-      "zip": "07201",
-      "theater_name": "AMC Jersey Gardens 20",
-      "chainName": "AMC",
-      "chainCode": "AMC",
-      "showtime_id": 514497203,
-      "date": "2025-09-06+20:50",
-      "format": "Standard",
-      "language": "Hindi",
-      "error": {
-        "status": 500
-      }
-    },
-    {
-      "state": "NJ",
-      "city": "Elizabeth",
-      "zip": "07201",
-      "theater_name": "AMC Jersey Gardens 20",
-      "chainName": "AMC",
-      "chainCode": "AMC",
-      "showtime_id": 514497205,
-      "date": "2025-09-06+13:40",
-      "format": "Standard",
-      "language": "Hindi",
-      "error": {
-        "status": 500
-      }
-    },
     {
       "state": "NJ",
       "city": "East Hanover",
@@ -77,21 +32,6 @@
       }
     },
     {
-      "state": "NY",
-      "city": "Binghamton",
-      "zip": "13905",
-      "theater_name": "Regal Binghamton",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514597945,
-      "date": "2025-09-06+18:45",
-      "format": "Standard",
-      "language": "Hindi",
-      "error": {
-        "exception": ""
-      }
-    },
-    {
       "state": "PA",
       "city": "Pittsburgh",
       "zip": "15241",
@@ -104,21 +44,6 @@
       "language": "Hindi",
       "error": {
         "status": 400
-      }
-    },
-    {
-      "state": "PA",
-      "city": "Lancaster",
-      "zip": "17603",
-      "theater_name": "Regal Manor",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514779013,
-      "date": "2025-09-06+11:50",
-      "format": "Standard",
-      "language": "Hindi",
-      "error": {
-        "status": 500
       }
     },
     {
@@ -149,66 +74,6 @@
       "language": "Hindi",
       "error": {
         "status": 400
-      }
-    },
-    {
-      "state": "NC",
-      "city": "Charlotte",
-      "zip": "28262",
-      "theater_name": "Regal Starlight - Charlotte",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514790714,
-      "date": "2025-09-06+18:00",
-      "format": "Standard",
-      "language": "Hindi",
-      "error": {
-        "status": 500
-      }
-    },
-    {
-      "state": "SC",
-      "city": "Rock Hill",
-      "zip": "29730",
-      "theater_name": "Regal Manchester - Rock Hill",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514966004,
-      "date": "2025-09-06+12:05",
-      "format": "Standard",
-      "language": "Hindi",
-      "error": {
-        "exception": ""
-      }
-    },
-    {
-      "state": "SC",
-      "city": "Rock Hill",
-      "zip": "29730",
-      "theater_name": "Regal Manchester - Rock Hill",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514966006,
-      "date": "2025-09-06+16:05",
-      "format": "Standard",
-      "language": "Hindi",
-      "error": {
-        "exception": ""
-      }
-    },
-    {
-      "state": "SC",
-      "city": "Rock Hill",
-      "zip": "29730",
-      "theater_name": "Regal Manchester - Rock Hill",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514966008,
-      "date": "2025-09-06+20:05",
-      "format": "Standard",
-      "language": "Hindi",
-      "error": {
-        "exception": ""
       }
     },
     {
