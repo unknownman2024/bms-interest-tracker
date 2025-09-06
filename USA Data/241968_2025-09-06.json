@@ -172,9 +172,12 @@
     "date": "2025-09-06+20:05",
     "format": "Standard",
     "language": "Tamil",
-    "error": {
-      "exception": ""
-    }
+    "totalSeatSold": 16,
+    "occupancy": 4.27,
+    "totalAvailableSeatCount": 359,
+    "totalSeatCount": 375,
+    "grossRevenueUSD": 247.84,
+    "adultTicketPrice": 15.49
   },
   {
     "state": "MA",
@@ -187,9 +190,12 @@
     "date": "2025-09-06+12:45",
     "format": "Standard",
     "language": "Telugu",
-    "error": {
-      "exception": ""
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 375,
+    "totalSeatCount": 375,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 11.99
   },
   {
     "state": "NY",
@@ -256,9 +262,12 @@
     "date": "2025-09-06+11:40",
     "format": "Standard",
     "language": "Telugu",
-    "error": {
-      "exception": ""
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 151,
+    "totalSeatCount": 151,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 12.49
   },
   {
     "state": "MA",
@@ -271,9 +280,12 @@
     "date": "2025-09-06+19:15",
     "format": "Standard",
     "language": "Tamil",
-    "error": {
-      "exception": ""
-    }
+    "totalSeatSold": 16,
+    "occupancy": 10.6,
+    "totalAvailableSeatCount": 135,
+    "totalSeatCount": 151,
+    "grossRevenueUSD": 255.84,
+    "adultTicketPrice": 15.99
   },
   {
     "state": "RI",
@@ -754,11 +766,11 @@
     "date": "2025-09-06+10:15",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 37,
-    "occupancy": 14.8,
-    "totalAvailableSeatCount": 213,
+    "totalSeatSold": 36,
+    "occupancy": 14.4,
+    "totalAvailableSeatCount": 214,
     "totalSeatCount": 250,
-    "grossRevenueUSD": 606.43,
+    "grossRevenueUSD": 590.04,
     "adultTicketPrice": 16.39
   },
   {
@@ -1075,9 +1087,12 @@
     "date": "2025-09-06+12:20",
     "format": "Standard",
     "language": "Tamil",
-    "error": {
-      "status": 500
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 109,
+    "totalSeatCount": 109,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 11.99
   },
   {
     "state": "NY",
@@ -1090,9 +1105,12 @@
     "date": "2025-09-06+16:15",
     "format": "Standard",
     "language": "Tamil",
-    "error": {
-      "status": 500
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 109,
+    "totalSeatCount": 109,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 14.99
   },
   {
     "state": "NY",
@@ -1105,9 +1123,12 @@
     "date": "2025-09-06+20:15",
     "format": "Standard",
     "language": "Telugu",
-    "error": {
-      "status": 500
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 109,
+    "totalSeatCount": 109,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 14.99
   },
   {
     "state": "NY",
@@ -1120,9 +1141,12 @@
     "date": "2025-09-06+17:15",
     "format": "Standard",
     "language": "Tamil",
-    "error": {
-      "exception": ""
-    }
+    "totalSeatSold": 2,
+    "occupancy": 3.85,
+    "totalAvailableSeatCount": 50,
+    "totalSeatCount": 52,
+    "grossRevenueUSD": 28.98,
+    "adultTicketPrice": 14.49
   },
   {
     "state": "NY",
@@ -1333,9 +1357,12 @@
     "date": "2025-09-06+20:55",
     "format": "Standard",
     "language": "Telugu",
-    "error": {
-      "status": 500
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 131,
+    "totalSeatCount": 131,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 13.49
   },
   {
     "state": "PA",
@@ -1348,9 +1375,12 @@
     "date": "2025-09-06+13:05",
     "format": "Standard",
     "language": "Tamil",
-    "error": {
-      "status": 500
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 131,
+    "totalSeatCount": 131,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 10.49
   },
   {
     "state": "PA",
@@ -1363,9 +1393,12 @@
     "date": "2025-09-06+17:00",
     "format": "Standard",
     "language": "Tamil",
-    "error": {
-      "status": 500
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 131,
+    "totalSeatCount": 131,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 10.49
   },
   {
     "state": "MD",
@@ -2188,11 +2221,11 @@
     "date": "2025-09-06+22:45",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 1,
-    "occupancy": 1.52,
-    "totalAvailableSeatCount": 65,
+    "totalSeatSold": 3,
+    "occupancy": 4.55,
+    "totalAvailableSeatCount": 63,
     "totalSeatCount": 66,
-    "grossRevenueUSD": 14.5,
+    "grossRevenueUSD": 43.5,
     "adultTicketPrice": 14.5
   },
   {
@@ -2278,9 +2311,12 @@
     "date": "2025-09-06+12:30",
     "format": "Standard",
     "language": "Tamil",
-    "error": {
-      "status": 500
-    }
+    "totalSeatSold": 1,
+    "occupancy": 2.27,
+    "totalAvailableSeatCount": 43,
+    "totalSeatCount": 44,
+    "grossRevenueUSD": 12.33,
+    "adultTicketPrice": 12.33
   },
   {
     "state": "NC",
@@ -2293,9 +2329,12 @@
     "date": "2025-09-06+16:25",
     "format": "Standard",
     "language": "Telugu",
-    "error": {
-      "status": 500
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 44,
+    "totalSeatCount": 44,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 12.33
   },
   {
     "state": "NC",
@@ -2611,9 +2650,12 @@
     "date": "2025-09-06+22:50",
     "format": "Standard",
     "language": "Telugu",
-    "error": {
-      "exception": ""
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 251,
+    "totalSeatCount": 251,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 18.54
   },
   {
     "state": "GA",
@@ -2626,9 +2668,12 @@
     "date": "2025-09-06+11:05",
     "format": "Standard",
     "language": "Tamil",
-    "error": {
-      "exception": ""
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 251,
+    "totalSeatCount": 251,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 18.54
   },
   {
     "state": "GA",
@@ -2641,9 +2686,12 @@
     "date": "2025-09-06+15:00",
     "format": "Standard",
     "language": "Tamil",
-    "error": {
-      "exception": ""
-    }
+    "totalSeatSold": 25,
+    "occupancy": 9.96,
+    "totalAvailableSeatCount": 226,
+    "totalSeatCount": 251,
+    "grossRevenueUSD": 463.5,
+    "adultTicketPrice": 18.54
   },
   {
     "state": "GA",
@@ -2656,9 +2704,12 @@
     "date": "2025-09-06+18:55",
     "format": "Standard",
     "language": "Tamil",
-    "error": {
-      "status": 500
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 251,
+    "totalSeatCount": 251,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 18.54
   },
   {
     "state": "GA",
@@ -2743,11 +2794,11 @@
     "date": "2025-09-06+13:30",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 81,
-    "occupancy": 43.55,
-    "totalAvailableSeatCount": 105,
+    "totalSeatSold": 83,
+    "occupancy": 44.62,
+    "totalAvailableSeatCount": 103,
     "totalSeatCount": 186,
-    "grossRevenueUSD": 1177.74,
+    "grossRevenueUSD": 1206.82,
     "adultTicketPrice": 14.54
   },
   {
@@ -2833,9 +2884,12 @@
     "date": "2025-09-06+15:40",
     "format": "Standard",
     "language": "Tamil",
-    "error": {
-      "exception": ""
-    }
+    "totalSeatSold": 3,
+    "occupancy": 1.15,
+    "totalAvailableSeatCount": 257,
+    "totalSeatCount": 260,
+    "grossRevenueUSD": 39.18,
+    "adultTicketPrice": 13.06
   },
   {
     "state": "GA",
@@ -2848,9 +2902,12 @@
     "date": "2025-09-06+19:30",
     "format": "Standard",
     "language": "Tamil",
-    "error": {
-      "exception": ""
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 260,
+    "totalSeatCount": 260,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 16.87
   },
   {
     "state": "GA",
@@ -4282,9 +4339,12 @@
     "date": "2025-09-06+18:20",
     "format": "Standard",
     "language": "Tamil",
-    "error": {
-      "status": 500
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 204,
+    "totalSeatCount": 204,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 10.99
   },
   {
     "state": "MI",
@@ -4297,9 +4357,12 @@
     "date": "2025-09-06+18:30",
     "format": "Standard",
     "language": "Telugu",
-    "error": {
-      "status": 500
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 206,
+    "totalSeatCount": 206,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 10.99
   },
   {
     "state": "MI",
@@ -4672,9 +4735,12 @@
     "date": "2025-09-06+16:00",
     "format": "Standard",
     "language": "Tamil",
-    "error": {
-      "status": 403
-    }
+    "totalSeatSold": 3,
+    "occupancy": 4.55,
+    "totalAvailableSeatCount": 63,
+    "totalSeatCount": 66,
+    "grossRevenueUSD": 46.95,
+    "adultTicketPrice": 15.65
   },
   {
     "state": "IL",
@@ -5875,11 +5941,11 @@
     "date": "2025-09-06+15:15",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 117,
-    "occupancy": 62.9,
-    "totalAvailableSeatCount": 69,
+    "totalSeatSold": 118,
+    "occupancy": 63.44,
+    "totalAvailableSeatCount": 68,
     "totalSeatCount": 186,
-    "grossRevenueUSD": 1316.25,
+    "grossRevenueUSD": 1327.5,
     "adultTicketPrice": 11.25
   },
   {
@@ -6883,11 +6949,11 @@
     "date": "2025-09-06+22:25",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 3,
-    "occupancy": 4.76,
-    "totalAvailableSeatCount": 60,
+    "totalSeatSold": 1,
+    "occupancy": 1.59,
+    "totalAvailableSeatCount": 62,
     "totalSeatCount": 63,
-    "grossRevenueUSD": 41.1,
+    "grossRevenueUSD": 13.7,
     "adultTicketPrice": 13.7
   },
   {
@@ -7531,11 +7597,11 @@
     "date": "2025-09-06+12:10",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 13,
-    "occupancy": 26.53,
-    "totalAvailableSeatCount": 36,
+    "totalSeatSold": 12,
+    "occupancy": 24.49,
+    "totalAvailableSeatCount": 37,
     "totalSeatCount": 49,
-    "grossRevenueUSD": 165.75,
+    "grossRevenueUSD": 153.0,
     "adultTicketPrice": 12.75
   },
   {
@@ -7549,11 +7615,11 @@
     "date": "2025-09-06+12:40",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 10,
-    "occupancy": 7.52,
-    "totalAvailableSeatCount": 123,
+    "totalSeatSold": 12,
+    "occupancy": 9.02,
+    "totalAvailableSeatCount": 121,
     "totalSeatCount": 133,
-    "grossRevenueUSD": 127.5,
+    "grossRevenueUSD": 153.0,
     "adultTicketPrice": 12.75
   },
   {
@@ -7837,11 +7903,11 @@
     "date": "2025-09-06+23:20",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 2,
-    "occupancy": 4.44,
-    "totalAvailableSeatCount": 43,
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 45,
     "totalSeatCount": 45,
-    "grossRevenueUSD": 33.0,
+    "grossRevenueUSD": 0.0,
     "adultTicketPrice": 16.5
   },
   {
@@ -8395,11 +8461,11 @@
     "date": "2025-09-06+11:25",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 19,
-    "occupancy": 5.16,
-    "totalAvailableSeatCount": 349,
+    "totalSeatSold": 17,
+    "occupancy": 4.62,
+    "totalAvailableSeatCount": 351,
     "totalSeatCount": 368,
-    "grossRevenueUSD": 239.78,
+    "grossRevenueUSD": 214.54,
     "adultTicketPrice": 12.62
   },
   {
@@ -8485,11 +8551,65 @@
     "date": "2025-09-06+20:30",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 17,
-    "occupancy": 5.8,
-    "totalAvailableSeatCount": 276,
+    "totalSeatSold": 21,
+    "occupancy": 7.17,
+    "totalAvailableSeatCount": 272,
     "totalSeatCount": 293,
-    "grossRevenueUSD": 267.58,
+    "grossRevenueUSD": 330.54,
     "adultTicketPrice": 15.74
+  },
+  {
+    "state": "NC",
+    "city": "Charlotte",
+    "zip": "28273",
+    "theater_name": "AMC Carolina Pavilion 22",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514613347,
+    "date": "2025-09-06+13:30",
+    "format": "Standard",
+    "language": "Tamil",
+    "totalSeatSold": 18,
+    "occupancy": 36.0,
+    "totalAvailableSeatCount": 32,
+    "totalSeatCount": 50,
+    "grossRevenueUSD": 208.26,
+    "adultTicketPrice": 11.57
+  },
+  {
+    "state": "CA",
+    "city": "Orange",
+    "zip": "92868",
+    "theater_name": "AMC Orange 30 (AMC Block 30)",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514811132,
+    "date": "2025-09-06+14:50",
+    "format": "Standard",
+    "language": "Tamil",
+    "totalSeatSold": 12,
+    "occupancy": 12.37,
+    "totalAvailableSeatCount": 85,
+    "totalSeatCount": 97,
+    "grossRevenueUSD": 153.48,
+    "adultTicketPrice": 12.79
+  },
+  {
+    "state": "CA",
+    "city": "Orange",
+    "zip": "92868",
+    "theater_name": "AMC Orange 30 (AMC Block 30)",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514811161,
+    "date": "2025-09-06+21:55",
+    "format": "Standard",
+    "language": "Tamil",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 97,
+    "totalSeatCount": 97,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 15.99
   }
 ]
