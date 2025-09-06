@@ -33,8 +33,8 @@ jobs:
           name: venue-data
           path: |
             movie_summary.json
-            fetchedvenues.json
-            processed_venues.json
+            fetchedap_venues.json
+            processed_ap_venues.json
           if-no-files-found: warn
 
       - name: Commit updated files (optional)
