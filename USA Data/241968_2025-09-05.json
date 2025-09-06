@@ -7771,11 +7771,11 @@
     "date": "2025-09-05+22:20",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 37,
-    "occupancy": 75.51,
-    "totalAvailableSeatCount": 12,
+    "totalSeatSold": 35,
+    "occupancy": 71.43,
+    "totalAvailableSeatCount": 14,
     "totalSeatCount": 49,
-    "grossRevenueUSD": 647.13,
+    "grossRevenueUSD": 612.15,
     "adultTicketPrice": 17.49
   },
   {
@@ -7822,11 +7822,11 @@
     "date": "2025-09-05+22:05",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 19,
-    "occupancy": 39.58,
-    "totalAvailableSeatCount": 29,
+    "totalSeatSold": 22,
+    "occupancy": 45.83,
+    "totalAvailableSeatCount": 26,
     "totalSeatCount": 48,
-    "grossRevenueUSD": 323.0,
+    "grossRevenueUSD": 374.0,
     "adultTicketPrice": 17.0
   },
   {
@@ -8911,11 +8911,11 @@
     "date": "2025-09-05+22:40",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 16,
-    "occupancy": 17.98,
-    "totalAvailableSeatCount": 73,
+    "totalSeatSold": 24,
+    "occupancy": 26.97,
+    "totalAvailableSeatCount": 65,
     "totalSeatCount": 89,
-    "grossRevenueUSD": 260.0,
+    "grossRevenueUSD": 390.0,
     "adultTicketPrice": 16.25
   },
   {
@@ -9001,11 +9001,11 @@
     "date": "2025-09-05+22:35",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 11,
-    "occupancy": 22.92,
-    "totalAvailableSeatCount": 37,
+    "totalSeatSold": 13,
+    "occupancy": 27.08,
+    "totalAvailableSeatCount": 35,
     "totalSeatCount": 48,
-    "grossRevenueUSD": 187.0,
+    "grossRevenueUSD": 221.0,
     "adultTicketPrice": 17.0
   },
   {
@@ -9067,11 +9067,11 @@
     "date": "2025-09-05+23:15",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 0,
-    "occupancy": 0.0,
-    "totalAvailableSeatCount": 58,
+    "totalSeatSold": 2,
+    "occupancy": 3.45,
+    "totalAvailableSeatCount": 56,
     "totalSeatCount": 58,
-    "grossRevenueUSD": 0.0,
+    "grossRevenueUSD": 22.26,
     "adultTicketPrice": 11.13
   },
   {
@@ -9220,11 +9220,11 @@
     "date": "2025-09-05+22:10",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 30,
-    "occupancy": 46.15,
-    "totalAvailableSeatCount": 35,
+    "totalSeatSold": 29,
+    "occupancy": 44.62,
+    "totalAvailableSeatCount": 36,
     "totalSeatCount": 65,
-    "grossRevenueUSD": 480.0,
+    "grossRevenueUSD": 464.0,
     "adultTicketPrice": 16.0
   },
   {
@@ -9256,11 +9256,11 @@
     "date": "2025-09-05+22:25",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 23,
-    "occupancy": 51.11,
-    "totalAvailableSeatCount": 22,
+    "totalSeatSold": 26,
+    "occupancy": 57.78,
+    "totalAvailableSeatCount": 19,
     "totalSeatCount": 45,
-    "grossRevenueUSD": 379.5,
+    "grossRevenueUSD": 429.0,
     "adultTicketPrice": 16.5
   },
   {
@@ -9280,5 +9280,23 @@
     "totalSeatCount": 62,
     "grossRevenueUSD": 66.0,
     "adultTicketPrice": 16.5
+  },
+  {
+    "state": "WA",
+    "city": "Bellevue",
+    "zip": "98004",
+    "theater_name": "Cinemark Lincoln Square",
+    "chainName": "Cinemark Theatres",
+    "chainCode": "CNMK",
+    "showtime_id": 515209820,
+    "date": "2025-09-05+22:30",
+    "format": "Standard",
+    "language": "Tamil",
+    "totalSeatSold": 7,
+    "occupancy": 1.9,
+    "totalAvailableSeatCount": 361,
+    "totalSeatCount": 368,
+    "grossRevenueUSD": 109.97,
+    "adultTicketPrice": 15.71
   }
 ]
