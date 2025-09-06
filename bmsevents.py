@@ -46,49 +46,70 @@ lat = 17.385044 + jitter()
 lon = 78.486671 + jitter()
 geo_hash = geohash2.encode(lat, lon, precision=5)
 
-# Headers
-headers = {
-    "accept": "application/json",
-    "user-agent": device["ua"],
-    "cache-control": "no-cache",
-    "pragma": "no-cache",
-    "accept-encoding": "gzip, deflate, br",
-    "x-bms-id": bms_id,
-    "x-advertiser-id": advertiser_id,
-    "x-device-make": device["make"],
-    "x-network": network,
-    "x-latitude": f"{lat:.6f}",
-    "x-longitude": f"{lon:.6f}",
-    "x-geohash": geo_hash,
-    "x-screen-width": screen["w"],
-    "x-screen-height": screen["h"],
-    "x-screen-density": screen["d"],
-    "referer": "https://in.bookmyshow.com/"
-}
-
 # Create CloudScraper session
 scraper = cloudscraper.create_scraper()
 
-def fetch_region_data(region_code):
+def get_headers():
+    return {
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "en-IN,en;q=0.9",
+        "user-agent": device["ua"],
+        "cache-control": "no-cache",
+        "pragma": "no-cache",
+        "sec-ch-ua": '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": '"Android"',
+        "x-bms-id": bms_id,
+        "x-advertiser-id": advertiser_id,
+        "x-device-make": device["make"],
+        "x-network": network,
+        "x-latitude": f"{lat:.6f}",
+        "x-longitude": f"{lon:.6f}",
+        "x-geohash": geo_hash,
+        "x-screen-width": screen["w"],
+        "x-screen-height": screen["h"],
+        "x-screen-density": screen["d"],
+        "origin": "https://in.bookmyshow.com",
+        "referer": "https://in.bookmyshow.com/"
+    }
+
+def fetch_region_data(region_code, retries=3):
     url = (
         f"https://in.bookmyshow.com/api/mobile/movies?"
         f"regionCode={region_code}&bmsId={bms_id}&isSuperStar=N&channel=mobile"
         f"&appCode=WEBV2&platform=mobile&enableSA=Y&enablePE=Y"
         f"&token={TOKEN}&appVersion={APP_VERSION}&deviceToken={TOKEN}"
     )
-    response = scraper.get(url, headers=headers)
 
-    print(f"📡 [{region_code}] Status: {response.status_code}")
-    print(f"🧾 [{region_code}] First 500 chars:\n{response.text[:500]}")
+    for attempt in range(1, retries + 1):
+        try:
+            response = scraper.get(url, headers=get_headers())
+            print(f"📡 [{region_code}] Attempt {attempt} → Status: {response.status_code}")
 
-    return response.json()
+            if response.status_code == 200:
+                return response.json()
 
+            # Show what we got back for debugging (first 500 chars)
+            print(f"🧾 [{region_code}] Response preview:\n{response.text[:500]}")
+            time.sleep(random.uniform(1, 3))  # wait & retry
+
+        except Exception as e:
+            print(f"⚠️ [{region_code}] Error: {e}")
+            time.sleep(random.uniform(1, 3))
+
+    print(f"❌ [{region_code}] Failed after {retries} attempts.")
+    return {}
 
 def main():
     try:
-        all_data = [fetch_region_data(code) for code in REGION_CODES]
-        movie_map = {}
+        all_data = []
+        for code in REGION_CODES:
+            time.sleep(random.uniform(1, 3))  # slow down requests
+            data = fetch_region_data(code)
+            if data:
+                all_data.append(data)
 
+        movie_map = {}
         for region_data in all_data:
             events = region_data.get("nowShowing", {}).get("arrEvents", [])
             for event in events:
@@ -97,7 +118,6 @@ def main():
                     continue
 
                 base = event["ChildEvents"][0]
-
                 if group_key not in movie_map:
                     movie_map[group_key] = {
                         "title": group_key,
@@ -125,14 +145,12 @@ def main():
                             "eventURL": f"https://in.bookmyshow.com/movies/{version.get('EventURL')}"
                         }
 
-        # Print to console
-        # ✅ Save to file (properly indented inside try)
         with open("moviesdata.json", "w", encoding="utf-8") as f:
             json.dump(list(movie_map.values()), f, indent=2, ensure_ascii=False)
-        print(json.dumps(list(movie_map.values()), indent=2))
+        print(f"✅ Saved {len(movie_map)} movies to moviesdata.json")
 
     except Exception as e:
-        print("❌ Error fetching data:", str(e))
+        print("❌ Fatal Error:", str(e))
 
 if __name__ == "__main__":
     main()
