@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-06 04:53:18 AM",
+  "last_updated": "2025-09-06 07:17:49 AM",
   "errors": [
     {
       "state": "IL",
@@ -14,21 +14,6 @@
       "language": "Telugu",
       "error": {
         "status": 404
-      }
-    },
-    {
-      "state": "MA",
-      "city": "Boston",
-      "zip": "02114",
-      "theater_name": "AMC Causeway 13",
-      "chainName": "AMC",
-      "chainCode": "AMC",
-      "showtime_id": 515162066,
-      "date": "2025-09-11+21:30",
-      "format": "Standard",
-      "language": "Unknown",
-      "error": {
-        "status": 400
       }
     }
   ]
