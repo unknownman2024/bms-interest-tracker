@@ -1,0 +1,380 @@
+{
+  "last_updated": "2025-09-06 12:51:24 PM",
+  "errors": [
+    {
+      "state": "MA",
+      "city": "Marlborough",
+      "zip": "01752",
+      "theater_name": "Regal Solomon Pond",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514934415,
+      "date": "2025-09-06+20:05",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "exception": ""
+      }
+    },
+    {
+      "state": "MA",
+      "city": "Marlborough",
+      "zip": "01752",
+      "theater_name": "Regal Solomon Pond",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514934416,
+      "date": "2025-09-06+12:45",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "exception": ""
+      }
+    },
+    {
+      "state": "MA",
+      "city": "Bellingham",
+      "zip": "02019",
+      "theater_name": "Regal Bellingham",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514635778,
+      "date": "2025-09-06+11:40",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "exception": ""
+      }
+    },
+    {
+      "state": "MA",
+      "city": "Bellingham",
+      "zip": "02019",
+      "theater_name": "Regal Bellingham",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514635796,
+      "date": "2025-09-06+19:15",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "exception": ""
+      }
+    },
+    {
+      "state": "NY",
+      "city": "Bellmore",
+      "zip": "11710",
+      "theater_name": "Bellmore Playhouse",
+      "chainName": "Veezi Theaters",
+      "chainCode": "VZ",
+      "showtime_id": 514424453,
+      "date": "2025-09-06+21:00",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 400
+      }
+    },
+    {
+      "state": "NY",
+      "city": "Ithaca",
+      "zip": "14850",
+      "theater_name": "Regal Ithaca Mall",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514798708,
+      "date": "2025-09-06+12:20",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "NY",
+      "city": "Ithaca",
+      "zip": "14850",
+      "theater_name": "Regal Ithaca Mall",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514798710,
+      "date": "2025-09-06+16:15",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "NY",
+      "city": "Ithaca",
+      "zip": "14850",
+      "theater_name": "Regal Ithaca Mall",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514798711,
+      "date": "2025-09-06+20:15",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "NY",
+      "city": "Binghamton",
+      "zip": "13905",
+      "theater_name": "Regal Binghamton",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514597937,
+      "date": "2025-09-06+17:15",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "exception": ""
+      }
+    },
+    {
+      "state": "PA",
+      "city": "Harrisburg",
+      "zip": "17112",
+      "theater_name": "Regal Harrisburg",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514619509,
+      "date": "2025-09-06+20:55",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "PA",
+      "city": "Harrisburg",
+      "zip": "17112",
+      "theater_name": "Regal Harrisburg",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514619510,
+      "date": "2025-09-06+13:05",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "PA",
+      "city": "Harrisburg",
+      "zip": "17112",
+      "theater_name": "Regal Harrisburg",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514619513,
+      "date": "2025-09-06+17:00",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "NC",
+      "city": "Raleigh",
+      "zip": "27617",
+      "theater_name": "Regal Brier Creek",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514739230,
+      "date": "2025-09-06+12:30",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "NC",
+      "city": "Raleigh",
+      "zip": "27617",
+      "theater_name": "Regal Brier Creek",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514739246,
+      "date": "2025-09-06+16:25",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "NC",
+      "city": "Charlotte",
+      "zip": "28273",
+      "theater_name": "AMC Carolina Pavilion 22",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 0,
+      "date": "2025-09-06+13:30",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 404
+      }
+    },
+    {
+      "state": "GA",
+      "city": "Buford",
+      "zip": "30519",
+      "theater_name": "Regal Mall of Georgia IMAX",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514529324,
+      "date": "2025-09-06+22:50",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "exception": ""
+      }
+    },
+    {
+      "state": "GA",
+      "city": "Buford",
+      "zip": "30519",
+      "theater_name": "Regal Mall of Georgia IMAX",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514529325,
+      "date": "2025-09-06+11:05",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "exception": ""
+      }
+    },
+    {
+      "state": "GA",
+      "city": "Buford",
+      "zip": "30519",
+      "theater_name": "Regal Mall of Georgia IMAX",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514529326,
+      "date": "2025-09-06+15:00",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "exception": ""
+      }
+    },
+    {
+      "state": "GA",
+      "city": "Buford",
+      "zip": "30519",
+      "theater_name": "Regal Mall of Georgia IMAX",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514529327,
+      "date": "2025-09-06+18:55",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "GA",
+      "city": "Atlanta",
+      "zip": "30338",
+      "theater_name": "Regal Perimeter Pointe",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514514982,
+      "date": "2025-09-06+15:40",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "exception": ""
+      }
+    },
+    {
+      "state": "GA",
+      "city": "Atlanta",
+      "zip": "30338",
+      "theater_name": "Regal Perimeter Pointe",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514514991,
+      "date": "2025-09-06+19:30",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "exception": ""
+      }
+    },
+    {
+      "state": "FL",
+      "city": "Tampa",
+      "zip": "33647",
+      "theater_name": "AMC Highwoods 20",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 514494478,
+      "date": "2025-09-06+19:15",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 400
+      }
+    },
+    {
+      "state": "MI",
+      "city": "Walled Lake",
+      "zip": "48390",
+      "theater_name": "Regal UA Commerce Township",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514983551,
+      "date": "2025-09-06+18:20",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "MI",
+      "city": "Walled Lake",
+      "zip": "48390",
+      "theater_name": "Regal UA Commerce Township",
+      "chainName": "Regal",
+      "chainCode": "REGL",
+      "showtime_id": 514983573,
+      "date": "2025-09-06+18:30",
+      "format": "Standard",
+      "language": "Telugu",
+      "error": {
+        "status": 500
+      }
+    },
+    {
+      "state": "IL",
+      "city": "Schaumburg",
+      "zip": "60173",
+      "theater_name": "AMC Loews Streets Of Woodfield 20",
+      "chainName": "AMC",
+      "chainCode": "AMC",
+      "showtime_id": 514835582,
+      "date": "2025-09-06+16:00",
+      "format": "Standard",
+      "language": "Tamil",
+      "error": {
+        "status": 403
+      }
+    }
+  ]
+}
