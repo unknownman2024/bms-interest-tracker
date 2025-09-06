@@ -64,7 +64,7 @@ def get_headers():
 headers = get_headers()
 
 # ---------------- VENUES LOADER ----------------
-def load_all_venues(path="ap_venues.json"):
+def load_all_venues(path="venues.json"):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
@@ -262,8 +262,8 @@ def dump_progress(all_data, fetched_venues):
         movie_summary = {}
 
     # Load venues info for city/state mapping
-    if os.path.exists("ap_venues.json"):
-        with open("ap_venues.json", "r", encoding="utf-8") as f:
+    if os.path.exists("venues.json"):
+        with open("venues.json", "r", encoding="utf-8") as f:
             venues_info = json.load(f)
     else:
         venues_info = {}
@@ -482,7 +482,7 @@ def fetch_venue_safe(venue_code):
 
 # ---------------- MAIN ----------------
 if __name__ == "__main__":
-    with open("ap_venues.json", "r", encoding="utf-8") as f:
+    with open("venues.json", "r", encoding="utf-8") as f:
         venues = json.load(f)
 
     if os.path.exists("fetchedvenues.json"):
@@ -573,9 +573,12 @@ if __name__ == "__main__":
         )
 
     df_movie_only = pd.DataFrame(movie_only_rows)
-    df_movie_only = df_movie_only.sort_values(by="Gross", ascending=False).reset_index(
-        drop=True
-    )
+
+    if df_movie_only.empty:
+        print("⚠️ No matching shows found for this DATE_CODE. Nothing to summarize.")
+    else:
+        df_movie_only = df_movie_only.sort_values(by="Gross", ascending=False).reset_index(drop=True)
+        print(df_movie_only.to_string(index=False))
     print(df_movie_only.to_string(index=False))
     pretty_divider("Format & Language-wise Summary")
 
