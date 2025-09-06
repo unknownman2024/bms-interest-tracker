@@ -1,36 +1,6 @@
 {
-  "last_updated": "2025-09-06 06:48:10 PM",
+  "last_updated": "2025-09-06 07:36:47 PM",
   "errors": [
-    {
-      "state": "NJ",
-      "city": "East Hanover",
-      "zip": "07936",
-      "theater_name": "AMC Loews East Hanover 12",
-      "chainName": "AMC",
-      "chainCode": "AMC",
-      "showtime_id": 514493441,
-      "date": "2025-09-06+16:15",
-      "format": "Standard",
-      "language": "Hindi",
-      "error": {
-        "status": 500
-      }
-    },
-    {
-      "state": "NJ",
-      "city": "East Hanover",
-      "zip": "07936",
-      "theater_name": "AMC Loews East Hanover 12",
-      "chainName": "AMC",
-      "chainCode": "AMC",
-      "showtime_id": 514493440,
-      "date": "2025-09-06+20:15",
-      "format": "Standard",
-      "language": "Hindi",
-      "error": {
-        "status": 500
-      }
-    },
     {
       "state": "PA",
       "city": "Pittsburgh",
