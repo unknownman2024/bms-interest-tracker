@@ -4485,8 +4485,7 @@
     "max_gross": 1976.0,
     "total_gross": 52.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 358967,
@@ -5642,8 +5641,7 @@
     "max_gross": 3276.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 468871,
@@ -6266,11 +6264,11 @@
     "screenName": "HOYTS LUX 08",
     "operator": "TERLP",
     "total": 57,
-    "sold": 2,
-    "available": 55,
-    "occupancy": 3.51,
+    "sold": 3,
+    "available": 54,
+    "occupancy": 5.26,
     "max_gross": 1539.0,
-    "total_gross": 54.0,
+    "total_gross": 81.0,
     "price": 27.0,
     "error": false
   },
