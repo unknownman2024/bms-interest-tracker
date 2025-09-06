@@ -5,7 +5,7 @@ from collections import defaultdict
 
 def fetch_city_data(city_slug):
     scraper = cloudscraper.create_scraper()
-
+    
     homepage_url = f"https://in.bookmyshow.com/explore/home/{city_slug}"
     print(f"[*] Accessing BookMyShow homepage for {city_slug}...")
     homepage_response = scraper.get(homepage_url)
