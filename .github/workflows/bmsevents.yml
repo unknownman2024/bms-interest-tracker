@@ -4,9 +4,9 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch: # allows manual runs
+  workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *" # runs every 6 hours (optional, remove if not needed)
+    - cron: "0 */6 * * *" # every 6 hours
 
 jobs:
   fetch-bms-data:
@@ -24,7 +24,8 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install cloudscraper geohash2
+          pip install cloudscraper geohash2 playwright
+          playwright install  # install browser binaries
 
       - name: Run script
         run: python bmsevents.py
