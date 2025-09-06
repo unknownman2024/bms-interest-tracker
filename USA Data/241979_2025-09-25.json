@@ -8314,11 +8314,11 @@
     "date": "2025-09-25+21:55",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 1,
-    "occupancy": 1.02,
-    "totalAvailableSeatCount": 97,
+    "totalSeatSold": 6,
+    "occupancy": 6.12,
+    "totalAvailableSeatCount": 92,
     "totalSeatCount": 98,
-    "grossRevenueUSD": 21.0,
+    "grossRevenueUSD": 126.0,
     "adultTicketPrice": 21.0
   },
   {
@@ -8406,6 +8406,24 @@
     "totalAvailableSeatCount": 416,
     "totalSeatCount": 422,
     "grossRevenueUSD": 120.0,
+    "adultTicketPrice": 20.0
+  },
+  {
+    "state": "MI",
+    "city": "Lansing",
+    "zip": "48917",
+    "theater_name": "Regal Lansing Mall & RPX",
+    "chainName": "Regal",
+    "chainCode": "REGL",
+    "showtime_id": 515207630,
+    "date": "2025-09-25+16:00",
+    "format": "Standard",
+    "language": "Telugu",
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 167,
+    "totalSeatCount": 167,
+    "grossRevenueUSD": 0.0,
     "adultTicketPrice": 20.0
   }
 ]
