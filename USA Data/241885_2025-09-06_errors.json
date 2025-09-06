@@ -1,21 +1,6 @@
 {
-  "last_updated": "2025-09-06 01:44:22 PM",
+  "last_updated": "2025-09-06 02:42:39 PM",
   "errors": [
-    {
-      "state": "PA",
-      "city": "Harrisburg",
-      "zip": "17112",
-      "theater_name": "Regal Harrisburg",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514619735,
-      "date": "2025-09-06+11:55",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": ""
-      }
-    },
     {
       "state": "PA",
       "city": "Oaks",
@@ -89,21 +74,6 @@
       "language": "Telugu",
       "error": {
         "status": 400
-      }
-    },
-    {
-      "state": "IN",
-      "city": "Greenwood",
-      "zip": "46142",
-      "theater_name": "Regal Greenwood & RPX",
-      "chainName": "Regal",
-      "chainCode": "REGL",
-      "showtime_id": 514114571,
-      "date": "2025-09-06+21:45",
-      "format": "Standard",
-      "language": "Telugu",
-      "error": {
-        "exception": ""
       }
     },
     {

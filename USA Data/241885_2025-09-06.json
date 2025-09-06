@@ -676,9 +676,12 @@
     "date": "2025-09-06+11:55",
     "format": "Standard",
     "language": "Telugu",
-    "error": {
-      "exception": ""
-    }
+    "totalSeatSold": 3,
+    "occupancy": 2.31,
+    "totalAvailableSeatCount": 127,
+    "totalSeatCount": 130,
+    "grossRevenueUSD": 48.0,
+    "adultTicketPrice": 16.0
   },
   {
     "state": "PA",
@@ -1972,9 +1975,12 @@
     "date": "2025-09-06+21:45",
     "format": "Standard",
     "language": "Telugu",
-    "error": {
-      "exception": ""
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 60,
+    "totalSeatCount": 60,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 16.0
   },
   {
     "state": "MI",
