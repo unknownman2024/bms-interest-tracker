@@ -151,5 +151,22 @@
     "total_gross": 0.0,
     "price": 16.0,
     "error": false
+  },
+  {
+    "id": 316616,
+    "cinemaId": "1005",
+    "movieId": "HO00007177",
+    "date": "2025-09-27T09:30:00",
+    "typeId": "STANDARD",
+    "screenName": "Cinema 1",
+    "operator": "RIC",
+    "total": 144,
+    "sold": 0,
+    "available": 144,
+    "occupancy": 0.0,
+    "max_gross": 3888.0,
+    "total_gross": 0.0,
+    "price": 27.0,
+    "error": false
   }
 ]

@@ -48,8 +48,7 @@
     "max_gross": 1377.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 468063,
@@ -66,8 +65,7 @@
     "max_gross": 14025.0,
     "total_gross": 76.5,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 274277,
@@ -146,11 +144,11 @@
     "screenName": "Cinema 3",
     "operator": "NTH",
     "total": 118,
-    "sold": 0,
-    "available": 118,
-    "occupancy": 0.0,
+    "sold": 3,
+    "available": 115,
+    "occupancy": 2.54,
     "max_gross": 2183.0,
-    "total_gross": 0.0,
+    "total_gross": 55.5,
     "price": 18.5,
     "error": false
   },
@@ -798,8 +796,7 @@
     "max_gross": 18513.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 469087,
@@ -816,8 +813,7 @@
     "max_gross": 32250.0,
     "total_gross": 0.0,
     "price": 30.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 469094,
@@ -834,8 +830,7 @@
     "max_gross": 32250.0,
     "total_gross": 0.0,
     "price": 30.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 469089,
@@ -852,8 +847,7 @@
     "max_gross": 18513.0,
     "total_gross": 0.0,
     "price": 25.5,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 469092,
@@ -870,8 +864,7 @@
     "max_gross": 32250.0,
     "total_gross": 0.0,
     "price": 30.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 469091,
@@ -888,8 +881,7 @@
     "max_gross": 2592.0,
     "total_gross": 0.0,
     "price": 27.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 469093,
@@ -906,8 +898,7 @@
     "max_gross": 32250.0,
     "total_gross": 0.0,
     "price": 30.0,
-    "error": false,
-    "last_error": "HTTP 500"
+    "error": false
   },
   {
     "id": 359169,
