@@ -1487,11 +1487,11 @@
     "screenName": "Xtremescreen 1",
     "operator": "BOT",
     "total": 312,
-    "sold": 16,
-    "available": 296,
-    "occupancy": 5.13,
+    "sold": 13,
+    "available": 299,
+    "occupancy": 4.17,
     "max_gross": 9516.0,
-    "total_gross": 488.0,
+    "total_gross": 396.5,
     "price": 30.5,
     "error": false
   },
@@ -4485,7 +4485,8 @@
     "max_gross": 1976.0,
     "total_gross": 52.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 358967,
@@ -5641,7 +5642,8 @@
     "max_gross": 3276.0,
     "total_gross": 0.0,
     "price": 26.0,
-    "error": false
+    "error": false,
+    "last_error": "HTTP 500"
   },
   {
     "id": 468871,
