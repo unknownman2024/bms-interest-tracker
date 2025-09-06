@@ -518,11 +518,11 @@
     "screenName": "XTREMESCREEN",
     "operator": "SYL",
     "total": 1075,
-    "sold": 8,
-    "available": 1067,
-    "occupancy": 0.74,
+    "sold": 10,
+    "available": 1065,
+    "occupancy": 0.93,
     "max_gross": 34400.0,
-    "total_gross": 256.0,
+    "total_gross": 320.0,
     "price": 32.0,
     "error": false
   },
@@ -708,9 +708,9 @@
     "sold": 0,
     "available": 160,
     "occupancy": 0.0,
-    "max_gross": 4320.0,
+    "max_gross": 3280.0,
     "total_gross": 0.0,
-    "price": 27.0,
+    "price": 20.5,
     "error": false
   },
   {
@@ -793,9 +793,9 @@
     "sold": 4,
     "available": 104,
     "occupancy": 3.7,
-    "max_gross": 2916.0,
-    "total_gross": 108.0,
-    "price": 27.0,
+    "max_gross": 2214.0,
+    "total_gross": 82.0,
+    "price": 20.5,
     "error": false
   },
   {

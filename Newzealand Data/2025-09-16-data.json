@@ -110,11 +110,11 @@
     "screenName": "Xtremescreen 04",
     "operator": "CHC",
     "total": 372,
-    "sold": 0,
-    "available": 372,
-    "occupancy": 0.0,
+    "sold": 2,
+    "available": 370,
+    "occupancy": 0.54,
     "max_gross": 9300.0,
-    "total_gross": 0.0,
+    "total_gross": 50.0,
     "price": 25.0,
     "error": false
   }

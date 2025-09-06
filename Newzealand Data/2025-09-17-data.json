@@ -147,9 +147,9 @@
     "sold": 10,
     "available": 150,
     "occupancy": 6.25,
-    "max_gross": 4320.0,
-    "total_gross": 270.0,
-    "price": 27.0,
+    "max_gross": 3280.0,
+    "total_gross": 205.0,
+    "price": 20.5,
     "error": false
   },
   {
