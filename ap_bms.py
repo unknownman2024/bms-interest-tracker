@@ -269,8 +269,8 @@ def dump_progress(all_data, fetched_venues):
         venues_info = {}
 
     # Load already processed venues
-    if os.path.exists("processed_ap_venues.json"):
-        with open("processed_ap_venues.json", "r", encoding="utf-8") as f:
+    if os.path.exists("processed_venues.json"):
+        with open("processed_venues.json", "r", encoding="utf-8") as f:
             try:
                 processed_venues = set(json.load(f))
             except:
@@ -434,15 +434,15 @@ def dump_progress(all_data, fetched_venues):
     os.replace("movie_summary.json.tmp", "movie_summary.json")
 
     # Save fetched venues
-    with open("fetchedap_venues.json.tmp", "w", encoding="utf-8") as f:
+    with open("fetchedvenues.json.tmp", "w", encoding="utf-8") as f:
         json.dump(list(fetched_venues), f, indent=2)
-    os.replace("fetchedap_venues.json.tmp", "fetchedap_venues.json")
+    os.replace("fetchedvenues.json.tmp", "fetchedvenues.json")
 
     # Save processed venues
     processed_venues |= new_venues
-    with open("processed_ap_venues.json.tmp", "w", encoding="utf-8") as f:
+    with open("processed_venues.json.tmp", "w", encoding="utf-8") as f:
         json.dump(list(processed_venues), f, indent=2)
-    os.replace("processed_ap_venues.json.tmp", "processed_ap_venues.json")
+    os.replace("processed_venues.json.tmp", "processed_venues.json")
 
     print(
         f"💾 Progress dumped. Venues: {len(fetched_venues)} (New added: {len(new_venues)})"
@@ -485,8 +485,8 @@ if __name__ == "__main__":
     with open("ap_venues.json", "r", encoding="utf-8") as f:
         venues = json.load(f)
 
-    if os.path.exists("fetchedap_venues.json"):
-        with open("fetchedap_venues.json", "r", encoding="utf-8") as f:
+    if os.path.exists("fetchedvenues.json"):
+        with open("fetchedvenues.json", "r", encoding="utf-8") as f:
             fetched_venues = set(json.load(f))
     else:
         fetched_venues = set()
