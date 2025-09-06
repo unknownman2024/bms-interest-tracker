@@ -1176,5 +1176,290 @@
       "fee": 1.25,
       "grand": 11.25
     }
+  },
+  {
+    "venue": "theatre6",
+    "movie": "Caught Stealing",
+    "perfIx": "71501",
+    "date": "2025-09-07",
+    "time": "1:30pm",
+    "total": 106,
+    "available": 106,
+    "blocked": 0,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 9.5,
+      "tax": 0.0,
+      "fee": 1.0,
+      "grand": 10.5
+    }
+  },
+  {
+    "venue": "theatre6",
+    "movie": "Caught Stealing",
+    "perfIx": "71496",
+    "date": "2025-09-07",
+    "time": "4:10pm",
+    "total": 106,
+    "available": 106,
+    "blocked": 0,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 9.5,
+      "tax": 0.0,
+      "fee": 1.0,
+      "grand": 10.5
+    }
+  },
+  {
+    "venue": "theatre6",
+    "movie": "Caught Stealing",
+    "perfIx": "71497",
+    "date": "2025-09-07",
+    "time": "7:00pm",
+    "total": 106,
+    "available": 106,
+    "blocked": 0,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 10.75,
+      "tax": 0.0,
+      "fee": 1.0,
+      "grand": 11.75
+    }
+  },
+  {
+    "venue": "theatre6",
+    "movie": "Caught Stealing",
+    "perfIx": "71498",
+    "date": "2025-09-07",
+    "time": "9:20pm",
+    "total": 106,
+    "available": 106,
+    "blocked": 0,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 10.75,
+      "tax": 0.0,
+      "fee": 1.0,
+      "grand": 11.75
+    }
+  },
+  {
+    "venue": "theatre6",
+    "movie": "Lokah Chapter 1 (MALAYALAM)",
+    "perfIx": "71547",
+    "date": "2025-09-07",
+    "time": "6:00pm",
+    "total": 128,
+    "available": 65,
+    "blocked": 1,
+    "sold": 62,
+    "gross": 992.0,
+    "gross_with_tax": 1054.0,
+    "per_ticket": {
+      "net": 16.0,
+      "tax": 0.0,
+      "fee": 1.0,
+      "grand": 17.0
+    }
+  },
+  {
+    "venue": "theatre6",
+    "movie": "Lokah Chapter 1 (MALAYALAM)",
+    "perfIx": "71540",
+    "date": "2025-09-07",
+    "time": "8:45pm",
+    "total": 115,
+    "available": 20,
+    "blocked": 0,
+    "sold": 95,
+    "gross": 1520.0,
+    "gross_with_tax": 1615.0,
+    "per_ticket": {
+      "net": 16.0,
+      "tax": 0.0,
+      "fee": 1.0,
+      "grand": 17.0
+    }
+  },
+  {
+    "venue": "theatre6",
+    "movie": "Madharasi (TAMIL)",
+    "perfIx": "71538",
+    "date": "2025-09-07",
+    "time": "2:00pm",
+    "total": 128,
+    "available": 117,
+    "blocked": 1,
+    "sold": 10,
+    "gross": 160.0,
+    "gross_with_tax": 170.0,
+    "per_ticket": {
+      "net": 16.0,
+      "tax": 0.0,
+      "fee": 1.0,
+      "grand": 17.0
+    }
+  },
+  {
+    "venue": "theatre6",
+    "movie": "The Bad Guys 2",
+    "perfIx": "71500",
+    "date": "2025-09-07",
+    "time": "1:40pm",
+    "total": 115,
+    "available": 115,
+    "blocked": 0,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 9.5,
+      "tax": 0.0,
+      "fee": 1.0,
+      "grand": 10.5
+    }
+  },
+  {
+    "venue": "theatre6",
+    "movie": "The Bad Guys 2",
+    "perfIx": "71494",
+    "date": "2025-09-07",
+    "time": "4:15pm",
+    "total": 115,
+    "available": 115,
+    "blocked": 0,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 9.5,
+      "tax": 0.0,
+      "fee": 1.0,
+      "grand": 10.5
+    }
+  },
+  {
+    "venue": "theatre6",
+    "movie": "The Bad Guys 2",
+    "perfIx": "71495",
+    "date": "2025-09-07",
+    "time": "6:35pm",
+    "total": 115,
+    "available": 115,
+    "blocked": 0,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 10.75,
+      "tax": 0.0,
+      "fee": 1.0,
+      "grand": 11.75
+    }
+  },
+  {
+    "venue": "theatre6",
+    "movie": "The Bengal Files (HINDI)",
+    "perfIx": "71541",
+    "date": "2025-09-07",
+    "time": "9:50pm",
+    "total": 128,
+    "available": 127,
+    "blocked": 1,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 12.0,
+      "tax": 0.0,
+      "fee": 1.0,
+      "grand": 13.0
+    }
+  },
+  {
+    "venue": "theatre6",
+    "movie": "The Conjuring: Last Rites",
+    "perfIx": "71499",
+    "date": "2025-09-07",
+    "time": "1:15pm",
+    "total": 128,
+    "available": 127,
+    "blocked": 1,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 9.5,
+      "tax": 0.0,
+      "fee": 1.0,
+      "grand": 10.5
+    }
+  },
+  {
+    "venue": "theatre6",
+    "movie": "The Conjuring: Last Rites",
+    "perfIx": "71491",
+    "date": "2025-09-07",
+    "time": "4:00pm",
+    "total": 128,
+    "available": 127,
+    "blocked": 1,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 9.5,
+      "tax": 0.0,
+      "fee": 1.0,
+      "grand": 10.5
+    }
+  },
+  {
+    "venue": "theatre6",
+    "movie": "The Conjuring: Last Rites",
+    "perfIx": "71492",
+    "date": "2025-09-07",
+    "time": "6:45pm",
+    "total": 128,
+    "available": 127,
+    "blocked": 1,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 10.75,
+      "tax": 0.0,
+      "fee": 1.0,
+      "grand": 11.75
+    }
+  },
+  {
+    "venue": "theatre6",
+    "movie": "The Conjuring: Last Rites",
+    "perfIx": "71493",
+    "date": "2025-09-07",
+    "time": "9:30pm",
+    "total": 128,
+    "available": 127,
+    "blocked": 1,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 10.75,
+      "tax": 0.0,
+      "fee": 1.0,
+      "grand": 11.75
+    }
   }
 ]
