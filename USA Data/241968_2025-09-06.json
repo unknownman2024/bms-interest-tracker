@@ -748,11 +748,11 @@
     "date": "2025-09-06+17:30",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 15,
-    "occupancy": 17.05,
-    "totalAvailableSeatCount": 73,
+    "totalSeatSold": 17,
+    "occupancy": 19.32,
+    "totalAvailableSeatCount": 71,
     "totalSeatCount": 88,
-    "grossRevenueUSD": 231.9,
+    "grossRevenueUSD": 262.82,
     "adultTicketPrice": 15.46
   },
   {
@@ -2812,11 +2812,11 @@
     "date": "2025-09-06+17:25",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 56,
-    "occupancy": 57.14,
-    "totalAvailableSeatCount": 42,
+    "totalSeatSold": 54,
+    "occupancy": 55.1,
+    "totalAvailableSeatCount": 44,
     "totalSeatCount": 98,
-    "grossRevenueUSD": 1025.36,
+    "grossRevenueUSD": 988.74,
     "adultTicketPrice": 18.31
   },
   {
@@ -4881,8 +4881,8 @@
     "language": "Tamil",
     "totalSeatSold": 0,
     "occupancy": 0.0,
-    "totalAvailableSeatCount": 204,
-    "totalSeatCount": 204,
+    "totalAvailableSeatCount": 125,
+    "totalSeatCount": 125,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 9.75
   },
@@ -6787,11 +6787,11 @@
     "date": "2025-09-06+22:40",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 9,
-    "occupancy": 13.64,
-    "totalAvailableSeatCount": 57,
+    "totalSeatSold": 11,
+    "occupancy": 16.67,
+    "totalAvailableSeatCount": 55,
     "totalSeatCount": 66,
-    "grossRevenueUSD": 98.01,
+    "grossRevenueUSD": 119.79,
     "adultTicketPrice": 10.89
   },
   {
@@ -7993,11 +7993,11 @@
     "date": "2025-09-06+19:40",
     "format": "Standard",
     "language": "Tamil",
-    "totalSeatSold": 23,
-    "occupancy": 51.11,
-    "totalAvailableSeatCount": 22,
+    "totalSeatSold": 25,
+    "occupancy": 55.56,
+    "totalAvailableSeatCount": 20,
     "totalSeatCount": 45,
-    "grossRevenueUSD": 379.5,
+    "grossRevenueUSD": 412.5,
     "adultTicketPrice": 16.5
   },
   {
@@ -8611,5 +8611,23 @@
     "totalSeatCount": 97,
     "grossRevenueUSD": 0.0,
     "adultTicketPrice": 15.99
+  },
+  {
+    "state": "TX",
+    "city": "Grapevine",
+    "zip": "76051",
+    "theater_name": "AMC Grapevine Mills 24",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514612646,
+    "date": "2025-09-06+17:05",
+    "format": "Standard",
+    "language": "Tamil",
+    "totalSeatSold": 19,
+    "occupancy": 7.45,
+    "totalAvailableSeatCount": 236,
+    "totalSeatCount": 255,
+    "grossRevenueUSD": 205.39,
+    "adultTicketPrice": 10.81
   }
 ]
