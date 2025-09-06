@@ -7702,11 +7702,11 @@
     "date": "2025-09-05+23:20",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 9,
-    "occupancy": 20.0,
-    "totalAvailableSeatCount": 36,
+    "totalSeatSold": 12,
+    "occupancy": 26.67,
+    "totalAvailableSeatCount": 33,
     "totalSeatCount": 45,
-    "grossRevenueUSD": 148.5,
+    "grossRevenueUSD": 198.0,
     "adultTicketPrice": 16.5
   },
   {
