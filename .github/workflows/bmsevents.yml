@@ -1,0 +1,36 @@
+name: Fetch BookMyShow Events
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # allows manual runs
+  schedule:
+    - cron: "0 */6 * * *" # runs every 6 hours (optional, remove if not needed)
+
+jobs:
+  fetch-bms-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install cloudscraper geohash2
+
+      - name: Run script
+        run: python bmsevents.py
+
+      - name: Upload moviesdata.json
+        uses: actions/upload-artifact@v4
+        with:
+          name: moviesdata
+          path: moviesdata.json
