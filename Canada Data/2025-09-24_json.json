@@ -462,11 +462,11 @@
     "date": "2025-09-24",
     "time": "6:30pm",
     "total": 366,
-    "available": 82,
+    "available": 83,
     "blocked": 0,
-    "sold": 284,
-    "gross": 7540.2,
-    "gross_with_tax": 8875.0,
+    "sold": 283,
+    "gross": 7513.65,
+    "gross_with_tax": 8843.75,
     "per_ticket": {
       "net": 26.55,
       "tax": 3.45,
@@ -481,11 +481,11 @@
     "date": "2025-09-24",
     "time": "10:00pm",
     "total": 366,
-    "available": 192,
+    "available": 188,
     "blocked": 0,
-    "sold": 174,
-    "gross": 4619.7,
-    "gross_with_tax": 5437.5,
+    "sold": 178,
+    "gross": 4725.9,
+    "gross_with_tax": 5562.5,
     "per_ticket": {
       "net": 26.55,
       "tax": 3.45,
@@ -529,6 +529,25 @@
       "tax": 3.45,
       "fee": 1.25,
       "grand": 31.25
+    }
+  },
+  {
+    "venue": "york",
+    "movie": "They Call Him OG  -Telugu",
+    "perfIx": "33471",
+    "date": "2025-09-24",
+    "time": "10:30pm",
+    "total": 195,
+    "available": 164,
+    "blocked": 31,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 23.89,
+      "tax": 3.11,
+      "fee": 1.25,
+      "grand": 28.25
     }
   }
 ]
