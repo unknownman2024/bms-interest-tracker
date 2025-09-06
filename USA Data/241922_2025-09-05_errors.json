@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-06 04:42:40 AM",
+  "last_updated": "2025-09-06 06:12:15 AM",
   "errors": [
     {
       "state": "GA",
@@ -100,21 +100,6 @@
       "chainCode": "AMC",
       "showtime_id": 515091103,
       "date": "2025-09-06+02:00",
-      "format": "Standard",
-      "language": "Hindi",
-      "error": {
-        "status": 500
-      }
-    },
-    {
-      "state": "NJ",
-      "city": "Paramus",
-      "zip": "07652",
-      "theater_name": "AMC Garden State 16",
-      "chainName": "AMC",
-      "chainCode": "AMC",
-      "showtime_id": 515109293,
-      "date": "2025-09-05+20:45",
       "format": "Standard",
       "language": "Hindi",
       "error": {
