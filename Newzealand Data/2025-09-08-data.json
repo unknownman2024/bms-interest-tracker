@@ -5635,11 +5635,11 @@
     "screenName": "Cinema 2",
     "operator": "TER",
     "total": 216,
-    "sold": 3,
-    "available": 213,
-    "occupancy": 1.39,
+    "sold": 6,
+    "available": 210,
+    "occupancy": 2.78,
     "max_gross": 5724.0,
-    "total_gross": 79.5,
+    "total_gross": 159.0,
     "price": 26.5,
     "error": false
   },
@@ -6066,8 +6066,7 @@
     "max_gross": 5292.0,
     "total_gross": 0.0,
     "price": 24.5,
-    "error": false,
-    "last_error": "HTTP 502"
+    "error": false
   },
   {
     "id": 276150,
