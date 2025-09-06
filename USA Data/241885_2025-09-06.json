@@ -46,9 +46,12 @@
     "date": "2025-09-06+16:35",
     "format": "Standard",
     "language": "Telugu",
-    "error": {
-      "exception": ""
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 292,
+    "totalSeatCount": 292,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 16.0
   },
   {
     "state": "NY",
@@ -688,9 +691,12 @@
     "date": "2025-09-06+12:00",
     "format": "Standard",
     "language": "Telugu",
-    "error": {
-      "status": 500
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 65,
+    "totalSeatCount": 65,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 12.49
   },
   {
     "state": "MD",
@@ -1147,9 +1153,12 @@
     "date": "2025-09-06+14:20",
     "format": "Standard",
     "language": "Telugu",
-    "error": {
-      "status": 500
-    }
+    "totalSeatSold": 23,
+    "occupancy": 51.11,
+    "totalAvailableSeatCount": 22,
+    "totalSeatCount": 45,
+    "grossRevenueUSD": 270.94,
+    "adultTicketPrice": 11.78
   },
   {
     "state": "NC",
@@ -1162,9 +1171,12 @@
     "date": "2025-09-06+22:00",
     "format": "Standard",
     "language": "Telugu",
-    "error": {
-      "status": 500
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 45,
+    "totalSeatCount": 45,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 15.0
   },
   {
     "state": "NC",
@@ -1264,9 +1276,12 @@
     "date": "2025-09-06+18:25",
     "format": "Standard",
     "language": "Telugu",
-    "error": {
-      "exception": ""
-    }
+    "totalSeatSold": 1,
+    "occupancy": 0.37,
+    "totalAvailableSeatCount": 270,
+    "totalSeatCount": 271,
+    "grossRevenueUSD": 16.96,
+    "adultTicketPrice": 16.96
   },
   {
     "state": "GA",
@@ -1279,9 +1294,12 @@
     "date": "2025-09-06+22:00",
     "format": "Standard",
     "language": "Telugu",
-    "error": {
-      "status": 500
-    }
+    "totalSeatSold": 9,
+    "occupancy": 3.32,
+    "totalAvailableSeatCount": 262,
+    "totalSeatCount": 271,
+    "grossRevenueUSD": 152.64,
+    "adultTicketPrice": 16.96
   },
   {
     "state": "GA",
@@ -1402,9 +1420,12 @@
     "date": "2025-09-06+10:35",
     "format": "Standard",
     "language": "Telugu",
-    "error": {
-      "status": 403
-    }
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 66,
+    "totalSeatCount": 66,
+    "grossRevenueUSD": 0.0,
+    "adultTicketPrice": 9.58
   },
   {
     "state": "FL",
@@ -1498,7 +1519,7 @@
     "chainName": "AMC",
     "chainCode": "AMC",
     "showtime_id": 514513070,
-    "date": "2025-09-06+21:30",
+    "date": "2025-09-06+21:00",
     "format": "Standard",
     "language": "Telugu",
     "totalSeatSold": 0,
@@ -1861,11 +1882,11 @@
     "date": "2025-09-06+10:15",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 3,
-    "occupancy": 2.26,
-    "totalAvailableSeatCount": 130,
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 133,
     "totalSeatCount": 133,
-    "grossRevenueUSD": 20.85,
+    "grossRevenueUSD": 0.0,
     "adultTicketPrice": 6.95
   },
   {
@@ -2002,9 +2023,12 @@
     "date": "2025-09-06+18:20",
     "format": "Standard",
     "language": "Telugu",
-    "error": {
-      "status": 403
-    }
+    "totalSeatSold": 3,
+    "occupancy": 1.76,
+    "totalAvailableSeatCount": 167,
+    "totalSeatCount": 170,
+    "grossRevenueUSD": 26.97,
+    "adultTicketPrice": 8.99
   },
   {
     "state": "MI",
@@ -3202,11 +3226,11 @@
     "date": "2025-09-06+13:35",
     "format": "Standard",
     "language": "Telugu",
-    "totalSeatSold": 11,
-    "occupancy": 17.74,
-    "totalAvailableSeatCount": 51,
+    "totalSeatSold": 14,
+    "occupancy": 22.58,
+    "totalAvailableSeatCount": 48,
     "totalSeatCount": 62,
-    "grossRevenueUSD": 101.31,
+    "grossRevenueUSD": 128.94,
     "adultTicketPrice": 9.21
   },
   {
@@ -3619,5 +3643,23 @@
     "error": {
       "status": 400
     }
+  },
+  {
+    "state": "TX",
+    "city": "Grapevine",
+    "zip": "76051",
+    "theater_name": "AMC Grapevine Mills 24",
+    "chainName": "AMC",
+    "chainCode": "AMC",
+    "showtime_id": 514612647,
+    "date": "2025-09-06+13:30",
+    "format": "Standard",
+    "language": "Telugu",
+    "totalSeatSold": 26,
+    "occupancy": 10.2,
+    "totalAvailableSeatCount": 229,
+    "totalSeatCount": 255,
+    "grossRevenueUSD": 224.9,
+    "adultTicketPrice": 8.65
   }
 ]
