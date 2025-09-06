@@ -29404,11 +29404,11 @@
     "date": "2025-09-24+16:00",
     "format": "Standard",
     "language": "English",
-    "totalSeatSold": 1,
-    "occupancy": 1.61,
-    "totalAvailableSeatCount": 61,
+    "totalSeatSold": 0,
+    "occupancy": 0.0,
+    "totalAvailableSeatCount": 62,
     "totalSeatCount": 62,
-    "grossRevenueUSD": 25.0,
+    "grossRevenueUSD": 0.0,
     "adultTicketPrice": 25.0
   },
   {
