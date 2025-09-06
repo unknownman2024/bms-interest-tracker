@@ -139,11 +139,11 @@
     "date": "2025-09-07",
     "time": "6:30pm",
     "total": 175,
-    "available": 151,
+    "available": 149,
     "blocked": 0,
-    "sold": 24,
-    "gross": 276.0,
-    "gross_with_tax": 342.0,
+    "sold": 26,
+    "gross": 299.0,
+    "gross_with_tax": 370.5,
     "per_ticket": {
       "net": 11.5,
       "tax": 1.5,
@@ -709,11 +709,11 @@
     "date": "2025-09-07",
     "time": "3:30pm",
     "total": 271,
-    "available": 155,
+    "available": 151,
     "blocked": 58,
-    "sold": 58,
-    "gross": 974.98,
-    "gross_with_tax": 1174.5,
+    "sold": 62,
+    "gross": 1042.22,
+    "gross_with_tax": 1255.5,
     "per_ticket": {
       "net": 16.81,
       "tax": 2.19,
@@ -728,11 +728,11 @@
     "date": "2025-09-07",
     "time": "7:00pm",
     "total": 271,
-    "available": 151,
+    "available": 149,
     "blocked": 58,
-    "sold": 62,
-    "gross": 1042.22,
-    "gross_with_tax": 1255.5,
+    "sold": 64,
+    "gross": 1075.84,
+    "gross_with_tax": 1296.0,
     "per_ticket": {
       "net": 16.81,
       "tax": 2.19,
@@ -766,11 +766,11 @@
     "date": "2025-09-07",
     "time": "11:00am",
     "total": 281,
-    "available": 243,
+    "available": 235,
     "blocked": 19,
-    "sold": 19,
-    "gross": 319.39,
-    "gross_with_tax": 384.75,
+    "sold": 27,
+    "gross": 453.87,
+    "gross_with_tax": 546.75,
     "per_ticket": {
       "net": 16.81,
       "tax": 2.19,
@@ -804,11 +804,11 @@
     "date": "2025-09-07",
     "time": "6:45pm",
     "total": 281,
-    "available": 242,
+    "available": 239,
     "blocked": 19,
-    "sold": 20,
-    "gross": 336.2,
-    "gross_with_tax": 405.0,
+    "sold": 23,
+    "gross": 386.63,
+    "gross_with_tax": 465.75,
     "per_ticket": {
       "net": 16.81,
       "tax": 2.19,
@@ -937,11 +937,11 @@
     "date": "2025-09-07",
     "time": "10:30pm",
     "total": 408,
-    "available": 392,
+    "available": 388,
     "blocked": 0,
-    "sold": 16,
-    "gross": 268.96,
-    "gross_with_tax": 324.0,
+    "sold": 20,
+    "gross": 336.2,
+    "gross_with_tax": 405.0,
     "per_ticket": {
       "net": 16.81,
       "tax": 2.19,
@@ -1260,11 +1260,11 @@
     "date": "2025-09-07",
     "time": "6:00pm",
     "total": 128,
-    "available": 65,
+    "available": 63,
     "blocked": 1,
-    "sold": 62,
-    "gross": 992.0,
-    "gross_with_tax": 1054.0,
+    "sold": 64,
+    "gross": 1024.0,
+    "gross_with_tax": 1088.0,
     "per_ticket": {
       "net": 16.0,
       "tax": 0.0,
@@ -1460,6 +1460,405 @@
       "tax": 0.0,
       "fee": 1.0,
       "grand": 11.75
+    }
+  },
+  {
+    "venue": "central-parkway",
+    "movie": "Little Hearts  -Telugu",
+    "perfIx": "17921",
+    "date": "2025-09-07",
+    "time": "10:00pm",
+    "total": 187,
+    "available": 187,
+    "blocked": 0,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 11.5,
+      "tax": 1.5,
+      "fee": 1.25,
+      "grand": 14.25
+    }
+  },
+  {
+    "venue": "woodside",
+    "movie": "Coolie- Tamil",
+    "perfIx": "37249",
+    "date": "2025-09-07",
+    "time": "3:15pm",
+    "total": 141,
+    "available": 136,
+    "blocked": 0,
+    "sold": 5,
+    "gross": 57.5,
+    "gross_with_tax": 71.25,
+    "per_ticket": {
+      "net": 11.5,
+      "tax": 1.5,
+      "fee": 1.25,
+      "grand": 14.25
+    }
+  },
+  {
+    "venue": "woodside",
+    "movie": "Coolie- Tamil",
+    "perfIx": "37250",
+    "date": "2025-09-07",
+    "time": "3:15pm",
+    "total": 32,
+    "available": 11,
+    "blocked": 21,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 11.5,
+      "tax": 1.5,
+      "fee": 1.25,
+      "grand": 14.25
+    }
+  },
+  {
+    "venue": "woodside",
+    "movie": "Ghaati - Telugu",
+    "perfIx": "37259",
+    "date": "2025-09-07",
+    "time": "12:15pm",
+    "total": 141,
+    "available": 141,
+    "blocked": 0,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 14.16,
+      "tax": 1.84,
+      "fee": 1.25,
+      "grand": 17.25
+    }
+  },
+  {
+    "venue": "woodside",
+    "movie": "Ghaati - Telugu",
+    "perfIx": "37260",
+    "date": "2025-09-07",
+    "time": "12:15pm",
+    "total": 32,
+    "available": 11,
+    "blocked": 21,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 14.16,
+      "tax": 1.84,
+      "fee": 1.25,
+      "grand": 17.25
+    }
+  },
+  {
+    "venue": "woodside",
+    "movie": "Hridayapoorvam- Malayalam",
+    "perfIx": "37265",
+    "date": "2025-09-07",
+    "time": "2:30pm",
+    "total": 183,
+    "available": 178,
+    "blocked": 0,
+    "sold": 5,
+    "gross": 70.8,
+    "gross_with_tax": 86.25,
+    "per_ticket": {
+      "net": 14.16,
+      "tax": 1.84,
+      "fee": 1.25,
+      "grand": 17.25
+    }
+  },
+  {
+    "venue": "woodside",
+    "movie": "Hridayapoorvam- Malayalam",
+    "perfIx": "37266",
+    "date": "2025-09-07",
+    "time": "2:30pm",
+    "total": 32,
+    "available": 11,
+    "blocked": 21,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 14.16,
+      "tax": 1.84,
+      "fee": 1.25,
+      "grand": 17.25
+    }
+  },
+  {
+    "venue": "woodside",
+    "movie": "Little Hearts  -Telugu",
+    "perfIx": "37329",
+    "date": "2025-09-07",
+    "time": "6:45pm",
+    "total": 141,
+    "available": 141,
+    "blocked": 0,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 14.16,
+      "tax": 1.84,
+      "fee": 1.25,
+      "grand": 17.25
+    }
+  },
+  {
+    "venue": "woodside",
+    "movie": "Lokah Chapter: 1- Malayalam",
+    "perfIx": "37261",
+    "date": "2025-09-07",
+    "time": "11:00am",
+    "total": 183,
+    "available": 173,
+    "blocked": 0,
+    "sold": 10,
+    "gross": 141.6,
+    "gross_with_tax": 172.5,
+    "per_ticket": {
+      "net": 14.16,
+      "tax": 1.84,
+      "fee": 1.25,
+      "grand": 17.25
+    }
+  },
+  {
+    "venue": "woodside",
+    "movie": "Lokah Chapter: 1- Malayalam",
+    "perfIx": "37263",
+    "date": "2025-09-07",
+    "time": "6:00pm",
+    "total": 183,
+    "available": 176,
+    "blocked": 0,
+    "sold": 7,
+    "gross": 99.12,
+    "gross_with_tax": 120.75,
+    "per_ticket": {
+      "net": 14.16,
+      "tax": 1.84,
+      "fee": 1.25,
+      "grand": 17.25
+    }
+  },
+  {
+    "venue": "woodside",
+    "movie": "Lokah Chapter: 1- Malayalam",
+    "perfIx": "37253",
+    "date": "2025-09-07",
+    "time": "9:45pm",
+    "total": 183,
+    "available": 178,
+    "blocked": 0,
+    "sold": 5,
+    "gross": 70.8,
+    "gross_with_tax": 86.25,
+    "per_ticket": {
+      "net": 14.16,
+      "tax": 1.84,
+      "fee": 1.25,
+      "grand": 17.25
+    }
+  },
+  {
+    "venue": "woodside",
+    "movie": "Lokah Chapter: 1- Malayalam",
+    "perfIx": "37262",
+    "date": "2025-09-07",
+    "time": "11:00am",
+    "total": 32,
+    "available": 6,
+    "blocked": 21,
+    "sold": 5,
+    "gross": 70.8,
+    "gross_with_tax": 86.25,
+    "per_ticket": {
+      "net": 14.16,
+      "tax": 1.84,
+      "fee": 1.25,
+      "grand": 17.25
+    }
+  },
+  {
+    "venue": "woodside",
+    "movie": "Lokah Chapter: 1- Malayalam",
+    "perfIx": "37264",
+    "date": "2025-09-07",
+    "time": "6:00pm",
+    "total": 32,
+    "available": 11,
+    "blocked": 21,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 14.16,
+      "tax": 1.84,
+      "fee": 1.25,
+      "grand": 17.25
+    }
+  },
+  {
+    "venue": "woodside",
+    "movie": "Lokah Chapter: 1- Malayalam",
+    "perfIx": "37254",
+    "date": "2025-09-07",
+    "time": "9:45pm",
+    "total": 32,
+    "available": 11,
+    "blocked": 21,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 14.16,
+      "tax": 1.84,
+      "fee": 1.25,
+      "grand": 17.25
+    }
+  },
+  {
+    "venue": "woodside",
+    "movie": "Madharasi - Tamil",
+    "perfIx": "37326",
+    "date": "2025-09-07",
+    "time": "10:00pm",
+    "total": 141,
+    "available": 141,
+    "blocked": 0,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 14.16,
+      "tax": 1.84,
+      "fee": 1.25,
+      "grand": 17.25
+    }
+  },
+  {
+    "venue": "woodside",
+    "movie": "Madharasi - Tamil",
+    "perfIx": "37269",
+    "date": "2025-09-07",
+    "time": "12:00pm",
+    "total": 263,
+    "available": 244,
+    "blocked": 1,
+    "sold": 18,
+    "gross": 254.88,
+    "gross_with_tax": 310.5,
+    "per_ticket": {
+      "net": 14.16,
+      "tax": 1.84,
+      "fee": 1.25,
+      "grand": 17.25
+    }
+  },
+  {
+    "venue": "woodside",
+    "movie": "Madharasi - Tamil",
+    "perfIx": "37270",
+    "date": "2025-09-07",
+    "time": "3:30pm",
+    "total": 263,
+    "available": 252,
+    "blocked": 1,
+    "sold": 10,
+    "gross": 141.6,
+    "gross_with_tax": 172.5,
+    "per_ticket": {
+      "net": 14.16,
+      "tax": 1.84,
+      "fee": 1.25,
+      "grand": 17.25
+    }
+  },
+  {
+    "venue": "woodside",
+    "movie": "Madharasi - Tamil",
+    "perfIx": "37255",
+    "date": "2025-09-07",
+    "time": "7:00pm",
+    "total": 263,
+    "available": 246,
+    "blocked": 1,
+    "sold": 16,
+    "gross": 226.56,
+    "gross_with_tax": 276.0,
+    "per_ticket": {
+      "net": 14.16,
+      "tax": 1.84,
+      "fee": 1.25,
+      "grand": 17.25
+    }
+  },
+  {
+    "venue": "woodside",
+    "movie": "Madharasi - Tamil",
+    "perfIx": "37257",
+    "date": "2025-09-07",
+    "time": "10:30pm",
+    "total": 263,
+    "available": 262,
+    "blocked": 1,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 14.16,
+      "tax": 1.84,
+      "fee": 1.25,
+      "grand": 17.25
+    }
+  },
+  {
+    "venue": "york",
+    "movie": "Little Hearts  -Telugu",
+    "perfIx": "33470",
+    "date": "2025-09-07",
+    "time": "4:00pm",
+    "total": 195,
+    "available": 164,
+    "blocked": 31,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 14.16,
+      "tax": 1.84,
+      "fee": 1.25,
+      "grand": 17.25
+    }
+  },
+  {
+    "venue": "york",
+    "movie": "Little Hearts  -Telugu",
+    "perfIx": "33469",
+    "date": "2025-09-07",
+    "time": "7:00pm",
+    "total": 195,
+    "available": 164,
+    "blocked": 31,
+    "sold": 0,
+    "gross": 0.0,
+    "gross_with_tax": 0.0,
+    "per_ticket": {
+      "net": 14.16,
+      "tax": 1.84,
+      "fee": 1.25,
+      "grand": 17.25
     }
   }
 ]
